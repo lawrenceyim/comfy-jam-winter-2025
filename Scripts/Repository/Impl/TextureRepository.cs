@@ -2,8 +2,8 @@ using Godot;
 using Godot.Collections;
 using RepositorySystem;
 
-public partial class Texture2dRepository : Node, IAutoload, IRepository {
-    public static string AutoloadPath { get; } = "/root/Texture2dRepository";
+public partial class TextureRepository : Node, IAutoload, IRepository {
+    public static string AutoloadPath { get; } = "/root/TextureRepository";
 
     [Export]
     private Dictionary<Texture2dId, Texture2D> _textures;

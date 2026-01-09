@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1877xx5eylb2"]
+
+[ext_resource type="Script" uid="uid://bsccopvw6t2a7" path="res://Scripts/Repository/Impl/PackedSceneRepository.cs" id="1_1ck1f"]
+
+[node name="PackedSceneRepository" type="Node"]
+script = ExtResource("1_1ck1f")

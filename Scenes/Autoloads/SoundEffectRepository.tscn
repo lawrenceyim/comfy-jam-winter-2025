@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkw6yu4yre2c3"]
+
+[ext_resource type="Script" uid="uid://ddrcg5kngu0d8" path="res://Scripts/Repository/Impl/SoundEffectRepository.cs" id="1_ykbvb"]
+
+[node name="SoundEffectRepository" type="Node"]
+script = ExtResource("1_ykbvb")

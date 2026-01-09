@@ -15,3 +15,4 @@ D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\refint\c
 D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.pdb
 D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.genruntimeconfig.cache
 D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\ref\comfy-jam-winter-2025.dll
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.sourcelink.json

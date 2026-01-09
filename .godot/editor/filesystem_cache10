@@ -1,17 +1,28 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1767986010
-icon.svg::CompressedTexture2D::6528116911891285300::1767985929::1767985935::1::::<><><>0<>0<>1c915992b40d413497b1b965611c28d8<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Scripts/::1767985996
+::res://::1767986428
+::res://Assets/::1767986428
+::res://Assets/Sprites/::1767986428
+icon.svg::CompressedTexture2D::6528116911891285300::1767985929::1767986428::1::::<><><>0<>0<>52ac0f9c334ec027f7bd55661214961e<>res://.godot/imported/icon.svg-937281dbc6e7ba0435124e30fe85aebc.ctex::
+::res://Scenes/::1767986432
+::res://Scenes/Autoloads/::1767986665
+PackedSceneRepository.tscn::PackedScene::9054297785662520297::1767986561::0::1::::<><><>0<>0<><>::uid://bsccopvw6t2a7::::res://Scripts/Repository/Impl/PackedSceneRepository.cs
+TextureRepository.tscn::PackedScene::8537667015479563359::1767986665::0::1::::<><><>0<>0<><>::
+SoundEffectRepository.tscn::PackedScene::3135651612871905212::1767986631::0::1::::<><><>0<>0<><>::uid://ddrcg5kngu0d8::::res://Scripts/Repository/Impl/SoundEffectRepository.cs
+ServiceLocator.tscn::PackedScene::1571873230289678648::1767986612::0::1::::<><><>0<>0<><>::uid://bfkqbhn41rnxn::::res://Scripts/Service Locator/ServiceLocator.cs
+SceneRepository.tscn::PackedScene::3758698776789931092::1767986592::0::1::::<><><>0<>0<><>::uid://eon0s6ns6pxw::::res://Scripts/Repository/Impl/SceneRepository.cs
+::res://Scripts/::1767986140
 NewScript.cs::CSharpScript::6051883434799371304::1767986017::0::1::::<><><>0<>0<><>::
-::res://Scripts/DialogueSystem/::1767986008
-DialogueStateMachine.cs::CSharpScript::7986964822484184935::1767752948::0::1::::<><><>0<>0<><>::
-DialogueTree.cs::CSharpScript::711991245524511221::1767736341::0::1::::<><><>0<>0<><>::
-DialogueTreeNode.cs::CSharpScript::3238649905613503308::1767752952::0::1::::<><><>0<>0<><>::
+::res://Scripts/Consts/::1767986257
+FilePath.cs::CSharpScript::7189269217309045949::1767986202::0::1::::<><><>0<>0<><>::
+::res://Scripts/DialogueSystem/::1767986410
+DialogueStateMachine.cs::CSharpScript::7986964822484184935::1767986410::0::1::::<><><>0<>0<><>::
+DialogueTree.cs::CSharpScript::711991245524511221::1767986098::0::1::::<><><>0<>0<><>::
+DialogueTreeNode.cs::CSharpScript::3238649905613503308::1767986410::0::1::::<><><>0<>0<><>::
 IDialogueState.cs::CSharpScript::5356028565373106462::1767735688::0::1::::<><><>0<>0<><>::
-TextRepository.cs::CSharpScript::319550992907733579::1767736442::0::1::::<><><>0<>0<><>::
-::res://Scripts/Interfaces/::1767986008
+::res://Scripts/Interfaces/::1767986057
 IAutoload.cs::CSharpScript::8928908786929938893::1763061492::0::1::::<><><>0<>0<><>::
 ITick.cs::CSharpScript::6189778948605379062::1763521424::0::1::::<><><>0<>0<><>::
+TextRepository.cs::CSharpScript::319550992907733579::1767986057::0::1::::<><><>0<>0<><>::
 ::res://Scripts/Repository/::1767986008
 IRepository.cs::CSharpScript::6865337637760215223::1763061492::0::1::::<><><>0<>0<><>::
 RepositoryLocator.cs::CSharpScript::4666454896891785758::1763495184::0::1::::<><><>0<>0<><>::
@@ -26,10 +37,10 @@ Texture2dRepository.cs::CSharpScript::660595355306916544::1766522719::0::1::::<>
 IService.cs::CSharpScript::1983700098112907179::1763061492::0::1::::<><><>0<>0<><>::
 ServiceLocator.cs::CSharpScript::2758982326200993495::1767653549::0::1::::<><><>0<>0<><>::
 ServiceName.cs::CSharpScript::4403396248058119688::1764785663::0::1::::<><><>0<>0<><>::
-::res://Scripts/Service Locator/ServiceImpl/::1767986008
-GameClock.cs::CSharpScript::5958744172996560957::1763521438::0::1::::<><><>0<>0<><>::
-PlayerDataService.cs::CSharpScript::1767454732185490043::1764723876::0::1::::<><><>0<>0<><>::
-SceneManager.cs::CSharpScript::6348632144876614060::1764793471::0::1::::<><><>0<>0<><>::
+::res://Scripts/Service Locator/ServiceImpl/::1767986555
+GameClock.cs::CSharpScript::5958744172996560957::1767986555::0::1::::<>Node<><>0<>0<><>::
+PlayerDataService.cs::CSharpScript::1767454732185490043::1767986555::0::1::::<><><>0<>0<><>::
+SceneManager.cs::CSharpScript::6348632144876614060::1767986555::0::1::::<><><>0<>0<><>::
 ::res://Scripts/Service Locator/ServiceImpl/Input System/::1767986008
 IInputState.cs::CSharpScript::830052088973903736::1763522166::0::1::::<><><>0<>0<><>::
 InputController.cs::CSharpScript::8831453744734665143::1763522157::0::1::::<><><>0<>0<><>::
