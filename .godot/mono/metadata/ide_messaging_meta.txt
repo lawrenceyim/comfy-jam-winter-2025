@@ -1,0 +1,2 @@
+﻿59777
+C:/Users/lawte/Documents/Godot_v4.5.1 NET/Godot_v4.5.1-stable_mono_win64/Godot_v4.5.1-stable_mono_win64.exe

@@ -1,0 +1,17 @@
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.csproj.AssemblyReference.cache
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.AssemblyInfoInputs.cache
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.AssemblyInfo.cs
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.csproj.CoreCompileInputs.cache
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\bin\Debug\comfy-jam-winter-2025.deps.json
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\bin\Debug\comfy-jam-winter-2025.runtimeconfig.json
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\bin\Debug\comfy-jam-winter-2025.dll
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\bin\Debug\comfy-jam-winter-2025.pdb
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-ja.77A02309.Up2Date
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.dll
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\refint\comfy-jam-winter-2025.dll
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.pdb
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\comfy-jam-winter-2025.genruntimeconfig.cache
+D:\Code\Godot Projects\comfy-jam-winter-2025\.godot\mono\temp\obj\Debug\ref\comfy-jam-winter-2025.dll

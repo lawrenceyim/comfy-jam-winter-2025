@@ -1,0 +1,11 @@
+res://Scripts/NewScript.cs
+res://Scripts/Repository/Impl/PackedSceneRepository.cs
+res://Scripts/Repository/Impl/SceneRepository.cs
+res://Scripts/Repository/Impl/SoundEffectRepository.cs
+res://Scripts/Repository/Impl/Texture2dRepository.cs
+res://Scripts/Repository/RepositoryLocator.cs
+res://Scripts/Service Locator/ServiceImpl/GameClock.cs
+res://Scripts/Service Locator/ServiceImpl/Input System/InputController.cs
+res://Scripts/Service Locator/ServiceImpl/Input System/InputStateMachine.cs
+res://Scripts/Service Locator/ServiceLocator.cs
+res://Scripts/DialogueSystem/DialogueTreeNode.cs
