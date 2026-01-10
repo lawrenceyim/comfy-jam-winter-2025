@@ -1,20 +1,10 @@
-res://Scripts/NewScript.cs
-res://Scripts/Repository/Impl/PackedSceneRepository.cs
-res://Scripts/Repository/Impl/SceneRepository.cs
-res://Scripts/Repository/Impl/SoundEffectRepository.cs
-res://Scripts/Repository/Impl/Texture2dRepository.cs
-res://Scripts/Repository/RepositoryLocator.cs
-res://Scripts/Service Locator/ServiceImpl/GameClock.cs
 res://Scripts/Service Locator/ServiceImpl/Input System/InputController.cs
-res://Scripts/Service Locator/ServiceImpl/Input System/InputStateMachine.cs
-res://Scripts/Service Locator/ServiceLocator.cs
-res://Scripts/DialogueSystem/DialogueTreeNode.cs
-res://Scripts/DialogueSystem/DialogueStateMachine.cs
-res://Scripts/Service Locator/ServiceImpl/PlayerDataService.cs
-res://Scripts/Service Locator/ServiceImpl/SceneManager.cs
-res://Scenes/Autoloads/PackedSceneRepository.tscn
-res://Scenes/Autoloads/SceneRepository.tscn
-res://Scenes/Autoloads/ServiceLocator.tscn
-res://Scenes/Autoloads/SoundEffectRepository.tscn
-res://Scenes/Autoloads/TextureRepository.tscn
+res://Scripts/Service Locator/ServiceImpl/GameClock.cs
+res://Scripts/Repository/Impl/SoundEffectRepository.cs
+res://Scripts/Repository/Impl/PackedSceneRepository.cs
 res://Scripts/Repository/Impl/TextureRepository.cs
+res://Scripts/Repository/RepositoryLocator.cs
+res://Scripts/NewScript.cs
+res://Scripts/Service Locator/ServiceImpl/Input System/InputStateMachine.cs
+res://Scripts/Repository/Impl/SceneRepository.cs
+res://Scripts/Service Locator/ServiceLocator.cs
