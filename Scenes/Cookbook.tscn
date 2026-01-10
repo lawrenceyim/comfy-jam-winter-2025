@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://g0bau8iq3u3a"]
+
+[ext_resource type="Script" uid="uid://bsv1d8afi34cf" path="res://Scripts/Scenes/CookbookView.cs" id="1_d4bub"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_d4bub")

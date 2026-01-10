@@ -8,3 +8,14 @@ res://Scripts/NewScript.cs
 res://Scripts/Service Locator/ServiceImpl/Input System/InputStateMachine.cs
 res://Scripts/Repository/Impl/SceneRepository.cs
 res://Scripts/Service Locator/ServiceLocator.cs
+res://Scripts/DialogueSystem/DialogueTree.cs
+res://Store.tscn
+res://Inventory.tscn
+res://Cookbook.tscn
+res://Scenes/Cookbook.tscn
+res://Scenes/Store.tscn
+res://Scripts/Scenes/AnimalView.cs
+res://Scripts/Scenes/InventoryView.cs
+res://Scenes/Animal.tscn
+res://Scenes/Kitchen.tscn
+res://Scenes/Inventory.tscn
