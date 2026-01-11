@@ -20,3 +20,10 @@ res://Scenes/Animal.tscn
 res://Scenes/Kitchen.tscn
 res://Scenes/Inventory.tscn
 res://Scenes/Game Object/Furnace.tscn
+res://Scenes/Game Object/Animal.tscn
+res://Scenes/Living Room.tscn
+res://Scripts/Scenes/LivingRoomView.cs
+res://Scripts/Scenes/KitchenView.cs
+res://Scripts/Scenes/CookbookView.cs
+res://Scripts/Game Objects/AnimalView.cs
+res://Scripts/Scenes/StoreView.cs

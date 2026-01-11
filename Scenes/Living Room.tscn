@@ -1,0 +1,52 @@
+[gd_scene load_steps=10 format=3 uid="uid://bxcow45rq6qbu"]
+
+[ext_resource type="Script" uid="uid://bwrskd2jewpan" path="res://Scripts/Scenes/LivingRoomView.cs" id="1_m1hm0"]
+[ext_resource type="Texture2D" uid="uid://byw115ebpmag3" path="res://Assets/Sprites/Living room/IMG_6035.PNG" id="2_7l0fx"]
+[ext_resource type="Texture2D" uid="uid://dgyts6eol2mu5" path="res://Assets/Sprites/Living room/IMG_6044.png" id="3_01lpt"]
+[ext_resource type="Texture2D" uid="uid://twcpo25p53v" path="res://Assets/Sprites/Living room/IMG_6046.png" id="4_psyic"]
+[ext_resource type="Texture2D" uid="uid://c531mqlm5jtya" path="res://Assets/Sprites/Living room/IMG_6047.png" id="5_ixj0i"]
+[ext_resource type="Texture2D" uid="uid://cdiu3j0pl58p" path="res://Assets/Sprites/Living room/IMG_6048.png" id="6_lm0du"]
+[ext_resource type="Texture2D" uid="uid://dskkha1yi4sis" path="res://Assets/Sprites/Living room/IMG_6049.png" id="7_l8axc"]
+[ext_resource type="Texture2D" uid="uid://bdiwjb2asnojm" path="res://Assets/Sprites/Living room/IMG_6050.png" id="8_y85dt"]
+[ext_resource type="PackedScene" uid="uid://1ymxx4pf5ek3" path="res://Scenes/Game Object/Furnace.tscn" id="9_cheuo"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_m1hm0")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("2_7l0fx")
+centered = false
+
+[node name="Window" type="Sprite2D" parent="."]
+position = Vector2(234, 0)
+texture = ExtResource("3_01lpt")
+centered = false
+
+[node name="Shelf" type="Sprite2D" parent="."]
+texture = ExtResource("4_psyic")
+centered = false
+
+[node name="Drawer with plant" type="Sprite2D" parent="."]
+position = Vector2(829, 159)
+texture = ExtResource("5_ixj0i")
+centered = false
+
+[node name="Futon" type="Sprite2D" parent="."]
+position = Vector2(99, 259)
+texture = ExtResource("6_lm0du")
+centered = false
+
+[node name="Coffee table" type="Sprite2D" parent="."]
+position = Vector2(282, 446)
+texture = ExtResource("7_l8axc")
+centered = false
+
+[node name="Furnace glow?" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(88, 0)
+texture = ExtResource("8_y85dt")
+centered = false
+
+[node name="AnimatedSprite2D" parent="." instance=ExtResource("9_cheuo")]
+centered = false
+offset = Vector2(955, 0)
