@@ -54,4 +54,4 @@ animations = [{
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_hcobu")
-frame_progress = 0.8284957
+frame_progress = 0.6065781
