@@ -2,8 +2,8 @@ using System.Collections.Generic;
 using RepositorySystem;
 
 public class PlayerDataRepository : IRepository {
-    public Dictionary<Ingredient, int> Ingredients { get; } = new();
-    public Dictionary<Ingredient, int> StoreInventory { get; } = new();
+    public Dictionary<IngredientName, int> Ingredients { get; } = new();
+    public Dictionary<IngredientName, int> StoreInventory { get; } = new();
     public HashSet<RecipeName> DiscoveredRecipes { get; } = [];
     public HashSet<RecipeName> AnimalLikes { get; } = [];
     public HashSet<RecipeName> AnimalDislikes { get; } = [];

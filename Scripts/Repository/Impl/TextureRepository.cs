@@ -6,13 +6,14 @@ public partial class TextureRepository : Node, IAutoload, IRepository {
     public static string AutoloadPath { get; } = "/root/TextureRepository";
 
     [Export]
-    private Dictionary<Texture2dId, Texture2D> _textures;
+    private Dictionary<TextureId, Texture2D> _textures;
 
-    public Texture2D GetTexture(Texture2dId id) {
+    public Texture2D GetTexture(TextureId id) {
         return _textures[id];
     }
 }
 
-public enum Texture2dId {
-    
+public enum TextureId {
+    Egg = 20_001,
+    Dish = 30_001,
 }
