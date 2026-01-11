@@ -19,3 +19,4 @@ res://Scripts/Scenes/InventoryView.cs
 res://Scenes/Animal.tscn
 res://Scenes/Kitchen.tscn
 res://Scenes/Inventory.tscn
+res://Scenes/Game Object/Furnace.tscn

@@ -1,0 +1,57 @@
+[gd_scene load_steps=9 format=3 uid="uid://1ymxx4pf5ek3"]
+
+[ext_resource type="Texture2D" uid="uid://bg387fchrbwxq" path="res://Assets/Sprites/Living room/IMG_6052.PNG" id="1_swltm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x6u5i"]
+atlas = ExtResource("1_swltm")
+region = Rect2(0, 0, 326, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8pm04"]
+atlas = ExtResource("1_swltm")
+region = Rect2(326, 0, 326, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5mxa0"]
+atlas = ExtResource("1_swltm")
+region = Rect2(652, 0, 326, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rd2ae"]
+atlas = ExtResource("1_swltm")
+region = Rect2(978, 0, 326, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_64r53"]
+atlas = ExtResource("1_swltm")
+region = Rect2(1304, 0, 326, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_52unb"]
+atlas = ExtResource("1_swltm")
+region = Rect2(1630, 0, 326, 720)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hcobu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x6u5i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8pm04")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5mxa0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rd2ae")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_64r53")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_52unb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_hcobu")
+frame_progress = 0.8284957
