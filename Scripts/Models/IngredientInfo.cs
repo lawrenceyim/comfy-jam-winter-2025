@@ -13,5 +13,8 @@ public static class IngredientInfo {
 public record Ingredient(IngredientName Name, int Cost, TextureId TextureId);
 
 public enum IngredientName {
-    Egg
+    Egg = 0,
+    Butter = 1,
+    Flour = 2,
+    Milk = 3
 }

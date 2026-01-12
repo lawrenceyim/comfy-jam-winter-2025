@@ -29,16 +29,12 @@ public partial class ServiceLocator : Node, IAutoload {
         return (T)_services[serviceName];
     }
 
-    public T GetService<T>() where T : Enum {
-        if (typeof(T) != typeof(ServiceName)) {
-            GD.PrintErr("Invalid service type in GetService");
-            GetTree().Quit(1);
-        }
-
+    public T GetService<T>() where T : IService {
         return (T)_services[_ConvertToEnum(typeof(T))];
     }
 
     private static ServiceName _ConvertToEnum(Type objectType) {
+        GD.Print($"Received IService of {objectType} for conversion to enum");
         return objectType switch {
             not null when objectType == typeof(GameClock) => ServiceName.GameClock,
             not null when objectType == typeof(InputStateMachine) => ServiceName.InputStateMachine,

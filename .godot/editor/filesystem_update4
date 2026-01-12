@@ -27,3 +27,4 @@ res://Scripts/Scenes/KitchenView.cs
 res://Scripts/Scenes/CookbookView.cs
 res://Scripts/Game Objects/AnimalView.cs
 res://Scripts/Scenes/StoreView.cs
+res://Scripts/Service Locator/ServiceImpl/PlayerDataService.cs

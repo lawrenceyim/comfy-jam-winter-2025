@@ -10,4 +10,5 @@ public class PlayerDataRepository : IRepository {
     public int AnimalHealth { get; set; } = 0;
     public int AnimalHealthRequired { get; } = 100;
     public RecipeName? CookedDish { get; set; } = null;
+    public int Money { get; set; } = 0;
 }

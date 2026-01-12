@@ -1,11 +1,10 @@
-using System.Collections.Generic;
 using ServiceSystem;
 
 public class PlayerDataService : IService {
-    private readonly PlayerDataRepository _playerDataRepository;
+	private readonly PlayerDataRepository _playerDataRepository;
 
-    public PlayerDataService(PlayerDataRepository playerDataRepository) {
-        _playerDataRepository = playerDataRepository;
-    }
+	public PlayerDataService(PlayerDataRepository playerDataRepository) {
+		_playerDataRepository = playerDataRepository;
+	}
 
 }
