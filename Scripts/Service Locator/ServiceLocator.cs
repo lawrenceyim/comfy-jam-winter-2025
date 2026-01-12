@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Godot;
 using InputSystem;
@@ -28,6 +29,26 @@ public partial class ServiceLocator : Node, IAutoload {
         return (T)_services[serviceName];
     }
 
+    public T GetService<T>() where T : Enum {
+        if (typeof(T) != typeof(ServiceName)) {
+            GD.PrintErr("Invalid service type in GetService");
+            GetTree().Quit(1);
+        }
+
+        return (T)_services[_ConvertToEnum(typeof(T))];
+    }
+
+    private static ServiceName _ConvertToEnum(Type objectType) {
+        return objectType switch {
+            not null when objectType == typeof(GameClock) => ServiceName.GameClock,
+            not null when objectType == typeof(InputStateMachine) => ServiceName.InputStateMachine,
+            not null when objectType == typeof(PlayerDataRepository) => ServiceName.PlayerData,
+            not null when objectType == typeof(RepositoryLocator) => ServiceName.RepositoryLocator,
+            not null when objectType == typeof(SceneManager) => ServiceName.SceneManager,
+            not null when objectType == typeof(InventoryService) => ServiceName.InventoryService,
+        };
+    }
+
     private void _InstantiateServices() {
         RepositoryLocator repositoryLocator = new();
         AddService(ServiceName.RepositoryLocator, repositoryLocator, true);
@@ -38,5 +59,6 @@ public partial class ServiceLocator : Node, IAutoload {
         AddService(ServiceName.InputStateMachine, new InputStateMachine(), true);
         AddService(ServiceName.PlayerData, new PlayerDataService(playerDataRepository), false);
         AddService(ServiceName.SceneManager, new SceneManager(sceneRepository), false);
+        AddService(ServiceName.InventoryService, new InventoryService(playerDataRepository), false);
     }
 }
