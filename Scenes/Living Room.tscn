@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://bxcow45rq6qbu"]
+[gd_scene load_steps=13 format=3 uid="uid://bxcow45rq6qbu"]
 
 [ext_resource type="Script" uid="uid://bwrskd2jewpan" path="res://Scripts/Scenes/LivingRoomView.cs" id="1_m1hm0"]
 [ext_resource type="Texture2D" uid="uid://byw115ebpmag3" path="res://Assets/Sprites/Living room/IMG_6035.PNG" id="2_7l0fx"]
@@ -9,6 +9,13 @@
 [ext_resource type="Texture2D" uid="uid://dskkha1yi4sis" path="res://Assets/Sprites/Living room/IMG_6049.png" id="7_l8axc"]
 [ext_resource type="Texture2D" uid="uid://bdiwjb2asnojm" path="res://Assets/Sprites/Living room/IMG_6050.png" id="8_y85dt"]
 [ext_resource type="PackedScene" uid="uid://1ymxx4pf5ek3" path="res://Scenes/Game Object/Furnace.tscn" id="9_cheuo"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_m1hm0"]
+size = Vector2(0, 0)
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_7l0fx"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_01lpt"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_m1hm0")
@@ -50,3 +57,12 @@ centered = false
 [node name="AnimatedSprite2D" parent="." instance=ExtResource("9_cheuo")]
 centered = false
 offset = Vector2(955, 0)
+
+[node name="Health Slider" type="HSlider" parent="."]
+offset_left = 251.0
+offset_top = 1.0
+offset_right = 462.0
+offset_bottom = 67.0
+theme_override_icons/grabber = SubResource("PlaceholderTexture2D_m1hm0")
+theme_override_icons/grabber_highlight = SubResource("PlaceholderTexture2D_7l0fx")
+theme_override_icons/grabber_disabled = SubResource("PlaceholderTexture2D_01lpt")
