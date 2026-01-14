@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using ServiceSystem;
 
 public partial class LivingRoomView : Node2D {
     [Export]
@@ -13,4 +14,14 @@ public partial class LivingRoomView : Node2D {
 
     [Export]
     private HSlider _healthSlider;
+
+    private SceneManager _sceneManager;
+
+    public override void _Ready() {
+        ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
+        _sceneManager = serviceLocator.GetService<SceneManager>();
+
+        _storeButton.Pressed += () => _sceneManager.ChangeScene(SceneId.Store);
+        _kitchenButton.Pressed += () => _sceneManager.ChangeScene(SceneId.Kitchen);
+    }
 }

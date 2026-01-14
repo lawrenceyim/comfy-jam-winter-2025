@@ -55,6 +55,9 @@ public partial class ServiceLocator : Node, IAutoload {
         AddService(ServiceName.InputStateMachine, new InputStateMachine(), true);
         AddService(ServiceName.PlayerData, new PlayerDataService(playerDataRepository), false);
         AddService(ServiceName.SceneManager, new SceneManager(sceneRepository), false);
-        AddService(ServiceName.InventoryService, new InventoryService(playerDataRepository), false);
+
+        InventoryService inventoryService = new(playerDataRepository);
+        AddService(ServiceName.InventoryService, inventoryService, false);
+        AddService(ServiceName.KitchenService, new KitchenService(inventoryService), false);
     }
 }

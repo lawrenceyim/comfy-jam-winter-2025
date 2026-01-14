@@ -14,6 +14,11 @@ public partial class TextureRepository : Node, IAutoload, IRepository {
 }
 
 public enum TextureId {
+    // Ingredients
     Egg = 20_001,
-    Dish = 30_001,
+    
+    // Recipes that are ingredients
+    Mistake =  30_000,
+    Bread = 30_001,
+    
 }

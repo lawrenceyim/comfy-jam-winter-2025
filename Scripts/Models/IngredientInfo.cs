@@ -16,5 +16,9 @@ public enum IngredientName {
     Egg = 0,
     Butter = 1,
     Flour = 2,
-    Milk = 3
+    Milk = 3,
+
+    // Ingredients that are also recipes
+    Mistake = 10_000,
+    Bread = 10_001,
 }

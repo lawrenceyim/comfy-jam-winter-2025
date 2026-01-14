@@ -3,9 +3,22 @@ using System.Collections.Generic;
 public static class RecipeInfo {
     private static readonly Dictionary<RecipeName, Recipe> _recipes = new() {
         {
-            RecipeName.Mistake, new Recipe(RecipeName.Mistake, TextureId.Dish, new Dictionary<IngredientName, int>() {
-                { IngredientName.Egg, 2 }
-            })
+            RecipeName.Mistake, new Recipe(
+                RecipeName.Mistake,
+                TextureId.Mistake,
+                new Dictionary<IngredientName, int>() { },
+                IngredientName.Mistake)
+        }, {
+            RecipeName.Bread, new Recipe(
+                RecipeName.Bread,
+                TextureId.Bread,
+                new Dictionary<IngredientName, int>() {
+                    { IngredientName.Egg, 1 },
+                    { IngredientName.Bread, 1 },
+                    { IngredientName.Flour, 1 },
+                    { IngredientName.Butter, 1 }
+                },
+                IngredientName.Bread)
         }
     };
 
@@ -41,9 +54,9 @@ public static class RecipeInfo {
     }
 }
 
-public record Recipe(RecipeName Name, TextureId TextureId, Dictionary<IngredientName, int> Ingredients);
+public record Recipe(RecipeName Name, TextureId TextureId, Dictionary<IngredientName, int> Ingredients, IngredientName IngredientName);
 
 public enum RecipeName {
     Mistake = 0,
-    ValidDish1 = 1,
+    Bread = 1,
 }

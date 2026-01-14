@@ -7,4 +7,5 @@ public enum ServiceName {
     RepositoryLocator = 1_004,
     SceneManager = 1_005,
     InventoryService = 2_001,
+    KitchenService = 2_002,
 }
