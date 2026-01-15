@@ -1,6 +1,29 @@
-[gd_scene load_steps=2 format=3 uid="uid://ctqlhjclmb4pq"]
+[gd_scene load_steps=6 format=3 uid="uid://ctqlhjclmb4pq"]
 
 [ext_resource type="Script" uid="uid://cj1sbne2v8qnl" path="res://Scripts/Scenes/KitchenView.cs" id="1_2v58e"]
+[ext_resource type="Texture2D" uid="uid://kp3ghfuw6emp" path="res://Assets/Sprites/Kitchen/IMG_6094.PNG" id="2_uxyhd"]
+[ext_resource type="Texture2D" uid="uid://diiyfg1biksd7" path="res://Assets/Sprites/Kitchen/Stove.PNG" id="3_a5466"]
+[ext_resource type="Texture2D" uid="uid://bk8pglkbbmkie" path="res://Assets/Sprites/Kitchen/Sink.PNG" id="4_6fiwt"]
+[ext_resource type="Texture2D" uid="uid://ddeog2ihh6csb" path="res://Assets/Sprites/Kitchen/Layout.PNG" id="5_b6yew"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_2v58e")
+
+[node name="Img6094" type="Sprite2D" parent="."]
+texture = ExtResource("2_uxyhd")
+centered = false
+
+[node name="Stove" type="Sprite2D" parent="."]
+position = Vector2(392, 332)
+texture = ExtResource("3_a5466")
+centered = false
+
+[node name="Sink" type="Sprite2D" parent="."]
+position = Vector2(6, 131)
+texture = ExtResource("4_6fiwt")
+centered = false
+
+[node name="Layout" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("5_b6yew")
+centered = false

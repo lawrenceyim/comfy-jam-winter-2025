@@ -16,3 +16,4 @@ res://Scripts/Repository/RepositoryLocator.cs
 res://Scripts/Service Locator/ServiceImpl/Input System/InputStateMachine.cs
 res://Scripts/Scenes/StoreView.cs
 res://Scenes/Living Room.tscn
+res://Scenes/Kitchen.tscn
