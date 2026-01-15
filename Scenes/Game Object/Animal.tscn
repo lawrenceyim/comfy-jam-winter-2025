@@ -1,7 +1,8 @@
-[gd_scene load_steps=13 format=3 uid="uid://h4kimr8vtood"]
+[gd_scene load_steps=18 format=3 uid="uid://h4kimr8vtood"]
 
 [ext_resource type="Texture2D" uid="uid://cpi3vr5fn57e2" path="res://Assets/Sprites/Main character/Idle(4fps).PNG" id="1_6t8oy"]
 [ext_resource type="Texture2D" uid="uid://burqhw533ufd1" path="res://Assets/Sprites/Main character/Walk(4fps).PNG" id="2_5ktbf"]
+[ext_resource type="Texture2D" uid="uid://du8kj7xfahr8a" path="res://Assets/Sprites/Main character/Talking(4fps).PNG" id="2_rb6q6"]
 [ext_resource type="Script" uid="uid://ukimgoc602xn" path="res://Scripts/Game Objects/AnimalView.cs" id="3_m8jgg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5ktbf"]
@@ -18,6 +19,22 @@ region = Rect2(1024, 0, 512, 512)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nahv1"]
 atlas = ExtResource("1_6t8oy")
+region = Rect2(1536, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kwj1r"]
+atlas = ExtResource("2_rb6q6")
+region = Rect2(0, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xohdc"]
+atlas = ExtResource("2_rb6q6")
+region = Rect2(512, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hkj65"]
+atlas = ExtResource("2_rb6q6")
+region = Rect2(1024, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lapmb"]
+atlas = ExtResource("2_rb6q6")
 region = Rect2(1536, 0, 512, 512)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_665ow"]
@@ -57,6 +74,23 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_kwj1r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xohdc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hkj65")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lapmb")
+}],
+"loop": true,
+"name": &"Talk",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_665ow")
 }, {
 "duration": 1.0,
@@ -70,10 +104,10 @@ animations = [{
 }],
 "loop": true,
 "name": &"Walk",
-"speed": 5.0
+"speed": 4.0
 }]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_fivnj")
-animation = &"Idle"
+animation = &"Talk"
 script = ExtResource("3_m8jgg")
