@@ -1,16 +1,16 @@
 using ServiceSystem;
 
 public class StoreService : IService {
-    private readonly PlayerDataRepository _playerDataRepository;
     private readonly InventoryService _inventoryService;
+    private readonly PlayerDataService _playerDataService;
 
-    public StoreService(PlayerDataRepository playerDataRepository, InventoryService inventoryService) {
-        _playerDataRepository = playerDataRepository;
+    public StoreService(PlayerDataService playerDataService, InventoryService inventoryService) {
+        _playerDataService = playerDataService;
         _inventoryService = inventoryService;
     }
 
     public void PurchaseIngredient(IngredientName ingredient, int quantity) {
         _inventoryService.IncreaseIngredientQuantity(ingredient, quantity);
-        _playerDataRepository.Money -= quantity; // TODO: quantity * COST <- figure out how to compute this
+        _playerDataService.SetMoney(_playerDataService.GetMoney() - quantity); // TODO: change to calculate actual money
     }
 }

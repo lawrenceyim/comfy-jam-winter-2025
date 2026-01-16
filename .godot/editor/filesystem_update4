@@ -1,9 +1,8 @@
-res://Scenes/Game Object/Animal.tscn
-res://Scripts/Scenes/LivingRoomView.cs
-res://Scripts/Game Objects/AnimalView.cs
+res://Scenes/Living Room.tscn
 res://Scripts/NewScript.cs
 res://Scripts/Scenes/InventoryView.cs
 res://Scripts/Repository/Impl/PackedSceneRepository.cs
+res://Scripts/Scenes/LivingRoomView.cs
 res://Scripts/Repository/Impl/SoundEffectRepository.cs
 res://Scripts/Repository/Impl/TextureRepository.cs
 res://Scripts/Service Locator/ServiceImpl/Input System/InputController.cs
@@ -14,6 +13,7 @@ res://Scripts/Repository/Impl/SceneRepository.cs
 res://Scripts/Scenes/CookbookView.cs
 res://Scripts/Repository/RepositoryLocator.cs
 res://Scripts/Service Locator/ServiceImpl/Input System/InputStateMachine.cs
+res://Scripts/Game Objects/AnimalView.cs
 res://Scripts/Scenes/StoreView.cs
-res://Scenes/Living Room.tscn
-res://Scenes/Kitchen.tscn
+res://Scripts/Service Locator/ServiceImpl/PlayerDataService.cs
+res://Scenes/Autoloads/SceneRepository.tscn

@@ -42,6 +42,7 @@ public partial class ServiceLocator : Node, IAutoload {
             not null when objectType == typeof(RepositoryLocator) => ServiceName.RepositoryLocator,
             not null when objectType == typeof(SceneManager) => ServiceName.SceneManager,
             not null when objectType == typeof(InventoryService) => ServiceName.InventoryService,
+            not null when objectType == typeof(PlayerDataService) => ServiceName.PlayerDataService,
         };
     }
 
@@ -53,7 +54,7 @@ public partial class ServiceLocator : Node, IAutoload {
         SceneRepository sceneRepository = repositoryLocator.GetRepository<SceneRepository>(RepositoryName.Scene);
         AddService(ServiceName.GameClock, new GameClock(), true);
         AddService(ServiceName.InputStateMachine, new InputStateMachine(), true);
-        AddService(ServiceName.PlayerData, new PlayerDataService(playerDataRepository), false);
+        AddService(ServiceName.PlayerDataService, new PlayerDataService(playerDataRepository), false);
         AddService(ServiceName.SceneManager, new SceneManager(sceneRepository), false);
 
         InventoryService inventoryService = new(playerDataRepository);

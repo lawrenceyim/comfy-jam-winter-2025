@@ -8,4 +8,5 @@ public enum ServiceName {
     SceneManager = 1_005,
     InventoryService = 2_001,
     KitchenService = 2_002,
+    PlayerDataService = 2_003,
 }
