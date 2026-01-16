@@ -17,3 +17,4 @@ res://Scripts/Game Objects/AnimalView.cs
 res://Scripts/Scenes/StoreView.cs
 res://Scripts/Service Locator/ServiceImpl/PlayerDataService.cs
 res://Scenes/Autoloads/SceneRepository.tscn
+res://Scenes/Test/TestScene.tscn

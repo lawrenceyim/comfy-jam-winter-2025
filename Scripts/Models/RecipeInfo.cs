@@ -9,16 +9,81 @@ public static class RecipeInfo {
                 new Dictionary<IngredientName, int>() { },
                 IngredientName.Mistake)
         }, {
-            RecipeName.Bread, new Recipe(
-                RecipeName.Bread,
-                TextureId.Bread,
+            RecipeName.ChickenNoodleSoup, new Recipe(
+                RecipeName.ChickenNoodleSoup,
+                TextureId.ChickenNoodleSoup,
+                new Dictionary<IngredientName, int>() {
+                    { IngredientName.Carrots, 1 },
+                    { IngredientName.Chicken, 1 },
+                    { IngredientName.Pasta, 1 },
+                    { IngredientName.Potato, 1 }
+                },
+                IngredientName.ChickenNoodleSoup)
+        }, {
+            RecipeName.FrenchFries, new Recipe(
+                RecipeName.FrenchFries,
+                TextureId.FrenchFries,
+                new Dictionary<IngredientName, int>() {
+                    { IngredientName.Pepper, 1 },
+                    { IngredientName.Potato, 1 },
+                    { IngredientName.Salt, 1 }
+                },
+                IngredientName.FrenchFries)
+        }, {
+            RecipeName.FriedEgg, new Recipe(
+                RecipeName.FriedEgg,
+                TextureId.FriedEgg,
                 new Dictionary<IngredientName, int>() {
                     { IngredientName.Egg, 1 },
-                    { IngredientName.Bread, 1 },
-                    { IngredientName.Flour, 1 },
-                    { IngredientName.Butter, 1 }
+                    { IngredientName.Pepper, 1 },
+                    { IngredientName.Salt, 1 }
                 },
-                IngredientName.Bread)
+                IngredientName.FriedEgg)
+        }, {
+            RecipeName.GrilledCheese, new Recipe(
+                RecipeName.GrilledCheese,
+                TextureId.GrilledCheese,
+                new Dictionary<IngredientName, int>() {
+                    { IngredientName.Bread, 1 },
+                    { IngredientName.Butter, 1 },
+                    { IngredientName.Cheese, 1 }
+                },
+                IngredientName.GrilledCheese)
+        }, {
+            RecipeName.Pancakes, new Recipe(
+                RecipeName.Pancakes,
+                TextureId.Pancakes,
+                new Dictionary<IngredientName, int>() {
+                    { IngredientName.Butter, 1 },
+                    { IngredientName.Egg, 1 },
+                    { IngredientName.Flour, 1 },
+                    { IngredientName.Milk, 1 }
+                },
+                IngredientName.Pancakes)
+        }, {
+            RecipeName.SteakFrite, new Recipe(
+                RecipeName.SteakFrite,
+                TextureId.SteakFrite,
+                new Dictionary<IngredientName, int>() {
+                    { IngredientName.Beef, 1 },
+                    { IngredientName.Garlic, 1 },
+                    { IngredientName.Onion, 1 },
+                    { IngredientName.Pepper, 1 },
+                    { IngredientName.Potato, 1 },
+                    { IngredientName.Salt, 1 }
+                },
+                IngredientName.SteakFrite)
+        }, {
+            RecipeName.TomatoBisque, new Recipe(
+                RecipeName.TomatoBisque,
+                TextureId.TomatoBisque,
+                new Dictionary<IngredientName, int>() {
+                    { IngredientName.Carrots, 1 },
+                    { IngredientName.Milk, 1 },
+                    { IngredientName.Onion, 1 },
+                    { IngredientName.Tomato, 1 }
+                },
+                IngredientName.TomatoBisque)
         }
     };
 
@@ -58,5 +123,11 @@ public record Recipe(RecipeName Name, TextureId TextureId, Dictionary<Ingredient
 
 public enum RecipeName {
     Mistake = 0,
-    Bread = 1,
+    ChickenNoodleSoup = 1,
+    FrenchFries = 2,
+    FriedEgg = 3,
+    GrilledCheese = 4,
+    Pancakes = 5,
+    SteakFrite = 6,
+    TomatoBisque = 7,
 }

@@ -13,12 +13,30 @@ public static class IngredientInfo {
 public record Ingredient(IngredientName Name, int Cost, TextureId TextureId);
 
 public enum IngredientName {
-    Egg = 0,
-    Butter = 1,
-    Flour = 2,
-    Milk = 3,
+    Beef = 1,
+    Bread = 2,
+    Butter = 3,
+    Carrots = 4,
+    Cheese = 5,
+    Chicken = 6,
+    Egg = 7,
+    Flour = 8,
+    Garlic = 9,
+    Milk = 10,
+    Onion = 11,
+    Pasta = 12,
+    Pepper = 13,
+    Potato = 14,
+    Salt = 15,
+    Tomato = 16,
 
     // Ingredients that are also recipes
     Mistake = 10_000,
-    Bread = 10_001,
+    ChickenNoodleSoup = 10_001,
+    FrenchFries = 10_002,
+    FriedEgg = 10_003,
+    GrilledCheese = 10_004,
+    Pancakes = 10_005,
+    SteakFrite = 10_006,
+    TomatoBisque = 10_007,
 }
