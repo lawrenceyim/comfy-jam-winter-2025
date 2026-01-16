@@ -9,6 +9,9 @@ public partial class LivingRoomView : Node2D {
 	private TextureButton _kitchenButton;
 
 	[Export]
+	private TextureButton _bookButton;
+
+	[Export]
 	private Label _dayLabel;
 
 	[Export]

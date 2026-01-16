@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://bxcow45rq6qbu"]
+[gd_scene load_steps=21 format=3 uid="uid://bxcow45rq6qbu"]
 
 [ext_resource type="Script" uid="uid://bwrskd2jewpan" path="res://Scripts/Scenes/LivingRoomView.cs" id="1_m1hm0"]
 [ext_resource type="Texture2D" uid="uid://byw115ebpmag3" path="res://Assets/Sprites/Living room/IMG_6035.PNG" id="2_7l0fx"]
@@ -15,7 +15,9 @@
 [ext_resource type="Texture2D" uid="uid://0j3pswwongat" path="res://Assets/Sprites/Ui/Store Button1.png" id="13_lm0du"]
 [ext_resource type="Texture2D" uid="uid://bhwmfahki3j6w" path="res://Assets/Sprites/Ui/Store Button2.png" id="14_l8axc"]
 [ext_resource type="Texture2D" uid="uid://qwk4cl77756e" path="res://Assets/Sprites/Ui/Day Block.png" id="15_l8axc"]
+[ext_resource type="Texture2D" uid="uid://dhck2y8whis2a" path="res://Assets/Sprites/Ui/Book Button_Closed.png" id="15_mlu8l"]
 [ext_resource type="Texture2D" uid="uid://c0tlmmheql5jj" path="res://Assets/Sprites/Ui/Currency Bar.png" id="15_y85dt"]
+[ext_resource type="Texture2D" uid="uid://bjdqe1ch3k3y6" path="res://Assets/Sprites/Ui/Book Button_Open.png" id="16_pbghi"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_y85dt"]
 font_size = 32
@@ -25,10 +27,11 @@ font_color = Color(0, 0, 0, 1)
 font_size = 72
 font_color = Color(0, 0, 0, 1)
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_storeButton", "_kitchenButton", "_dayLabel", "_currencyLabel")]
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_storeButton", "_kitchenButton", "_bookButton", "_dayLabel", "_currencyLabel")]
 script = ExtResource("1_m1hm0")
 _storeButton = NodePath("Store Button")
 _kitchenButton = NodePath("Kitchen Button")
+_bookButton = NodePath("Book Button")
 _dayLabel = NodePath("DayBlock/Day Label")
 _currencyLabel = NodePath("CurrencyBar/Currency Label")
 
@@ -90,6 +93,16 @@ offset_right = 1260.0
 offset_bottom = 158.0
 texture_normal = ExtResource("13_lm0du")
 texture_hover = ExtResource("14_l8axc")
+ignore_texture_size = true
+stretch_mode = 3
+
+[node name="Book Button" type="TextureButton" parent="."]
+offset_left = 1092.0
+offset_top = 509.0
+offset_right = 1254.0
+offset_bottom = 709.0
+texture_normal = ExtResource("15_mlu8l")
+texture_hover = ExtResource("16_pbghi")
 ignore_texture_size = true
 stretch_mode = 3
 
