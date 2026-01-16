@@ -3,7 +3,7 @@ using Godot.Collections;
 using RepositorySystem;
 
 public partial class TextureRepository : Node, IAutoload, IRepository {
-    public static string AutoloadPath { get; } = "/root/TextureRepository";
+    public static string AutoloadPath => "/root/TextureRepository";
 
     [Export]
     private Dictionary<TextureId, Texture2D> _textures;
