@@ -1,0 +1,13 @@
+res://Scenes/Autoloads/PackedSceneRepository.tscn::b100adf9197ccb81bc59f17e25dd2f14::1767986561::res://.godot/exported/133200997/export-a38b95e77752ad4928f7d09d6c7c8b77-PackedSceneRepository.scn
+res://Scenes/Autoloads/SceneRepository.tscn::e9b5142ada7e046efc5a471ea9ac5344::1768575076::res://.godot/exported/133200997/export-ee94e55b513822147061c81c83d36977-SceneRepository.scn
+res://Scenes/Autoloads/ServiceLocator.tscn::2eaf3a6578925a645881a5c296c6d308::1767986612::res://.godot/exported/133200997/export-bf82d5b3db3dca93a48eb17486c87f64-ServiceLocator.scn
+res://Scenes/Autoloads/SoundEffectRepository.tscn::a88988ab1be4236df06b5a85b04bca0e::1767986631::res://.godot/exported/133200997/export-810c77dcb1c8c296556b0572ff1bd36b-SoundEffectRepository.scn
+res://Scenes/Autoloads/TextureRepository.tscn::06367e82a95cf7ef9fb9efff2bfe0867::1767986775::res://.godot/exported/133200997/export-68893e5e146e5dce5da1386d536f72ce-TextureRepository.scn
+res://Scenes/Game Object/Animal.tscn::79bad9a39b40e1166e9fd54dae05578c::1768503091::res://.godot/exported/133200997/export-06354195c373b64cd98665659275a194-Animal.scn
+res://Scenes/Game Object/Furnace.tscn::cbda96b822afe9d79cf77e7060a42b88::1768166685::res://.godot/exported/133200997/export-e00fe1675c06a9a7d749f49ba1ef3a67-Furnace.scn
+res://Scenes/Test/TestScene.tscn::8fcca0b703292ce540377bfb8df55fc6::1768578198::res://.godot/exported/133200997/export-e55f94cb7a65843bad4db0006c49af8e-TestScene.scn
+res://Scenes/Cookbook.tscn::8430db16315710895cc43eba981cb578::1768166685::res://.godot/exported/133200997/export-4273a946e046d5cf86d643d9600c8ee6-Cookbook.scn
+res://Scenes/Inventory.tscn::da14d3f77e8cd448f1a43d90e05f3426::1768238517::res://.godot/exported/133200997/export-8526ff927035c62c927ee221d5c09efa-Inventory.scn
+res://Scenes/Kitchen.tscn::620d7f03b7fa0bb20a1dc679b920d322::1768503705::res://.godot/exported/133200997/export-136c42c39d4f743f9cb4f3a979e4883e-Kitchen.scn
+res://Scenes/Living Room.tscn::f42b4b362624bd367ce65f63cd17c16e::1768607417::res://.godot/exported/133200997/export-e78ded27516c74295c810d8a9278a97f-Living Room.scn
+res://Scenes/Store.tscn::d7b14587b85f96b6208f9a02a3bbd2f9::1768077263::res://.godot/exported/133200997/export-dc136de4af02d2774790535663c5ba38-Store.scn

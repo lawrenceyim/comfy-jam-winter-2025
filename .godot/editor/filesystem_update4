@@ -1,4 +1,3 @@
-res://Scenes/Living Room.tscn
 res://Scripts/NewScript.cs
 res://Scripts/Scenes/InventoryView.cs
 res://Scripts/Repository/Impl/PackedSceneRepository.cs
@@ -15,6 +14,8 @@ res://Scripts/Repository/RepositoryLocator.cs
 res://Scripts/Service Locator/ServiceImpl/Input System/InputStateMachine.cs
 res://Scripts/Game Objects/AnimalView.cs
 res://Scripts/Scenes/StoreView.cs
-res://Scripts/Service Locator/ServiceImpl/PlayerDataService.cs
-res://Scenes/Autoloads/SceneRepository.tscn
-res://Scenes/Test/TestScene.tscn
+res://Scenes/Living Room.tscn
+res://Scenes/Game Object/Card Display.tscn
+res://Scenes/Game Object/Card.tscn
+res://Scripts/Game Objects/Card.cs
+res://Scripts/Game Objects/CardDisplay.cs

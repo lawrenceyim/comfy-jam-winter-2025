@@ -1,7 +1,8 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1768573721
+::res://::1768853798
+export_presets.cfg::TextFile::-1::1768844279::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1767986428
-::res://Assets/Sprites/::1768573736
+::res://Assets/Sprites/::1768853798
 icon.svg::CompressedTexture2D::6528116911891285300::1767985929::1767986428::1::::<><><>0<>0<>52ac0f9c334ec027f7bd55661214961e<>res://.godot/imported/icon.svg-937281dbc6e7ba0435124e30fe85aebc.ctex::
 ::res://Assets/Sprites/Kitchen/::1768502524
 IMG_6094.PNG::CompressedTexture2D::734565269578915279::1768502523::1768502524::1::::<><><>0<>0<>85897c4202c73e27aee655476067f045<>res://.godot/imported/IMG_6094.PNG-ac9483e2c131ceb006b86f51516a3e03.ctex::
@@ -23,6 +24,8 @@ Layout.PNG::CompressedTexture2D::5969913966756521702::1768165581::1768165581::1:
 Idle(4fps).PNG::CompressedTexture2D::5843927560945480579::1768165581::1768165581::1::::<><><>0<>0<>288691de3325c7a314306e0989788b16<>res://.godot/imported/Idle(4fps).PNG-35721444ca9bef720f253fbbfccbcabb.ctex::
 Talking(4fps).PNG::CompressedTexture2D::8631788348301911358::1768502513::1768502514::1::::<><><>0<>0<>3bfa7b4de3527bf652aae8e3019c08a6<>res://.godot/imported/Talking(4fps).PNG-bc9b5eb966bc6c6ed74743c01dbc3759.ctex::
 Walk(4fps).PNG::CompressedTexture2D::3826277153882599540::1768165581::1768165581::1::::<><><>0<>0<>ebf53a4f6b8a9c1ee6c646ef1a372524<>res://.godot/imported/Walk(4fps).PNG-6cec1fe36f52e0571211b5a12047c926.ctex::
+::res://Assets/Sprites/Placeholder/::1768853803
+Playing Card Placeholder.png::CompressedTexture2D::2360319318828055445::1768853803::1768853803::1::::<><><>0<>0<>b8eac34db5c20469248152d32ac687aa<>res://.godot/imported/Playing Card Placeholder.png-6262ea4e703d663b4bbe7188fb4b07f1.ctex::
 ::res://Assets/Sprites/Ui/::1768573736
 Book Button_Closed.png::CompressedTexture2D::7655369410964965262::1768573736::1768573736::1::::<><><>0<>0<>976893aff30a8b7adf93a0200634b024<>res://.godot/imported/Book Button_Closed.png-6edbd9a5f55aa63ce0bd969fb8ea381d.ctex::
 Book Button_Open.png::CompressedTexture2D::3025293393810059055::1768573736::1768573736::1::::<><><>0<>0<>c52acf9ae3d39df3d3cb6168728f9149<>res://.godot/imported/Book Button_Open.png-241f8a57d55d6689b247184709017293.ctex::
@@ -32,23 +35,29 @@ Kitchen Button1.png::CompressedTexture2D::7526597077641317044::1768573736::17685
 Kitchen Button2.png::CompressedTexture2D::6952129269053485030::1768573736::1768573736::1::::<><><>0<>0<>eea7af8a9143fdbce24caee95fece71e<>res://.godot/imported/Kitchen Button2.png-9a44f9d17c8a3539b99451c5052e51cb.ctex::
 Store Button1.png::CompressedTexture2D::1775028333868187699::1768573736::1768573736::1::::<><><>0<>0<>6d16f80246639c337f54171cd9a20487<>res://.godot/imported/Store Button1.png-8614e4f5bfba80386eee22457d69b5e9.ctex::
 Store Button2.png::CompressedTexture2D::2923896443911152696::1768573736::1768573736::1::::<><><>0<>0<>2efd3b39ee5f29a5c0ffa09625806c62<>res://.godot/imported/Store Button2.png-2d14d50f798e0861016481c349b707e9.ctex::
-::res://Scenes/::1768503705
+::res://Export/::1768844326
+::res://Export/data_comfy-jam-winter-2025_windows_x86_64/::1768844279
+comfy-jam-winter-2025.deps.json::JSON::-1::1768844278::0::1::::<><><>0<>0<><>::
+comfy-jam-winter-2025.runtimeconfig.json::JSON::-1::1768844278::0::1::::<><><>0<>0<><>::
+::res://Scenes/::1768853798
 Cookbook.tscn::PackedScene::472804324503993128::1768166685::0::1::::<><><>0<>0<><>::uid://bsv1d8afi34cf::::res://Scripts/Scenes/CookbookView.cs
 Inventory.tscn::PackedScene::8150598121750593147::1768238517::0::1::::<><><>0<>0<><>::uid://dh7cnych10h64::::res://Scripts/Scenes/InventoryView.cs
 Kitchen.tscn::PackedScene::6140140304367198378::1768503705::0::1::::<><><>0<>0<><>::uid://cj1sbne2v8qnl::::res://Scripts/Scenes/KitchenView.cs<>uid://kp3ghfuw6emp::::res://Assets/Sprites/Kitchen/IMG_6094.PNG<>uid://diiyfg1biksd7::::res://Assets/Sprites/Kitchen/Stove.PNG<>uid://bk8pglkbbmkie::::res://Assets/Sprites/Kitchen/Sink.PNG<>uid://ddeog2ihh6csb::::res://Assets/Sprites/Kitchen/Layout.PNG
-Living Room.tscn::PackedScene::4005783738556910862::1768503195::0::1::::<><><>0<>0<><>::uid://bwrskd2jewpan::::res://Scripts/Scenes/LivingRoomView.cs<>uid://byw115ebpmag3::::res://Assets/Sprites/Living room/IMG_6035.PNG<>uid://dgyts6eol2mu5::::res://Assets/Sprites/Living room/IMG_6044.png<>uid://twcpo25p53v::::res://Assets/Sprites/Living room/IMG_6046.png<>uid://c531mqlm5jtya::::res://Assets/Sprites/Living room/IMG_6047.png<>uid://cdiu3j0pl58p::::res://Assets/Sprites/Living room/IMG_6048.png<>uid://dskkha1yi4sis::::res://Assets/Sprites/Living room/IMG_6049.png<>uid://bdiwjb2asnojm::::res://Assets/Sprites/Living room/IMG_6050.png<>uid://1ymxx4pf5ek3::::res://Scenes/Game Object/Furnace.tscn<>uid://h4kimr8vtood::::res://Scenes/Game Object/Animal.tscn
+Living Room.tscn::PackedScene::4005783738556910862::1768853798::0::1::::<><><>0<>0<><>::uid://bwrskd2jewpan::::res://Scripts/Scenes/LivingRoomView.cs<>uid://byw115ebpmag3::::res://Assets/Sprites/Living room/IMG_6035.PNG<>uid://dgyts6eol2mu5::::res://Assets/Sprites/Living room/IMG_6044.png<>uid://twcpo25p53v::::res://Assets/Sprites/Living room/IMG_6046.png<>uid://c531mqlm5jtya::::res://Assets/Sprites/Living room/IMG_6047.png<>uid://cdiu3j0pl58p::::res://Assets/Sprites/Living room/IMG_6048.png<>uid://dskkha1yi4sis::::res://Assets/Sprites/Living room/IMG_6049.png<>uid://bdiwjb2asnojm::::res://Assets/Sprites/Living room/IMG_6050.png<>uid://1ymxx4pf5ek3::::res://Scenes/Game Object/Furnace.tscn<>uid://h4kimr8vtood::::res://Scenes/Game Object/Animal.tscn<>uid://dfh67pcvoacqm::::res://Assets/Sprites/Ui/Kitchen Button1.png<>uid://c6bws2wtrxt8q::::res://Assets/Sprites/Ui/Kitchen Button2.png<>uid://0j3pswwongat::::res://Assets/Sprites/Ui/Store Button1.png<>uid://bhwmfahki3j6w::::res://Assets/Sprites/Ui/Store Button2.png<>uid://qwk4cl77756e::::res://Assets/Sprites/Ui/Day Block.png<>uid://dhck2y8whis2a::::res://Assets/Sprites/Ui/Book Button_Closed.png<>uid://c0tlmmheql5jj::::res://Assets/Sprites/Ui/Currency Bar.png<>uid://bjdqe1ch3k3y6::::res://Assets/Sprites/Ui/Book Button_Open.png
 Store.tscn::PackedScene::7950216410637541379::1768077263::0::1::::<><><>0<>0<><>::uid://1jwf436se5pf::::res://Scripts/Scenes/StoreView.cs
-::res://Scenes/Autoloads/::1767986775
+::res://Scenes/Autoloads/::1768575076
 PackedSceneRepository.tscn::PackedScene::9054297785662520297::1767986561::0::1::::<><><>0<>0<><>::uid://bsccopvw6t2a7::::res://Scripts/Repository/Impl/PackedSceneRepository.cs
-SceneRepository.tscn::PackedScene::3758698776789931092::1767986592::0::1::::<><><>0<>0<><>::uid://eon0s6ns6pxw::::res://Scripts/Repository/Impl/SceneRepository.cs
+SceneRepository.tscn::PackedScene::3758698776789931092::1768575076::0::1::::<><><>0<>0<><>::uid://eon0s6ns6pxw::::res://Scripts/Repository/Impl/SceneRepository.cs<>uid://bxcow45rq6qbu::::res://Scenes/Living Room.tscn<>uid://ctqlhjclmb4pq::::res://Scenes/Kitchen.tscn<>uid://dlje5xtmxvg16::::res://Scenes/Store.tscn
 ServiceLocator.tscn::PackedScene::1571873230289678648::1767986612::0::1::::<><><>0<>0<><>::uid://bfkqbhn41rnxn::::res://Scripts/Service Locator/ServiceLocator.cs
 SoundEffectRepository.tscn::PackedScene::3135651612871905212::1767986631::0::1::::<><><>0<>0<><>::uid://ddrcg5kngu0d8::::res://Scripts/Repository/Impl/SoundEffectRepository.cs
 TextureRepository.tscn::PackedScene::8537667015479563359::1767986775::0::1::::<><><>0<>0<><>::uid://jn85514ajguy::::res://Scripts/Repository/Impl/TextureRepository.cs
 ::res://Scenes/Game Object/::1768503091
 Animal.tscn::PackedScene::551810974682936287::1768503091::0::1::::<><><>0<>0<><>::uid://cpi3vr5fn57e2::::res://Assets/Sprites/Main character/Idle(4fps).PNG<>uid://burqhw533ufd1::::res://Assets/Sprites/Main character/Walk(4fps).PNG<>uid://du8kj7xfahr8a::::res://Assets/Sprites/Main character/Talking(4fps).PNG<>uid://ukimgoc602xn::::res://Scripts/Game Objects/AnimalView.cs
 Furnace.tscn::PackedScene::1875225931385065312::1768166685::0::1::::<><><>0<>0<><>::uid://bg387fchrbwxq::::res://Assets/Sprites/Living room/IMG_6052.PNG
-::res://Scripts/::1768237960
-NewScript.cs::CSharpScript::6051883434799371304::1767986017::0::1::::<>Node<><>0<>0<><>::
+::res://Scenes/Test/::1768578198
+TestScene.tscn::PackedScene::7533773772213518401::1768578198::0::1::::<><><>0<>0<><>::uid://cshtvvgs34yc3::::res://Scripts/NewScript.cs
+::res://Scripts/::1768578158
+NewScript.cs::CSharpScript::6051883434799371304::1768578158::0::1::::<>Node<><>0<>0<><>::
 ::res://Scripts/Consts/::1767986257
 FilePath.cs::CSharpScript::7189269217309045949::1767986202::0::1::::<><><>0<>0<><>::
 ::res://Scripts/DialogueSystem/::1768076852
@@ -60,40 +69,40 @@ IDialogueState.cs::CSharpScript::5356028565373106462::1767735688::0::1::::<><><>
 IngredientDto.cs::CSharpScript::8555570357271638113::1768237985::0::1::::<><><>0<>0<><>::
 ::res://Scripts/Game Objects/::1768503083
 AnimalView.cs::CSharpScript::1424928152670910463::1768503083::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
-::res://Scripts/Interfaces/::1767986057
-IAutoload.cs::CSharpScript::8928908786929938893::1763061492::0::1::::<><><>0<>0<><>::
+::res://Scripts/Interfaces/::1768607476
+IAutoload.cs::CSharpScript::8928908786929938893::1768607476::0::1::::<><><>0<>0<><>::
 ITick.cs::CSharpScript::6189778948605379062::1763521424::0::1::::<><><>0<>0<><>::
 TextRepository.cs::CSharpScript::319550992907733579::1767986057::0::1::::<><><>0<>0<><>::
-::res://Scripts/Models/::1768406861
-IngredientInfo.cs::CSharpScript::2658659921398099618::1768406619::0::1::::<><><>0<>0<><>::
-RecipeInfo.cs::CSharpScript::8822080116690285519::1768406861::0::1::::<><><>0<>0<><>::
+::res://Scripts/Models/::1768579427
+IngredientInfo.cs::CSharpScript::2658659921398099618::1768579243::0::1::::<><><>0<>0<><>::
+RecipeInfo.cs::CSharpScript::8822080116690285519::1768579427::0::1::::<><><>0<>0<><>::
 ::res://Scripts/Repository/::1767986696
 IRepository.cs::CSharpScript::6865337637760215223::1763061492::0::1::::<><><>0<>0<><>::
 RepositoryLocator.cs::CSharpScript::4666454896891785758::1767986696::0::1::::<>Node<><>0<>0<><>::
 RepositoryName.cs::CSharpScript::5601873497477330991::1767653618::0::1::::<><><>0<>0<><>::
-::res://Scripts/Repository/Impl/::1768406729
-PackedSceneRepository.cs::CSharpScript::3654095881118933652::1766947904::0::1::::<>Node<><>0<>0<><>::
-PlayerDataRepository.cs::CSharpScript::4486739934544787426::1768190758::0::1::::<><><>0<>0<><>::
-SceneRepository.cs::CSharpScript::310491622787743448::1768397919::0::1::::<>Node<><>0<>0<><>::
-SoundEffectRepository.cs::CSharpScript::7405056744309420939::1767653737::0::1::::<>Node<><>0<>0<><>::
-TextureRepository.cs::CSharpScript::660595355306916544::1768406729::0::1::::<>Node<><>0<>0<><>::
-::res://Scripts/Scenes/::1768502566
+::res://Scripts/Repository/Impl/::1768607485
+PackedSceneRepository.cs::CSharpScript::3654095881118933652::1768607403::0::1::::<>Node<><>0<>0<><>::
+PlayerDataRepository.cs::CSharpScript::4486739934544787426::1768574806::0::1::::<><><>0<>0<><>::
+SceneRepository.cs::CSharpScript::310491622787743448::1768607403::0::1::::<>Node<><>0<>0<><>::
+SoundEffectRepository.cs::CSharpScript::7405056744309420939::1768607485::0::1::::<>Node<><>0<>0<><>::
+TextureRepository.cs::CSharpScript::660595355306916544::1768607451::0::1::::<>Node<><>0<>0<><>::
+::res://Scripts/Scenes/::1768575723
 CookbookView.cs::CSharpScript::3694757534716138685::1768077177::0::1::::<>Node2D<><>0<>0<><>::
 InventoryView.cs::CSharpScript::7716789957985536031::1768238434::0::1::::<>Node2D<><>0<>0<><>::
 KitchenView.cs::CSharpScript::5459310163636654013::1768077173::0::1::::<>Node2D<><>0<>0<><>::
-LivingRoomView.cs::CSharpScript::3966780629052590873::1768502566::0::1::::<>Node2D<><>0<>0<><>::
+LivingRoomView.cs::CSharpScript::3966780629052590873::1768575723::0::1::::<>Node2D<><>0<>0<><>::
 StoreView.cs::CSharpScript::1844835605050189083::1768077148::0::1::::<>Node2D<><>0<>0<><>::
-::res://Scripts/Service Locator/::1768406980
+::res://Scripts/Service Locator/::1768607417
 IService.cs::CSharpScript::1983700098112907179::1763061492::0::1::::<><><>0<>0<><>::
-ServiceLocator.cs::CSharpScript::2758982326200993495::1768406980::0::1::::<>Node<><>0<>0<><>::
-ServiceName.cs::CSharpScript::4403396248058119688::1768406912::0::1::::<><><>0<>0<><>::
-::res://Scripts/Service Locator/ServiceImpl/::1768406882
+ServiceLocator.cs::CSharpScript::2758982326200993495::1768607417::0::1::::<>Node<><>0<>0<><>::
+ServiceName.cs::CSharpScript::4403396248058119688::1768575226::0::1::::<><><>0<>0<><>::
+::res://Scripts/Service Locator/ServiceImpl/::1768574988
 GameClock.cs::CSharpScript::5958744172996560957::1767986555::0::1::::<>Node<><>0<>0<><>::
 InventoryService.cs::CSharpScript::1403321629926908085::1768238511::0::1::::<><><>0<>0<><>::
 KitchenService.cs::CSharpScript::4512890083462845726::1768406810::0::1::::<><><>0<>0<><>::
-PlayerDataService.cs::CSharpScript::1767454732185490043::1768237793::0::1::::<><><>0<>0<><>::
+PlayerDataService.cs::CSharpScript::1767454732185490043::1768574988::0::1::::<><><>0<>0<><>::
 SceneManager.cs::CSharpScript::6348632144876614060::1767986555::0::1::::<><><>0<>0<><>::
-StoreService.cs::CSharpScript::9168626102703084503::1768193699::0::1::::<><><>0<>0<><>::
+StoreService.cs::CSharpScript::9168626102703084503::1768574751::0::1::::<><><>0<>0<><>::
 ::res://Scripts/Service Locator/ServiceImpl/Input System/::1767986008
 IInputState.cs::CSharpScript::830052088973903736::1763522166::0::1::::<><><>0<>0<><>::
 InputController.cs::CSharpScript::8831453744734665143::1763522157::0::1::::<>Node<><>0<>0<><>::
