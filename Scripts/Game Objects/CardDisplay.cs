@@ -22,10 +22,17 @@ public partial class CardDisplay : Node {
         ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
         RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
         _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
-        _TestSpawnCards(); // TODO: remove this later
     }
 
-    private void _DisplayCards(List<IngredientName> ingredients) {
+    public void ClearCards() {
+        for (int i = 0; i < _cards.Count; i++) {
+            _cards[i].QueueFree();
+        }
+
+        _cards.Clear();
+    }
+
+    public void DisplayCards(List<IngredientName> ingredients) {
         int totalWidth = ingredients.Count * _cardWidth + (ingredients.Count - 1) * _xOffset;
         int xStart = _xCenter - totalWidth / 2;
 
@@ -38,15 +45,6 @@ public partial class CardDisplay : Node {
             card.Hovered += _HandleHover;
             _cards.Add(card);
         }
-    }
-
-    private void _TestSpawnCards() {
-        _DisplayCards(new List<IngredientName>() {
-            IngredientName.Butter,
-            IngredientName.Bread,
-            IngredientName.Beef,
-            IngredientName.Beef
-        });
     }
 
     private void _HandleHover(Card card, bool hovered) {

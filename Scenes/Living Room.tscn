@@ -64,14 +64,13 @@ position = Vector2(88, 0)
 texture = ExtResource("8_y85dt")
 centered = false
 
-[node name="AnimatedSprite2D" parent="." instance=ExtResource("9_cheuo")]
+[node name="Chimney" parent="." instance=ExtResource("9_cheuo")]
 centered = false
 offset = Vector2(955, 0)
 
-[node name="AnimatedSprite2D2" parent="." instance=ExtResource("10_7l0fx")]
-position = Vector2(610, 469)
+[node name="Animal" parent="." instance=ExtResource("10_7l0fx")]
+position = Vector2(610, 470)
 animation = &"Idle"
-frame_progress = 0.0
 
 [node name="Coffee table" type="Sprite2D" parent="."]
 position = Vector2(143, 348)

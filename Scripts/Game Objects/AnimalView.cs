@@ -1,23 +1,25 @@
 using Godot;
 
 public partial class AnimalView : AnimatedSprite2D {
-	public enum AnimalAnimation {
-		Idle,
-		Walk,
-		Talk,
-	}
+    public enum AnimalAnimation {
+        Eat,
+        Idle,
+        Walk,
+        Talk,
+    }
 
-	public override void _Ready() {
-		PlayAnimation(AnimalAnimation.Idle);
-	}
+    public override void _Ready() {
+        PlayAnimation(AnimalAnimation.Idle);
+    }
 
-	public void PlayAnimation(AnimalAnimation animation) {
-		string animationName = animation switch {
-			AnimalAnimation.Idle => "Idle",
-			AnimalAnimation.Walk => "Walk",
-			AnimalAnimation.Talk => "Talk",
-		};
+    public void PlayAnimation(AnimalAnimation animation) {
+        string animationName = animation switch {
+            AnimalAnimation.Idle => "Idle",
+            AnimalAnimation.Walk => "Walk",
+            AnimalAnimation.Talk => "Talk",
+            AnimalAnimation.Eat => "Eat",
+        };
 
-		Play(animationName);
-	}
+        Play(animationName);
+    }
 }

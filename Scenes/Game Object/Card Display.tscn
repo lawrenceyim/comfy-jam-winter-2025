@@ -3,9 +3,7 @@
 [ext_resource type="Script" uid="uid://c3hbiwdvehxi8" path="res://Scripts/Game Objects/CardDisplay.cs" id="1_ep3s6"]
 [ext_resource type="PackedScene" uid="uid://cog2hdaimqh72" path="res://Scenes/Game Object/Card.tscn" id="2_16byh"]
 
-[node name="Card Display" type="Node2D"]
+[node name="Card Display" type="Node2D" node_paths=PackedStringArray("_testButton")]
 script = ExtResource("1_ep3s6")
 _cardPrefab = ExtResource("2_16byh")
-
-[node name="Camera2D" type="Camera2D" parent="."]
-anchor_mode = 0
+_testButton = NodePath("")
