@@ -69,10 +69,12 @@ centered = false
 offset = Vector2(955, 0)
 
 [node name="AnimatedSprite2D2" parent="." instance=ExtResource("10_7l0fx")]
-position = Vector2(600, 441)
+position = Vector2(610, 469)
+animation = &"Idle"
+frame_progress = 0.0
 
 [node name="Coffee table" type="Sprite2D" parent="."]
-position = Vector2(114, 452)
+position = Vector2(143, 348)
 texture = ExtResource("7_l8axc")
 centered = false
 
