@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://dtvyemnxyqab4"]
+[gd_scene load_steps=25 format=3 uid="uid://dtvyemnxyqab4"]
 
 [ext_resource type="Script" uid="uid://jn85514ajguy" path="res://Scripts/Repository/Impl/TextureRepository.cs" id="1_do7ye"]
 [ext_resource type="Texture2D" uid="uid://c8lcvc0f71gpg" path="res://Assets/Sprites/Ingredients/Beef.PNG" id="2_uhjre"]
@@ -17,6 +17,13 @@
 [ext_resource type="Texture2D" uid="uid://du5es8jtsekq" path="res://Assets/Sprites/Ingredients/Potato.PNG" id="15_fofhi"]
 [ext_resource type="Texture2D" uid="uid://woyacey8weao" path="res://Assets/Sprites/Ingredients/Salt.PNG" id="16_un1dr"]
 [ext_resource type="Texture2D" uid="uid://btxwbug8qolji" path="res://Assets/Sprites/Ingredients/Tomato.PNG" id="17_tcmb5"]
+[ext_resource type="Texture2D" uid="uid://dcautseb7ggpu" path="res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG" id="18_n6oeo"]
+[ext_resource type="Texture2D" uid="uid://cw30iyvijts5e" path="res://Assets/Sprites/Recipe dish art/French Fries.PNG" id="19_j0s4j"]
+[ext_resource type="Texture2D" uid="uid://bs2u3g88084p2" path="res://Assets/Sprites/Recipe dish art/Fried Egg.PNG" id="20_bvox5"]
+[ext_resource type="Texture2D" uid="uid://dst55o27uia0d" path="res://Assets/Sprites/Recipe dish art/Grilled cheese.PNG" id="21_6dgkx"]
+[ext_resource type="Texture2D" uid="uid://dcckh3vp5w6gw" path="res://Assets/Sprites/Recipe dish art/Pancake.PNG" id="22_6dgkx"]
+[ext_resource type="Texture2D" uid="uid://dgqbxy33ahu4v" path="res://Assets/Sprites/Recipe dish art/Steak frite.PNG" id="23_fofhi"]
+[ext_resource type="Texture2D" uid="uid://wueylyfuxrqr" path="res://Assets/Sprites/Recipe dish art/Tomato bisque .PNG" id="24_un1dr"]
 
 [node name="TextureRepository" type="Node"]
 script = ExtResource("1_do7ye")
@@ -36,5 +43,12 @@ _textures = Dictionary[int, Texture2D]({
 13: ExtResource("14_6dgkx"),
 14: ExtResource("15_fofhi"),
 15: ExtResource("16_un1dr"),
-16: ExtResource("17_tcmb5")
+16: ExtResource("17_tcmb5"),
+30001: ExtResource("18_n6oeo"),
+30002: ExtResource("19_j0s4j"),
+30003: ExtResource("20_bvox5"),
+30004: ExtResource("21_6dgkx"),
+30005: ExtResource("22_6dgkx"),
+30007: ExtResource("23_fofhi"),
+30008: ExtResource("24_un1dr")
 })

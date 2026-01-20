@@ -1,4 +1,5 @@
 using Godot;
+using RepositorySystem;
 using ServiceSystem;
 
 public partial class LivingRoomView : Node2D {
@@ -20,15 +21,21 @@ public partial class LivingRoomView : Node2D {
     [Export]
     private AnimalView _animal;
 
+    [Export]
+    private Sprite2D _food;
+
     private PlayerDataService _playerDataService;
     private SceneManager _sceneManager;
 
     private Vector2 _regularAnimalPosition = new(610, 470);
     private Vector2 _eatingAnimalPosition = new(200, 300);
+    private TextureRepository _textureRepository;
 
     public override void _Ready() {
         ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
         _sceneManager = serviceLocator.GetService<SceneManager>();
+        RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
+        _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
         _playerDataService = serviceLocator.GetService<PlayerDataService>();
 
         _storeButton.Pressed += () => _sceneManager.ChangeScene(SceneId.Store);
@@ -36,6 +43,7 @@ public partial class LivingRoomView : Node2D {
         _dayLabel.Text = $"{_playerDataService.GetDay()}";
         _currencyLabel.Text = $"{_playerDataService.GetMoney()}";
         _playerDataService.MoneyUpdated += () => _currencyLabel.Text = $"{_playerDataService.GetMoney()}";
+        _food.Texture = null;
     }
 
     public void SetAnimalAnimation(AnimalView.AnimalAnimation animalAnimation) {
@@ -47,7 +55,28 @@ public partial class LivingRoomView : Node2D {
                 _animal.Position = _regularAnimalPosition;
                 break;
         }
-        
+
         _animal.PlayAnimation(animalAnimation);
+    }
+
+    public void SetFood(RecipeName? recipeName) {
+        if (recipeName == null) {
+            _food.Texture = null;
+            return;
+        }
+
+        TextureId recipeTextureId = recipeName switch {
+            RecipeName.Mistake => TextureId.Mistake,
+            RecipeName.ChickenNoodleSoup => TextureId.ChickenNoodleSoup,
+            RecipeName.FrenchFries => TextureId.FrenchFries,
+            RecipeName.FriedEgg => TextureId.FriedEgg,
+            RecipeName.GrilledCheese => TextureId.GrilledCheese,
+            RecipeName.Pancakes => TextureId.Pancakes,
+            RecipeName.Ramen => TextureId.Ramen,
+            RecipeName.SteakFrite => TextureId.SteakFrite,
+            RecipeName.TomatoBisque => TextureId.TomatoBisque,
+        };
+
+        _food.Texture = _textureRepository.GetTexture(recipeTextureId);
     }
 }
