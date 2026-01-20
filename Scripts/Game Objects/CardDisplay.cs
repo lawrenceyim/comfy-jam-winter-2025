@@ -22,6 +22,12 @@ public partial class CardDisplay : Node {
         ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
         RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
         _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
+
+        DisplayCards(new List<IngredientName>() {
+            IngredientName.Beef,
+            IngredientName.Carrots,
+            IngredientName.Cheese
+        });
     }
 
     public void ClearCards() {

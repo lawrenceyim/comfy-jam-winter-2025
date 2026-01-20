@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://bxcow45rq6qbu"]
+[gd_scene load_steps=24 format=3 uid="uid://bxcow45rq6qbu"]
 
 [ext_resource type="Script" uid="uid://bwrskd2jewpan" path="res://Scripts/Scenes/LivingRoomView.cs" id="1_m1hm0"]
 [ext_resource type="Texture2D" uid="uid://byw115ebpmag3" path="res://Assets/Sprites/Living room/IMG_6035.PNG" id="2_7l0fx"]
@@ -18,14 +18,17 @@
 [ext_resource type="Texture2D" uid="uid://dhck2y8whis2a" path="res://Assets/Sprites/Ui/Book Button_Closed.png" id="15_mlu8l"]
 [ext_resource type="Texture2D" uid="uid://c0tlmmheql5jj" path="res://Assets/Sprites/Ui/Currency Bar.png" id="15_y85dt"]
 [ext_resource type="Texture2D" uid="uid://bjdqe1ch3k3y6" path="res://Assets/Sprites/Ui/Book Button_Open.png" id="16_pbghi"]
+[ext_resource type="FontFile" uid="uid://dw6hev55tt3u" path="res://Assets/Fonts/Lonely_Coffee.ttf" id="18_cf4ex"]
 [ext_resource type="Texture2D" uid="uid://twrawvw2e3rm" path="res://Assets/Sprites/Recipe dish art/Pizza.PNG" id="19_pbghi"]
 [ext_resource type="Texture2D" uid="uid://dfylkspxjj1y5" path="res://Assets/Sprites/Living room/IMG_6045.png" id="20_7cu7d"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_y85dt"]
+font = ExtResource("18_cf4ex")
 font_size = 32
 font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_l8axc"]
+font = ExtResource("18_cf4ex")
 font_size = 72
 font_color = Color(0, 0, 0, 1)
 
