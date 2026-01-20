@@ -16,13 +16,13 @@ public partial class CardDisplay : Node {
     private int _cardWidth = 186;
     private int _xOffset = 20;
     private int _xCenter = 640;
-    private int _ySpawn = 300;
+    private int _ySpawn = 400;
 
     public override void _Ready() {
         ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
         RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
         _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
-        _TestSpawnCards();
+        _TestSpawnCards(); // TODO: remove this later
     }
 
     private void _DisplayCards(List<IngredientName> ingredients) {
@@ -33,7 +33,7 @@ public partial class CardDisplay : Node {
             Card card = (Card)_cardPrefab.Instantiate();
             card.SetTexture(_textureRepository.GetTexture(IngredientUtil.GetTextureId(ingredients[i])));
             AddChild(card);
-            int x = xStart + (i - 1) * (_xOffset + _cardWidth);
+            int x = xStart + i * (_xOffset + _cardWidth);
             card.Position = new Vector2(x, _ySpawn);
             card.Hovered += _HandleHover;
             _cards.Add(card);
@@ -41,7 +41,12 @@ public partial class CardDisplay : Node {
     }
 
     private void _TestSpawnCards() {
-        _DisplayCards(new List<IngredientName>() { IngredientName.Bread, IngredientName.Beef, IngredientName.Beef });
+        _DisplayCards(new List<IngredientName>() {
+            IngredientName.Butter,
+            IngredientName.Bread,
+            IngredientName.Beef,
+            IngredientName.Beef
+        });
     }
 
     private void _HandleHover(Card card, bool hovered) {

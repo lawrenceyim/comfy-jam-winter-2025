@@ -6,3 +6,6 @@
 [node name="Card Display" type="Node2D"]
 script = ExtResource("1_ep3s6")
 _cardPrefab = ExtResource("2_16byh")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
