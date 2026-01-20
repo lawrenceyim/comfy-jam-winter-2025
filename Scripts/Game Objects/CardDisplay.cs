@@ -6,6 +6,7 @@ public partial class CardDisplay : Node {
     private PackedScene _cardPrefab;
 
     private Card? _hoveredCard = null;
+    private Card? _previousCard = null;
     private List<Card> _cards = [];
 
     public override void _Ready() {
@@ -16,7 +17,7 @@ public partial class CardDisplay : Node {
         for (int i = 0; i < 3; i++) {
             Card card = (Card)_cardPrefab.Instantiate();
             AddChild(card);
-            card.Position = new Vector2(i * 100, 0) + new Vector2(600, 500);
+            card.Position = new Vector2(i * 100, 0) + new Vector2(600, 300);
             card.Hovered += _HandleHover;
             _cards.Add(card);
         }
@@ -27,9 +28,19 @@ public partial class CardDisplay : Node {
             card.HoverEffect(false);
             if (_hoveredCard == card) {
                 _hoveredCard = null;
+                if (_previousCard != null) {
+                    _hoveredCard = _previousCard;
+                    _previousCard = null;
+                    _hoveredCard.HoverEffect(true);
+                }
+            }
+
+            if (_previousCard == card) {
+                _previousCard = null;
             }
         } else {
             _hoveredCard?.HoverEffect(false);
+            _previousCard = _hoveredCard;
             _hoveredCard = card;
             _hoveredCard?.HoverEffect(true);
         }
