@@ -61,6 +61,17 @@ public static class RecipeInfo {
                 },
                 IngredientName.Pancakes)
         }, {
+            RecipeName.Ramen, new Recipe(
+                RecipeName.Ramen,
+                TextureId.Ramen,
+                new Dictionary<IngredientName, int>() {
+                    { IngredientName.Carrots, 1 },
+                    { IngredientName.Chicken, 1 },
+                    { IngredientName.Egg, 1 },
+                    { IngredientName.Noodle, 1 }
+                },
+                IngredientName.Ramen)
+        }, {
             RecipeName.SteakFrite, new Recipe(
                 RecipeName.SteakFrite,
                 TextureId.SteakFrite,
@@ -128,6 +139,7 @@ public enum RecipeName {
     FriedEgg = 3,
     GrilledCheese = 4,
     Pancakes = 5,
-    SteakFrite = 6,
-    TomatoBisque = 7,
+    Ramen = 6,
+    SteakFrite = 7,
+    TomatoBisque = 8,
 }
