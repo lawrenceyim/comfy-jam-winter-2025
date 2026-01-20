@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://bxcow45rq6qbu"]
+[gd_scene load_steps=23 format=3 uid="uid://bxcow45rq6qbu"]
 
 [ext_resource type="Script" uid="uid://bwrskd2jewpan" path="res://Scripts/Scenes/LivingRoomView.cs" id="1_m1hm0"]
 [ext_resource type="Texture2D" uid="uid://byw115ebpmag3" path="res://Assets/Sprites/Living room/IMG_6035.PNG" id="2_7l0fx"]
@@ -19,6 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://c0tlmmheql5jj" path="res://Assets/Sprites/Ui/Currency Bar.png" id="15_y85dt"]
 [ext_resource type="Texture2D" uid="uid://bjdqe1ch3k3y6" path="res://Assets/Sprites/Ui/Book Button_Open.png" id="16_pbghi"]
 [ext_resource type="Texture2D" uid="uid://twrawvw2e3rm" path="res://Assets/Sprites/Recipe dish art/Pizza.PNG" id="19_pbghi"]
+[ext_resource type="Texture2D" uid="uid://dfylkspxjj1y5" path="res://Assets/Sprites/Living room/IMG_6045.png" id="20_7cu7d"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_y85dt"]
 font_size = 32
@@ -55,6 +56,10 @@ centered = false
 position = Vector2(829, 159)
 texture = ExtResource("5_ixj0i")
 centered = false
+
+[node name="Carpet" type="Sprite2D" parent="."]
+position = Vector2(610, 593)
+texture = ExtResource("20_7cu7d")
 
 [node name="Futon" type="Sprite2D" parent="."]
 position = Vector2(-23, 247)
