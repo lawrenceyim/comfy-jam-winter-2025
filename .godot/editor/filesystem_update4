@@ -19,3 +19,4 @@ res://Scenes/Game Object/Card Display.tscn
 res://Scenes/Game Object/Card.tscn
 res://Scripts/Game Objects/Card.cs
 res://Scripts/Game Objects/CardDisplay.cs
+res://Scenes/Autoloads/TextureRepository.tscn

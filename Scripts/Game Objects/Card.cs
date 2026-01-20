@@ -20,6 +20,10 @@ public partial class Card : Node2D {
 		_hitbox.MouseExited += () => Hovered?.Invoke(this, false);
 	}
 
+	public void SetTexture(Texture2D texture) {
+		_cardSprite.Texture = texture;
+	}
+
 	public void HoverEffect(bool enable) {
 		ZIndex = enable ? +_hoveredZIndex : _regularZIndex;
 		_cardSprite.Scale = enable ? _hoveredScale : _regularScale;

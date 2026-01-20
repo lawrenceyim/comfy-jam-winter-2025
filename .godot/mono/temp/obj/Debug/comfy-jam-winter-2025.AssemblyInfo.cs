@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("comfy-jam-winter-2025")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65131cb66c6ae72b8980c3c7bbf32744bd6e1206")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baa9aa1349d1a0eb43d14d7d50d6a045565d4569")]
 [assembly: System.Reflection.AssemblyProductAttribute("comfy-jam-winter-2025")]
 [assembly: System.Reflection.AssemblyTitleAttribute("comfy-jam-winter-2025")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

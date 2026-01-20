@@ -1,6 +1,40 @@
-[gd_scene load_steps=2 format=3 uid="uid://dtvyemnxyqab4"]
+[gd_scene load_steps=18 format=3 uid="uid://dtvyemnxyqab4"]
 
 [ext_resource type="Script" uid="uid://jn85514ajguy" path="res://Scripts/Repository/Impl/TextureRepository.cs" id="1_do7ye"]
+[ext_resource type="Texture2D" uid="uid://c8lcvc0f71gpg" path="res://Assets/Sprites/Ingredients/Beef.PNG" id="2_uhjre"]
+[ext_resource type="Texture2D" uid="uid://bfierqxhi22ax" path="res://Assets/Sprites/Ingredients/Bread.PNG" id="3_lp3kn"]
+[ext_resource type="Texture2D" uid="uid://osg27vkdfoqb" path="res://Assets/Sprites/Ingredients/Butter.PNG" id="4_71j27"]
+[ext_resource type="Texture2D" uid="uid://dmk45iaicew31" path="res://Assets/Sprites/Ingredients/Carrot.PNG" id="5_26v06"]
+[ext_resource type="Texture2D" uid="uid://ddhvdlxj6fof3" path="res://Assets/Sprites/Ingredients/Cheese.PNG" id="6_rmgkp"]
+[ext_resource type="Texture2D" uid="uid://cmh4v2mok747a" path="res://Assets/Sprites/Ingredients/Chicken.PNG" id="7_ti1it"]
+[ext_resource type="Texture2D" uid="uid://buxkiv2aq7q3n" path="res://Assets/Sprites/Ingredients/Egg.PNG" id="8_f5vm3"]
+[ext_resource type="Texture2D" uid="uid://c3y5uo4jlelir" path="res://Assets/Sprites/Ingredients/Flour.PNG" id="9_x2deh"]
+[ext_resource type="Texture2D" uid="uid://dlanm5vhxej11" path="res://Assets/Sprites/Ingredients/Garlic.PNG" id="10_s4kdb"]
+[ext_resource type="Texture2D" uid="uid://dc6oe8p1d85x4" path="res://Assets/Sprites/Ingredients/Milk.PNG" id="11_n6oeo"]
+[ext_resource type="Texture2D" uid="uid://blx2xj4twjjhv" path="res://Assets/Sprites/Ingredients/Onion.PNG" id="12_j0s4j"]
+[ext_resource type="Texture2D" uid="uid://cr0ex8ryhin1t" path="res://Assets/Sprites/Ingredients/Pasta.PNG" id="13_bvox5"]
+[ext_resource type="Texture2D" uid="uid://cai5a3c4lynp1" path="res://Assets/Sprites/Ingredients/Pepper.PNG" id="14_6dgkx"]
+[ext_resource type="Texture2D" uid="uid://du5es8jtsekq" path="res://Assets/Sprites/Ingredients/Potato.PNG" id="15_fofhi"]
+[ext_resource type="Texture2D" uid="uid://woyacey8weao" path="res://Assets/Sprites/Ingredients/Salt.PNG" id="16_un1dr"]
+[ext_resource type="Texture2D" uid="uid://btxwbug8qolji" path="res://Assets/Sprites/Ingredients/Tomato.PNG" id="17_tcmb5"]
 
 [node name="TextureRepository" type="Node"]
 script = ExtResource("1_do7ye")
+_textures = Dictionary[int, Texture2D]({
+1: ExtResource("2_uhjre"),
+2: ExtResource("3_lp3kn"),
+3: ExtResource("4_71j27"),
+4: ExtResource("5_26v06"),
+5: ExtResource("6_rmgkp"),
+6: ExtResource("7_ti1it"),
+7: ExtResource("8_f5vm3"),
+8: ExtResource("9_x2deh"),
+9: ExtResource("10_s4kdb"),
+10: ExtResource("11_n6oeo"),
+11: ExtResource("12_j0s4j"),
+12: ExtResource("13_bvox5"),
+13: ExtResource("14_6dgkx"),
+14: ExtResource("15_fofhi"),
+15: ExtResource("16_un1dr"),
+16: ExtResource("17_tcmb5")
+})

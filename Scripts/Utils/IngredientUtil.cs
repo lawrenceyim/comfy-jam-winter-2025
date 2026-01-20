@@ -1,0 +1,26 @@
+public class IngredientUtil {
+    public static TextureId GetTextureId(IngredientName ingredient) {
+        return ingredient switch {
+            IngredientName.Beef => TextureId.Beef,
+            IngredientName.Bread => TextureId.Bread,
+            IngredientName.Butter => TextureId.Butter,
+            IngredientName.Carrots => TextureId.Carrots,
+            IngredientName.Cheese => TextureId.Cheese,
+            IngredientName.Chicken => TextureId.Chicken,
+            IngredientName.Egg => TextureId.Egg,
+            IngredientName.Flour => TextureId.Flour,
+            IngredientName.Garlic => TextureId.Garlic,
+            IngredientName.Milk => TextureId.Milk,
+            IngredientName.Noodle => TextureId.Noodle,
+            IngredientName.Onion => TextureId.Onion,
+            IngredientName.Pasta => TextureId.Pasta,
+            IngredientName.Pepper => TextureId.Pepper,
+            IngredientName.Potato => TextureId.Potato,
+            IngredientName.Salt => TextureId.Salt,
+            IngredientName.Tomato => TextureId.Tomato,
+
+            // fallback
+            _ => TextureId.Beef,
+        };
+    }
+}
