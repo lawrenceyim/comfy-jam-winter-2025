@@ -1,6 +1,35 @@
-[gd_scene load_steps=2 format=3 uid="uid://g0bau8iq3u3a"]
+[gd_scene load_steps=6 format=3 uid="uid://g0bau8iq3u3a"]
 
 [ext_resource type="Script" uid="uid://bsv1d8afi34cf" path="res://Scripts/Scenes/CookbookView.cs" id="1_d4bub"]
+[ext_resource type="Texture2D" uid="uid://kbdbyr4fhcgq" path="res://Assets/Sprites/Ui/Recipe Book.PNG" id="2_lla3a"]
+[ext_resource type="Texture2D" uid="uid://dcautseb7ggpu" path="res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG" id="3_ta3b0"]
+[ext_resource type="FontFile" uid="uid://dw6hev55tt3u" path="res://Assets/Fonts/Lonely_Coffee.ttf" id="4_66mh6"]
 
-[node name="Node2D" type="Node2D"]
+[sub_resource type="LabelSettings" id="LabelSettings_pk81f"]
+font = ExtResource("4_66mh6")
+font_size = 32
+font_color = Color(0, 0, 0, 1)
+
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_selectedRecipeSprite", "_selectedRecipeLabel")]
 script = ExtResource("1_d4bub")
+_selectedRecipeSprite = NodePath("Selected Recipe Sprite")
+_selectedRecipeLabel = NodePath("Select Recipe Name")
+
+[node name="RecipeBook" type="Sprite2D" parent="."]
+texture = ExtResource("2_lla3a")
+centered = false
+
+[node name="Selected Recipe Sprite" type="Sprite2D" parent="."]
+position = Vector2(422, 279)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_ta3b0")
+
+[node name="Select Recipe Name" type="Label" parent="."]
+offset_left = 203.0
+offset_top = 117.0
+offset_right = 623.0
+offset_bottom = 158.0
+text = "Recipe Name"
+label_settings = SubResource("LabelSettings_pk81f")
+horizontal_alignment = 1
+vertical_alignment = 1

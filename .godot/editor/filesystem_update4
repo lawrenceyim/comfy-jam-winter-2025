@@ -21,3 +21,4 @@ res://Scripts/Game Objects/Card.cs
 res://Scripts/Game Objects/CardDisplay.cs
 res://Scenes/Autoloads/TextureRepository.tscn
 res://Scenes/Game Object/Animal.tscn
+res://Scenes/Cookbook.tscn
