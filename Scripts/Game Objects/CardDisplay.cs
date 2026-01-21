@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Godot;
+using InputSystem;
 using RepositorySystem;
 using ServiceSystem;
 
@@ -10,11 +12,11 @@ public partial class CardDisplay : Node {
 
     private TextureRepository _textureRepository;
 
-    private static IngredientName[] Ingredients = IngredientUtil.GetIngredientNames();
-    private Card[] _cards = new Card[Ingredients.Length];
-    private bool[] _selectedCards = new bool[Ingredients.Length];
-    private Dictionary<Card, int> _cardIndex = new Dictionary<Card, int>();
-    List<Card> _hoveredCards = [];
+    private static readonly IngredientName[] _ingredients = IngredientUtil.GetIngredientNames();
+    private readonly HashSet<Card> _selectedCards = [];
+    private readonly Dictionary<Card, int> _cardIndex = new Dictionary<Card, int>();
+    private readonly List<Card> _hoveredCards = [];
+    private Card[] _cards = new Card[_ingredients.Length];
 
     private const int CardBaseZIndex = 10;
     private const int HoverZIndexBoost = 10;
@@ -23,6 +25,7 @@ public partial class CardDisplay : Node {
     private int _xCenter = 640;
     private int _ySpawn = 400;
     private Card _cardHovered = null;
+    private int _selectedCardYOffset = 100;
 
 
     public override void _Ready() {
@@ -32,6 +35,12 @@ public partial class CardDisplay : Node {
         _InitIngredients();
     }
 
+    public override void _Input(InputEvent @event) {
+        if (@event is InputEventMouseButton { Pressed: true }) {
+            _HandleMouseClick();
+        }
+    }
+
     public void ClearCards() {
         for (int i = 0; i < _cards.Length; i++) {
             _cards[i].Visible = false;
@@ -39,12 +48,12 @@ public partial class CardDisplay : Node {
     }
 
     public void _InitIngredients() {
-        int totalWidth = Ingredients.Length * _cardWidth + (Ingredients.Length - 1) * _xOffset;
+        int totalWidth = _ingredients.Length * _cardWidth + (_ingredients.Length - 1) * _xOffset;
         int xStart = _xCenter - totalWidth / 2;
 
-        for (int i = 0; i < Ingredients.Length; i++) {
+        for (int i = 0; i < _ingredients.Length; i++) {
             Card card = (Card)_cardPrefab.Instantiate();
-            card.SetTexture(_textureRepository.GetTexture(IngredientUtil.GetTextureId(Ingredients[i])));
+            card.SetTexture(_textureRepository.GetTexture(IngredientUtil.GetTextureId(_ingredients[i])));
             _cardIndex.Add(card, i);
             _cards[i] = card;
             AddChild(card);
@@ -81,6 +90,18 @@ public partial class CardDisplay : Node {
         } else {
             card.HoverEffect(false);
             card.ZIndex = CardBaseZIndex + _cardIndex[card];
+        }
+    }
+
+    private void _HandleMouseClick() {
+        if (_cardHovered != null) {
+            if (_selectedCards.Contains(_cardHovered)) {
+                _cardHovered.Position = new Vector2(_cardHovered.Position.X, _cardHovered.Position.Y + 100);
+                _selectedCards.Remove(_cardHovered);
+            } else {
+                _selectedCards.Add(_cardHovered);
+                _cardHovered.Position = new Vector2(_cardHovered.Position.X, _cardHovered.Position.Y - 100);
+            }
         }
     }
 }
