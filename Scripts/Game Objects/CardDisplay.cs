@@ -11,15 +11,19 @@ public partial class CardDisplay : Node {
     private TextureRepository _textureRepository;
 
     private static IngredientName[] Ingredients = IngredientUtil.GetIngredientNames();
-    private Card? _hoveredCard = null;
-    private Card? _previousCard = null;
     private Card[] _cards = new Card[Ingredients.Length];
     private bool[] _selectedCards = new bool[Ingredients.Length];
+    private Dictionary<Card, int> _cardIndex = new Dictionary<Card, int>();
+    List<Card> _hoveredCards = [];
 
+    private const int CardBaseZIndex = 10;
+    private const int HoverZIndexBoost = 10;
     private int _cardWidth = 93;
     private int _xOffset = -25;
     private int _xCenter = 640;
     private int _ySpawn = 400;
+    private Card _cardHovered = null;
+
 
     public override void _Ready() {
         ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
@@ -41,33 +45,42 @@ public partial class CardDisplay : Node {
         for (int i = 0; i < Ingredients.Length; i++) {
             Card card = (Card)_cardPrefab.Instantiate();
             card.SetTexture(_textureRepository.GetTexture(IngredientUtil.GetTextureId(Ingredients[i])));
+            _cardIndex.Add(card, i);
+            _cards[i] = card;
             AddChild(card);
             int x = xStart + i * (_xOffset + _cardWidth);
             card.Position = new Vector2(x, _ySpawn);
             card.Hovered += _HandleHover;
+            card.SetZIndex(i + CardBaseZIndex);
         }
     }
 
     private void _HandleHover(Card card, bool hovered) {
-        if (!hovered) {
-            card.HoverEffect(false);
-            if (_hoveredCard == card) {
-                _hoveredCard = null;
-                if (_previousCard != null) {
-                    _hoveredCard = _previousCard;
-                    _previousCard = null;
-                    _hoveredCard.HoverEffect(true);
-                }
-            }
-
-            if (_previousCard == card) {
-                _previousCard = null;
+        if (hovered) {
+            _hoveredCards.Add(card);
+            if (_cardHovered == null) {
+                _cardHovered = card;
+                _HoverEffect(card, true);
             }
         } else {
-            _hoveredCard?.HoverEffect(false);
-            _previousCard = _hoveredCard;
-            _hoveredCard = card;
-            _hoveredCard?.HoverEffect(true);
+            _hoveredCards.Remove(card);
+            _HoverEffect(card, false);
+            _cardHovered = null;
+
+            if (_hoveredCards.Count > 0) {
+                _cardHovered = _hoveredCards[^1];
+                _HoverEffect(_cardHovered, true);
+            }
+        }
+    }
+
+    private void _HoverEffect(Card card, bool hovered) {
+        if (hovered) {
+            card.HoverEffect(true);
+            card.ZIndex = CardBaseZIndex + _cardIndex[card] + HoverZIndexBoost;
+        } else {
+            card.HoverEffect(false);
+            card.ZIndex = CardBaseZIndex + _cardIndex[card];
         }
     }
 }

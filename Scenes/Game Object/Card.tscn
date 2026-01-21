@@ -6,10 +6,11 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ikfxq"]
 size = Vector2(1736, 2355)
 
-[node name="Card" type="Node2D" node_paths=PackedStringArray("_cardSprite", "_hitbox")]
+[node name="Card" type="Node2D" node_paths=PackedStringArray("_cardSprite", "_hitbox", "_collisionShape")]
 script = ExtResource("1_x7yhg")
 _cardSprite = NodePath("Card")
 _hitbox = NodePath("Area2D")
+_collisionShape = NodePath("Area2D/CollisionShape2D")
 
 [node name="Card" type="Sprite2D" parent="."]
 texture = ExtResource("1_ikfxq")

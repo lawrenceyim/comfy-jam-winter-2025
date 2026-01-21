@@ -9,9 +9,10 @@ public partial class Card : Node2D {
 
 	[Export]
 	private Area2D _hitbox;
+	
+	[Export]
+	private CollisionShape2D _collisionShape;
 
-	private int _hoveredZIndex = 5;
-	private int _regularZIndex = 1;
 	private Vector2 _hoveredScale = new(.06f, .06f);
 	private Vector2 _regularScale = new(.05f, .05f);
 
@@ -26,7 +27,10 @@ public partial class Card : Node2D {
 	}
 
 	public void HoverEffect(bool enable) {
-		ZIndex = enable ? +_hoveredZIndex : _regularZIndex;
 		Scale = enable ? _hoveredScale : _regularScale;
+	}
+
+	public void EnableHitBox(bool enable) {
+		_collisionShape.Disabled = !enable;
 	}
 }
