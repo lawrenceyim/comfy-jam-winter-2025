@@ -1,19 +1,29 @@
-[gd_scene load_steps=6 format=3 uid="uid://g0bau8iq3u3a"]
+[gd_scene load_steps=9 format=3 uid="uid://g0bau8iq3u3a"]
 
 [ext_resource type="Script" uid="uid://bsv1d8afi34cf" path="res://Scripts/Scenes/CookbookView.cs" id="1_d4bub"]
 [ext_resource type="Texture2D" uid="uid://kbdbyr4fhcgq" path="res://Assets/Sprites/Ui/Recipe Book.PNG" id="2_lla3a"]
 [ext_resource type="Texture2D" uid="uid://dcautseb7ggpu" path="res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG" id="3_ta3b0"]
 [ext_resource type="FontFile" uid="uid://dw6hev55tt3u" path="res://Assets/Fonts/Lonely_Coffee.ttf" id="4_66mh6"]
+[ext_resource type="Texture2D" uid="uid://b7jabph4cxpe0" path="res://Assets/Sprites/Ui/Back_exit.png" id="5_pk81f"]
+[ext_resource type="Texture2D" uid="uid://cx5bwt68gm85i" path="res://Assets/Sprites/Ui/Next pagebutton .png" id="6_h3emv"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_pk81f"]
 font = ExtResource("4_66mh6")
 font_size = 32
 font_color = Color(0, 0, 0, 1)
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_selectedRecipeSprite", "_selectedRecipeLabel")]
+[sub_resource type="LabelSettings" id="LabelSettings_66mh6"]
+font = ExtResource("4_66mh6")
+font_size = 32
+font_color = Color(0, 0, 0, 1)
+
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_selectedRecipeSprite", "_selectedRecipeLabel", "_exitButton", "_nextPageButton", "_lastPageButton")]
 script = ExtResource("1_d4bub")
 _selectedRecipeSprite = NodePath("Selected Recipe Sprite")
 _selectedRecipeLabel = NodePath("Select Recipe Name")
+_exitButton = NodePath("BackExit/Exit Button")
+_nextPageButton = NodePath("Next Page Button")
+_lastPageButton = NodePath("Last Page Button")
 
 [node name="RecipeBook" type="Sprite2D" parent="."]
 texture = ExtResource("2_lla3a")
@@ -33,3 +43,47 @@ text = "Recipe Name"
 label_settings = SubResource("LabelSettings_pk81f")
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Ingredients Label" type="Label" parent="."]
+offset_left = 683.0
+offset_top = 117.0
+offset_right = 1048.0
+offset_bottom = 158.0
+text = "Ingredients"
+label_settings = SubResource("LabelSettings_66mh6")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Next Page Button" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 209.0
+offset_top = 252.0
+offset_right = 257.0
+offset_bottom = 309.0
+
+[node name="Next Page Button" type="Sprite2D" parent="Next Page Button"]
+position = Vector2(16, 23)
+texture = ExtResource("6_h3emv")
+
+[node name="Last Page Button" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 213.0
+offset_top = 327.0
+offset_right = 261.0
+offset_bottom = 384.0
+
+[node name="Last Page Button" type="Sprite2D" parent="Last Page Button"]
+position = Vector2(32, 23)
+texture = ExtResource("6_h3emv")
+flip_h = true
+
+[node name="BackExit" type="Sprite2D" parent="."]
+position = Vector2(1239, 678)
+texture = ExtResource("5_pk81f")
+
+[node name="Exit Button" type="Button" parent="BackExit"]
+modulate = Color(1, 1, 1, 0)
+offset_left = -39.0
+offset_top = -39.0
+offset_right = 41.0
+offset_bottom = 42.0

@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://dtvyemnxyqab4"]
+[gd_scene load_steps=29 format=3 uid="uid://dtvyemnxyqab4"]
 
 [ext_resource type="Script" uid="uid://jn85514ajguy" path="res://Scripts/Repository/Impl/TextureRepository.cs" id="1_do7ye"]
 [ext_resource type="Texture2D" uid="uid://c8lcvc0f71gpg" path="res://Assets/Sprites/Ingredients/Beef.PNG" id="2_uhjre"]
@@ -26,6 +26,8 @@
 [ext_resource type="Texture2D" uid="uid://wueylyfuxrqr" path="res://Assets/Sprites/Recipe dish art/Tomato bisque .PNG" id="24_un1dr"]
 [ext_resource type="Texture2D" uid="uid://bxa4gkfhmiwpb" path="res://Assets/Sprites/Recipe dish art/Fried chicken.PNG" id="25_8lr78"]
 [ext_resource type="Texture2D" uid="uid://twrawvw2e3rm" path="res://Assets/Sprites/Recipe dish art/Pizza.PNG" id="26_hm0u7"]
+[ext_resource type="Texture2D" uid="uid://d11bl4kpxqj2d" path="res://Assets/Sprites/Recipe dish art/Unknown recipe.png" id="27_hm0u7"]
+[ext_resource type="Texture2D" uid="uid://didbtlfwheddr" path="res://Assets/Sprites/Ui/Unknown Ingredient Card.PNG" id="28_7gyfc"]
 
 [node name="TextureRepository" type="Node"]
 script = ExtResource("1_do7ye")
@@ -54,5 +56,7 @@ _textures = Dictionary[int, Texture2D]({
 30007: ExtResource("23_fofhi"),
 30008: ExtResource("24_un1dr"),
 30009: ExtResource("25_8lr78"),
-30010: ExtResource("26_hm0u7")
+30010: ExtResource("26_hm0u7"),
+40001: ExtResource("27_hm0u7"),
+40002: ExtResource("28_7gyfc")
 })

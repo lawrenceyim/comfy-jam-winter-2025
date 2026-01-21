@@ -1,8 +1,8 @@
-AudioStreamPlayer
+Button
 Label
+AudioStreamPlayer
 AnimatedSprite2D
 Sprite2D
-Button
 Camera2D
 Node2D
 CollisionShape2D

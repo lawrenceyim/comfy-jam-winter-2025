@@ -80,17 +80,7 @@ public partial class LivingRoomView : Node2D {
             return;
         }
 
-        TextureId recipeTextureId = recipeName switch {
-            RecipeName.Mistake => TextureId.Mistake,
-            RecipeName.ChickenNoodleSoup => TextureId.ChickenNoodleSoup,
-            RecipeName.FrenchFries => TextureId.FrenchFries,
-            RecipeName.FriedEgg => TextureId.FriedEgg,
-            RecipeName.GrilledCheese => TextureId.GrilledCheese,
-            RecipeName.Pancakes => TextureId.Pancakes,
-            RecipeName.Ramen => TextureId.Ramen,
-            RecipeName.SteakFrite => TextureId.SteakFrite,
-            RecipeName.TomatoBisque => TextureId.TomatoBisque,
-        };
+        TextureId recipeTextureId = RecipeUtil.GetTextureId(recipeName.Value);
 
         _food.Texture = _textureRepository.GetTexture(recipeTextureId);
     }
