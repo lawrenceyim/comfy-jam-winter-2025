@@ -41,4 +41,7 @@ public enum IngredientName {
     Ramen = 10_006,
     SteakFrite = 10_007,
     TomatoBisque = 10_008,
+
+    FriedChicken = 10_009,
+    Pizza = 10_010,
 }

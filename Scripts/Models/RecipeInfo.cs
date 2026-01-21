@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 
+// no art for ramen. make sure it doesn't get picked
 public static class RecipeInfo {
     private static readonly Dictionary<RecipeName, Recipe> _recipes = new() {
         {
@@ -95,6 +96,32 @@ public static class RecipeInfo {
                     { IngredientName.Tomato, 1 }
                 },
                 IngredientName.TomatoBisque)
+        },
+        {
+            RecipeName.Pizza, new Recipe(
+                RecipeName.Pizza,
+                TextureId.Pizza,
+                new Dictionary<IngredientName, int>() {
+                    { IngredientName.Bread, 1 },
+                    { IngredientName.Butter, 1 },
+                    { IngredientName.Cheese, 1 },
+                    { IngredientName.Onion, 1 },
+                    { IngredientName.Tomato, 1 }
+                },
+                IngredientName.Pizza)
+        },
+        {
+            RecipeName.FriedChicken, new Recipe(
+                RecipeName.FriedChicken,
+                TextureId.FriedChicken,
+                new Dictionary<IngredientName, int>() {
+                    { IngredientName.Butter, 1 },
+                    { IngredientName.Chicken, 1 },
+                    { IngredientName.Flour, 1 },
+                    { IngredientName.Pepper, 1 },
+                    { IngredientName.Salt, 1 }
+                },
+                IngredientName.FriedChicken)
         }
     };
 
@@ -142,4 +169,7 @@ public enum RecipeName {
     Ramen = 6,
     SteakFrite = 7,
     TomatoBisque = 8,
+
+    FriedChicken = 9,
+    Pizza = 10,
 }

@@ -43,4 +43,7 @@ public enum TextureId {
     Ramen = 30_006,
     SteakFrite = 30_007,
     TomatoBisque = 30_008,
+
+    FriedChicken = 30_009,
+    Pizza = 30_010,
 }
