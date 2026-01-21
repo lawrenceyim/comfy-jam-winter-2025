@@ -44,9 +44,6 @@ public partial class LivingRoomView : Node2D {
         _currencyLabel.Text = $"{_playerDataService.GetMoney()}";
         _playerDataService.MoneyUpdated += () => _currencyLabel.Text = $"{_playerDataService.GetMoney()}";
         _food.Texture = null;
-
-        // SetAnimalAnimation(AnimalView.AnimalAnimation.Eat);
-        // SetFood(RecipeName.ChickenNoodleSoup);
     }
 
     public void SetAnimalAnimation(AnimalView.AnimalAnimation animalAnimation) {

@@ -14,6 +14,9 @@ public partial class AnimalView : AnimatedSprite2D {
     [Export]
     private Label _speechLabel;
 
+    [Export]
+    private AudioStreamPlayer _dialogueAudioPlayer;
+
     public override void _Ready() {
         PlayAnimation(AnimalAnimation.Idle);
         DisplaySpeechBubble(false);
@@ -23,6 +26,9 @@ public partial class AnimalView : AnimatedSprite2D {
         _speechBubble.Visible = displayed;
         if (displayed) {
             _speechBubble.Play();
+            _dialogueAudioPlayer.Play();
+        } else {
+            _dialogueAudioPlayer.Stop();
         }
     }
 
@@ -39,5 +45,13 @@ public partial class AnimalView : AnimatedSprite2D {
         };
 
         Play(animationName);
+    }
+
+    private void _PlayDialogueAudio(bool play) {
+        if (play) {
+            _dialogueAudioPlayer.Play();
+        } else {
+            _dialogueAudioPlayer.Stop();
+        }
     }
 }
