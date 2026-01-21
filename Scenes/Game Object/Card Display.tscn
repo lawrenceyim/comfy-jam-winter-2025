@@ -1,9 +1,38 @@
-[gd_scene load_steps=3 format=3 uid="uid://dap5k58w0mp3h"]
+[gd_scene load_steps=6 format=3 uid="uid://dap5k58w0mp3h"]
 
 [ext_resource type="Script" uid="uid://c3hbiwdvehxi8" path="res://Scripts/Game Objects/CardDisplay.cs" id="1_ep3s6"]
 [ext_resource type="PackedScene" uid="uid://cog2hdaimqh72" path="res://Scenes/Game Object/Card.tscn" id="2_16byh"]
+[ext_resource type="Texture2D" uid="uid://ckh0jlgxmxuem" path="res://Assets/Sprites/Main menu/Ui for main menu.PNG" id="3_l5n0p"]
+[ext_resource type="FontFile" uid="uid://dw6hev55tt3u" path="res://Assets/Fonts/Lonely_Coffee.ttf" id="4_ehf6g"]
 
-[node name="Card Display" type="Node2D" node_paths=PackedStringArray("_testButton")]
+[sub_resource type="LabelSettings" id="LabelSettings_ao36q"]
+font = ExtResource("4_ehf6g")
+font_size = 48
+font_color = Color(0.7529412, 0.30980393, 0.11764706, 1)
+
+[node name="Card Display" type="Node2D" node_paths=PackedStringArray("_cookButton", "_cookButtonSprite")]
 script = ExtResource("1_ep3s6")
 _cardPrefab = ExtResource("2_16byh")
-_testButton = NodePath("")
+_cookButton = NodePath("Cook Button/Button")
+_cookButtonSprite = NodePath("Cook Button")
+
+[node name="Cook Button" type="Sprite2D" parent="."]
+position = Vector2(640, 600)
+texture = ExtResource("3_l5n0p")
+
+[node name="Button" type="Button" parent="Cook Button"]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -192.0
+offset_top = -53.774994
+offset_right = 189.0
+offset_bottom = 48.225006
+
+[node name="Label" type="Label" parent="Cook Button"]
+offset_left = -193.0
+offset_top = -53.774994
+offset_right = 190.0
+offset_bottom = 49.225006
+text = "Cook"
+label_settings = SubResource("LabelSettings_ao36q")
+horizontal_alignment = 1
+vertical_alignment = 1

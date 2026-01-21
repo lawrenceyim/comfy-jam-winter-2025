@@ -3,13 +3,14 @@ using Godot;
 
 public partial class Card : Node2D {
 	public event Action<Card, bool> Hovered;
+	public IngredientName IngredientName { get; set; }
 
 	[Export]
 	private Sprite2D _cardSprite;
 
 	[Export]
 	private Area2D _hitbox;
-	
+
 	[Export]
 	private CollisionShape2D _collisionShape;
 

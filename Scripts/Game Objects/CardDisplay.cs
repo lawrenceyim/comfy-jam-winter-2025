@@ -10,6 +10,12 @@ public partial class CardDisplay : Node {
 	[Export]
 	private PackedScene _cardPrefab;
 
+	[Export]
+	private Button _cookButton;
+
+	[Export]
+	private Sprite2D _cookButtonSprite;
+
 	private TextureRepository _textureRepository;
 
 	private static readonly IngredientName[] _ingredients = IngredientUtil.GetIngredientNames();
@@ -27,11 +33,12 @@ public partial class CardDisplay : Node {
 	private Card _cardHovered = null;
 	private int _selectedCardYOffset = 100;
 
-
 	public override void _Ready() {
 		ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
 		RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
 		_textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
+		_cookButton.Pressed += _Cook;
+		_DisplayCookButton();
 		_InitIngredients();
 	}
 
@@ -60,7 +67,15 @@ public partial class CardDisplay : Node {
 			int x = xStart + i * (_xOffset + _cardWidth);
 			card.Position = new Vector2(x, _ySpawn);
 			card.Hovered += _HandleHover;
-			card.SetZIndex(i + CardBaseZIndex);
+			card.ZIndex = i + CardBaseZIndex;
+			card.IngredientName = _ingredients[i];
+		}
+	}
+
+	private void _Cook() {
+		GD.Print($"Cooking: {_selectedCards}");
+		foreach (Card card in _selectedCards) {
+			GD.Print($"{card.IngredientName}");
 		}
 	}
 
@@ -83,6 +98,11 @@ public partial class CardDisplay : Node {
 		}
 	}
 
+	private void _DisplayCookButton() {
+		_cookButtonSprite.Visible = _selectedCards.Count > 0;
+		_cookButton.Visible = _selectedCards.Count > 0;
+	}
+
 	private void _HoverEffect(Card card, bool hovered) {
 		if (hovered) {
 			card.HoverEffect(true);
@@ -102,6 +122,8 @@ public partial class CardDisplay : Node {
 				_selectedCards.Add(_cardHovered);
 				_cardHovered.Position = new Vector2(_cardHovered.Position.X, _cardHovered.Position.Y - 100);
 			}
+
+			_DisplayCookButton();
 		}
 	}
 }
