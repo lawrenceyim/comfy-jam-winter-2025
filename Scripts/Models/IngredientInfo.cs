@@ -12,6 +12,7 @@ public static class IngredientInfo {
 
 public record Ingredient(IngredientName Name, int Cost, TextureId TextureId);
 
+// Noodle removed from ingredients because Ramen isn't a thing anymore
 public enum IngredientName {
     Beef = 1,
     Bread = 2,
@@ -23,7 +24,6 @@ public enum IngredientName {
     Flour = 8,
     Garlic = 9,
     Milk = 10,
-    Noodle = 11,
     Onion = 12,
     Pasta = 13,
     Pepper = 14,
@@ -38,7 +38,6 @@ public enum IngredientName {
     FriedEgg = 10_003,
     GrilledCheese = 10_004,
     Pancakes = 10_005,
-    Ramen = 10_006,
     SteakFrite = 10_007,
     TomatoBisque = 10_008,
 

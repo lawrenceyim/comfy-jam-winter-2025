@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://bvj3ogj4bpnra" path="res://Scripts/Game Objects/Card.cs" id="1_x7yhg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ikfxq"]
-size = Vector2(174, 236)
+size = Vector2(1736, 2355)
 
 [node name="Card" type="Node2D" node_paths=PackedStringArray("_cardSprite", "_hitbox")]
 script = ExtResource("1_x7yhg")
@@ -12,12 +12,11 @@ _cardSprite = NodePath("Card")
 _hitbox = NodePath("Area2D")
 
 [node name="Card" type="Sprite2D" parent="."]
-scale = Vector2(0.1, 0.1)
 texture = ExtResource("1_ikfxq")
 centered = false
 
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(93, 125)
+position = Vector2(935, 1251.5)
 shape = SubResource("RectangleShape2D_ikfxq")

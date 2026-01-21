@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Godot;
 using RepositorySystem;
@@ -9,12 +10,14 @@ public partial class CardDisplay : Node {
 
     private TextureRepository _textureRepository;
 
+    private static IngredientName[] Ingredients = IngredientUtil.GetIngredientNames();
     private Card? _hoveredCard = null;
     private Card? _previousCard = null;
-    private List<Card> _cards = [];
+    private Card[] _cards = new Card[Ingredients.Length];
+    private bool[] _selectedCards = new bool[Ingredients.Length];
 
-    private int _cardWidth = 186;
-    private int _xOffset = 20;
+    private int _cardWidth = 93;
+    private int _xOffset = -25;
     private int _xCenter = 640;
     private int _ySpawn = 400;
 
@@ -22,34 +25,26 @@ public partial class CardDisplay : Node {
         ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
         RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
         _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
-
-        DisplayCards(new List<IngredientName>() {
-            IngredientName.Beef,
-            IngredientName.Carrots,
-            IngredientName.Cheese
-        });
+        _InitIngredients();
     }
 
     public void ClearCards() {
-        for (int i = 0; i < _cards.Count; i++) {
-            _cards[i].QueueFree();
+        for (int i = 0; i < _cards.Length; i++) {
+            _cards[i].Visible = false;
         }
-
-        _cards.Clear();
     }
 
-    public void DisplayCards(List<IngredientName> ingredients) {
-        int totalWidth = ingredients.Count * _cardWidth + (ingredients.Count - 1) * _xOffset;
+    public void _InitIngredients() {
+        int totalWidth = Ingredients.Length * _cardWidth + (Ingredients.Length - 1) * _xOffset;
         int xStart = _xCenter - totalWidth / 2;
 
-        for (int i = 0; i < ingredients.Count; i++) {
+        for (int i = 0; i < Ingredients.Length; i++) {
             Card card = (Card)_cardPrefab.Instantiate();
-            card.SetTexture(_textureRepository.GetTexture(IngredientUtil.GetTextureId(ingredients[i])));
+            card.SetTexture(_textureRepository.GetTexture(IngredientUtil.GetTextureId(Ingredients[i])));
             AddChild(card);
             int x = xStart + i * (_xOffset + _cardWidth);
             card.Position = new Vector2(x, _ySpawn);
             card.Hovered += _HandleHover;
-            _cards.Add(card);
         }
     }
 

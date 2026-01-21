@@ -85,20 +85,21 @@ texture = ExtResource("7_l8axc")
 centered = false
 
 [node name="Kitchen Button" type="TextureButton" parent="."]
-offset_left = 1060.0
-offset_top = 172.0
-offset_right = 1268.0
-offset_bottom = 318.0
+offset_left = 1057.0
+offset_top = 23.0
+offset_right = 1265.0
+offset_bottom = 169.0
 texture_normal = ExtResource("11_psyic")
 texture_hover = ExtResource("12_ixj0i")
 ignore_texture_size = true
 stretch_mode = 3
 
 [node name="Store Button" type="TextureButton" parent="."]
+visible = false
 offset_left = 1057.0
-offset_top = 23.0
+offset_top = 190.0
 offset_right = 1260.0
-offset_bottom = 158.0
+offset_bottom = 325.0005
 texture_normal = ExtResource("13_lm0du")
 texture_hover = ExtResource("14_l8axc")
 ignore_texture_size = true

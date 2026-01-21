@@ -62,17 +62,6 @@ public static class RecipeInfo {
                 },
                 IngredientName.Pancakes)
         }, {
-            RecipeName.Ramen, new Recipe(
-                RecipeName.Ramen,
-                TextureId.Ramen,
-                new Dictionary<IngredientName, int>() {
-                    { IngredientName.Carrots, 1 },
-                    { IngredientName.Chicken, 1 },
-                    { IngredientName.Egg, 1 },
-                    { IngredientName.Noodle, 1 }
-                },
-                IngredientName.Ramen)
-        }, {
             RecipeName.SteakFrite, new Recipe(
                 RecipeName.SteakFrite,
                 TextureId.SteakFrite,

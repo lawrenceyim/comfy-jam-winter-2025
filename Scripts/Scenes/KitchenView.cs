@@ -6,6 +6,9 @@ public partial class KitchenView : Node2D {
     [Export]
     private TextureButton _cookBookButton;
 
+    [Export]
+    private CardDisplay _cardDisplay;
+
     private TextureRepository _textureRepository;
     private PlayerDataService _playerDataService;
     private SceneManager _sceneManager;

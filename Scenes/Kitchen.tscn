@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://ctqlhjclmb4pq"]
+[gd_scene load_steps=8 format=3 uid="uid://ctqlhjclmb4pq"]
 
 [ext_resource type="Script" uid="uid://cj1sbne2v8qnl" path="res://Scripts/Scenes/KitchenView.cs" id="1_2v58e"]
 [ext_resource type="Texture2D" uid="uid://kp3ghfuw6emp" path="res://Assets/Sprites/Kitchen/IMG_6094.PNG" id="2_uxyhd"]
@@ -6,10 +6,12 @@
 [ext_resource type="Texture2D" uid="uid://bk8pglkbbmkie" path="res://Assets/Sprites/Kitchen/Sink.PNG" id="4_6fiwt"]
 [ext_resource type="Texture2D" uid="uid://dhck2y8whis2a" path="res://Assets/Sprites/Ui/Book Button_Closed.png" id="5_a5466"]
 [ext_resource type="Texture2D" uid="uid://bjdqe1ch3k3y6" path="res://Assets/Sprites/Ui/Book Button_Open.png" id="6_6fiwt"]
+[ext_resource type="PackedScene" uid="uid://dap5k58w0mp3h" path="res://Scenes/Game Object/Card Display.tscn" id="7_6fiwt"]
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton")]
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton", "_cardDisplay")]
 script = ExtResource("1_2v58e")
 _cookBookButton = NodePath("Book Button")
+_cardDisplay = NodePath("Card Display")
 
 [node name="Background" type="Sprite2D" parent="."]
 texture = ExtResource("2_uxyhd")
@@ -34,3 +36,5 @@ texture_normal = ExtResource("5_a5466")
 texture_hover = ExtResource("6_6fiwt")
 ignore_texture_size = true
 stretch_mode = 3
+
+[node name="Card Display" parent="." instance=ExtResource("7_6fiwt")]

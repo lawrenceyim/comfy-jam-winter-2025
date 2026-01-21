@@ -11,7 +11,6 @@ public class IngredientUtil {
             IngredientName.Flour => TextureId.Flour,
             IngredientName.Garlic => TextureId.Garlic,
             IngredientName.Milk => TextureId.Milk,
-            IngredientName.Noodle => TextureId.Noodle,
             IngredientName.Onion => TextureId.Onion,
             IngredientName.Pasta => TextureId.Pasta,
             IngredientName.Pepper => TextureId.Pepper,
@@ -22,5 +21,26 @@ public class IngredientUtil {
             // fallback
             _ => TextureId.Beef,
         };
+    }
+
+    public static IngredientName[] GetIngredientNames() {
+        return [
+            IngredientName.Beef,
+            IngredientName.Bread,
+            IngredientName.Butter,
+            IngredientName.Carrots,
+            IngredientName.Cheese,
+            IngredientName.Chicken,
+            IngredientName.Egg,
+            IngredientName.Flour,
+            IngredientName.Garlic,
+            IngredientName.Milk,
+            IngredientName.Onion,
+            IngredientName.Pasta,
+            IngredientName.Pepper,
+            IngredientName.Potato,
+            IngredientName.Salt,
+            IngredientName.Tomato
+        ];
     }
 }

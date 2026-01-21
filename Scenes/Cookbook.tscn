@@ -34,7 +34,7 @@ font_color = Color(0, 0, 0, 1)
 script = ExtResource("1_d4bub")
 _selectedRecipeSprite = NodePath("Selected Recipe Sprite")
 _selectedRecipeLabel = NodePath("Select Recipe Name")
-_exitButton = NodePath("BackExit/Exit Button")
+_exitButton = NodePath("Exit Button")
 _nextPageButton = NodePath("Next Page Button")
 _lastPageButton = NodePath("Last Page Button")
 _kitchenBackground = NodePath("Background/Kitchen Background")
@@ -92,16 +92,16 @@ position = Vector2(32, 23)
 texture = ExtResource("6_h3emv")
 flip_h = true
 
-[node name="BackExit" type="Sprite2D" parent="."]
-position = Vector2(1239, 678)
-texture = ExtResource("5_pk81f")
+[node name="Exit Button" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 1200.0
+offset_top = 639.0
+offset_right = 1280.0
+offset_bottom = 720.0
 
-[node name="Exit Button" type="Button" parent="BackExit"]
-modulate = Color(1, 1, 1, 0)
-offset_left = -39.0
-offset_top = -39.0
-offset_right = 41.0
-offset_bottom = 42.0
+[node name="BackExit" type="Sprite2D" parent="Exit Button"]
+position = Vector2(39, 39)
+texture = ExtResource("5_pk81f")
 
 [node name="Background" type="Node2D" parent="."]
 modulate = Color(0.3779188, 0.3779189, 0.37791875, 1)
