@@ -28,10 +28,10 @@ texture = ExtResource("4_6fiwt")
 centered = false
 
 [node name="Book Button" type="TextureButton" parent="."]
-offset_left = 1092.0
-offset_top = 509.0
-offset_right = 1254.0
-offset_bottom = 709.0
+offset_left = 1108.0
+offset_top = 517.0
+offset_right = 1270.0
+offset_bottom = 717.0
 texture_normal = ExtResource("5_a5466")
 texture_hover = ExtResource("6_6fiwt")
 ignore_texture_size = true
