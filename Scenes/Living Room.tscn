@@ -144,7 +144,7 @@ vertical_alignment = 1
 
 [node name="Animal" parent="." instance=ExtResource("10_7l0fx")]
 z_index = 1
-position = Vector2(610, 470)
+position = Vector2(540, 466)
 animation = &"Idle"
 
 [node name="Food" type="Sprite2D" parent="."]

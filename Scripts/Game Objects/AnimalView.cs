@@ -8,8 +8,26 @@ public partial class AnimalView : AnimatedSprite2D {
         Talk,
     }
 
+    [Export]
+    private AnimatedSprite2D _speechBubble;
+
+    [Export]
+    private Label _speechLabel;
+
     public override void _Ready() {
         PlayAnimation(AnimalAnimation.Idle);
+        DisplaySpeechBubble(false);
+    }
+
+    public void DisplaySpeechBubble(bool displayed) {
+        _speechBubble.Visible = displayed;
+        if (displayed) {
+            _speechBubble.Play();
+        }
+    }
+
+    public void SetSpeechLabel(string text) {
+        _speechLabel.Text = text;
     }
 
     public void PlayAnimation(AnimalAnimation animation) {

@@ -44,7 +44,7 @@ public partial class LivingRoomView : Node2D {
         _currencyLabel.Text = $"{_playerDataService.GetMoney()}";
         _playerDataService.MoneyUpdated += () => _currencyLabel.Text = $"{_playerDataService.GetMoney()}";
         _food.Texture = null;
-        
+
         // SetAnimalAnimation(AnimalView.AnimalAnimation.Eat);
         // SetFood(RecipeName.ChickenNoodleSoup);
     }
@@ -54,12 +54,27 @@ public partial class LivingRoomView : Node2D {
             case AnimalView.AnimalAnimation.Eat:
                 _animal.Position = _eatingAnimalPosition;
                 break;
+            case AnimalView.AnimalAnimation.Talk:
+                _animal.DisplaySpeechBubble(true);
+                break;
             default:
                 _animal.Position = _regularAnimalPosition;
                 break;
         }
 
         _animal.PlayAnimation(animalAnimation);
+    }
+
+    public void DisplaySpeech(bool animalSpeech, string text) {
+        if (animalSpeech) {
+            SetAnimalAnimation(AnimalView.AnimalAnimation.Talk);
+            _animal.SetSpeechLabel(text);
+            // hide player text
+        } else {
+            // show player text
+            SetAnimalAnimation(AnimalView.AnimalAnimation.Idle);
+            _animal.DisplaySpeechBubble(false);
+        }
     }
 
     public void SetFood(RecipeName? recipeName) {

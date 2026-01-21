@@ -1,10 +1,12 @@
-[gd_scene load_steps=21 format=3 uid="uid://h4kimr8vtood"]
+[gd_scene load_steps=27 format=3 uid="uid://h4kimr8vtood"]
 
 [ext_resource type="Texture2D" uid="uid://cpi3vr5fn57e2" path="res://Assets/Sprites/Main character/Idle(4fps).PNG" id="1_6t8oy"]
 [ext_resource type="Texture2D" uid="uid://c3vs1ot1mpaol" path="res://Assets/Sprites/Main character/Eating(4fps).PNG" id="1_nahv1"]
 [ext_resource type="Texture2D" uid="uid://burqhw533ufd1" path="res://Assets/Sprites/Main character/Walk(4fps).PNG" id="2_5ktbf"]
 [ext_resource type="Texture2D" uid="uid://du8kj7xfahr8a" path="res://Assets/Sprites/Main character/Talking(4fps).PNG" id="2_rb6q6"]
 [ext_resource type="Script" uid="uid://ukimgoc602xn" path="res://Scripts/Game Objects/AnimalView.cs" id="3_m8jgg"]
+[ext_resource type="Texture2D" uid="uid://de20ia8fl757c" path="res://Assets/Sprites/Ui/Speech bubble(4fps).PNG" id="6_665ow"]
+[ext_resource type="FontFile" uid="uid://dw6hev55tt3u" path="res://Assets/Fonts/Lonely_Coffee.ttf" id="7_hv7xd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yr0tu"]
 atlas = ExtResource("1_nahv1")
@@ -127,7 +129,50 @@ animations = [{
 "speed": 4.0
 }]
 
-[node name="Animal" type="AnimatedSprite2D"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_te1kh"]
+atlas = ExtResource("6_665ow")
+region = Rect2(536, 0, 536, 292)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tm3sh"]
+atlas = ExtResource("6_665ow")
+region = Rect2(0, 0, 536, 292)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_te1kh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_te1kh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tm3sh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
+
+[sub_resource type="LabelSettings" id="LabelSettings_srou2"]
+font = ExtResource("7_hv7xd")
+font_size = 26
+font_color = Color(0, 0, 0, 1)
+
+[node name="Animal" type="AnimatedSprite2D" node_paths=PackedStringArray("_speechBubble", "_speechLabel")]
 sprite_frames = SubResource("SpriteFrames_fivnj")
 animation = &"Walk"
 script = ExtResource("3_m8jgg")
+_speechBubble = NodePath("Talk Sprite")
+_speechLabel = NodePath("Talk Sprite/Label")
+
+[node name="Talk Sprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(274, -311)
+sprite_frames = SubResource("SpriteFrames_te1kh")
+frame = 1
+frame_progress = 0.8221541
+
+[node name="Label" type="Label" parent="Talk Sprite"]
+offset_left = -168.0
+offset_top = -48.0
+offset_right = 163.0
+offset_bottom = 41.0
+text = "placeholder text"
+label_settings = SubResource("LabelSettings_srou2")
