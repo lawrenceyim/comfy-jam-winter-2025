@@ -1,13 +1,15 @@
-[gd_scene load_steps=6 format=3 uid="uid://ctqlhjclmb4pq"]
+[gd_scene load_steps=7 format=3 uid="uid://ctqlhjclmb4pq"]
 
 [ext_resource type="Script" uid="uid://cj1sbne2v8qnl" path="res://Scripts/Scenes/KitchenView.cs" id="1_2v58e"]
 [ext_resource type="Texture2D" uid="uid://kp3ghfuw6emp" path="res://Assets/Sprites/Kitchen/IMG_6094.PNG" id="2_uxyhd"]
 [ext_resource type="Texture2D" uid="uid://diiyfg1biksd7" path="res://Assets/Sprites/Kitchen/Stove.PNG" id="3_a5466"]
 [ext_resource type="Texture2D" uid="uid://bk8pglkbbmkie" path="res://Assets/Sprites/Kitchen/Sink.PNG" id="4_6fiwt"]
-[ext_resource type="Texture2D" uid="uid://ddeog2ihh6csb" path="res://Assets/Sprites/Kitchen/Layout.PNG" id="5_b6yew"]
+[ext_resource type="Texture2D" uid="uid://dhck2y8whis2a" path="res://Assets/Sprites/Ui/Book Button_Closed.png" id="5_a5466"]
+[ext_resource type="Texture2D" uid="uid://bjdqe1ch3k3y6" path="res://Assets/Sprites/Ui/Book Button_Open.png" id="6_6fiwt"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton")]
 script = ExtResource("1_2v58e")
+_cookBookButton = NodePath("Book Button")
 
 [node name="Background" type="Sprite2D" parent="."]
 texture = ExtResource("2_uxyhd")
@@ -23,7 +25,12 @@ position = Vector2(6, 131)
 texture = ExtResource("4_6fiwt")
 centered = false
 
-[node name="Layout" type="Sprite2D" parent="."]
-visible = false
-texture = ExtResource("5_b6yew")
-centered = false
+[node name="Book Button" type="TextureButton" parent="."]
+offset_left = 1092.0
+offset_top = 509.0
+offset_right = 1254.0
+offset_bottom = 709.0
+texture_normal = ExtResource("5_a5466")
+texture_hover = ExtResource("6_6fiwt")
+ignore_texture_size = true
+stretch_mode = 3

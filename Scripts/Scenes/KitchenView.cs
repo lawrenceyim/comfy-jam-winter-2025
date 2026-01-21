@@ -3,6 +3,9 @@ using RepositorySystem;
 using ServiceSystem;
 
 public partial class KitchenView : Node2D {
+    [Export]
+    private TextureButton _cookBookButton;
+
     private TextureRepository _textureRepository;
     private PlayerDataService _playerDataService;
     private SceneManager _sceneManager;
@@ -16,5 +19,7 @@ public partial class KitchenView : Node2D {
 
         RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
         _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
+
+        _cookBookButton.Pressed += () => _sceneManager.ChangeScene(SceneId.CookBoox);
     }
 }
