@@ -9,7 +9,7 @@
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_2v58e")
 
-[node name="Img6094" type="Sprite2D" parent="."]
+[node name="Background" type="Sprite2D" parent="."]
 texture = ExtResource("2_uxyhd")
 centered = false
 

@@ -19,6 +19,12 @@ public partial class CookbookView : Node2D {
 	[Export]
 	private Button _lastPageButton;
 
+	[Export]
+	private Node2D _kitchenBackground;
+
+	[Export]
+	private Node2D _livingRoomBackground;
+
 	private TextureRepository _textureRepository;
 	private PlayerDataService _playerDataService;
 	private SceneManager _sceneManager;
@@ -46,6 +52,7 @@ public partial class CookbookView : Node2D {
 		_lastPageButton.Pressed += () => _NavigatePage(false);
 		_exitButton.Pressed += () => _sceneManager.ChangeToPreviousScene();
 
+		_SetBackground();
 		_InitIngredientCards();
 		_DisplayPageNavButtons();
 		SetSelectedRecipe(RecipeUtil.GetRecipeNameSorted(_currentPage));
@@ -129,6 +136,18 @@ public partial class CookbookView : Node2D {
 
 			sprite.Position = new Vector2(x, y);
 			sprite.Scale = _ingredientCardScale;
+		}
+	}
+
+	private void _SetBackground() {
+		SceneId previousScene = _sceneManager.GetPreviousSceneId();
+		switch (previousScene) {
+			case SceneId.LivingRoom:
+				_livingRoomBackground.Visible = true;
+				break;
+			case SceneId.Kitchen:
+				_kitchenBackground.Visible = true;
+				break;
 		}
 	}
 }

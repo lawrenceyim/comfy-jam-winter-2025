@@ -27,4 +27,12 @@ public class SceneManager : IService {
     public void ChangeScene(SceneId sceneId) {
         (Engine.GetMainLoop() as SceneTree)?.ChangeSceneToPacked(_sceneRepository.GetPackedScene(sceneId));
     }
+
+    public SceneId GetCurrentSceneId() {
+        return _currentSceneId;
+    }
+
+    public SceneId GetPreviousSceneId() {
+        return _previousSceneId;
+    }
 }

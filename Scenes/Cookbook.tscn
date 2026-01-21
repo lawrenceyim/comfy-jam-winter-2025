@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://g0bau8iq3u3a"]
+[gd_scene load_steps=22 format=3 uid="uid://g0bau8iq3u3a"]
 
 [ext_resource type="Script" uid="uid://bsv1d8afi34cf" path="res://Scripts/Scenes/CookbookView.cs" id="1_d4bub"]
 [ext_resource type="Texture2D" uid="uid://kbdbyr4fhcgq" path="res://Assets/Sprites/Ui/Recipe Book.PNG" id="2_lla3a"]
@@ -6,6 +6,19 @@
 [ext_resource type="FontFile" uid="uid://dw6hev55tt3u" path="res://Assets/Fonts/Lonely_Coffee.ttf" id="4_66mh6"]
 [ext_resource type="Texture2D" uid="uid://b7jabph4cxpe0" path="res://Assets/Sprites/Ui/Back_exit.png" id="5_pk81f"]
 [ext_resource type="Texture2D" uid="uid://cx5bwt68gm85i" path="res://Assets/Sprites/Ui/Next pagebutton .png" id="6_h3emv"]
+[ext_resource type="Texture2D" uid="uid://byw115ebpmag3" path="res://Assets/Sprites/Living room/IMG_6035.PNG" id="7_6aidv"]
+[ext_resource type="Texture2D" uid="uid://kp3ghfuw6emp" path="res://Assets/Sprites/Kitchen/IMG_6094.PNG" id="7_tcfhk"]
+[ext_resource type="Texture2D" uid="uid://diiyfg1biksd7" path="res://Assets/Sprites/Kitchen/Stove.PNG" id="8_84cnx"]
+[ext_resource type="Texture2D" uid="uid://dgyts6eol2mu5" path="res://Assets/Sprites/Living room/IMG_6044.png" id="8_lf4y4"]
+[ext_resource type="Texture2D" uid="uid://twcpo25p53v" path="res://Assets/Sprites/Living room/IMG_6046.png" id="9_2qmtc"]
+[ext_resource type="Texture2D" uid="uid://bk8pglkbbmkie" path="res://Assets/Sprites/Kitchen/Sink.PNG" id="9_wxnwy"]
+[ext_resource type="Texture2D" uid="uid://ddeog2ihh6csb" path="res://Assets/Sprites/Kitchen/Layout.PNG" id="10_nj16m"]
+[ext_resource type="Texture2D" uid="uid://c531mqlm5jtya" path="res://Assets/Sprites/Living room/IMG_6047.png" id="10_x8yes"]
+[ext_resource type="Texture2D" uid="uid://dfylkspxjj1y5" path="res://Assets/Sprites/Living room/IMG_6045.png" id="11_tcfhk"]
+[ext_resource type="Texture2D" uid="uid://cdiu3j0pl58p" path="res://Assets/Sprites/Living room/IMG_6048.png" id="12_84cnx"]
+[ext_resource type="Texture2D" uid="uid://bdiwjb2asnojm" path="res://Assets/Sprites/Living room/IMG_6050.png" id="13_wxnwy"]
+[ext_resource type="PackedScene" uid="uid://1ymxx4pf5ek3" path="res://Scenes/Game Object/Furnace.tscn" id="14_nj16m"]
+[ext_resource type="Texture2D" uid="uid://dskkha1yi4sis" path="res://Assets/Sprites/Living room/IMG_6049.png" id="15_pm0gs"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_pk81f"]
 font = ExtResource("4_66mh6")
@@ -17,13 +30,15 @@ font = ExtResource("4_66mh6")
 font_size = 32
 font_color = Color(0, 0, 0, 1)
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_selectedRecipeSprite", "_selectedRecipeLabel", "_exitButton", "_nextPageButton", "_lastPageButton")]
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_selectedRecipeSprite", "_selectedRecipeLabel", "_exitButton", "_nextPageButton", "_lastPageButton", "_kitchenBackground", "_livingRoomBackground")]
 script = ExtResource("1_d4bub")
 _selectedRecipeSprite = NodePath("Selected Recipe Sprite")
 _selectedRecipeLabel = NodePath("Select Recipe Name")
 _exitButton = NodePath("BackExit/Exit Button")
 _nextPageButton = NodePath("Next Page Button")
 _lastPageButton = NodePath("Last Page Button")
+_kitchenBackground = NodePath("Background/Kitchen Background")
+_livingRoomBackground = NodePath("Background/Living Room Background")
 
 [node name="RecipeBook" type="Sprite2D" parent="."]
 texture = ExtResource("2_lla3a")
@@ -87,3 +102,74 @@ offset_left = -39.0
 offset_top = -39.0
 offset_right = 41.0
 offset_bottom = 42.0
+
+[node name="Background" type="Node2D" parent="."]
+modulate = Color(0.3779188, 0.3779189, 0.37791875, 1)
+z_index = -10
+
+[node name="Kitchen Background" type="Node2D" parent="Background"]
+visible = false
+
+[node name="Background" type="Sprite2D" parent="Background/Kitchen Background"]
+texture = ExtResource("7_tcfhk")
+centered = false
+
+[node name="Stove" type="Sprite2D" parent="Background/Kitchen Background"]
+position = Vector2(392, 332)
+texture = ExtResource("8_84cnx")
+centered = false
+
+[node name="Sink" type="Sprite2D" parent="Background/Kitchen Background"]
+position = Vector2(6, 131)
+texture = ExtResource("9_wxnwy")
+centered = false
+
+[node name="Layout" type="Sprite2D" parent="Background/Kitchen Background"]
+visible = false
+texture = ExtResource("10_nj16m")
+centered = false
+
+[node name="Living Room Background" type="Node2D" parent="Background"]
+visible = false
+
+[node name="Background" type="Sprite2D" parent="Background/Living Room Background"]
+texture = ExtResource("7_6aidv")
+centered = false
+
+[node name="Window" type="Sprite2D" parent="Background/Living Room Background"]
+position = Vector2(234, 0)
+texture = ExtResource("8_lf4y4")
+centered = false
+
+[node name="Shelf" type="Sprite2D" parent="Background/Living Room Background"]
+texture = ExtResource("9_2qmtc")
+centered = false
+
+[node name="Drawer with plant" type="Sprite2D" parent="Background/Living Room Background"]
+position = Vector2(829, 159)
+texture = ExtResource("10_x8yes")
+centered = false
+
+[node name="Carpet" type="Sprite2D" parent="Background/Living Room Background"]
+position = Vector2(610, 593)
+texture = ExtResource("11_tcfhk")
+
+[node name="Futon" type="Sprite2D" parent="Background/Living Room Background"]
+position = Vector2(-23, 247)
+texture = ExtResource("12_84cnx")
+centered = false
+
+[node name="Furnace glow?" type="Sprite2D" parent="Background/Living Room Background"]
+visible = false
+position = Vector2(88, 0)
+texture = ExtResource("13_wxnwy")
+centered = false
+
+[node name="Chimney" parent="Background/Living Room Background" instance=ExtResource("14_nj16m")]
+centered = false
+offset = Vector2(955, 0)
+
+[node name="Coffee table" type="Sprite2D" parent="Background/Living Room Background"]
+position = Vector2(143, 348)
+texture = ExtResource("15_pm0gs")
+centered = false
