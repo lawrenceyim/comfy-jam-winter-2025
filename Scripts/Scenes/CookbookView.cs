@@ -78,8 +78,8 @@ public partial class CookbookView : Node2D {
 		bool discovered = _playerDataService.IsRecipeDiscovered(recipeName);
 
 		_selectedRecipeLabel.Text = discovered
-			? StringUtils.SplitPascalCase(recipe.Name.ToString())
-			: "?";
+			? $"{_currentPage}. {StringUtils.SplitPascalCase(recipe.Name.ToString())}"
+			: $"{_currentPage}. ?";
 
 		TextureId textureId = discovered
 			? RecipeUtil.GetTextureId(recipeName)
