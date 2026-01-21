@@ -34,12 +34,16 @@ public partial class LivingRoomView : Node2D {
     public override void _Ready() {
         ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
         _sceneManager = serviceLocator.GetService<SceneManager>();
+        _sceneManager.SetCurrentSceneId(SceneId.LivingRoom);
+
         RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
         _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
         _playerDataService = serviceLocator.GetService<PlayerDataService>();
 
         _storeButton.Pressed += () => _sceneManager.ChangeScene(SceneId.Store);
         _kitchenButton.Pressed += () => _sceneManager.ChangeScene(SceneId.Kitchen);
+        _bookButton.Pressed += () => _sceneManager.ChangeScene(SceneId.CookBoox);
+
         _dayLabel.Text = $"{_playerDataService.GetDay()}";
         _currencyLabel.Text = $"{_playerDataService.GetMoney()}";
         _playerDataService.MoneyUpdated += () => _currencyLabel.Text = $"{_playerDataService.GetMoney()}";

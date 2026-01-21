@@ -18,4 +18,6 @@ public enum SceneId {
     LivingRoom = 1_001,
     Kitchen = 1_002,
     Store = 1_003,
+    CookBoox = 1_004,
+    Inventory = 1_005,
 }

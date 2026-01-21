@@ -21,6 +21,7 @@ public partial class CookbookView : Node2D {
 
 	private TextureRepository _textureRepository;
 	private PlayerDataService _playerDataService;
+	private SceneManager _sceneManager;
 
 	private static readonly Vector2 _ingredientCardScale = new Vector2(.065f, .065f);
 	private Sprite2D[] _ingredientCards = new Sprite2D[6];
@@ -34,12 +35,16 @@ public partial class CookbookView : Node2D {
 	public override void _Ready() {
 		ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
 		_playerDataService = serviceLocator.GetService<PlayerDataService>();
+
+		_sceneManager = serviceLocator.GetService<SceneManager>();
+		_sceneManager.SetCurrentSceneId(SceneId.CookBoox);
+
 		RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
 		_textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
 
 		_nextPageButton.Pressed += () => _NavigatePage(true);
 		_lastPageButton.Pressed += () => _NavigatePage(false);
-		_exitButton.Pressed += () => { }; // TODO: Implement closing book and returning to previous scene
+		_exitButton.Pressed += () => _sceneManager.ChangeToPreviousScene();
 
 		_InitIngredientCards();
 		_DisplayPageNavButtons();
