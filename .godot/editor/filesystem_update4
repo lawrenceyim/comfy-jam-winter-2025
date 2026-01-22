@@ -17,3 +17,5 @@ res://Scripts/Scenes/MainMenu.cs
 res://Scripts/Scenes/StoreView.cs
 res://Scripts/Game Objects/Card.cs
 res://Scripts/Repository/Impl/SceneRepository.cs
+res://Scenes/Game Object/Card Display.tscn
+res://Scenes/Kitchen.tscn

@@ -14,8 +14,8 @@ public partial class Card : Node2D {
 	[Export]
 	private CollisionShape2D _collisionShape;
 
-	private Vector2 _hoveredScale = new(.06f, .06f);
-	private Vector2 _regularScale = new(.05f, .05f);
+	private Vector2 _hoveredScale = new(.11f, .11f);
+	private Vector2 _regularScale = new(.1f, .1f);
 
 	public override void _Ready() {
 		_hitbox.MouseEntered += () => Hovered?.Invoke(this, true);

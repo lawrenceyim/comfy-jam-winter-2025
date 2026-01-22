@@ -66,5 +66,7 @@ public class KitchenService : IService {
         return providedIngredients;
     }
 
-    private void _GetRandomIngredient() { }
+    public void RecipeDiscovered(RecipeName recipeName) {
+        _playerDataRepository.DiscoveredRecipes.Add(recipeName);
+    }
 }

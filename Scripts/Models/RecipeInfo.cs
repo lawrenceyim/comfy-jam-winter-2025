@@ -155,7 +155,7 @@ public enum RecipeName {
     FriedEgg = 3,
     GrilledCheese = 4,
     Pancakes = 5,
-    Ramen = 6,
+    // Ramen = 6,
     SteakFrite = 7,
     TomatoBisque = 8,
 

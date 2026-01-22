@@ -35,7 +35,7 @@ public partial class CookbookView : Node2D {
 	private Vector2 _ingredientCardOffset = new(10, 25);
 	private Vector2 _ingredientCardStartPosition = new(720, 250);
 
-	private const int LastPage = 10;
+	private const int LastPage = 9;
 	private int _currentPage = 0;
 
 	public override void _Ready() {
