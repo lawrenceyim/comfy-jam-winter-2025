@@ -18,11 +18,12 @@ public partial class CardDisplay : Node {
 
 	private TextureRepository _textureRepository;
 
-	private static readonly IngredientName[] _ingredients = IngredientUtil.GetIngredientNames();
 	private readonly HashSet<Card> _selectedCards = [];
-	private readonly Dictionary<Card, int> _cardIndex = new Dictionary<Card, int>();
+	private readonly Dictionary<Card, int> _cardIndex = new();
 	private readonly List<Card> _hoveredCards = [];
-	private Card[] _cards = new Card[_ingredients.Length];
+	
+	private IngredientName[] _ingredients;
+	private Card[] _cards;
 
 	private const int CardBaseZIndex = 10;
 	private const int HoverZIndexBoost = 10;
@@ -39,7 +40,6 @@ public partial class CardDisplay : Node {
 		_textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
 		_cookButton.Pressed += _Cook;
 		_DisplayCookButton();
-		_InitIngredients();
 	}
 
 	public override void _Input(InputEvent @event) {
@@ -54,7 +54,9 @@ public partial class CardDisplay : Node {
 		}
 	}
 
-	public void _InitIngredients() {
+	public void InitIngredients(IngredientName[] ingredients) {
+		_ingredients = ingredients;
+		_cards = new Card[_ingredients.Length];
 		int totalWidth = _ingredients.Length * _cardWidth + (_ingredients.Length - 1) * _xOffset;
 		int xStart = _xCenter - totalWidth / 2;
 
@@ -73,10 +75,15 @@ public partial class CardDisplay : Node {
 	}
 
 	private void _Cook() {
-		GD.Print($"Cooking: {_selectedCards}");
+		Dictionary<IngredientName, int> ingredients = new();
+		GD.Print($"Cooking:");
 		foreach (Card card in _selectedCards) {
 			GD.Print($"{card.IngredientName}");
+			ingredients.Add(card.IngredientName, 1);
 		}
+
+		// TODO: Add actual functionality
+		GD.Print($"Recipe found {RecipeInfo.FindRecipeByIngredients(ingredients)}");
 	}
 
 	private void _HandleHover(Card card, bool hovered) {

@@ -1,4 +1,27 @@
+using System;
+
 public class IngredientUtil {
+    private static readonly Random _random = new();
+
+    private static readonly IngredientName[] _ingredients = [
+        IngredientName.Beef,
+        IngredientName.Bread,
+        IngredientName.Butter,
+        IngredientName.Carrots,
+        IngredientName.Cheese,
+        IngredientName.Chicken,
+        IngredientName.Egg,
+        IngredientName.Flour,
+        IngredientName.Garlic,
+        IngredientName.Milk,
+        IngredientName.Onion,
+        IngredientName.Pasta,
+        IngredientName.Pepper,
+        IngredientName.Potato,
+        IngredientName.Salt,
+        IngredientName.Tomato
+    ];
+
     public static TextureId GetTextureId(IngredientName ingredient) {
         return ingredient switch {
             IngredientName.Beef => TextureId.Beef,
@@ -42,5 +65,9 @@ public class IngredientUtil {
             IngredientName.Salt,
             IngredientName.Tomato
         ];
+    }
+
+    public static IngredientName GetRandomIngredientName() {
+        return _ingredients[_random.Next(_ingredients.Length)];
     }
 }

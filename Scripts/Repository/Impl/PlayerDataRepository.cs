@@ -8,6 +8,8 @@ public class PlayerDataRepository : IRepository {
     public HashSet<RecipeName> AnimalLikes { get; } = [];
     public HashSet<RecipeName> AnimalDislikes { get; } = [];
     public RecipeName? CookedDish { get; set; } = null;
+    public RecipeName? SelectedRecipe { get; set; } = null;
+    public HashSet<IngredientName> ProvidedIngredients { get; set; } = [];
     public int Money { get; set; } = 0;
     public int Day { get; set; } = 1;
 }

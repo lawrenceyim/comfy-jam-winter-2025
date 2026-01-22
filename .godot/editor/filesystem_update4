@@ -1,6 +1,6 @@
-res://Scripts/NewScript.cs
+res://Scripts/Game Objects/CardDisplay.cs
 res://Scripts/Scenes/InventoryView.cs
-res://Scripts/Repository/Impl/PackedSceneRepository.cs
+res://Scripts/NewScript.cs
 res://Scripts/Scenes/LivingRoomView.cs
 res://Scripts/Repository/Impl/SoundEffectRepository.cs
 res://Scripts/Repository/Impl/TextureRepository.cs
@@ -8,21 +8,12 @@ res://Scripts/Service Locator/ServiceImpl/Input System/InputController.cs
 res://Scripts/Service Locator/ServiceImpl/GameClock.cs
 res://Scripts/Service Locator/ServiceLocator.cs
 res://Scripts/Scenes/KitchenView.cs
-res://Scripts/Repository/Impl/SceneRepository.cs
+res://Scripts/Repository/Impl/PackedSceneRepository.cs
 res://Scripts/Scenes/CookbookView.cs
 res://Scripts/Repository/RepositoryLocator.cs
 res://Scripts/Service Locator/ServiceImpl/Input System/InputStateMachine.cs
 res://Scripts/Game Objects/AnimalView.cs
-res://Scripts/Scenes/StoreView.cs
-res://Scenes/Living Room.tscn
-res://Scenes/Game Object/Card Display.tscn
-res://Scenes/Game Object/Card.tscn
-res://Scripts/Game Objects/Card.cs
-res://Scripts/Game Objects/CardDisplay.cs
-res://Scenes/Autoloads/TextureRepository.tscn
-res://Scenes/Game Object/Animal.tscn
-res://Scenes/Cookbook.tscn
-res://Scenes/Autoloads/SceneRepository.tscn
-res://Scenes/Kitchen.tscn
-res://Scenes/MainMenu.tscn
 res://Scripts/Scenes/MainMenu.cs
+res://Scripts/Scenes/StoreView.cs
+res://Scripts/Game Objects/Card.cs
+res://Scripts/Repository/Impl/SceneRepository.cs
