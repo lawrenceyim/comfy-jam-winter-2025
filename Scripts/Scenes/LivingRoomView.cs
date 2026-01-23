@@ -30,6 +30,7 @@ public partial class LivingRoomView : Node2D {
     private Vector2 _regularAnimalPosition = new(610, 470);
     private Vector2 _eatingAnimalPosition = new(200, 300);
     private TextureRepository _textureRepository;
+    private TickTimer _eatingAnimationTimer = new();
 
     public override void _Ready() {
         ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
@@ -51,6 +52,18 @@ public partial class LivingRoomView : Node2D {
         _currencyLabel.Text = $"{_playerDataService.GetMoney()}";
         _playerDataService.MoneyUpdated += () => _currencyLabel.Text = $"{_playerDataService.GetMoney()}";
         _food.Texture = null;
+
+        _eatingAnimationTimer.TimedOut += () => SetAnimalAnimation(AnimalView.AnimalAnimation.Talk);
+
+        if (_playerDataService.GetRecipeMade() is not null) {
+            SetAnimalAnimation(AnimalView.AnimalAnimation.Eat);
+            SetFood(_playerDataService.GetRecipeMade());
+            _eatingAnimationTimer.StartFixedTimer(false, 5 * Engine.PhysicsTicksPerSecond);
+        }
+    }
+
+    public override void _PhysicsProcess(double delta) {
+        _eatingAnimationTimer.PhysicsTick();
     }
 
     public void SetAnimalAnimation(AnimalView.AnimalAnimation animalAnimation) {
@@ -60,6 +73,7 @@ public partial class LivingRoomView : Node2D {
                 break;
             case AnimalView.AnimalAnimation.Talk:
                 _animal.DisplaySpeechBubble(true);
+                _animal.Position = _regularAnimalPosition;
                 break;
             default:
                 _animal.Position = _regularAnimalPosition;
@@ -88,7 +102,6 @@ public partial class LivingRoomView : Node2D {
         }
 
         TextureId recipeTextureId = RecipeUtil.GetTextureId(recipeName.Value);
-
         _food.Texture = _textureRepository.GetTexture(recipeTextureId);
     }
 }
