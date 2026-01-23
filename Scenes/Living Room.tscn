@@ -116,6 +116,7 @@ ignore_texture_size = true
 stretch_mode = 3
 
 [node name="CurrencyBar" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(342, 70)
 texture = ExtResource("15_y85dt")
 
@@ -130,6 +131,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="DayBlock" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(121, 100)
 texture = ExtResource("15_l8axc")
 
