@@ -27,10 +27,13 @@ public partial class LivingRoomView : Node2D {
     private PlayerDataService _playerDataService;
     private SceneManager _sceneManager;
 
+    private readonly TickTimer _eatingAnimationTimer = new();
+    private readonly TickTimer _talkingAnimationTimer = new();
+
     private Vector2 _regularAnimalPosition = new(610, 470);
     private Vector2 _eatingAnimalPosition = new(200, 300);
     private TextureRepository _textureRepository;
-    private TickTimer _eatingAnimationTimer = new();
+
 
     public override void _Ready() {
         ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
@@ -54,39 +57,47 @@ public partial class LivingRoomView : Node2D {
         _food.Texture = null;
 
         _eatingAnimationTimer.TimedOut += () => {
+            _animal.SetSpeechLabel(_GenerateSpeech());
             _playerDataService.SetRecipeMade(null);
             SetFood(null);
             SetAnimalAnimation(AnimalView.AnimalAnimation.Talk);
+            _talkingAnimationTimer.StartFixedTimer(false, 5 * Engine.PhysicsTicksPerSecond);
+        };
 
+        _talkingAnimationTimer.TimedOut += () => {
+            SetAnimalAnimation(AnimalView.AnimalAnimation.Idle);
             if (_playerDataService.DiscoveredAllRecipes()) {
                 // TODO: Add transition to end scene
-                
+
                 GD.Print("Discovered all recipes");
             }
+
+            _kitchenButton.Visible = true;
         };
 
         if (_playerDataService.GetRecipeMade() is not null) {
+            _kitchenButton.Visible = false;
             SetAnimalAnimation(AnimalView.AnimalAnimation.Eat);
             SetFood(_playerDataService.GetRecipeMade());
-            _eatingAnimationTimer.StartFixedTimer(false, 5 * Engine.PhysicsTicksPerSecond);
+            _eatingAnimationTimer.StartFixedTimer(false, 3 * Engine.PhysicsTicksPerSecond);
         }
     }
 
     public override void _PhysicsProcess(double delta) {
         _eatingAnimationTimer.PhysicsTick();
+        _talkingAnimationTimer.PhysicsTick();
     }
 
     public void SetAnimalAnimation(AnimalView.AnimalAnimation animalAnimation) {
+        _animal.DisplaySpeechBubble(false);
+        _animal.Position = _regularAnimalPosition;
+
         switch (animalAnimation) {
             case AnimalView.AnimalAnimation.Eat:
                 _animal.Position = _eatingAnimalPosition;
                 break;
             case AnimalView.AnimalAnimation.Talk:
                 _animal.DisplaySpeechBubble(true);
-                _animal.Position = _regularAnimalPosition;
-                break;
-            default:
-                _animal.Position = _regularAnimalPosition;
                 break;
         }
 
@@ -113,5 +124,11 @@ public partial class LivingRoomView : Node2D {
 
         TextureId recipeTextureId = RecipeUtil.GetTextureId(recipeName.Value);
         _food.Texture = _textureRepository.GetTexture(recipeTextureId);
+    }
+
+    private string _GenerateSpeech() {
+        RecipeName recipeName = _playerDataService.GetRecipeMade().Value;
+
+        return $"The {StringUtils.SplitPascalCase(recipeName.ToString())} was delicious.";
     }
 }

@@ -178,6 +178,7 @@ offset_right = 163.0
 offset_bottom = 41.0
 text = "placeholder text"
 label_settings = SubResource("LabelSettings_srou2")
+autowrap_mode = 3
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("8_srou2")
