@@ -1,0 +1,150 @@
+[gd_scene load_steps=23 format=3 uid="uid://mmey0nvu4doa"]
+
+[ext_resource type="Texture2D" uid="uid://doexmti70bjl8" path="res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/StandD.PNG" id="1_hh3ko"]
+[ext_resource type="Texture2D" uid="uid://5cp1qkff4t0r" path="res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/StandU.PNG" id="2_0t1jf"]
+[ext_resource type="Texture2D" uid="uid://b1elq1nj0el4q" path="res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/Standard.PNG" id="2_mxquw"]
+[ext_resource type="Texture2D" uid="uid://biuavpymrhxa3" path="res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/WalkD.PNG" id="4_316vp"]
+[ext_resource type="Texture2D" uid="uid://61c83uoclqrn" path="res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/WalkU.PNG" id="5_3g23o"]
+[ext_resource type="Texture2D" uid="uid://cun28a78esutu" path="res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/WalkR(5fps).PNG" id="5_jakwa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0t1jf"]
+atlas = ExtResource("1_hh3ko")
+region = Rect2(0, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_316vp"]
+atlas = ExtResource("2_mxquw")
+region = Rect2(0, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mxquw"]
+atlas = ExtResource("2_0t1jf")
+region = Rect2(0, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3g23o"]
+atlas = ExtResource("4_316vp")
+region = Rect2(0, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jakwa"]
+atlas = ExtResource("4_316vp")
+region = Rect2(400, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hkehn"]
+atlas = ExtResource("4_316vp")
+region = Rect2(800, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gee0i"]
+atlas = ExtResource("4_316vp")
+region = Rect2(1200, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hve10"]
+atlas = ExtResource("5_jakwa")
+region = Rect2(0, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_suml0"]
+atlas = ExtResource("5_jakwa")
+region = Rect2(400, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ctgww"]
+atlas = ExtResource("5_jakwa")
+region = Rect2(800, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tpl15"]
+atlas = ExtResource("5_jakwa")
+region = Rect2(1200, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_upjro"]
+atlas = ExtResource("5_3g23o")
+region = Rect2(0, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v2u0p"]
+atlas = ExtResource("5_3g23o")
+region = Rect2(400, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ie8pj"]
+atlas = ExtResource("5_3g23o")
+region = Rect2(800, 0, 400, 400)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nb13u"]
+atlas = ExtResource("5_3g23o")
+region = Rect2(1200, 0, 400, 400)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mxquw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0t1jf")
+}],
+"loop": true,
+"name": &"Idle Down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_316vp")
+}],
+"loop": true,
+"name": &"Idle Side",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mxquw")
+}],
+"loop": true,
+"name": &"Idle Up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3g23o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jakwa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hkehn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gee0i")
+}],
+"loop": true,
+"name": &"Walk Down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hve10")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_suml0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ctgww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tpl15")
+}],
+"loop": true,
+"name": &"Walk Side",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_upjro")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v2u0p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ie8pj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nb13u")
+}],
+"loop": true,
+"name": &"Walk Up",
+"speed": 5.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_mxquw")
+animation = &"Idle Down"

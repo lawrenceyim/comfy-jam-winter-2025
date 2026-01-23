@@ -1,9 +1,9 @@
+AnimatedSprite2D
 Label
 Button
 Node2D
 Node
 AudioStreamPlayer
-AnimatedSprite2D
 Sprite2D
 Camera2D
 CollisionShape2D

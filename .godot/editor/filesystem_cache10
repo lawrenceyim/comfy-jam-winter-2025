@@ -1,12 +1,13 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1769056204
+::res://::1769141196
+AnimalPlayable.tscn::PackedScene::867325717878114672::1769141196::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile::-1::1768844279::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1769005228
 ::res://Assets/Audio/::1769005232
 Dialogue Demo.mp3::AudioStreamMP3::6899475514968933978::1769005231::1769005232::1::::<><><>0<>0<>9636f8c716d5f9c160dcb036a2cd412f<>res://.godot/imported/Dialogue Demo.mp3-e307740b03defdc9be7f56be336df2a3.mp3str::
 ::res://Assets/Fonts/::1768942985
 Lonely_Coffee.ttf::FontFile::257877812774722704::1768942985::1768942985::1::::<><><>0<>0<>540aeecfa365bb440a4a06f2b72655f4<>res://.godot/imported/Lonely_Coffee.ttf-7d003fe4f32fdcb5d8835b78c0c154cd.fontdata::
-::res://Assets/Sprites/::1769031496
+::res://Assets/Sprites/::1769139410
 icon.svg::CompressedTexture2D::6528116911891285300::1767985929::1767986428::1::::<><><>0<>0<>52ac0f9c334ec027f7bd55661214961e<>res://.godot/imported/icon.svg-937281dbc6e7ba0435124e30fe85aebc.ctex::
 ::res://Assets/Sprites/Ingredients/::1768880112
 Beef.PNG::CompressedTexture2D::7111940442331243980::1768880105::1768880107::1::::<><><>0<>0<>8e79e1e336258ff630b6f199fe37d75a<>res://.godot/imported/Beef.PNG-ae62d35b29cf4a1f94838ed0a50a4f02.ctex::
@@ -41,12 +42,19 @@ IMG_6049.png::CompressedTexture2D::8443924725856699346::1768165581::1768165581::
 IMG_6050.png::CompressedTexture2D::2614854176883333566::1768165581::1768165581::1::::<><><>0<>0<>5f107f3d35b475b31c0d9d27dbcad905<>res://.godot/imported/IMG_6050.png-76779654bb48076eb8d72984304a264f.ctex::
 IMG_6052.PNG::CompressedTexture2D::2867417394848409838::1768165581::1768165581::1::::<><><>0<>0<>52fd5b65f7543b6354cfdbda3004f1f3<>res://.godot/imported/IMG_6052.PNG-fb8e84bd54b2cad5f03e61ffcb4f9d2c.ctex::
 Layout.PNG::CompressedTexture2D::5969913966756521702::1768165581::1768165581::1::::<><><>0<>0<>1bbb9c3b48accd7cd5d52e1b9432cea2<>res://.godot/imported/Layout.PNG-40f03ac7779d7ccaf80dd0d4e23976c1.ctex::
-::res://Assets/Sprites/Main character/::1768931215
+::res://Assets/Sprites/Main character/::1769144161
 Eating(4fps).PNG::CompressedTexture2D::6782621024473820831::1768931147::1768931215::1::::<><><>0<>0<>cca1a7c0f9f7a00f9becf70c99216fc1<>res://.godot/imported/Eating(4fps).PNG-0d075a4ced9c7a3b23ac02b71db16af9.ctex::
 Idle(4fps).PNG::CompressedTexture2D::5843927560945480579::1768165581::1768165581::1::::<><><>0<>0<>288691de3325c7a314306e0989788b16<>res://.godot/imported/Idle(4fps).PNG-35721444ca9bef720f253fbbfccbcabb.ctex::
 Talking(4fps).PNG::CompressedTexture2D::8631788348301911358::1768502513::1768502514::1::::<><><>0<>0<>3bfa7b4de3527bf652aae8e3019c08a6<>res://.godot/imported/Talking(4fps).PNG-bc9b5eb966bc6c6ed74743c01dbc3759.ctex::
 Walk(4fps).PNG::CompressedTexture2D::3826277153882599540::1768165581::1768165581::1::::<><><>0<>0<>ebf53a4f6b8a9c1ee6c646ef1a372524<>res://.godot/imported/Walk(4fps).PNG-6cec1fe36f52e0571211b5a12047c926.ctex::
-::res://Assets/Sprites/Main menu/::1769031497
+::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/::1769144161
+Standard.PNG::CompressedTexture2D::4220285975053150886::1769144161::1769144161::1::::<><><>0<>0<>463fb459b7ae08447b60f4917ba466e5<>res://.godot/imported/Standard.PNG-227e9f3044e9b102eb0feed143423645.ctex::
+StandD.PNG::CompressedTexture2D::8151582305177963219::1769144161::1769144161::1::::<><><>0<>0<>6ed1e3bc8becbb4112801f4a841e1c7e<>res://.godot/imported/StandD.PNG-d26e88deeb969c987e8f742acf0320aa.ctex::
+StandU.PNG::CompressedTexture2D::2110752106238783239::1769144161::1769144161::1::::<><><>0<>0<>fab1f8b2ad45e8db082a656fcda41616<>res://.godot/imported/StandU.PNG-9aa6b037fb2a526696b8260f447c9375.ctex::
+WalkD.PNG::CompressedTexture2D::2989257315044361152::1769144161::1769144161::1::::<><><>0<>0<>f534361994b857bf63e77cd96d8107fe<>res://.godot/imported/WalkD.PNG-ca63c6196ee73931e8917feebb1c55ad.ctex::
+WalkR(5fps).PNG::CompressedTexture2D::6205153491892369882::1769144161::1769144161::1::::<><><>0<>0<>daf64b8cf1ecf76e74b4abc433827fe7<>res://.godot/imported/WalkR(5fps).PNG-9ffb97985fd46ad615be7656d1fb3ab4.ctex::
+WalkU.PNG::CompressedTexture2D::2229709841758064967::1769144161::1769144161::1::::<><><>0<>0<>6f8db5c648decbcc33c7cdef46899348<>res://.godot/imported/WalkU.PNG-e2661df693ca8991184974d7ef90545e.ctex::
+::res://Assets/Sprites/Main menu/::1769139484
 Background for main menu.PNG::CompressedTexture2D::5060036315894862032::1769031496::1769031497::1::::<><><>0<>0<>657f554caffa27619b59be842becec06<>res://.godot/imported/Background for main menu.PNG-b322b531ff8ea641b8d7cc1203c17007.ctex::
 Title.PNG::CompressedTexture2D::2493509837813852167::1769031496::1769031497::1::::<><><>0<>0<>e24d0d1429fc3cd4623d6b53ac05ac5f<>res://.godot/imported/Title.PNG-0c90cceecc68025a0d801eabe99f547e.ctex::
 Ui for main menu.PNG::CompressedTexture2D::5490715033096906172::1769031496::1769031497::1::::<><><>0<>0<>a8650a12513c45b0a78a42f2d149a1ae<>res://.godot/imported/Ui for main menu.PNG-7c68ef711f225708dc32f0e9982d84e7.ctex::
@@ -64,7 +72,10 @@ Pizza.PNG::CompressedTexture2D::1380037717579406734::1768939649::1768939649::1::
 Steak frite.PNG::CompressedTexture2D::7613528252312451191::1768939649::1768939649::1::::<><><>0<>0<>ade2a78243d93db45bcd4e8e603655b8<>res://.godot/imported/Steak frite.PNG-1e21b7bbf3224b79c4e9e2caa430896e.ctex::
 Tomato bisque .PNG::CompressedTexture2D::1585728457229676941::1768939649::1768939649::1::::<><><>0<>0<>d7fbb9c1c4ee9cab7adc78313e46f6c4<>res://.godot/imported/Tomato bisque .PNG-761e5a7d0f529c635d3f2413c7dfd2d3.ctex::
 Unknown recipe.png::CompressedTexture2D::9037927707337525261::1769009414::1769009417::1::::<><><>0<>0<>6039ced1198f5d3def6cd2da893cfb99<>res://.godot/imported/Unknown recipe.png-41bcf4ab61b4ca026979c8a52aea79fa.ctex::
-::res://Assets/Sprites/Ui/::1769007749
+::res://Assets/Sprites/Transition/::1769139410
+Transition 1.PNG::CompressedTexture2D::406874546016081864::1769139396::1769139410::1::::<><><>0<>0<>f8f339a60542fd6cb671401ac5a0c276<>res://.godot/imported/Transition 1.PNG-9af3fcf716a6ca4856d3a3a55d0cf254.ctex::
+Transition 2.PNG::CompressedTexture2D::5134173318768420118::1769139396::1769139410::1::::<><><>0<>0<>6b886d48e80f4b7eb109db542f013ab5<>res://.godot/imported/Transition 2.PNG-0da034a142b84110a7090ae4e38832e1.ctex::
+::res://Assets/Sprites/Ui/::1769143472
 Back_exit.png::CompressedTexture2D::4651045665675684757::1769007748::1769007748::1::::<><><>0<>0<>33b5b545f3b4b002f7e6c623fc29110d<>res://.godot/imported/Back_exit.png-1fbda2d6daf26d245e34baf5114de3e4.ctex::
 Book Button_Closed.png::CompressedTexture2D::7655369410964965262::1768573736::1768573736::1::::<><><>0<>0<>976893aff30a8b7adf93a0200634b024<>res://.godot/imported/Book Button_Closed.png-6edbd9a5f55aa63ce0bd969fb8ea381d.ctex::
 Book Button_Open.png::CompressedTexture2D::3025293393810059055::1768573736::1768573736::1::::<><><>0<>0<>c52acf9ae3d39df3d3cb6168728f9149<>res://.godot/imported/Book Button_Open.png-241f8a57d55d6689b247184709017293.ctex::
@@ -73,6 +84,7 @@ Day Block.png::CompressedTexture2D::1169096890286278490::1768573736::1768573736:
 Dish cooked box.PNG::CompressedTexture2D::883973329642783747::1768960474::1768960475::1::::<><><>0<>0<>13b41ee8b1afc96fb8e93ea0a303dc4a<>res://.godot/imported/Dish cooked box.PNG-7044a68f45680cae423ea614789ea2d7.ctex::
 Kitchen Button1.png::CompressedTexture2D::7526597077641317044::1768573736::1768573736::1::::<><><>0<>0<>2d8cb0720d6587b1e3f5a66defce604e<>res://.godot/imported/Kitchen Button1.png-024a83174d9fe02e2f42e6fc7f977910.ctex::
 Kitchen Button2.png::CompressedTexture2D::6952129269053485030::1768573736::1768573736::1::::<><><>0<>0<>eea7af8a9143fdbce24caee95fece71e<>res://.godot/imported/Kitchen Button2.png-9a44f9d17c8a3539b99451c5052e51cb.ctex::
+Loading icon (8fps).PNG::CompressedTexture2D::9142501973136536095::1769143472::1769143472::1::::<><><>0<>0<>9078bf678c6e6f05b7e1b2d637a7277a<>res://.godot/imported/Loading icon (8fps).PNG-14cc854038adae241cc2b57dbe752840.ctex::
 Locked Dish.png::CompressedTexture2D::8878357737030412346::1769007748::1769007748::1::::<><><>0<>0<>999f134fa230ce64ecb15081c583e622<>res://.godot/imported/Locked Dish.png-f7901a477ce0873a12f4e6e26b28747d.ctex::
 Next pagebutton .png::CompressedTexture2D::6449217155481901864::1769007748::1769007748::1::::<><><>0<>0<>52ba69ce2856bc535796036983200942<>res://.godot/imported/Next pagebutton .png-175d0c999f7d89f54962db8d35534dfa.ctex::
 Recipe Book.PNG::CompressedTexture2D::704138039053253068::1768960474::1768960475::1::::<><><>0<>0<>fd2a2b24f9d002c9e7d143d3ec553c65<>res://.godot/imported/Recipe Book.PNG-23abbec2aefb6153b6973708824dd700.ctex::
@@ -84,10 +96,10 @@ Unknown Ingredient Card.PNG::CompressedTexture2D::7727061167012669203::176900774
 ::res://Export/data_comfy-jam-winter-2025_windows_x86_64/::1768844279
 comfy-jam-winter-2025.deps.json::JSON::-1::1768844278::0::1::::<><><>0<>0<><>::
 comfy-jam-winter-2025.runtimeconfig.json::JSON::-1::1768844278::0::1::::<><><>0<>0<><>::
-::res://Scenes/::1769032880
+::res://Scenes/::1769113564
 Cookbook.tscn::PackedScene::472804324503993128::1769032880::0::1::::<><><>0<>0<><>::uid://bsv1d8afi34cf::::res://Scripts/Scenes/CookbookView.cs<>uid://kbdbyr4fhcgq::::res://Assets/Sprites/Ui/Recipe Book.PNG<>uid://dcautseb7ggpu::::res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://b7jabph4cxpe0::::res://Assets/Sprites/Ui/Back_exit.png<>uid://cx5bwt68gm85i::::res://Assets/Sprites/Ui/Next pagebutton .png<>uid://byw115ebpmag3::::res://Assets/Sprites/Living room/IMG_6035.PNG<>uid://kp3ghfuw6emp::::res://Assets/Sprites/Kitchen/IMG_6094.PNG<>uid://diiyfg1biksd7::::res://Assets/Sprites/Kitchen/Stove.PNG<>uid://dgyts6eol2mu5::::res://Assets/Sprites/Living room/IMG_6044.png<>uid://twcpo25p53v::::res://Assets/Sprites/Living room/IMG_6046.png<>uid://bk8pglkbbmkie::::res://Assets/Sprites/Kitchen/Sink.PNG<>uid://ddeog2ihh6csb::::res://Assets/Sprites/Kitchen/Layout.PNG<>uid://c531mqlm5jtya::::res://Assets/Sprites/Living room/IMG_6047.png<>uid://dfylkspxjj1y5::::res://Assets/Sprites/Living room/IMG_6045.png<>uid://cdiu3j0pl58p::::res://Assets/Sprites/Living room/IMG_6048.png<>uid://bdiwjb2asnojm::::res://Assets/Sprites/Living room/IMG_6050.png<>uid://1ymxx4pf5ek3::::res://Scenes/Game Object/Furnace.tscn<>uid://dskkha1yi4sis::::res://Assets/Sprites/Living room/IMG_6049.png
 Inventory.tscn::PackedScene::8150598121750593147::1768238517::0::1::::<><><>0<>0<><>::uid://dh7cnych10h64::::res://Scripts/Scenes/InventoryView.cs
-Kitchen.tscn::PackedScene::6140140304367198378::1769031189::0::1::::<><><>0<>0<><>::uid://cj1sbne2v8qnl::::res://Scripts/Scenes/KitchenView.cs<>uid://kp3ghfuw6emp::::res://Assets/Sprites/Kitchen/IMG_6094.PNG<>uid://diiyfg1biksd7::::res://Assets/Sprites/Kitchen/Stove.PNG<>uid://bk8pglkbbmkie::::res://Assets/Sprites/Kitchen/Sink.PNG<>uid://dhck2y8whis2a::::res://Assets/Sprites/Ui/Book Button_Closed.png<>uid://bjdqe1ch3k3y6::::res://Assets/Sprites/Ui/Book Button_Open.png<>uid://dap5k58w0mp3h::::res://Scenes/Game Object/Card Display.tscn
+Kitchen.tscn::PackedScene::6140140304367198378::1769113564::0::1::::<><><>0<>0<><>::uid://cj1sbne2v8qnl::::res://Scripts/Scenes/KitchenView.cs<>uid://kp3ghfuw6emp::::res://Assets/Sprites/Kitchen/IMG_6094.PNG<>uid://diiyfg1biksd7::::res://Assets/Sprites/Kitchen/Stove.PNG<>uid://bk8pglkbbmkie::::res://Assets/Sprites/Kitchen/Sink.PNG<>uid://dhck2y8whis2a::::res://Assets/Sprites/Ui/Book Button_Closed.png<>uid://bjdqe1ch3k3y6::::res://Assets/Sprites/Ui/Book Button_Open.png<>uid://dap5k58w0mp3h::::res://Scenes/Game Object/Card Display.tscn<>uid://mug582dleor0::::res://Assets/Sprites/Ui/Dish cooked box.PNG<>uid://dcautseb7ggpu::::res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG
 Living Room.tscn::PackedScene::4005783738556910862::1769013779::0::1::::<><><>0<>0<><>::uid://bwrskd2jewpan::::res://Scripts/Scenes/LivingRoomView.cs<>uid://byw115ebpmag3::::res://Assets/Sprites/Living room/IMG_6035.PNG<>uid://dgyts6eol2mu5::::res://Assets/Sprites/Living room/IMG_6044.png<>uid://twcpo25p53v::::res://Assets/Sprites/Living room/IMG_6046.png<>uid://c531mqlm5jtya::::res://Assets/Sprites/Living room/IMG_6047.png<>uid://cdiu3j0pl58p::::res://Assets/Sprites/Living room/IMG_6048.png<>uid://dskkha1yi4sis::::res://Assets/Sprites/Living room/IMG_6049.png<>uid://bdiwjb2asnojm::::res://Assets/Sprites/Living room/IMG_6050.png<>uid://1ymxx4pf5ek3::::res://Scenes/Game Object/Furnace.tscn<>uid://h4kimr8vtood::::res://Scenes/Game Object/Animal.tscn<>uid://dfh67pcvoacqm::::res://Assets/Sprites/Ui/Kitchen Button1.png<>uid://c6bws2wtrxt8q::::res://Assets/Sprites/Ui/Kitchen Button2.png<>uid://0j3pswwongat::::res://Assets/Sprites/Ui/Store Button1.png<>uid://bhwmfahki3j6w::::res://Assets/Sprites/Ui/Store Button2.png<>uid://qwk4cl77756e::::res://Assets/Sprites/Ui/Day Block.png<>uid://dhck2y8whis2a::::res://Assets/Sprites/Ui/Book Button_Closed.png<>uid://c0tlmmheql5jj::::res://Assets/Sprites/Ui/Currency Bar.png<>uid://bjdqe1ch3k3y6::::res://Assets/Sprites/Ui/Book Button_Open.png<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://twrawvw2e3rm::::res://Assets/Sprites/Recipe dish art/Pizza.PNG<>uid://dfylkspxjj1y5::::res://Assets/Sprites/Living room/IMG_6045.png
 MainMenu.tscn::PackedScene::3722197373380586802::1769031893::0::1::::<><><>0<>0<><>::uid://cedecaay8xtfs::::res://Assets/Sprites/Main menu/Background for main menu.PNG<>uid://bbr40it70k3hj::::res://Assets/Sprites/Main menu/Title.PNG<>uid://dt1b63s3wyd4t::::res://Scripts/Scenes/MainMenu.cs<>uid://ckh0jlgxmxuem::::res://Assets/Sprites/Main menu/Ui for main menu.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf
 Store.tscn::PackedScene::7950216410637541379::1768077263::0::1::::<><><>0<>0<><>::uid://1jwf436se5pf::::res://Scripts/Scenes/StoreView.cs
@@ -97,9 +109,9 @@ SceneRepository.tscn::PackedScene::3758698776789931092::1769013123::0::1::::<><>
 ServiceLocator.tscn::PackedScene::1571873230289678648::1767986612::0::1::::<><><>0<>0<><>::uid://bfkqbhn41rnxn::::res://Scripts/Service Locator/ServiceLocator.cs
 SoundEffectRepository.tscn::PackedScene::3135651612871905212::1767986631::0::1::::<><><>0<>0<><>::uid://ddrcg5kngu0d8::::res://Scripts/Repository/Impl/SoundEffectRepository.cs
 TextureRepository.tscn::PackedScene::8537667015479563359::1769031468::0::1::::<><><>0<>0<><>::uid://jn85514ajguy::::res://Scripts/Repository/Impl/TextureRepository.cs<>uid://c8lcvc0f71gpg::::res://Assets/Sprites/Ingredients/Beef.PNG<>uid://bfierqxhi22ax::::res://Assets/Sprites/Ingredients/Bread.PNG<>uid://osg27vkdfoqb::::res://Assets/Sprites/Ingredients/Butter.PNG<>uid://dmk45iaicew31::::res://Assets/Sprites/Ingredients/Carrot.PNG<>uid://ddhvdlxj6fof3::::res://Assets/Sprites/Ingredients/Cheese.PNG<>uid://cmh4v2mok747a::::res://Assets/Sprites/Ingredients/Chicken.PNG<>uid://buxkiv2aq7q3n::::res://Assets/Sprites/Ingredients/Egg.PNG<>uid://c3y5uo4jlelir::::res://Assets/Sprites/Ingredients/Flour.PNG<>uid://dlanm5vhxej11::::res://Assets/Sprites/Ingredients/Garlic.PNG<>uid://dc6oe8p1d85x4::::res://Assets/Sprites/Ingredients/Milk.PNG<>uid://blx2xj4twjjhv::::res://Assets/Sprites/Ingredients/Onion.PNG<>uid://cr0ex8ryhin1t::::res://Assets/Sprites/Ingredients/Pasta.PNG<>uid://cai5a3c4lynp1::::res://Assets/Sprites/Ingredients/Pepper.PNG<>uid://du5es8jtsekq::::res://Assets/Sprites/Ingredients/Potato.PNG<>uid://woyacey8weao::::res://Assets/Sprites/Ingredients/Salt.PNG<>uid://btxwbug8qolji::::res://Assets/Sprites/Ingredients/Tomato.PNG<>uid://dcautseb7ggpu::::res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG<>uid://cw30iyvijts5e::::res://Assets/Sprites/Recipe dish art/French Fries.PNG<>uid://bs2u3g88084p2::::res://Assets/Sprites/Recipe dish art/Fried Egg.PNG<>uid://dst55o27uia0d::::res://Assets/Sprites/Recipe dish art/Grilled cheese.PNG<>uid://dcckh3vp5w6gw::::res://Assets/Sprites/Recipe dish art/Pancake.PNG<>uid://dgqbxy33ahu4v::::res://Assets/Sprites/Recipe dish art/Steak frite.PNG<>uid://wueylyfuxrqr::::res://Assets/Sprites/Recipe dish art/Tomato bisque .PNG<>uid://bxa4gkfhmiwpb::::res://Assets/Sprites/Recipe dish art/Fried chicken.PNG<>uid://twrawvw2e3rm::::res://Assets/Sprites/Recipe dish art/Pizza.PNG<>uid://d11bl4kpxqj2d::::res://Assets/Sprites/Recipe dish art/Unknown recipe.png<>uid://didbtlfwheddr::::res://Assets/Sprites/Ui/Unknown Ingredient Card.PNG<>uid://1i7gv1vabtqm::::res://Assets/Sprites/Recipe dish art/Mistake.PNG
-::res://Scenes/Game Object/::1769032505
+::res://Scenes/Game Object/::1769059253
 Animal.tscn::PackedScene::551810974682936287::1769005557::0::1::::<><><>0<>0<><>::uid://cpi3vr5fn57e2::::res://Assets/Sprites/Main character/Idle(4fps).PNG<>uid://c3vs1ot1mpaol::::res://Assets/Sprites/Main character/Eating(4fps).PNG<>uid://burqhw533ufd1::::res://Assets/Sprites/Main character/Walk(4fps).PNG<>uid://du8kj7xfahr8a::::res://Assets/Sprites/Main character/Talking(4fps).PNG<>uid://ukimgoc602xn::::res://Scripts/Game Objects/AnimalView.cs<>uid://de20ia8fl757c::::res://Assets/Sprites/Ui/Speech bubble(4fps).PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://c5kfma5bpv3yc::::res://Assets/Audio/Dialogue Demo.mp3
-Card Display.tscn::PackedScene::7192068712824770411::1769032505::0::1::::<><><>0<>0<><>::uid://c3hbiwdvehxi8::::res://Scripts/Game Objects/CardDisplay.cs<>uid://cog2hdaimqh72::::res://Scenes/Game Object/Card.tscn<>uid://ckh0jlgxmxuem::::res://Assets/Sprites/Main menu/Ui for main menu.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf
+Card Display.tscn::PackedScene::7192068712824770411::1769059253::0::1::::<><><>0<>0<><>::uid://c3hbiwdvehxi8::::res://Scripts/Game Objects/CardDisplay.cs<>uid://cog2hdaimqh72::::res://Scenes/Game Object/Card.tscn<>uid://ckh0jlgxmxuem::::res://Assets/Sprites/Main menu/Ui for main menu.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf
 Card.tscn::PackedScene::5769523462155250871::1769020264::0::1::::<><><>0<>0<><>::uid://c8lcvc0f71gpg::::res://Assets/Sprites/Ingredients/Beef.PNG<>uid://bvj3ogj4bpnra::::res://Scripts/Game Objects/Card.cs
 Furnace.tscn::PackedScene::1875225931385065312::1768166685::0::1::::<><><>0<>0<><>::uid://bg387fchrbwxq::::res://Assets/Sprites/Living room/IMG_6052.PNG
 ::res://Scenes/Test/::1768578198
@@ -115,42 +127,42 @@ DialogueTreeNode.cs::CSharpScript::3238649905613503308::1767986410::0::1::::<><>
 IDialogueState.cs::CSharpScript::5356028565373106462::1767735688::0::1::::<><><>0<>0<><>::
 ::res://Scripts/Dto/::1768238415
 IngredientDto.cs::CSharpScript::8555570357271638113::1768237985::0::1::::<><><>0<>0<><>::
-::res://Scripts/Game Objects/::1769056182
+::res://Scripts/Game Objects/::1769113663
 AnimalView.cs::CSharpScript::1424928152670910463::1769005442::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
-Card.cs::CSharpScript::3880691207153358046::1769032855::0::1::::<>Node2D<><>0<>0<><>::
-CardDisplay.cs::CSharpScript::6752655797981440613::1769056182::0::1::::<>Node<><>0<>0<><>::
+Card.cs::CSharpScript::3880691207153358046::1769059169::0::1::::<>Node2D<><>0<>0<><>::
+CardDisplay.cs::CSharpScript::6752655797981440613::1769113663::0::1::::<>Node<><>0<>0<><>::
 ::res://Scripts/Interfaces/::1768607476
 IAutoload.cs::CSharpScript::8928908786929938893::1768607476::0::1::::<><><>0<>0<><>::
 ITick.cs::CSharpScript::6189778948605379062::1763521424::0::1::::<><><>0<>0<><>::
 TextRepository.cs::CSharpScript::319550992907733579::1767986057::0::1::::<><><>0<>0<><>::
-::res://Scripts/Models/::1769014683
+::res://Scripts/Models/::1769058994
 IngredientInfo.cs::CSharpScript::2658659921398099618::1769014683::0::1::::<><><>0<>0<><>::
-RecipeInfo.cs::CSharpScript::8822080116690285519::1769014644::0::1::::<><><>0<>0<><>::
+RecipeInfo.cs::CSharpScript::8822080116690285519::1769058994::0::1::::<><><>0<>0<><>::
 ::res://Scripts/Repository/::1767986696
 IRepository.cs::CSharpScript::6865337637760215223::1763061492::0::1::::<><><>0<>0<><>::
 RepositoryLocator.cs::CSharpScript::4666454896891785758::1767986696::0::1::::<>Node<><>0<>0<><>::
 RepositoryName.cs::CSharpScript::5601873497477330991::1767653618::0::1::::<><><>0<>0<><>::
-::res://Scripts/Repository/Impl/::1769011193
+::res://Scripts/Repository/Impl/::1769057642
 PackedSceneRepository.cs::CSharpScript::3654095881118933652::1768607403::0::1::::<>Node<><>0<>0<><>::
-PlayerDataRepository.cs::CSharpScript::4486739934544787426::1768574806::0::1::::<><><>0<>0<><>::
+PlayerDataRepository.cs::CSharpScript::4486739934544787426::1769057642::0::1::::<><><>0<>0<><>::
 SceneRepository.cs::CSharpScript::310491622787743448::1769011193::0::1::::<>Node<><>0<>0<><>::
 SoundEffectRepository.cs::CSharpScript::7405056744309420939::1768607485::0::1::::<>Node<><>0<>0<><>::
 TextureRepository.cs::CSharpScript::660595355306916544::1769009698::0::1::::<>Node<><>0<>0<><>::
-::res://Scripts/Scenes/::1769031820
-CookbookView.cs::CSharpScript::3694757534716138685::1769013430::0::1::::<>Node2D<><>0<>0<><>::
+::res://Scripts/Scenes/::1769113563
+CookbookView.cs::CSharpScript::3694757534716138685::1769113563::0::1::::<>Node2D<><>0<>0<><>::
 InventoryView.cs::CSharpScript::7716789957985536031::1768238434::0::1::::<>Node2D<><>0<>0<><>::
-KitchenView.cs::CSharpScript::5459310163636654013::1769013988::0::1::::<>Node2D<><>0<>0<><>::
+KitchenView.cs::CSharpScript::5459310163636654013::1769113545::0::1::::<>Node2D<><>0<>0<><>::
 LivingRoomView.cs::CSharpScript::3966780629052590873::1769011657::0::1::::<>Node2D<><>0<>0<><>::
 MainMenu.cs::CSharpScript::8546641478174113433::1769031820::0::1::::<>Node2D<><>0<>0<><>::
 StoreView.cs::CSharpScript::1844835605050189083::1768077148::0::1::::<>Node2D<><>0<>0<><>::
-::res://Scripts/Service Locator/::1768607417
+::res://Scripts/Service Locator/::1769057022
 IService.cs::CSharpScript::1983700098112907179::1763061492::0::1::::<><><>0<>0<><>::
-ServiceLocator.cs::CSharpScript::2758982326200993495::1768607417::0::1::::<>Node<><>0<>0<><>::
+ServiceLocator.cs::CSharpScript::2758982326200993495::1769057022::0::1::::<>Node<><>0<>0<><>::
 ServiceName.cs::CSharpScript::4403396248058119688::1768575226::0::1::::<><><>0<>0<><>::
-::res://Scripts/Service Locator/ServiceImpl/::1769013043
+::res://Scripts/Service Locator/ServiceImpl/::1769058725
 GameClock.cs::CSharpScript::5958744172996560957::1767986555::0::1::::<>Node<><>0<>0<><>::
 InventoryService.cs::CSharpScript::1403321629926908085::1768238511::0::1::::<><><>0<>0<><>::
-KitchenService.cs::CSharpScript::4512890083462845726::1768406810::0::1::::<><><>0<>0<><>::
+KitchenService.cs::CSharpScript::4512890083462845726::1769058725::0::1::::<><><>0<>0<><>::
 PlayerDataService.cs::CSharpScript::1767454732185490043::1769009190::0::1::::<><><>0<>0<><>::
 SceneManager.cs::CSharpScript::6348632144876614060::1769013043::0::1::::<><><>0<>0<><>::
 StoreService.cs::CSharpScript::9168626102703084503::1768574751::0::1::::<><><>0<>0<><>::
@@ -161,9 +173,9 @@ InputEventDto.cs::CSharpScript::3661119012315735854::1763522517::0::1::::<><><>0
 InputMapping.cs::CSharpScript::4793364380190915574::1765139232::0::1::::<><><>0<>0<><>::
 InputStateMachine.cs::CSharpScript::2726786593958912293::1763583496::0::1::::<>Node<><>0<>0<><>::
 InputType.cs::CSharpScript::814575314085489727::1763522261::0::1::::<><><>0<>0<><>::
-::res://Scripts/Utils/::1769014617
-IngredientUtil.cs::CSharpScript::5555054558068966930::1769014617::0::1::::<><><>0<>0<><>::
+::res://Scripts/Utils/::1769059028
+IngredientUtil.cs::CSharpScript::5555054558068966930::1769057731::0::1::::<><><>0<>0<><>::
 JsonUtils.cs::CSharpScript::3081549653574154292::1763061492::0::1::::<><><>0<>0<><>::
-RecipeUtil.cs::CSharpScript::7607954720194195410::1769008661::0::1::::<><><>0<>0<><>::
+RecipeUtil.cs::CSharpScript::7607954720194195410::1769059028::0::1::::<><><>0<>0<><>::
 StringUtils.cs::CSharpScript::5105370050573640547::1768968384::0::1::::<><><>0<>0<><>::
 TickTimer.cs::CSharpScript::5350068756876619716::1767653834::0::1::::<><><>0<>0<><>::

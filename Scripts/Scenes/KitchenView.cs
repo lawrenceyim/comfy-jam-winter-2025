@@ -10,6 +10,12 @@ public partial class KitchenView : Node2D {
     [Export]
     private CardDisplay _cardDisplay;
 
+    [Export]
+    private Sprite2D _cookedBox;
+
+    [Export]
+    private Sprite2D _cookedRecipeSprite;
+
     private TextureRepository _textureRepository;
     private PlayerDataService _playerDataService;
     private KitchenService _kitchenService;
@@ -28,7 +34,9 @@ public partial class KitchenView : Node2D {
         _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
 
         _cookBookButton.Pressed += () => _sceneManager.ChangeScene(SceneId.CookBoox);
+        _cardDisplay.RecipeMade += _DisplayRecipeMade;
 
+        _DisplayRecipeSprites(false);
         _kitchenService.SelectRandomRecipeIfNull();
 
         _cardDisplay.InitIngredients(
@@ -36,5 +44,15 @@ public partial class KitchenView : Node2D {
                 .OrderBy(i => i.ToString())
                 .ToArray()
         );
+    }
+
+    private void _DisplayRecipeSprites(bool display) {
+        _cookedRecipeSprite.Visible = display;
+        _cookedBox.Visible = display;
+    }
+
+    private void _DisplayRecipeMade(RecipeName recipe) {
+        _cookedRecipeSprite.Texture = _textureRepository.GetTexture(RecipeUtil.GetTextureId(recipe));
+        _DisplayRecipeSprites(true);
     }
 }
