@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://4etkytci5wp3"
+path="res://.godot/imported/Cooking_Boil.wav-680ff2ef675c56be1f1c20e758ee79a2.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Boil.wav"
+dest_files=["res://.godot/imported/Cooking_Boil.wav-680ff2ef675c56be1f1c20e758ee79a2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

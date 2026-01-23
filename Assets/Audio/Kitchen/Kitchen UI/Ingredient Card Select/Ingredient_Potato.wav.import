@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bd86p7ux3rutb"
+path="res://.godot/imported/Ingredient_Potato.wav-52bd0facaca73b392f30f375a9dfc3fd.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Potato.wav"
+dest_files=["res://.godot/imported/Ingredient_Potato.wav-52bd0facaca73b392f30f375a9dfc3fd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

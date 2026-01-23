@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wvi7a047ad85"
+path="res://.godot/imported/Ingredient_Chicken.wav-16e4ce90ebd05a82efcc04b2dfdec975.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Chicken.wav"
+dest_files=["res://.godot/imported/Ingredient_Chicken.wav-16e4ce90ebd05a82efcc04b2dfdec975.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

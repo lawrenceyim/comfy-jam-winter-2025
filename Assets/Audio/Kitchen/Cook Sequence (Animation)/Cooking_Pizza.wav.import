@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgxp1bqfgp5ne"
+path="res://.godot/imported/Cooking_Pizza.wav-33fb37275b6459ef9ee002f65f72aec5.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Pizza.wav"
+dest_files=["res://.godot/imported/Cooking_Pizza.wav-33fb37275b6459ef9ee002f65f72aec5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

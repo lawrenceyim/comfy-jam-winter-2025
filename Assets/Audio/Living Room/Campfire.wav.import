@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8n1860cjb7vm"
+path="res://.godot/imported/Campfire.wav-acc40a59f319067a82270127a9c9929c.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Living Room/Campfire.wav"
+dest_files=["res://.godot/imported/Campfire.wav-acc40a59f319067a82270127a9c9929c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

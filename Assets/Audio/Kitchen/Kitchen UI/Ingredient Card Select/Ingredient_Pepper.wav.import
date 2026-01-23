@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://deeeefvi4n6"
+path="res://.godot/imported/Ingredient_Pepper.wav-9241d2c3138ef3bda1f9969f4a39cb28.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Pepper.wav"
+dest_files=["res://.godot/imported/Ingredient_Pepper.wav-9241d2c3138ef3bda1f9969f4a39cb28.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

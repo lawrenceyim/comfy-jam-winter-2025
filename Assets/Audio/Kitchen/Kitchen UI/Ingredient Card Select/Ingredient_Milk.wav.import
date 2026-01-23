@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dwdfr1c01w457"
+path="res://.godot/imported/Ingredient_Milk.wav-bdc35bb5f535fd4ae7705b4ab621431b.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Milk.wav"
+dest_files=["res://.godot/imported/Ingredient_Milk.wav-bdc35bb5f535fd4ae7705b4ab621431b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

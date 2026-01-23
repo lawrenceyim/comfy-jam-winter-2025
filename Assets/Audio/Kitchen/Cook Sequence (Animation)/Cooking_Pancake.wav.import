@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cvturc3iiimko"
+path="res://.godot/imported/Cooking_Pancake.wav-c2469631a0868c504d41048fb73d6755.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Pancake.wav"
+dest_files=["res://.godot/imported/Cooking_Pancake.wav-c2469631a0868c504d41048fb73d6755.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

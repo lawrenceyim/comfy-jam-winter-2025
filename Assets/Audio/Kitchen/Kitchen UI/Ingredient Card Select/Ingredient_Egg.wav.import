@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dl8mww4wdo2j6"
+path="res://.godot/imported/Ingredient_Egg.wav-fef9c711691ae281f70e51a6d4b9f21e.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Egg.wav"
+dest_files=["res://.godot/imported/Ingredient_Egg.wav-fef9c711691ae281f70e51a6d4b9f21e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

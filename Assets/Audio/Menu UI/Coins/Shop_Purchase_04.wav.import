@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0m763tck1plm"
+path="res://.godot/imported/Shop_Purchase_04.wav-bc6b9d588a3f393f078afb6c65748994.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Menu UI/Coins/Shop_Purchase_04.wav"
+dest_files=["res://.godot/imported/Shop_Purchase_04.wav-bc6b9d588a3f393f078afb6c65748994.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

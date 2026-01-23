@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cyrashnvtoqay"
+path="res://.godot/imported/Mouse_Select_Button.wav-9712069a05dbb4053af3f2feea47bc2e.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Menu UI/Mouse_Select_Button.wav"
+dest_files=["res://.godot/imported/Mouse_Select_Button.wav-9712069a05dbb4053af3f2feea47bc2e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

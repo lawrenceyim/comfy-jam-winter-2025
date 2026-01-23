@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dadqq74x6f4fp"
+path="res://.godot/imported/Create_Mistake.wav-3b409f7b6d4209e6de4b324a8ae86518.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Kitchen/Cooking Results/Create_Mistake.wav"
+dest_files=["res://.godot/imported/Create_Mistake.wav-3b409f7b6d4209e6de4b324a8ae86518.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
