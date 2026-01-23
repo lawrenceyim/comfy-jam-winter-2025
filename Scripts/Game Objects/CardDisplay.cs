@@ -7,7 +7,7 @@ using RepositorySystem;
 using ServiceSystem;
 
 public partial class CardDisplay : Node {
-	public event Action<RecipeName> RecipeMade;
+	public event Action<RecipeName, RecipeName> RecipeMadeVsIntended;
 
 	[Export]
 	private PackedScene _cardPrefab;
@@ -96,7 +96,7 @@ public partial class CardDisplay : Node {
 		_selectedCards.Clear();
 		ClearCards();
 		_DisplayCookButton();
-		RecipeMade?.Invoke(recipe);
+		RecipeMadeVsIntended?.Invoke(recipe, _kitchenService.GetSelectedRecipe());
 	}
 
 	private void _HandleHover(Card card, bool hovered) {

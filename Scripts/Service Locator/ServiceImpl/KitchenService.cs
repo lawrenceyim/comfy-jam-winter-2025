@@ -65,4 +65,8 @@ public class KitchenService : IService {
     public void RecipeDiscovered(RecipeName recipeName) {
         _playerDataRepository.DiscoveredRecipes.Add(recipeName);
     }
+
+    public RecipeName GetSelectedRecipe() {
+        return _playerDataRepository.SelectedRecipe.Value;
+    }
 }

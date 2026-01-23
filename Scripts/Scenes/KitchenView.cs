@@ -28,6 +28,14 @@ public partial class KitchenView : Node2D {
     [Export]
     private Sprite2D _cookedRecipeSprite;
 
+    [Export]
+    private Node2D _cookingUI;
+
+    [Export]
+    private AnimatedSprite2D _fryingPan;
+
+    private readonly TickTimer _cookingAnimationTimer = new();
+
     private TextureRepository _textureRepository;
     private PlayerDataService _playerDataService;
     private KitchenService _kitchenService;
@@ -46,10 +54,12 @@ public partial class KitchenView : Node2D {
         _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
 
         _cookBookButton.Pressed += () => _sceneManager.ChangeScene(SceneId.CookBoox);
-        _cardDisplay.RecipeMade += _RecipeMade;
+        _cardDisplay.RecipeMadeVsIntended += _HandleRecipeMade;
 
         _DisplayRecipeSprites(false);
         _kitchenService.SelectRandomRecipeIfNull();
+
+        _cookingAnimationTimer.TimedOut += _FinishCookingAnimation;
 
         _homeButton.Pressed += () => {
             _sceneManager.SetNextSceneId(SceneId.LivingRoom);
@@ -72,16 +82,27 @@ public partial class KitchenView : Node2D {
         _InitIngredients();
     }
 
+    public override void _Process(double delta) {
+        _cookingAnimationTimer.PhysicsTick();
+    }
+
     private void _DisplayRecipeSprites(bool display) {
         _cookedRecipeSprite.Visible = display;
         _cookedBox.Visible = display;
     }
 
-    private void _RecipeMade(RecipeName recipe) {
-        _playerDataService.SetRecipeMade(recipe);
-        _cookedRecipeSprite.Texture = _textureRepository.GetTexture(RecipeUtil.GetTextureId(recipe));
+    private void _HandleRecipeMade(RecipeName made, RecipeName intended) {
+        _playerDataService.SetRecipeMade(made);
+        _cookedRecipeSprite.Texture = _textureRepository.GetTexture(RecipeUtil.GetTextureId(made));
+        _DisplayCookingUi(true);
+        _SetCookingAnimation(intended);
+        _cookingAnimationTimer.StartFixedTimer(false, 3 * Engine.PhysicsTicksPerSecond);
+    }
+
+    private void _FinishCookingAnimation() {
         _DisplayButtons(true);
         _DisplayRecipeSprites(true);
+        _DisplayCookingUi(false);
     }
 
     private void _InitIngredients() {
@@ -101,5 +122,23 @@ public partial class KitchenView : Node2D {
                     ? "Retry"
                     : "Eat";
         }
+    }
+
+    private void _DisplayCookingUi(bool display) {
+        _cookingUI.Visible = display;
+    }
+
+    private void _SetCookingAnimation(RecipeName recipe) {
+        _fryingPan.Play(recipe switch {
+            RecipeName.ChickenNoodleSoup => "Chicken Noodle Soup",
+            RecipeName.FrenchFries => "Fries",
+            RecipeName.FriedChicken => "Fried Chicken",
+            RecipeName.FriedEgg => "Fried Egg",
+            RecipeName.GrilledCheese => "Grilled Cheese",
+            RecipeName.Pancakes => "Pancake",
+            RecipeName.Pizza => "Pizza",
+            RecipeName.SteakFrite => "Steak",
+            RecipeName.TomatoBisque => "Tomato",
+        });
     }
 }

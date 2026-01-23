@@ -1,11 +1,11 @@
+AnimatedSprite2D
+Node2D
 Button
 CollisionPolygon2D
 CollisionShape2D
 StaticBody2D
 Area2D
-Node2D
 CharacterBody2D
-AnimatedSprite2D
 Label
 Node
 AudioStreamPlayer
