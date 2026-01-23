@@ -39,7 +39,7 @@ public class PlayerDataService : IService {
         return _playerDataRepository.CookedDish;
     }
 
-    public void SetRecipeMade(RecipeName recipeName) {
+    public void SetRecipeMade(RecipeName? recipeName) {
         _playerDataRepository.CookedDish = recipeName;
     }
 }

@@ -53,7 +53,11 @@ public partial class LivingRoomView : Node2D {
         _playerDataService.MoneyUpdated += () => _currencyLabel.Text = $"{_playerDataService.GetMoney()}";
         _food.Texture = null;
 
-        _eatingAnimationTimer.TimedOut += () => SetAnimalAnimation(AnimalView.AnimalAnimation.Talk);
+        _eatingAnimationTimer.TimedOut += () => {
+            _playerDataService.SetRecipeMade(null);
+            SetFood(null);
+            SetAnimalAnimation(AnimalView.AnimalAnimation.Talk);
+        };
 
         if (_playerDataService.GetRecipeMade() is not null) {
             SetAnimalAnimation(AnimalView.AnimalAnimation.Eat);
