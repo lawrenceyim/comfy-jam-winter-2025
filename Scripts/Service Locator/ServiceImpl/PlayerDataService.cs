@@ -34,4 +34,12 @@ public class PlayerDataService : IService {
     public void AddDiscoveredRecipe(RecipeName recipeName) {
         _playerDataRepository.DiscoveredRecipes.Add(recipeName);
     }
+
+    public RecipeName GetRecipeMade() {
+        return _playerDataRepository.CookedDish.Value;
+    }
+
+    public void SetRecipeMade(RecipeName recipeName) {
+        _playerDataRepository.CookedDish = recipeName;
+    }
 }

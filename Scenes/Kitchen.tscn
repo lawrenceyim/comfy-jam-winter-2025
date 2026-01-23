@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://ctqlhjclmb4pq"]
+[gd_scene load_steps=14 format=3 uid="uid://ctqlhjclmb4pq"]
 
 [ext_resource type="Script" uid="uid://cj1sbne2v8qnl" path="res://Scripts/Scenes/KitchenView.cs" id="1_2v58e"]
 [ext_resource type="Texture2D" uid="uid://kp3ghfuw6emp" path="res://Assets/Sprites/Kitchen/IMG_6094.PNG" id="2_uxyhd"]
@@ -10,11 +10,21 @@
 [ext_resource type="Texture2D" uid="uid://mug582dleor0" path="res://Assets/Sprites/Ui/Dish cooked box.PNG" id="8_b6yew"]
 [ext_resource type="Texture2D" uid="uid://dcautseb7ggpu" path="res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG" id="9_yp2dn"]
 [ext_resource type="Texture2D" uid="uid://b7jabph4cxpe0" path="res://Assets/Sprites/Ui/Back_exit.png" id="10_0sqtt"]
+[ext_resource type="Texture2D" uid="uid://ckh0jlgxmxuem" path="res://Assets/Sprites/Main menu/Ui for main menu.PNG" id="11_57t66"]
+[ext_resource type="FontFile" uid="uid://dw6hev55tt3u" path="res://Assets/Fonts/Lonely_Coffee.ttf" id="12_mxqhq"]
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton", "_homeButton", "_cardDisplay", "_cookedBox", "_cookedRecipeSprite")]
+[sub_resource type="LabelSettings" id="LabelSettings_6rl12"]
+font = ExtResource("12_mxqhq")
+font_size = 48
+font_color = Color(0.7529412, 0.30980393, 0.11764706, 1)
+
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton", "_homeButton", "_playerResponseButton", "_playerResponseButtonLabel", "_playerResponseButtonUi", "_cardDisplay", "_cookedBox", "_cookedRecipeSprite")]
 script = ExtResource("1_2v58e")
 _cookBookButton = NodePath("Book Button")
 _homeButton = NodePath("BackExit/Home Button")
+_playerResponseButton = NodePath("Button/Button")
+_playerResponseButtonLabel = NodePath("Button/Label")
+_playerResponseButtonUi = NodePath("Button")
 _cardDisplay = NodePath("Card Display")
 _cookedBox = NodePath("Dish Cooked Box")
 _cookedRecipeSprite = NodePath("Dish Cooked Box/Dish Sprite")
@@ -45,16 +55,8 @@ stretch_mode = 3
 
 [node name="Card Display" parent="." instance=ExtResource("7_6fiwt")]
 
-[node name="Dish Cooked Box" type="Sprite2D" parent="."]
-position = Vector2(640, 300)
-texture = ExtResource("8_b6yew")
-
-[node name="Dish Sprite" type="Sprite2D" parent="Dish Cooked Box"]
-position = Vector2(5, 0)
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("9_yp2dn")
-
 [node name="BackExit" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(1241, 38)
 texture = ExtResource("10_0sqtt")
 
@@ -64,3 +66,33 @@ offset_left = -40.0
 offset_top = -38.0
 offset_right = 39.0
 offset_bottom = 42.0
+
+[node name="Dish Cooked Box" type="Sprite2D" parent="."]
+position = Vector2(640, 250)
+texture = ExtResource("8_b6yew")
+
+[node name="Dish Sprite" type="Sprite2D" parent="Dish Cooked Box"]
+position = Vector2(5, 0)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("9_yp2dn")
+
+[node name="Button" type="Sprite2D" parent="."]
+position = Vector2(640, 575)
+texture = ExtResource("11_57t66")
+
+[node name="Button" type="Button" parent="Button"]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -192.0
+offset_top = -53.774994
+offset_right = 189.0
+offset_bottom = 48.225006
+
+[node name="Label" type="Label" parent="Button"]
+offset_left = -193.0
+offset_top = -53.774994
+offset_right = 190.0
+offset_bottom = 49.225006
+text = "Eat"
+label_settings = SubResource("LabelSettings_6rl12")
+horizontal_alignment = 1
+vertical_alignment = 1

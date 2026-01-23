@@ -12,20 +12,15 @@ public class KitchenService : IService {
         _playerDataRepository = playerDataRepository;
     }
 
-    // Deprecated function
-    // public void Cook(RecipeName RecipeName) {
-    //     Recipe recipe = RecipeInfo.GetRecipe(RecipeName);
-    //     foreach (KeyValuePair<IngredientName, int> ingredient in recipe.Ingredients) {
-    //         _inventoryService.DecreaseIngredientQuantity(ingredient.Key, ingredient.Value);
-    //     }
-    //
-    //     _inventoryService.IncreaseIngredientQuantity(recipe.IngredientName, 1);
-    // }
     public void SelectRandomRecipeIfNull() {
         if (_playerDataRepository.SelectedRecipe == null) {
             _playerDataRepository.SelectedRecipe = GetRandomRecipeName();
             GenerateRandomIngredientsForSelectedRecipe(_playerDataRepository.SelectedRecipe.Value);
         }
+    }
+
+    public void RandomizeProvidedIngredients() {
+        GenerateRandomIngredientsForSelectedRecipe(_playerDataRepository.SelectedRecipe.Value);
     }
 
     public RecipeName GetRandomRecipeName() {
@@ -51,6 +46,7 @@ public class KitchenService : IService {
 
     public HashSet<IngredientName> GenerateRandomIngredientsForSelectedRecipe(RecipeName recipeName) {
         HashSet<IngredientName> providedIngredients = _playerDataRepository.ProvidedIngredients;
+        providedIngredients.Clear();
         Recipe recipe = RecipeInfo.GetRecipe(recipeName);
         foreach (KeyValuePair<IngredientName, int> kvp in recipe.Ingredients) {
             providedIngredients.Add(kvp.Key);

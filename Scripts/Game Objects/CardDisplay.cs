@@ -26,7 +26,7 @@ public partial class CardDisplay : Node {
 	private readonly List<Card> _hoveredCards = [];
 
 	private IngredientName[] _ingredients;
-	private Card[] _cards;
+	private Card[] _cards = [];
 
 	private const int CardBaseZIndex = 10;
 	private const int HoverZIndexBoost = 10;
@@ -54,8 +54,10 @@ public partial class CardDisplay : Node {
 
 	public void ClearCards() {
 		for (int i = 0; i < _cards.Length; i++) {
-			_cards[i].Visible = false;
+			_cards[i]?.QueueFree();
 		}
+
+		_cards = [];
 	}
 
 	public void InitIngredients(IngredientName[] ingredients) {

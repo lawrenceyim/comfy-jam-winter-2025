@@ -11,6 +11,15 @@ public partial class KitchenView : Node2D {
     private Button _homeButton;
 
     [Export]
+    private Button _playerResponseButton;
+
+    [Export]
+    private Label _playerResponseButtonLabel;
+
+    [Export]
+    private Node2D _playerResponseButtonUi;
+
+    [Export]
     private CardDisplay _cardDisplay;
 
     [Export]
@@ -37,7 +46,7 @@ public partial class KitchenView : Node2D {
         _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
 
         _cookBookButton.Pressed += () => _sceneManager.ChangeScene(SceneId.CookBoox);
-        _cardDisplay.RecipeMade += _DisplayRecipeMade;
+        _cardDisplay.RecipeMade += _RecipeMade;
 
         _DisplayRecipeSprites(false);
         _kitchenService.SelectRandomRecipeIfNull();
@@ -47,11 +56,20 @@ public partial class KitchenView : Node2D {
             _sceneManager.ChangeScene(TransitionUtil.GetRandomTransitionSceneId());
         };
 
-        _cardDisplay.InitIngredients(
-            _kitchenService.GetProvidedIngredients()
-                .OrderBy(i => i.ToString())
-                .ToArray()
-        );
+        _playerResponseButton.Pressed += () => {
+            if (_playerDataService.GetRecipeMade() == RecipeName.Mistake) {
+                _DisplayRecipeSprites(false);
+                _kitchenService.RandomizeProvidedIngredients();
+                _InitIngredients();
+                _DisplayButtons(false);
+            } else {
+                _sceneManager.SetNextSceneId(SceneId.LivingRoom);
+                _sceneManager.ChangeScene(TransitionUtil.GetRandomTransitionSceneId());
+            }
+        };
+
+        _DisplayButtons(false);
+        _InitIngredients();
     }
 
     private void _DisplayRecipeSprites(bool display) {
@@ -59,8 +77,29 @@ public partial class KitchenView : Node2D {
         _cookedBox.Visible = display;
     }
 
-    private void _DisplayRecipeMade(RecipeName recipe) {
+    private void _RecipeMade(RecipeName recipe) {
+        _playerDataService.SetRecipeMade(recipe);
         _cookedRecipeSprite.Texture = _textureRepository.GetTexture(RecipeUtil.GetTextureId(recipe));
+        _DisplayButtons(true);
         _DisplayRecipeSprites(true);
+    }
+
+    private void _InitIngredients() {
+        _cardDisplay.InitIngredients(
+            _kitchenService.GetProvidedIngredients()
+                .OrderBy(i => i.ToString())
+                .ToArray()
+        );
+    }
+
+    private void _DisplayButtons(bool display) {
+        _playerResponseButtonUi.Visible = display;
+
+        if (display) {
+            _playerResponseButtonLabel.Text =
+                _playerDataService.GetRecipeMade() == RecipeName.Mistake
+                    ? "Retry"
+                    : "Eat";
+        }
     }
 }

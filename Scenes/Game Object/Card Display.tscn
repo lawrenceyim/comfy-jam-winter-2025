@@ -17,6 +17,7 @@ _cookButton = NodePath("Cook Button/Button")
 _cookButtonSprite = NodePath("Cook Button")
 
 [node name="Cook Button" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(640, 650)
 texture = ExtResource("3_l5n0p")
 
