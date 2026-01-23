@@ -57,6 +57,12 @@ public partial class LivingRoomView : Node2D {
             _playerDataService.SetRecipeMade(null);
             SetFood(null);
             SetAnimalAnimation(AnimalView.AnimalAnimation.Talk);
+
+            if (_playerDataService.DiscoveredAllRecipes()) {
+                // TODO: Add transition to end scene
+                
+                GD.Print("Discovered all recipes");
+            }
         };
 
         if (_playerDataService.GetRecipeMade() is not null) {

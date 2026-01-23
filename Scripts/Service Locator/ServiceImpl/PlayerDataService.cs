@@ -42,4 +42,12 @@ public class PlayerDataService : IService {
     public void SetRecipeMade(RecipeName? recipeName) {
         _playerDataRepository.CookedDish = recipeName;
     }
+
+    public bool DiscoveredAllRecipes() {
+        if (_playerDataRepository.DiscoveredRecipes.Contains(RecipeName.Mistake)) {
+            return _playerDataRepository.DiscoveredRecipes.Count >= 10;
+        }
+
+        return _playerDataRepository.DiscoveredRecipes.Count >= 9; // TODO: Change to a non-hard code solution later
+    }
 }
