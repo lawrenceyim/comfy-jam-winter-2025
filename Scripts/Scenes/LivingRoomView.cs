@@ -43,8 +43,7 @@ public partial class LivingRoomView : Node2D {
         _storeButton.Pressed += () => _sceneManager.ChangeScene(SceneId.Store);
         _kitchenButton.Pressed += () => {
             _sceneManager.SetNextSceneId(SceneId.Kitchen);
-            _sceneManager.ChangeScene(SceneId.TransitionZoneOne);
-            // _sceneManager.ChangeScene(TransitionUtil.GetRandomTransitionSceneId());
+            _sceneManager.ChangeScene(TransitionUtil.GetRandomTransitionSceneId());
         };
         _bookButton.Pressed += () => _sceneManager.ChangeScene(SceneId.CookBoox);
 

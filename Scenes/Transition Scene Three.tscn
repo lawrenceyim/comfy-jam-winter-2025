@@ -1,0 +1,81 @@
+[gd_scene load_steps=9 format=3 uid="uid://y5vr2wuabdpr"]
+
+[ext_resource type="Texture2D" uid="uid://wdwqu05lh8qa" path="res://Assets/Sprites/Transition/Transition3.PNG" id="1_6c1hj"]
+[ext_resource type="Script" uid="uid://dty6m6vv8d5qb" path="res://Scripts/Scenes/TransitionZoneMaze.cs" id="2_2j487"]
+[ext_resource type="PackedScene" uid="uid://mmey0nvu4doa" path="res://Scenes/Game Object/AnimalPlayable.tscn" id="3_i8qqn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6c1hj"]
+size = Vector2(303, 216)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2j487"]
+size = Vector2(93.5, 87)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i8qqn"]
+size = Vector2(330.75, 164.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_orekn"]
+size = Vector2(61.375, 435)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3jbd8"]
+size = Vector2(150.625, 56.25)
+
+[node name="Transition1" type="Sprite2D" node_paths=PackedStringArray("_exitArea")]
+texture = ExtResource("1_6c1hj")
+centered = false
+script = ExtResource("2_2j487")
+_exitArea = NodePath("Exit")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_i8qqn")]
+position = Vector2(1240, 501)
+
+[node name="Terrain" type="Node2D" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Terrain"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/StaticBody2D"]
+position = Vector2(151.5, 108)
+shape = SubResource("RectangleShape2D_6c1hj")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Terrain"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/StaticBody2D2"]
+position = Vector2(44.25, 373.5)
+shape = SubResource("RectangleShape2D_2j487")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Terrain"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/StaticBody2D3"]
+position = Vector2(164.625, 637.25)
+shape = SubResource("RectangleShape2D_i8qqn")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Terrain"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/StaticBody2D4"]
+position = Vector2(1249.3125, 219.5)
+shape = SubResource("RectangleShape2D_orekn")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="Terrain"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Terrain/StaticBody2D5"]
+polygon = PackedVector2Array(459, 0, 458, 334, 217, 334, 215, 403, 458, 401, 460, 529, 597, 529, 594, 119, 807, 118, 808, -2)
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="Terrain"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Terrain/StaticBody2D6"]
+polygon = PackedVector2Array(469, 671, 1011, 670, 1010, 574, 1280, 574, 1280, 719, 469, 719)
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="Terrain"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Terrain/StaticBody2D7"]
+polygon = PackedVector2Array(746, 536, 745, 260, 965, 259, 965, -1, 1085, -1, 1087, 434, 864, 437, 865, 538)
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="Terrain"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Terrain/StaticBody2D8"]
+polygon = PackedVector2Array(-7, 720, 1281, 719, 1282, 1, -1, -1, 1, 567, -37, 566, -37, -32, 1321, -30, 1322, 744, -7, 748)
+
+[node name="Exit" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Exit"]
+position = Vector2(885.6875, 26.875)
+shape = SubResource("RectangleShape2D_3jbd8")
