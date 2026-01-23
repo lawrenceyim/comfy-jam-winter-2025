@@ -48,7 +48,8 @@ public partial class AnimalPlayable : CharacterBody2D {
         }
 
         _movement = _movement.Normalized();
-        MoveAndCollide(_movement * (float)delta * _speed);
+        Velocity = _movement * _speed;
+        MoveAndSlide();
     }
 
     private void _PlayAnimation() {
