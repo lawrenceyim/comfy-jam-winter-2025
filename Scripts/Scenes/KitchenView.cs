@@ -8,6 +8,9 @@ public partial class KitchenView : Node2D {
     private TextureButton _cookBookButton;
 
     [Export]
+    private Button _homeButton;
+
+    [Export]
     private CardDisplay _cardDisplay;
 
     [Export]
@@ -38,6 +41,11 @@ public partial class KitchenView : Node2D {
 
         _DisplayRecipeSprites(false);
         _kitchenService.SelectRandomRecipeIfNull();
+
+        _homeButton.Pressed += () => {
+            _sceneManager.SetNextSceneId(SceneId.LivingRoom);
+            _sceneManager.ChangeScene(TransitionUtil.GetRandomTransitionSceneId());
+        };
 
         _cardDisplay.InitIngredients(
             _kitchenService.GetProvidedIngredients()

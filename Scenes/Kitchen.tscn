@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://ctqlhjclmb4pq"]
+[gd_scene load_steps=11 format=3 uid="uid://ctqlhjclmb4pq"]
 
 [ext_resource type="Script" uid="uid://cj1sbne2v8qnl" path="res://Scripts/Scenes/KitchenView.cs" id="1_2v58e"]
 [ext_resource type="Texture2D" uid="uid://kp3ghfuw6emp" path="res://Assets/Sprites/Kitchen/IMG_6094.PNG" id="2_uxyhd"]
@@ -9,10 +9,12 @@
 [ext_resource type="PackedScene" uid="uid://dap5k58w0mp3h" path="res://Scenes/Game Object/Card Display.tscn" id="7_6fiwt"]
 [ext_resource type="Texture2D" uid="uid://mug582dleor0" path="res://Assets/Sprites/Ui/Dish cooked box.PNG" id="8_b6yew"]
 [ext_resource type="Texture2D" uid="uid://dcautseb7ggpu" path="res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG" id="9_yp2dn"]
+[ext_resource type="Texture2D" uid="uid://b7jabph4cxpe0" path="res://Assets/Sprites/Ui/Back_exit.png" id="10_0sqtt"]
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton", "_cardDisplay", "_cookedBox", "_cookedRecipeSprite")]
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton", "_homeButton", "_cardDisplay", "_cookedBox", "_cookedRecipeSprite")]
 script = ExtResource("1_2v58e")
 _cookBookButton = NodePath("Book Button")
+_homeButton = NodePath("BackExit/Home Button")
 _cardDisplay = NodePath("Card Display")
 _cookedBox = NodePath("Dish Cooked Box")
 _cookedRecipeSprite = NodePath("Dish Cooked Box/Dish Sprite")
@@ -51,3 +53,14 @@ texture = ExtResource("8_b6yew")
 position = Vector2(5, 0)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("9_yp2dn")
+
+[node name="BackExit" type="Sprite2D" parent="."]
+position = Vector2(1241, 38)
+texture = ExtResource("10_0sqtt")
+
+[node name="Home Button" type="Button" parent="BackExit"]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -40.0
+offset_top = -38.0
+offset_right = 39.0
+offset_bottom = 42.0
