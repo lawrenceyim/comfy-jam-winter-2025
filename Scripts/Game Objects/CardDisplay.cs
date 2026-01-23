@@ -82,15 +82,11 @@ public partial class CardDisplay : Node {
 
 	private void _Cook() {
 		Dictionary<IngredientName, int> ingredients = new();
-		GD.Print($"Cooking:");
 		foreach (Card card in _selectedCards) {
-			GD.Print($"{card.IngredientName}");
 			ingredients.Add(card.IngredientName, 1);
 		}
 
-		// TODO: Add actual functionality
 		RecipeName recipe = RecipeInfo.FindRecipeByIngredients(ingredients);
-		GD.Print($"Recipe found {recipe}");
 		_kitchenService.RecipeDiscovered(recipe);
 
 		_selectedCards.Clear();

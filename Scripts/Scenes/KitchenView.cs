@@ -73,6 +73,7 @@ public partial class KitchenView : Node2D {
                 _InitIngredients();
                 _DisplayButtons(false);
             } else {
+                _kitchenService.ClearSelectedRecipe();
                 _sceneManager.SetNextSceneId(SceneId.LivingRoom);
                 _sceneManager.ChangeScene(TransitionUtil.GetRandomTransitionSceneId());
             }

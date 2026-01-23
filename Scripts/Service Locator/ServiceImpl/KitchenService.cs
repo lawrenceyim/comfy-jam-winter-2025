@@ -69,4 +69,8 @@ public class KitchenService : IService {
     public RecipeName GetSelectedRecipe() {
         return _playerDataRepository.SelectedRecipe.Value;
     }
+
+    public void ClearSelectedRecipe() {
+        _playerDataRepository.SelectedRecipe = null;
+    }
 }

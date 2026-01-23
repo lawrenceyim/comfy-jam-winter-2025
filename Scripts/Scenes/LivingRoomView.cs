@@ -59,7 +59,7 @@ public partial class LivingRoomView : Node2D {
         _eatingAnimationTimer.TimedOut += () => {
             _animal.SetSpeechLabel(_GenerateSpeech());
             _playerDataService.SetRecipeMade(null);
-            SetFood(null);
+            SetFoodDisplay(null);
             SetAnimalAnimation(AnimalView.AnimalAnimation.Talk);
             _talkingAnimationTimer.StartFixedTimer(false, 5 * Engine.PhysicsTicksPerSecond);
         };
@@ -71,14 +71,13 @@ public partial class LivingRoomView : Node2D {
 
                 GD.Print("Discovered all recipes");
             }
-
             _kitchenButton.Visible = true;
         };
 
         if (_playerDataService.GetRecipeMade() is not null) {
             _kitchenButton.Visible = false;
             SetAnimalAnimation(AnimalView.AnimalAnimation.Eat);
-            SetFood(_playerDataService.GetRecipeMade());
+            SetFoodDisplay(_playerDataService.GetRecipeMade());
             _eatingAnimationTimer.StartFixedTimer(false, 3 * Engine.PhysicsTicksPerSecond);
         }
     }
@@ -116,7 +115,7 @@ public partial class LivingRoomView : Node2D {
         }
     }
 
-    public void SetFood(RecipeName? recipeName) {
+    public void SetFoodDisplay(RecipeName? recipeName) {
         if (recipeName == null) {
             _food.Texture = null;
             return;
@@ -128,7 +127,6 @@ public partial class LivingRoomView : Node2D {
 
     private string _GenerateSpeech() {
         RecipeName recipeName = _playerDataService.GetRecipeMade().Value;
-
         return $"The {StringUtils.SplitPascalCase(recipeName.ToString())} was delicious.";
     }
 }
