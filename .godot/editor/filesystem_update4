@@ -22,3 +22,6 @@ res://AnimalPlayable.tscn
 res://Scenes/Game Object/AnimalPlayable.tscn
 res://Scenes/Transition Scene One.tscn
 res://Scripts/Game Objects/AnimalPlayable.cs
+res://Scripts/Scenes/TransitionZoneMaze.cs
+res://Scenes/Autoloads/SceneRepository.tscn
+res://Scenes/Living Room.tscn

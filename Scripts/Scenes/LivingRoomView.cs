@@ -41,7 +41,11 @@ public partial class LivingRoomView : Node2D {
         _playerDataService = serviceLocator.GetService<PlayerDataService>();
 
         _storeButton.Pressed += () => _sceneManager.ChangeScene(SceneId.Store);
-        _kitchenButton.Pressed += () => _sceneManager.ChangeScene(SceneId.Kitchen);
+        _kitchenButton.Pressed += () => {
+            _sceneManager.SetNextSceneId(SceneId.Kitchen);
+            _sceneManager.ChangeScene(SceneId.TransitionZoneOne);
+            // _sceneManager.ChangeScene(TransitionUtil.GetRandomTransitionSceneId());
+        };
         _bookButton.Pressed += () => _sceneManager.ChangeScene(SceneId.CookBoox);
 
         _dayLabel.Text = $"{_playerDataService.GetDay()}";

@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://bkh65a55ynk5r"]
+[gd_scene load_steps=8 format=3 uid="uid://bkh65a55ynk5r"]
 
 [ext_resource type="Texture2D" uid="uid://f2dft70d5mn5" path="res://Assets/Sprites/Transition/Transition 1.PNG" id="1_ooyq5"]
+[ext_resource type="Script" uid="uid://dty6m6vv8d5qb" path="res://Scripts/Scenes/TransitionZoneMaze.cs" id="2_ar7d1"]
 [ext_resource type="PackedScene" uid="uid://mmey0nvu4doa" path="res://Scenes/Game Object/AnimalPlayable.tscn" id="2_rr4u4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rr4u4"]
@@ -15,9 +16,11 @@ size = Vector2(33, 127.75)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3jbd8"]
 size = Vector2(122.5, 20)
 
-[node name="Transition1" type="Sprite2D"]
+[node name="Transition1" type="Sprite2D" node_paths=PackedStringArray("_exitArea")]
 texture = ExtResource("1_ooyq5")
 centered = false
+script = ExtResource("2_ar7d1")
+_exitArea = NodePath("Exit")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_rr4u4")]
 position = Vector2(450, 48)

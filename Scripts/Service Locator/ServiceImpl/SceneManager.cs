@@ -5,6 +5,7 @@ public class SceneManager : IService {
     private SceneRepository _sceneRepository;
     private SceneId _currentSceneId;
     private SceneId _previousSceneId;
+    private SceneId _nextSceneId;
 
     public SceneManager(SceneRepository sceneRepository) {
         _sceneRepository = sceneRepository;
@@ -15,8 +16,16 @@ public class SceneManager : IService {
         _currentSceneId = sceneId;
     }
 
+    public void SetNextSceneId(SceneId sceneId) {
+        _nextSceneId = sceneId;
+    }
+
     public void ChangeToCurrentScene() {
         ChangeScene(_currentSceneId);
+    }
+
+    public void ChangeToNextScene() {
+        ChangeScene(_nextSceneId);
     }
 
     public void ChangeToPreviousScene() {

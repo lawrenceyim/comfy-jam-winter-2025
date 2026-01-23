@@ -1,16 +1,20 @@
-[gd_scene load_steps=6 format=3 uid="uid://bts0hp8eks3do"]
+[gd_scene load_steps=8 format=3 uid="uid://bts0hp8eks3do"]
 
 [ext_resource type="Script" uid="uid://eon0s6ns6pxw" path="res://Scripts/Repository/Impl/SceneRepository.cs" id="1_y5ugw"]
 [ext_resource type="PackedScene" uid="uid://bxcow45rq6qbu" path="res://Scenes/Living Room.tscn" id="2_dqlf8"]
 [ext_resource type="PackedScene" uid="uid://ctqlhjclmb4pq" path="res://Scenes/Kitchen.tscn" id="3_vaj0f"]
 [ext_resource type="PackedScene" uid="uid://dlje5xtmxvg16" path="res://Scenes/Store.tscn" id="4_lk8nv"]
 [ext_resource type="PackedScene" uid="uid://g0bau8iq3u3a" path="res://Scenes/Cookbook.tscn" id="5_vaj0f"]
+[ext_resource type="PackedScene" uid="uid://btbcbuiesdsfi" path="res://Scenes/MainMenu.tscn" id="6_qjf8q"]
+[ext_resource type="PackedScene" uid="uid://bkh65a55ynk5r" path="res://Scenes/Transition Scene One.tscn" id="7_45xqu"]
 
 [node name="SceneRepository" type="Node"]
 script = ExtResource("1_y5ugw")
 _packedScenes = Dictionary[int, PackedScene]({
+0: ExtResource("6_qjf8q"),
 1001: ExtResource("2_dqlf8"),
 1002: ExtResource("3_vaj0f"),
 1003: ExtResource("4_lk8nv"),
-1004: ExtResource("5_vaj0f")
+1004: ExtResource("5_vaj0f"),
+2001: ExtResource("7_45xqu")
 })
