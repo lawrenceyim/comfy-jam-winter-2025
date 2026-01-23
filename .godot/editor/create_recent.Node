@@ -1,13 +1,14 @@
 CollisionShape2D
+Area2D
+Node2D
+CollisionPolygon2D
+StaticBody2D
 CharacterBody2D
 AnimatedSprite2D
 Label
 Button
-Node2D
 Node
 AudioStreamPlayer
 Sprite2D
 Camera2D
-Area2D
 TextureButton
-HSlider
