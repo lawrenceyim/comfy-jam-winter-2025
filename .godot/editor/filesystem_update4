@@ -19,3 +19,6 @@ res://Scripts/Scenes/StoreView.cs
 res://Scripts/Game Objects/Card.cs
 res://Scripts/Repository/Impl/SceneRepository.cs
 res://AnimalPlayable.tscn
+res://Scenes/Game Object/AnimalPlayable.tscn
+res://Scenes/Transition Scene One.tscn
+res://Scripts/Game Objects/AnimalPlayable.cs

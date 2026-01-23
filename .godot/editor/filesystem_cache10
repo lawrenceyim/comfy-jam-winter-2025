@@ -1,6 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1769141196
-AnimalPlayable.tscn::PackedScene::867325717878114672::1769141196::0::1::::<><><>0<>0<><>::
+::res://::1769144523
 export_presets.cfg::TextFile::-1::1768844279::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1769005228
 ::res://Assets/Audio/::1769005232
@@ -116,7 +115,8 @@ Card.tscn::PackedScene::5769523462155250871::1769020264::0::1::::<><><>0<>0<><>:
 Furnace.tscn::PackedScene::1875225931385065312::1768166685::0::1::::<><><>0<>0<><>::uid://bg387fchrbwxq::::res://Assets/Sprites/Living room/IMG_6052.PNG
 ::res://Scenes/Test/::1768578198
 TestScene.tscn::PackedScene::7533773772213518401::1768578198::0::1::::<><><>0<>0<><>::uid://cshtvvgs34yc3::::res://Scripts/NewScript.cs
-::res://Scripts/::1768578158
+::res://Scripts/::1769144523
+AnimalPlayable.tscn::PackedScene::867325717878114672::1769144470::0::1::::<><><>0<>0<><>::uid://doexmti70bjl8::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/StandD.PNG<>uid://5cp1qkff4t0r::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/StandU.PNG<>uid://b1elq1nj0el4q::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/Standard.PNG<>uid://biuavpymrhxa3::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/WalkD.PNG<>uid://61c83uoclqrn::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/WalkU.PNG<>uid://cun28a78esutu::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/WalkR(5fps).PNG
 NewScript.cs::CSharpScript::6051883434799371304::1768578158::0::1::::<>Node<><>0<>0<><>::
 ::res://Scripts/Consts/::1767986257
 FilePath.cs::CSharpScript::7189269217309045949::1767986202::0::1::::<><><>0<>0<><>::
