@@ -29,6 +29,7 @@ public partial class LivingRoomView : Node2D {
 
     private readonly TickTimer _eatingAnimationTimer = new();
     private readonly TickTimer _talkingAnimationTimer = new();
+    private readonly TickTimer _endDialogueTimer = new();
 
     private Vector2 _regularAnimalPosition = new(610, 470);
     private Vector2 _eatingAnimalPosition = new(200, 300);
@@ -69,11 +70,15 @@ public partial class LivingRoomView : Node2D {
             SetAnimalAnimation(AnimalView.AnimalAnimation.Idle);
             if (_playerDataService.DiscoveredAllRecipes()) {
                 _sceneManager.ChangeScene(SceneId.End);
-                GD.Print("Discovered all recipes");
+                _animal.SetSpeechLabel("I'm full now.");
+                SetAnimalAnimation(AnimalView.AnimalAnimation.Talk);
+                _endDialogueTimer.StartFixedTimer(false, 3 * Engine.PhysicsTicksPerSecond);
             }
 
             _kitchenButton.Visible = true;
         };
+
+        _endDialogueTimer.TimedOut += () => { _sceneManager.ChangeScene(SceneId.End); };
 
         if (_playerDataService.GetRecipeMade() is not null) {
             _kitchenButton.Visible = false;
@@ -88,6 +93,7 @@ public partial class LivingRoomView : Node2D {
     public override void _PhysicsProcess(double delta) {
         _eatingAnimationTimer.PhysicsTick();
         _talkingAnimationTimer.PhysicsTick();
+        _endDialogueTimer.PhysicsTick();
     }
 
     public void SetAnimalAnimation(AnimalView.AnimalAnimation animalAnimation) {
@@ -104,18 +110,6 @@ public partial class LivingRoomView : Node2D {
         }
 
         _animal.PlayAnimation(animalAnimation);
-    }
-
-    public void DisplaySpeech(bool animalSpeech, string text) {
-        if (animalSpeech) {
-            SetAnimalAnimation(AnimalView.AnimalAnimation.Talk);
-            _animal.SetSpeechLabel(text);
-            // hide player text
-        } else {
-            // show player text
-            SetAnimalAnimation(AnimalView.AnimalAnimation.Idle);
-            _animal.DisplaySpeechBubble(false);
-        }
     }
 
     public void SetFoodDisplay(RecipeName? recipeName) {
