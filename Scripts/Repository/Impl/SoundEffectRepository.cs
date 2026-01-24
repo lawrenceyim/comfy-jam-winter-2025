@@ -23,4 +23,6 @@ public enum SoundEffectId {
     Pizza = 1_007,
     SteakFrite = 1_008,
     TomatoBisque = 1_009,
+    SuccessfulCooking = 2_001,
+    UnsuccessfulCooking = 2_002,
 }

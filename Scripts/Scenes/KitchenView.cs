@@ -87,6 +87,7 @@ public partial class KitchenView : Node2D {
     }
 
     private void _HandlePlayerResponseButtonPressed() {
+        _cookingSfx.Stop();
         if (_playerDataService.GetRecipeMade() == RecipeName.Mistake) {
             _DisplayRecipeSprites(false);
             _kitchenService.RandomizeProvidedIngredients();
@@ -124,6 +125,12 @@ public partial class KitchenView : Node2D {
 
     private void _FinishCookingAnimation() {
         _cookingSfx.Stop();
+        // SFX
+        _cookingSfx.Stream = _soundEffectRepository.GetSoundEffect(
+            _playerDataService.GetRecipeMade() != RecipeName.Mistake
+                ? SoundEffectId.SuccessfulCooking
+                : SoundEffectId.UnsuccessfulCooking);
+        _cookingSfx.Play();
         _DisplayButtons(true);
         _DisplayRecipeSprites(true);
         _DisplayCookingUi(false);

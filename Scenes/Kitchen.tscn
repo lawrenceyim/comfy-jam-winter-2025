@@ -798,4 +798,4 @@ sprite_frames = SubResource("SpriteFrames_ksrj7")
 centered = false
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Cooking Animations"]
-volume_db = -20.0
+volume_db = -15.0
