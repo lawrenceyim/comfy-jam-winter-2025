@@ -80,3 +80,4 @@ sprite_frames = SubResource("SpriteFrames_0rbow")
 autoplay = "default"
 frame = 3
 frame_progress = 0.26929608
+centered = false
