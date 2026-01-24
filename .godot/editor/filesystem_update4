@@ -30,3 +30,5 @@ res://Scenes/Transition Scene Three.tscn
 res://Scenes/Game Object/Card Display.tscn
 res://Scenes/Game Object/Animal.tscn
 res://Scenes/Autoloads/SoundEffectRepository.tscn
+res://Scenes/EndScene.tscn
+res://Scenes/MainMenu.tscn

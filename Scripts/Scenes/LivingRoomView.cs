@@ -62,14 +62,13 @@ public partial class LivingRoomView : Node2D {
             _playerDataService.SetRecipeMade(null);
             SetFoodDisplay(null);
             SetAnimalAnimation(AnimalView.AnimalAnimation.Talk);
-            _talkingAnimationTimer.StartFixedTimer(false, 5 * Engine.PhysicsTicksPerSecond);
+            _talkingAnimationTimer.StartFixedTimer(false, 3 * Engine.PhysicsTicksPerSecond);
         };
 
         _talkingAnimationTimer.TimedOut += () => {
             SetAnimalAnimation(AnimalView.AnimalAnimation.Idle);
             if (_playerDataService.DiscoveredAllRecipes()) {
-                // TODO: Add transition to end scene
-
+                _sceneManager.ChangeScene(SceneId.End);
                 GD.Print("Discovered all recipes");
             }
 

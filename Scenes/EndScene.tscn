@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://c8qo47rew2smu"]
+
+[ext_resource type="Texture2D" uid="uid://cedecaay8xtfs" path="res://Assets/Sprites/Main menu/Background for main menu.PNG" id="2_sxgjw"]
+[ext_resource type="Texture2D" uid="uid://bbr40it70k3hj" path="res://Assets/Sprites/Main menu/Title.PNG" id="3_44jhl"]
+[ext_resource type="Texture2D" uid="uid://ckh0jlgxmxuem" path="res://Assets/Sprites/Main menu/Ui for main menu.PNG" id="4_2gonq"]
+[ext_resource type="FontFile" uid="uid://dw6hev55tt3u" path="res://Assets/Fonts/Lonely_Coffee.ttf" id="5_wctei"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_df05h"]
+font = ExtResource("5_wctei")
+font_size = 32
+font_color = Color(0.7529412, 0.30980393, 0.11764706, 1)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BackgroundForMainMenu" type="Sprite2D" parent="."]
+texture = ExtResource("2_sxgjw")
+centered = false
+
+[node name="Title" type="Sprite2D" parent="."]
+position = Vector2(640, 190)
+texture = ExtResource("3_44jhl")
+
+[node name="UiForMainMenu" type="Sprite2D" parent="."]
+position = Vector2(640, 455.775)
+texture = ExtResource("4_2gonq")
+
+[node name="Label" type="Label" parent="UiForMainMenu"]
+offset_left = -193.0
+offset_top = -53.774994
+offset_right = 190.0
+offset_bottom = 49.225006
+text = "Thanks For playing"
+label_settings = SubResource("LabelSettings_df05h")
+horizontal_alignment = 1
+vertical_alignment = 1

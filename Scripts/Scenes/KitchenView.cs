@@ -125,7 +125,6 @@ public partial class KitchenView : Node2D {
 
     private void _FinishCookingAnimation() {
         _cookingSfx.Stop();
-        // SFX
         _cookingSfx.Stream = _soundEffectRepository.GetSoundEffect(
             _playerDataService.GetRecipeMade() != RecipeName.Mistake
                 ? SoundEffectId.SuccessfulCooking

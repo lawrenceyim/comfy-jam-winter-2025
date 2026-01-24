@@ -15,6 +15,7 @@ public partial class SceneRepository : Node, IAutoload, IRepository {
 
 public enum SceneId {
 	MainMenu = 0,
+	End = 1,
 	LivingRoom = 1_001,
 	Kitchen = 1_002,
 	Store = 1_003,
