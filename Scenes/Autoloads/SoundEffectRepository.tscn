@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://bkw6yu4yre2c3"]
+[gd_scene load_steps=29 format=3 uid="uid://bkw6yu4yre2c3"]
 
 [ext_resource type="Script" uid="uid://ddrcg5kngu0d8" path="res://Scripts/Repository/Impl/SoundEffectRepository.cs" id="1_ykbvb"]
 [ext_resource type="AudioStream" uid="uid://4etkytci5wp3" path="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Boil.wav" id="2_u28oj"]
@@ -26,6 +26,8 @@
 [ext_resource type="AudioStream" uid="uid://bd86p7ux3rutb" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Potato.wav" id="24_y0sd7"]
 [ext_resource type="AudioStream" uid="uid://b3euqouf1iaat" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Salt.wav" id="25_7wo4i"]
 [ext_resource type="AudioStream" uid="uid://chra7nmhmdlxi" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Tomato.wav" id="26_sf1fi"]
+[ext_resource type="AudioStream" uid="uid://bfkh430o0msf5" path="res://Assets/Audio/Fox/Eating/Fox_Eating_01.wav" id="27_pcr0y"]
+[ext_resource type="AudioStream" uid="uid://bifmxctewogub" path="res://Assets/Audio/Fox/Speech/Loops/Fox_Speech_01.wav" id="28_wjl12"]
 
 [node name="SoundEffectRepository" type="Node"]
 script = ExtResource("1_ykbvb")
@@ -56,5 +58,7 @@ _soundEffects = Dictionary[int, AudioStream]({
 3013: ExtResource("23_n6ml6"),
 3014: ExtResource("24_y0sd7"),
 3015: ExtResource("25_7wo4i"),
-3016: ExtResource("26_sf1fi")
+3016: ExtResource("26_sf1fi"),
+4001: ExtResource("27_pcr0y"),
+4002: ExtResource("28_wjl12")
 })

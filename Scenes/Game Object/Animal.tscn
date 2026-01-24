@@ -7,7 +7,7 @@
 [ext_resource type="Script" uid="uid://ukimgoc602xn" path="res://Scripts/Game Objects/AnimalView.cs" id="3_m8jgg"]
 [ext_resource type="Texture2D" uid="uid://de20ia8fl757c" path="res://Assets/Sprites/Ui/Speech bubble(4fps).PNG" id="6_665ow"]
 [ext_resource type="FontFile" uid="uid://dw6hev55tt3u" path="res://Assets/Fonts/Lonely_Coffee.ttf" id="7_hv7xd"]
-[ext_resource type="AudioStream" uid="uid://c5kfma5bpv3yc" path="res://Assets/Audio/Dialogue Demo.mp3" id="8_srou2"]
+[ext_resource type="AudioStream" uid="uid://bdh0v31wqty3w" path="res://Assets/Audio/Fox/Eating/Fox_Eating_03.wav" id="8_srou2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yr0tu"]
 atlas = ExtResource("1_nahv1")
@@ -157,13 +157,13 @@ font = ExtResource("7_hv7xd")
 font_size = 26
 font_color = Color(0, 0, 0, 1)
 
-[node name="Animal" type="AnimatedSprite2D" node_paths=PackedStringArray("_speechBubble", "_speechLabel", "_dialogueAudioPlayer")]
+[node name="Animal" type="AnimatedSprite2D" node_paths=PackedStringArray("_speechBubble", "_speechLabel", "_sfxPlayer")]
 sprite_frames = SubResource("SpriteFrames_fivnj")
 animation = &"Walk"
 script = ExtResource("3_m8jgg")
 _speechBubble = NodePath("Talk Sprite")
 _speechLabel = NodePath("Talk Sprite/Label")
-_dialogueAudioPlayer = NodePath("AudioStreamPlayer")
+_sfxPlayer = NodePath("AudioStreamPlayer")
 
 [node name="Talk Sprite" type="AnimatedSprite2D" parent="."]
 position = Vector2(274, -311)
@@ -182,5 +182,4 @@ autowrap_mode = 3
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("8_srou2")
-volume_db = -20.0
-parameters/looping = true
+volume_db = -15.0

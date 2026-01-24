@@ -1,4 +1,6 @@
 using Godot;
+using RepositorySystem;
+using ServiceSystem;
 
 public partial class AnimalView : AnimatedSprite2D {
     public enum AnimalAnimation {
@@ -15,9 +17,15 @@ public partial class AnimalView : AnimatedSprite2D {
     private Label _speechLabel;
 
     [Export]
-    private AudioStreamPlayer _dialogueAudioPlayer;
+    private AudioStreamPlayer _sfxPlayer;
+
+    private SoundEffectRepository _soundEffectRepository;
 
     public override void _Ready() {
+        ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
+        RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
+        _soundEffectRepository = repositoryLocator.GetRepository<SoundEffectRepository>(RepositoryName.SoundEffect);
+
         PlayAnimation(AnimalAnimation.Idle);
         DisplaySpeechBubble(false);
     }
@@ -26,9 +34,19 @@ public partial class AnimalView : AnimatedSprite2D {
         _speechBubble.Visible = displayed;
         if (displayed) {
             _speechBubble.Play();
-            _dialogueAudioPlayer.Play();
+            _PlayDialogueAudio(true);
         } else {
-            _dialogueAudioPlayer.Stop();
+            _PlayDialogueAudio(false);
+        }
+    }
+
+    public void PlayEatingSfx(bool play) {
+        if (play) {
+            _sfxPlayer.VolumeDb = -5;
+            _sfxPlayer.Stream = _soundEffectRepository.GetSoundEffect(SoundEffectId.FoxEat);
+            _sfxPlayer.Play();
+        } else {
+            _sfxPlayer.Stop();
         }
     }
 
@@ -49,9 +67,11 @@ public partial class AnimalView : AnimatedSprite2D {
 
     private void _PlayDialogueAudio(bool play) {
         if (play) {
-            _dialogueAudioPlayer.Play();
+            _sfxPlayer.VolumeDb = -15;
+            _sfxPlayer.Stream = _soundEffectRepository.GetSoundEffect(SoundEffectId.FoxTalk);
+            _sfxPlayer.Play();
         } else {
-            _dialogueAudioPlayer.Stop();
+            _sfxPlayer.Stop();
         }
     }
 }

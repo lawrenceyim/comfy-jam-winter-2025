@@ -701,7 +701,6 @@ animations = [{
 }]
 
 [node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton", "_homeButton", "_playerResponseButton", "_playerResponseButtonLabel", "_playerResponseButtonUi", "_cardDisplay", "_cookedBox", "_cookedRecipeSprite", "_cookingUI", "_fryingPan", "_cookingSfx")]
-position = Vector2(2, 0)
 script = ExtResource("1_2v58e")
 _cookBookButton = NodePath("Book Button")
 _homeButton = NodePath("BackExit/Home Button")

@@ -57,6 +57,7 @@ public partial class LivingRoomView : Node2D {
         _food.Texture = null;
 
         _eatingAnimationTimer.TimedOut += () => {
+            _animal.PlayEatingSfx(false);
             _animal.SetSpeechLabel(_GenerateSpeech());
             _playerDataService.SetRecipeMade(null);
             SetFoodDisplay(null);
@@ -71,6 +72,7 @@ public partial class LivingRoomView : Node2D {
 
                 GD.Print("Discovered all recipes");
             }
+
             _kitchenButton.Visible = true;
         };
 
@@ -78,6 +80,8 @@ public partial class LivingRoomView : Node2D {
             _kitchenButton.Visible = false;
             SetAnimalAnimation(AnimalView.AnimalAnimation.Eat);
             SetFoodDisplay(_playerDataService.GetRecipeMade());
+            _animal.PlayEatingSfx(false);
+
             _eatingAnimationTimer.StartFixedTimer(false, 3 * Engine.PhysicsTicksPerSecond);
         }
     }
