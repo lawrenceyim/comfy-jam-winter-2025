@@ -1,122 +1,122 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1769144530
+::res://::1769211408
 export_presets.cfg::TextFile::-1::1768844279::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1769005228
 ::res://Assets/Audio/::1769211302
-Dialogue Demo.mp3::AudioStreamMP3::6899475514968933978::1769005231::1769005232::1::::<><><>0<>0<>9636f8c716d5f9c160dcb036a2cd412f<>res://.godot/imported/Dialogue Demo.mp3-e307740b03defdc9be7f56be336df2a3.mp3str::
+Dialogue Demo.mp3::AudioStreamMP3::6899475514968933978::1769005231::1769211424::1::::<><><>0<>0<>9636f8c716d5f9c160dcb036a2cd412f<>res://.godot/imported/Dialogue Demo.mp3-e307740b03defdc9be7f56be336df2a3.mp3str::
 ::res://Assets/Audio/Fox/::1769211302
-::res://Assets/Audio/Fox/Eating/::1769211302
-Fox_Eating_01.wav::AudioStreamWAV::2758486996340379392::1769211302::1769211303::1::::<><><>0<>0<>7f6a1b599e7631c047d4cd8bfd663029<>res://.godot/imported/Fox_Eating_01.wav-939ec0b643d292ac572c9697c0997a18.sample::
-Fox_Eating_02.wav::AudioStreamWAV::4512055107735462184::1769211302::1769211303::1::::<><><>0<>0<>f69b82b3487822f5efdb00204132f0bb<>res://.godot/imported/Fox_Eating_02.wav-a554a45b9333eed2538dd3b5cf23a049.sample::
-Fox_Eating_03.wav::AudioStreamWAV::2612994797217236102::1769211302::1769211303::1::::<><><>0<>0<>c4b50867f9c9e8701619906e5306616a<>res://.godot/imported/Fox_Eating_03.wav-5200338ad41ecef9bccb6cf06dc3a605.sample::
+::res://Assets/Audio/Fox/Eating/::1769211303
+Fox_Eating_01.wav::AudioStreamWAV::2758486996340379392::1769211302::1769211430::1::::<><><>0<>0<>7f6a1b599e7631c047d4cd8bfd663029<>res://.godot/imported/Fox_Eating_01.wav-939ec0b643d292ac572c9697c0997a18.sample::
+Fox_Eating_02.wav::AudioStreamWAV::4512055107735462184::1769211302::1769211430::1::::<><><>0<>0<>f69b82b3487822f5efdb00204132f0bb<>res://.godot/imported/Fox_Eating_02.wav-a554a45b9333eed2538dd3b5cf23a049.sample::
+Fox_Eating_03.wav::AudioStreamWAV::2612994797217236102::1769211302::1769211430::1::::<><><>0<>0<>c4b50867f9c9e8701619906e5306616a<>res://.godot/imported/Fox_Eating_03.wav-5200338ad41ecef9bccb6cf06dc3a605.sample::
 ::res://Assets/Audio/Fox/Speech/::1769211302
-::res://Assets/Audio/Fox/Speech/Loops/::1769211302
-Fox_Speech_01.wav::AudioStreamWAV::2959023133350352337::1769211302::1769211303::1::::<><><>0<>0<>9297db1987b4a754ae1d04395421a98d<>res://.godot/imported/Fox_Speech_01.wav-ce52decc686d5b82c54deaecb1703851.sample::
-Fox_Speech_02.wav::AudioStreamWAV::3163031986946195072::1769211302::1769211303::1::::<><><>0<>0<>66a61e24e56b4dd2bd0d2c6af8b88b79<>res://.godot/imported/Fox_Speech_02.wav-5c38c24826b5e66a3118379a18fc9e5c.sample::
-::res://Assets/Audio/Fox/Speech/Vowels/::1769211302
-Fox_Vowel_01.wav::AudioStreamWAV::947744499002490517::1769211302::1769211303::1::::<><><>0<>0<>532f414ff97c8f0c77650a50a17bb67b<>res://.godot/imported/Fox_Vowel_01.wav-61bf3df467c59c48fbb060e9b08dfea7.sample::
-Fox_Vowel_02.wav::AudioStreamWAV::8007429278045873975::1769211302::1769211303::1::::<><><>0<>0<>976150c73660593676c4450f3c1ee216<>res://.godot/imported/Fox_Vowel_02.wav-f235d4d734d6d4447f099aff05532e85.sample::
-Fox_Vowel_03.wav::AudioStreamWAV::6995779360481923482::1769211302::1769211303::1::::<><><>0<>0<>d4024df039b59b26227c821be718029a<>res://.godot/imported/Fox_Vowel_03.wav-756bf3a97fbcfd41142d1433cac2aa10.sample::
-Fox_Vowel_04.wav::AudioStreamWAV::7423918684884693824::1769211302::1769211303::1::::<><><>0<>0<>213f9b5dbd94fcd942239923cf0bac5d<>res://.godot/imported/Fox_Vowel_04.wav-59d8809edf8c3f8276f58b74282558b5.sample::
-Fox_Vowel_05.wav::AudioStreamWAV::1830414994821482951::1769211302::1769211303::1::::<><><>0<>0<>6256bb767250fa1772fec2e13c65462d<>res://.godot/imported/Fox_Vowel_05.wav-51937fb5657ada8a7e8805066c7a4f88.sample::
-Fox_Vowel_06.wav::AudioStreamWAV::4002205928905552165::1769211302::1769211303::1::::<><><>0<>0<>1fc8991d91654a1f7ff0e466b18611a8<>res://.godot/imported/Fox_Vowel_06.wav-0d119eb0109216d486b7294c5b87cf9e.sample::
-Fox_Vowel_07.wav::AudioStreamWAV::2086140811004101335::1769211302::1769211303::1::::<><><>0<>0<>a07ebbf556f1e8509dcf1a4aabadd844<>res://.godot/imported/Fox_Vowel_07.wav-86eff4b944d9419f511314fe3ab29ad2.sample::
-Fox_Vowel_08.wav::AudioStreamWAV::9000740890054623977::1769211302::1769211303::1::::<><><>0<>0<>c2a22a68e027953ebf4cb34dc9f3b33c<>res://.godot/imported/Fox_Vowel_08.wav-308403dedfb844eb44b5aeada956877d.sample::
-::res://Assets/Audio/Kitchen/::1769211302
-Unlock_Recipe.wav::AudioStreamWAV::1259333612387283407::1769211302::1769211303::1::::<><><>0<>0<>1d094a7648fcb9f9b4c0c056af7ebf48<>res://.godot/imported/Unlock_Recipe.wav-e5c9dd0caae72bb04862cde45ee2f718.sample::
-::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/::1769211302
-Cooking_Boil.wav::AudioStreamWAV::2044906747335244002::1769211302::1769211303::1::::<><><>0<>0<>8a73b6dfb61462de0100cfcef510ceba<>res://.godot/imported/Cooking_Boil.wav-680ff2ef675c56be1f1c20e758ee79a2.sample::
-Cooking_Egg.wav::AudioStreamWAV::3411440187618827631::1769211302::1769211303::1::::<><><>0<>0<>58c9cf289c1372f46f2ef0ed6584f2b5<>res://.godot/imported/Cooking_Egg.wav-ed0f2fadbb916d8b754297ebbb76a7b1.sample::
-Cooking_Fries.wav::AudioStreamWAV::6080457172616577189::1769211302::1769211303::1::::<><><>0<>0<>569ce64372e410403f5948c24b971a97<>res://.godot/imported/Cooking_Fries.wav-c9dbb595cbaeeb4a30d3de91c174aa72.sample::
-Cooking_GrilledCheese.wav::AudioStreamWAV::870273509665700666::1769211302::1769211303::1::::<><><>0<>0<>a4c95735355f66c4303448659ca060e7<>res://.godot/imported/Cooking_GrilledCheese.wav-56831820c3441d351269bdb4148ed800.sample::
-Cooking_Pancake.wav::AudioStreamWAV::6287275108139457106::1769211302::1769211303::1::::<><><>0<>0<>ed792c1ee6fcc3dc1befde974dad6f53<>res://.godot/imported/Cooking_Pancake.wav-c2469631a0868c504d41048fb73d6755.sample::
-Cooking_Pizza.wav::AudioStreamWAV::7628833064259937198::1769211302::1769211303::1::::<><><>0<>0<>3f980df1963519419582628a8992a67e<>res://.godot/imported/Cooking_Pizza.wav-33fb37275b6459ef9ee002f65f72aec5.sample::
-Cooking_Steak_Fries.wav::AudioStreamWAV::681526204461702212::1769211302::1769211303::1::::<><><>0<>0<>bc5298a5a81ce67f8a6f243e6b4ba622<>res://.godot/imported/Cooking_Steak_Fries.wav-77a75635b3a8d4c04314af268e3ab70a.sample::
-::res://Assets/Audio/Kitchen/Cooking Results/::1769211302
-Create_Mistake.wav::AudioStreamWAV::7166456955561428325::1769211302::1769211303::1::::<><><>0<>0<>7275b458b7a04acd930087d7894a2279<>res://.godot/imported/Create_Mistake.wav-3b409f7b6d4209e6de4b324a8ae86518.sample::
-Create_Recipe.wav::AudioStreamWAV::6717718325041728195::1769211302::1769211303::1::::<><><>0<>0<>d6445deb70c76a38cd0f231b4025a753<>res://.godot/imported/Create_Recipe.wav-ac3acecdafdd28e1d36fd90c7f95dcf2.sample::
-::res://Assets/Audio/Kitchen/Kitchen UI/::1769211302
-UI_MouseHover_Ingredient.wav::AudioStreamWAV::2465366118102482720::1769211302::1769211303::1::::<><><>0<>0<>09c787681c9b49b1dbdc7bf25b9dc259<>res://.godot/imported/UI_MouseHover_Ingredient.wav-1ca0afc8e4d713c01952a88ea9d829f8.sample::
-::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Remove/::1769211302
-Ingredient_Trash_01.wav::AudioStreamWAV::7713553560777806803::1769211302::1769211303::1::::<><><>0<>0<>d3b2b5e3f61cd4dd78373bb917bf0bbc<>res://.godot/imported/Ingredient_Trash_01.wav-e3725d1f2706986c8da4eb2290e00ddb.sample::
-Ingredient_Trash_02.wav::AudioStreamWAV::5635403712017546505::1769211302::1769211303::1::::<><><>0<>0<>f87f948cb75e7c13e3f011dd7c933e8c<>res://.godot/imported/Ingredient_Trash_02.wav-8915af8bcf343ae22ac187ff4d332cf9.sample::
-Ingredient_Trash_03.wav::AudioStreamWAV::2014629874189064300::1769211302::1769211303::1::::<><><>0<>0<>55aaf75adb81a9c6a06a9b5266048ef9<>res://.godot/imported/Ingredient_Trash_03.wav-e74069f53a3f8ddf6291c3d5ca36044e.sample::
-Ingredient_Trash_04.wav::AudioStreamWAV::3903313319121110957::1769211302::1769211303::1::::<><><>0<>0<>e52b706a2933f49b139e5da5d779c438<>res://.godot/imported/Ingredient_Trash_04.wav-12143d316086fac67f80956c88da2d27.sample::
-::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/::1769211302
-Ingredient_Beef.wav::AudioStreamWAV::239851127879083162::1769211302::1769211303::1::::<><><>0<>0<>3608bb9770d30ed78e264bfda8c85028<>res://.godot/imported/Ingredient_Beef.wav-1780ac128416a2ce5e2fef7b2698bda2.sample::
-Ingredient_Bread.wav::AudioStreamWAV::8243865627096107457::1769211302::1769211303::1::::<><><>0<>0<>76c5b95b8ce7719c5f660b046e554467<>res://.godot/imported/Ingredient_Bread.wav-a987bf7f5eb3b496713dc1b57e7c11cb.sample::
-Ingredient_Butter.wav::AudioStreamWAV::9222810235975080723::1769211302::1769211303::1::::<><><>0<>0<>b9647e79f9dea91c48f4e279ba245e6b<>res://.godot/imported/Ingredient_Butter.wav-f90c07fb6deb927055c1cfb20279abe6.sample::
-Ingredient_Carrot.wav::AudioStreamWAV::5630914837386537229::1769211302::1769211303::1::::<><><>0<>0<>5dc10889a3fda72a1d2bdf97c3b53f54<>res://.godot/imported/Ingredient_Carrot.wav-ffb8a3fff89ebd9f3455da11c6da6af6.sample::
-Ingredient_Cheese.wav::AudioStreamWAV::3201873697496066128::1769211302::1769211303::1::::<><><>0<>0<>6d1164eada291f6100e39b319a756c16<>res://.godot/imported/Ingredient_Cheese.wav-7b55a3372496776c393a4aff9fd2cf13.sample::
-Ingredient_Chicken.wav::AudioStreamWAV::1588049414199561196::1769211302::1769211303::1::::<><><>0<>0<>1f7a8f5ed55377b640f7b2870b140785<>res://.godot/imported/Ingredient_Chicken.wav-16e4ce90ebd05a82efcc04b2dfdec975.sample::
-Ingredient_Egg.wav::AudioStreamWAV::8000232889677938653::1769211302::1769211303::1::::<><><>0<>0<>033d23bb9854d21d90e6744d15ed3f88<>res://.godot/imported/Ingredient_Egg.wav-fef9c711691ae281f70e51a6d4b9f21e.sample::
-Ingredient_Flour.wav::AudioStreamWAV::1313707571920308702::1769211302::1769211303::1::::<><><>0<>0<>c25f400a28bb490e5ba625adadc7d0c5<>res://.godot/imported/Ingredient_Flour.wav-5915fb0593656eafd140a73f1947e5d1.sample::
-Ingredient_Garlic.wav::AudioStreamWAV::6162209600887995139::1769211302::1769211303::1::::<><><>0<>0<>77a8693b2288eef9578e96cc6e01f0dd<>res://.godot/imported/Ingredient_Garlic.wav-b510fb4ad357186dbb2aa5b6ce3fa278.sample::
-Ingredient_Milk.wav::AudioStreamWAV::8709945057706652672::1769211302::1769211303::1::::<><><>0<>0<>e5713acaa645d24162fc023c6341972c<>res://.godot/imported/Ingredient_Milk.wav-bdc35bb5f535fd4ae7705b4ab621431b.sample::
-Ingredient_Onionwav.wav::AudioStreamWAV::6727838353925772980::1769211302::1769211303::1::::<><><>0<>0<>08b57b48d55e67faded2ac6e55b8d95f<>res://.godot/imported/Ingredient_Onionwav.wav-ced7fa81865beaf8d2dcbc6d64c52059.sample::
-Ingredient_Pasta.wav::AudioStreamWAV::1588773857261148787::1769211302::1769211303::1::::<><><>0<>0<>23869534cf48adef1ebd8d6750b508cb<>res://.godot/imported/Ingredient_Pasta.wav-ac936f8b76890edc06e760ce2951c637.sample::
-Ingredient_Pepper.wav::AudioStreamWAV::6443360937071613::1769211302::1769211303::1::::<><><>0<>0<>dc27bf401caae6b2f78a760f2a028b77<>res://.godot/imported/Ingredient_Pepper.wav-9241d2c3138ef3bda1f9969f4a39cb28.sample::
-Ingredient_Potato.wav::AudioStreamWAV::2667022406901921663::1769211302::1769211303::1::::<><><>0<>0<>c6096ece3c55e46bee24eb1c50416698<>res://.godot/imported/Ingredient_Potato.wav-52bd0facaca73b392f30f375a9dfc3fd.sample::
-Ingredient_Salt.wav::AudioStreamWAV::4361209495617281171::1769211302::1769211303::1::::<><><>0<>0<>c6045949e7fd6ed0567523343983771b<>res://.godot/imported/Ingredient_Salt.wav-c1455837ae7e3b6204da55c32164f2e2.sample::
-Ingredient_Tomato.wav::AudioStreamWAV::5299315541751821946::1769211302::1769211303::1::::<><><>0<>0<>dac956a15e11d5ddf4089179896e7cfb<>res://.godot/imported/Ingredient_Tomato.wav-256188a917aaa7365a5ebe4569fdabde.sample::
-::res://Assets/Audio/Living Room/::1769211302
-Campfire.wav::AudioStreamWAV::4731128674508676206::1769211302::1769211303::1::::<><><>0<>0<>a378858deb606868258cfd86bc4fd376<>res://.godot/imported/Campfire.wav-acc40a59f319067a82270127a9c9929c.sample::
-::res://Assets/Audio/Menu UI/::1769211302
-Mouse_Back_Button.wav::AudioStreamWAV::1482293116592673021::1769211302::1769211303::1::::<><><>0<>0<>537794530cd864cb53ba585a882b83a3<>res://.godot/imported/Mouse_Back_Button.wav-02cb12f3cd209adb30dc551236da1957.sample::
-Mouse_Hover.wav::AudioStreamWAV::2498552959055891444::1769211302::1769211303::1::::<><><>0<>0<>ac6ce6593fdaefc41c7815d476ff7a01<>res://.godot/imported/Mouse_Hover.wav-d4471cc20627855d4ba467e780f2762e.sample::
-Mouse_Select_Button.wav::AudioStreamWAV::6492500569534295128::1769211302::1769211303::1::::<><><>0<>0<>4a55ce559806497724f8ad79f0d80645<>res://.godot/imported/Mouse_Select_Button.wav-9712069a05dbb4053af3f2feea47bc2e.sample::
-::res://Assets/Audio/Menu UI/Book/::1769211302
-::res://Assets/Audio/Menu UI/Book/Close/::1769211302
-Book_Close.wav::AudioStreamWAV::1503996928806924545::1769211302::1769211303::1::::<><><>0<>0<>944d7d90fcbe231d4f3900817c97edf9<>res://.godot/imported/Book_Close.wav-8d2df4315e57f8097a9168f5e17a56c5.sample::
-::res://Assets/Audio/Menu UI/Book/Flip Pages/::1769211302
-Book_PageFlip_01.wav::AudioStreamWAV::8041832831273863276::1769211302::1769211303::1::::<><><>0<>0<>f94e1356fb8a22fb571ed558b2f4c814<>res://.godot/imported/Book_PageFlip_01.wav-58bf93909214ad8b9034ce4a560e57eb.sample::
-Book_PageFlip_02.wav::AudioStreamWAV::2320175043003012166::1769211302::1769211303::1::::<><><>0<>0<>4cf2b2167a43d4d0d7eeb7ad222dffee<>res://.godot/imported/Book_PageFlip_02.wav-f583a7b9123e6fbf428d6a29a1ee93ec.sample::
-Book_PageFlip_03.wav::AudioStreamWAV::6693566387334099556::1769211302::1769211303::1::::<><><>0<>0<>bc0ea6490c1e2aa3900661c6d98cdd4f<>res://.godot/imported/Book_PageFlip_03.wav-ac11f7c008e70aa0287812ac28b11a85.sample::
-Book_PageFlip_04.wav::AudioStreamWAV::6360239072491316198::1769211302::1769211303::1::::<><><>0<>0<>450ddd3cea7f5405ba4950500fa80f4e<>res://.godot/imported/Book_PageFlip_04.wav-e3c091931a49b6556db43bef02297ac7.sample::
-Book_PageFlip_05.wav::AudioStreamWAV::5540992160786973107::1769211302::1769211303::1::::<><><>0<>0<>de5ad4e56dcfd47fad77299ba3bd6a66<>res://.godot/imported/Book_PageFlip_05.wav-ee778ef29d83ebffda81ab3d6e40fefd.sample::
-Book_PageFlip_06.wav::AudioStreamWAV::4692830946414194663::1769211302::1769211303::1::::<><><>0<>0<>c376956eb4a4d9319d3d27832fe47cd5<>res://.godot/imported/Book_PageFlip_06.wav-92fc918331b8fa9ae2fab1bb17639e8a.sample::
-::res://Assets/Audio/Menu UI/Book/Open/::1769211302
-Book_Open_01.wav::AudioStreamWAV::4189232137791959056::1769211302::1769211303::1::::<><><>0<>0<>11abdb2e485b7c5b9f197f04033ac755<>res://.godot/imported/Book_Open_01.wav-8a9c08f2f9663e7fc42a9f20f054a7e0.sample::
-Book_Open_02.wav::AudioStreamWAV::6314701380829703070::1769211302::1769211303::1::::<><><>0<>0<>3263a425e4dbf584819a487b59df9b1a<>res://.godot/imported/Book_Open_02.wav-2b7a3363e2ae92b49e455ece44b6734b.sample::
-Book_Open_03.wav::AudioStreamWAV::3440169726925574644::1769211302::1769211303::1::::<><><>0<>0<>f5ab3585e71da4f8dc3dce080dfb2cbc<>res://.godot/imported/Book_Open_03.wav-d24c6365e20d547e1bf5fc4453ca2f2c.sample::
-Book_Open_04.wav::AudioStreamWAV::5238473896512108726::1769211302::1769211303::1::::<><><>0<>0<>f07c3fb8d38e0bb22c5692fa849114cb<>res://.godot/imported/Book_Open_04.wav-cc96fe139946eb79ba67760e2e0706a4.sample::
-::res://Assets/Audio/Menu UI/Coins/::1769211302
-Shop_Purchase_01.wav::AudioStreamWAV::4730538940366322850::1769211302::1769211303::1::::<><><>0<>0<>32ed59261c6d817eddfddc5036a12a77<>res://.godot/imported/Shop_Purchase_01.wav-059356a161eb4a0fc91c96bf057cbe31.sample::
-Shop_Purchase_02.wav::AudioStreamWAV::3925997647831342947::1769211302::1769211303::1::::<><><>0<>0<>3790b9e6e4020ec8e51fc6418c574458<>res://.godot/imported/Shop_Purchase_02.wav-f88c2fa109ceb9129e4bb913ab70e2e2.sample::
-Shop_Purchase_03.wav::AudioStreamWAV::2995578491958963037::1769211302::1769211303::1::::<><><>0<>0<>41625f578aa080d3d2bc0246a91e740c<>res://.godot/imported/Shop_Purchase_03.wav-1f57c9120799681c0761b2c52d7342f8.sample::
-Shop_Purchase_04.wav::AudioStreamWAV::6554334794875669422::1769211302::1769211303::1::::<><><>0<>0<>55137d9b41dbda3e4d0cc5c916a74eb6<>res://.godot/imported/Shop_Purchase_04.wav-bc6b9d588a3f393f078afb6c65748994.sample::
+::res://Assets/Audio/Fox/Speech/Loops/::1769211303
+Fox_Speech_01.wav::AudioStreamWAV::2959023133350352337::1769211302::1769211430::1::::<><><>0<>0<>9297db1987b4a754ae1d04395421a98d<>res://.godot/imported/Fox_Speech_01.wav-ce52decc686d5b82c54deaecb1703851.sample::
+Fox_Speech_02.wav::AudioStreamWAV::3163031986946195072::1769211302::1769211430::1::::<><><>0<>0<>66a61e24e56b4dd2bd0d2c6af8b88b79<>res://.godot/imported/Fox_Speech_02.wav-5c38c24826b5e66a3118379a18fc9e5c.sample::
+::res://Assets/Audio/Fox/Speech/Vowels/::1769211303
+Fox_Vowel_01.wav::AudioStreamWAV::947744499002490517::1769211302::1769211430::1::::<><><>0<>0<>532f414ff97c8f0c77650a50a17bb67b<>res://.godot/imported/Fox_Vowel_01.wav-61bf3df467c59c48fbb060e9b08dfea7.sample::
+Fox_Vowel_02.wav::AudioStreamWAV::8007429278045873975::1769211302::1769211430::1::::<><><>0<>0<>976150c73660593676c4450f3c1ee216<>res://.godot/imported/Fox_Vowel_02.wav-f235d4d734d6d4447f099aff05532e85.sample::
+Fox_Vowel_03.wav::AudioStreamWAV::6995779360481923482::1769211302::1769211430::1::::<><><>0<>0<>d4024df039b59b26227c821be718029a<>res://.godot/imported/Fox_Vowel_03.wav-756bf3a97fbcfd41142d1433cac2aa10.sample::
+Fox_Vowel_04.wav::AudioStreamWAV::7423918684884693824::1769211302::1769211430::1::::<><><>0<>0<>213f9b5dbd94fcd942239923cf0bac5d<>res://.godot/imported/Fox_Vowel_04.wav-59d8809edf8c3f8276f58b74282558b5.sample::
+Fox_Vowel_05.wav::AudioStreamWAV::1830414994821482951::1769211302::1769211430::1::::<><><>0<>0<>6256bb767250fa1772fec2e13c65462d<>res://.godot/imported/Fox_Vowel_05.wav-51937fb5657ada8a7e8805066c7a4f88.sample::
+Fox_Vowel_06.wav::AudioStreamWAV::4002205928905552165::1769211302::1769211430::1::::<><><>0<>0<>1fc8991d91654a1f7ff0e466b18611a8<>res://.godot/imported/Fox_Vowel_06.wav-0d119eb0109216d486b7294c5b87cf9e.sample::
+Fox_Vowel_07.wav::AudioStreamWAV::2086140811004101335::1769211302::1769211430::1::::<><><>0<>0<>a07ebbf556f1e8509dcf1a4aabadd844<>res://.godot/imported/Fox_Vowel_07.wav-86eff4b944d9419f511314fe3ab29ad2.sample::
+Fox_Vowel_08.wav::AudioStreamWAV::9000740890054623977::1769211302::1769211430::1::::<><><>0<>0<>c2a22a68e027953ebf4cb34dc9f3b33c<>res://.godot/imported/Fox_Vowel_08.wav-308403dedfb844eb44b5aeada956877d.sample::
+::res://Assets/Audio/Kitchen/::1769211303
+Unlock_Recipe.wav::AudioStreamWAV::1259333612387283407::1769211302::1769211430::1::::<><><>0<>0<>1d094a7648fcb9f9b4c0c056af7ebf48<>res://.godot/imported/Unlock_Recipe.wav-e5c9dd0caae72bb04862cde45ee2f718.sample::
+::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/::1769211303
+Cooking_Boil.wav::AudioStreamWAV::2044906747335244002::1769211302::1769211430::1::::<><><>0<>0<>8a73b6dfb61462de0100cfcef510ceba<>res://.godot/imported/Cooking_Boil.wav-680ff2ef675c56be1f1c20e758ee79a2.sample::
+Cooking_Egg.wav::AudioStreamWAV::3411440187618827631::1769211302::1769211430::1::::<><><>0<>0<>58c9cf289c1372f46f2ef0ed6584f2b5<>res://.godot/imported/Cooking_Egg.wav-ed0f2fadbb916d8b754297ebbb76a7b1.sample::
+Cooking_Fries.wav::AudioStreamWAV::6080457172616577189::1769211302::1769211430::1::::<><><>0<>0<>569ce64372e410403f5948c24b971a97<>res://.godot/imported/Cooking_Fries.wav-c9dbb595cbaeeb4a30d3de91c174aa72.sample::
+Cooking_GrilledCheese.wav::AudioStreamWAV::870273509665700666::1769211302::1769211430::1::::<><><>0<>0<>a4c95735355f66c4303448659ca060e7<>res://.godot/imported/Cooking_GrilledCheese.wav-56831820c3441d351269bdb4148ed800.sample::
+Cooking_Pancake.wav::AudioStreamWAV::6287275108139457106::1769211302::1769211430::1::::<><><>0<>0<>ed792c1ee6fcc3dc1befde974dad6f53<>res://.godot/imported/Cooking_Pancake.wav-c2469631a0868c504d41048fb73d6755.sample::
+Cooking_Pizza.wav::AudioStreamWAV::7628833064259937198::1769211302::1769211430::1::::<><><>0<>0<>3f980df1963519419582628a8992a67e<>res://.godot/imported/Cooking_Pizza.wav-33fb37275b6459ef9ee002f65f72aec5.sample::
+Cooking_Steak_Fries.wav::AudioStreamWAV::681526204461702212::1769211302::1769211430::1::::<><><>0<>0<>bc5298a5a81ce67f8a6f243e6b4ba622<>res://.godot/imported/Cooking_Steak_Fries.wav-77a75635b3a8d4c04314af268e3ab70a.sample::
+::res://Assets/Audio/Kitchen/Cooking Results/::1769211303
+Create_Mistake.wav::AudioStreamWAV::7166456955561428325::1769211302::1769211430::1::::<><><>0<>0<>7275b458b7a04acd930087d7894a2279<>res://.godot/imported/Create_Mistake.wav-3b409f7b6d4209e6de4b324a8ae86518.sample::
+Create_Recipe.wav::AudioStreamWAV::6717718325041728195::1769211302::1769211430::1::::<><><>0<>0<>d6445deb70c76a38cd0f231b4025a753<>res://.godot/imported/Create_Recipe.wav-ac3acecdafdd28e1d36fd90c7f95dcf2.sample::
+::res://Assets/Audio/Kitchen/Kitchen UI/::1769211408
+UI_MouseHover_Ingredient.wav::AudioStreamWAV::2465366118102482720::1769211302::1769211430::1::::<><><>0<>0<>09c787681c9b49b1dbdc7bf25b9dc259<>res://.godot/imported/UI_MouseHover_Ingredient.wav-1ca0afc8e4d713c01952a88ea9d829f8.sample::
+::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Remove/::1769211303
+Ingredient_Trash_01.wav::AudioStreamWAV::7713553560777806803::1769211302::1769211430::1::::<><><>0<>0<>d3b2b5e3f61cd4dd78373bb917bf0bbc<>res://.godot/imported/Ingredient_Trash_01.wav-e3725d1f2706986c8da4eb2290e00ddb.sample::
+Ingredient_Trash_02.wav::AudioStreamWAV::5635403712017546505::1769211302::1769211430::1::::<><><>0<>0<>f87f948cb75e7c13e3f011dd7c933e8c<>res://.godot/imported/Ingredient_Trash_02.wav-8915af8bcf343ae22ac187ff4d332cf9.sample::
+Ingredient_Trash_03.wav::AudioStreamWAV::2014629874189064300::1769211302::1769211430::1::::<><><>0<>0<>55aaf75adb81a9c6a06a9b5266048ef9<>res://.godot/imported/Ingredient_Trash_03.wav-e74069f53a3f8ddf6291c3d5ca36044e.sample::
+Ingredient_Trash_04.wav::AudioStreamWAV::3903313319121110957::1769211302::1769211430::1::::<><><>0<>0<>e52b706a2933f49b139e5da5d779c438<>res://.godot/imported/Ingredient_Trash_04.wav-12143d316086fac67f80956c88da2d27.sample::
+::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/::1769211303
+Ingredient_Beef.wav::AudioStreamWAV::239851127879083162::1769211302::1769211430::1::::<><><>0<>0<>3608bb9770d30ed78e264bfda8c85028<>res://.godot/imported/Ingredient_Beef.wav-1780ac128416a2ce5e2fef7b2698bda2.sample::
+Ingredient_Bread.wav::AudioStreamWAV::8243865627096107457::1769211302::1769211430::1::::<><><>0<>0<>76c5b95b8ce7719c5f660b046e554467<>res://.godot/imported/Ingredient_Bread.wav-a987bf7f5eb3b496713dc1b57e7c11cb.sample::
+Ingredient_Butter.wav::AudioStreamWAV::9222810235975080723::1769211302::1769211430::1::::<><><>0<>0<>b9647e79f9dea91c48f4e279ba245e6b<>res://.godot/imported/Ingredient_Butter.wav-f90c07fb6deb927055c1cfb20279abe6.sample::
+Ingredient_Carrot.wav::AudioStreamWAV::5630914837386537229::1769211302::1769211430::1::::<><><>0<>0<>5dc10889a3fda72a1d2bdf97c3b53f54<>res://.godot/imported/Ingredient_Carrot.wav-ffb8a3fff89ebd9f3455da11c6da6af6.sample::
+Ingredient_Cheese.wav::AudioStreamWAV::3201873697496066128::1769211302::1769211430::1::::<><><>0<>0<>6d1164eada291f6100e39b319a756c16<>res://.godot/imported/Ingredient_Cheese.wav-7b55a3372496776c393a4aff9fd2cf13.sample::
+Ingredient_Chicken.wav::AudioStreamWAV::1588049414199561196::1769211302::1769211430::1::::<><><>0<>0<>1f7a8f5ed55377b640f7b2870b140785<>res://.godot/imported/Ingredient_Chicken.wav-16e4ce90ebd05a82efcc04b2dfdec975.sample::
+Ingredient_Egg.wav::AudioStreamWAV::8000232889677938653::1769211302::1769211430::1::::<><><>0<>0<>033d23bb9854d21d90e6744d15ed3f88<>res://.godot/imported/Ingredient_Egg.wav-fef9c711691ae281f70e51a6d4b9f21e.sample::
+Ingredient_Flour.wav::AudioStreamWAV::1313707571920308702::1769211302::1769211430::1::::<><><>0<>0<>c25f400a28bb490e5ba625adadc7d0c5<>res://.godot/imported/Ingredient_Flour.wav-5915fb0593656eafd140a73f1947e5d1.sample::
+Ingredient_Garlic.wav::AudioStreamWAV::6162209600887995139::1769211302::1769211430::1::::<><><>0<>0<>77a8693b2288eef9578e96cc6e01f0dd<>res://.godot/imported/Ingredient_Garlic.wav-b510fb4ad357186dbb2aa5b6ce3fa278.sample::
+Ingredient_Milk.wav::AudioStreamWAV::8709945057706652672::1769211302::1769211430::1::::<><><>0<>0<>e5713acaa645d24162fc023c6341972c<>res://.godot/imported/Ingredient_Milk.wav-bdc35bb5f535fd4ae7705b4ab621431b.sample::
+Ingredient_Onionwav.wav::AudioStreamWAV::6727838353925772980::1769211302::1769211430::1::::<><><>0<>0<>08b57b48d55e67faded2ac6e55b8d95f<>res://.godot/imported/Ingredient_Onionwav.wav-ced7fa81865beaf8d2dcbc6d64c52059.sample::
+Ingredient_Pasta.wav::AudioStreamWAV::1588773857261148787::1769211302::1769211430::1::::<><><>0<>0<>23869534cf48adef1ebd8d6750b508cb<>res://.godot/imported/Ingredient_Pasta.wav-ac936f8b76890edc06e760ce2951c637.sample::
+Ingredient_Pepper.wav::AudioStreamWAV::6443360937071613::1769211302::1769211430::1::::<><><>0<>0<>dc27bf401caae6b2f78a760f2a028b77<>res://.godot/imported/Ingredient_Pepper.wav-9241d2c3138ef3bda1f9969f4a39cb28.sample::
+Ingredient_Potato.wav::AudioStreamWAV::2667022406901921663::1769211302::1769211430::1::::<><><>0<>0<>c6096ece3c55e46bee24eb1c50416698<>res://.godot/imported/Ingredient_Potato.wav-52bd0facaca73b392f30f375a9dfc3fd.sample::
+Ingredient_Salt.wav::AudioStreamWAV::4361209495617281171::1769211302::1769211430::1::::<><><>0<>0<>c6045949e7fd6ed0567523343983771b<>res://.godot/imported/Ingredient_Salt.wav-c1455837ae7e3b6204da55c32164f2e2.sample::
+Ingredient_Tomato.wav::AudioStreamWAV::5299315541751821946::1769211302::1769211430::1::::<><><>0<>0<>dac956a15e11d5ddf4089179896e7cfb<>res://.godot/imported/Ingredient_Tomato.wav-256188a917aaa7365a5ebe4569fdabde.sample::
+::res://Assets/Audio/Living Room/::1769211303
+Campfire.wav::AudioStreamWAV::4731128674508676206::1769211302::1769211430::1::::<><><>0<>0<>a378858deb606868258cfd86bc4fd376<>res://.godot/imported/Campfire.wav-acc40a59f319067a82270127a9c9929c.sample::
+::res://Assets/Audio/Menu UI/::1769211408
+Mouse_Back_Button.wav::AudioStreamWAV::1482293116592673021::1769211302::1769211430::1::::<><><>0<>0<>537794530cd864cb53ba585a882b83a3<>res://.godot/imported/Mouse_Back_Button.wav-02cb12f3cd209adb30dc551236da1957.sample::
+Mouse_Hover.wav::AudioStreamWAV::2498552959055891444::1769211302::1769211430::1::::<><><>0<>0<>ac6ce6593fdaefc41c7815d476ff7a01<>res://.godot/imported/Mouse_Hover.wav-d4471cc20627855d4ba467e780f2762e.sample::
+Mouse_Select_Button.wav::AudioStreamWAV::6492500569534295128::1769211302::1769211430::1::::<><><>0<>0<>4a55ce559806497724f8ad79f0d80645<>res://.godot/imported/Mouse_Select_Button.wav-9712069a05dbb4053af3f2feea47bc2e.sample::
+::res://Assets/Audio/Menu UI/Book/::1769211408
+::res://Assets/Audio/Menu UI/Book/Close/::1769211303
+Book_Close.wav::AudioStreamWAV::1503996928806924545::1769211302::1769211430::1::::<><><>0<>0<>944d7d90fcbe231d4f3900817c97edf9<>res://.godot/imported/Book_Close.wav-8d2df4315e57f8097a9168f5e17a56c5.sample::
+::res://Assets/Audio/Menu UI/Book/Flip Pages/::1769211303
+Book_PageFlip_01.wav::AudioStreamWAV::8041832831273863276::1769211302::1769211430::1::::<><><>0<>0<>f94e1356fb8a22fb571ed558b2f4c814<>res://.godot/imported/Book_PageFlip_01.wav-58bf93909214ad8b9034ce4a560e57eb.sample::
+Book_PageFlip_02.wav::AudioStreamWAV::2320175043003012166::1769211302::1769211430::1::::<><><>0<>0<>4cf2b2167a43d4d0d7eeb7ad222dffee<>res://.godot/imported/Book_PageFlip_02.wav-f583a7b9123e6fbf428d6a29a1ee93ec.sample::
+Book_PageFlip_03.wav::AudioStreamWAV::6693566387334099556::1769211302::1769211430::1::::<><><>0<>0<>bc0ea6490c1e2aa3900661c6d98cdd4f<>res://.godot/imported/Book_PageFlip_03.wav-ac11f7c008e70aa0287812ac28b11a85.sample::
+Book_PageFlip_04.wav::AudioStreamWAV::6360239072491316198::1769211302::1769211430::1::::<><><>0<>0<>450ddd3cea7f5405ba4950500fa80f4e<>res://.godot/imported/Book_PageFlip_04.wav-e3c091931a49b6556db43bef02297ac7.sample::
+Book_PageFlip_05.wav::AudioStreamWAV::5540992160786973107::1769211302::1769211430::1::::<><><>0<>0<>de5ad4e56dcfd47fad77299ba3bd6a66<>res://.godot/imported/Book_PageFlip_05.wav-ee778ef29d83ebffda81ab3d6e40fefd.sample::
+Book_PageFlip_06.wav::AudioStreamWAV::4692830946414194663::1769211302::1769211430::1::::<><><>0<>0<>c376956eb4a4d9319d3d27832fe47cd5<>res://.godot/imported/Book_PageFlip_06.wav-92fc918331b8fa9ae2fab1bb17639e8a.sample::
+::res://Assets/Audio/Menu UI/Book/Open/::1769211303
+Book_Open_01.wav::AudioStreamWAV::4189232137791959056::1769211302::1769211430::1::::<><><>0<>0<>11abdb2e485b7c5b9f197f04033ac755<>res://.godot/imported/Book_Open_01.wav-8a9c08f2f9663e7fc42a9f20f054a7e0.sample::
+Book_Open_02.wav::AudioStreamWAV::6314701380829703070::1769211302::1769211430::1::::<><><>0<>0<>3263a425e4dbf584819a487b59df9b1a<>res://.godot/imported/Book_Open_02.wav-2b7a3363e2ae92b49e455ece44b6734b.sample::
+Book_Open_03.wav::AudioStreamWAV::3440169726925574644::1769211302::1769211430::1::::<><><>0<>0<>f5ab3585e71da4f8dc3dce080dfb2cbc<>res://.godot/imported/Book_Open_03.wav-d24c6365e20d547e1bf5fc4453ca2f2c.sample::
+Book_Open_04.wav::AudioStreamWAV::5238473896512108726::1769211302::1769211430::1::::<><><>0<>0<>f07c3fb8d38e0bb22c5692fa849114cb<>res://.godot/imported/Book_Open_04.wav-cc96fe139946eb79ba67760e2e0706a4.sample::
+::res://Assets/Audio/Menu UI/Coins/::1769211408
+Shop_Purchase_01.wav::AudioStreamWAV::4730538940366322850::1769211302::1769211430::1::::<><><>0<>0<>32ed59261c6d817eddfddc5036a12a77<>res://.godot/imported/Shop_Purchase_01.wav-059356a161eb4a0fc91c96bf057cbe31.sample::
+Shop_Purchase_02.wav::AudioStreamWAV::3925997647831342947::1769211302::1769211430::1::::<><><>0<>0<>3790b9e6e4020ec8e51fc6418c574458<>res://.godot/imported/Shop_Purchase_02.wav-f88c2fa109ceb9129e4bb913ab70e2e2.sample::
+Shop_Purchase_03.wav::AudioStreamWAV::2995578491958963037::1769211302::1769211430::1::::<><><>0<>0<>41625f578aa080d3d2bc0246a91e740c<>res://.godot/imported/Shop_Purchase_03.wav-1f57c9120799681c0761b2c52d7342f8.sample::
+Shop_Purchase_04.wav::AudioStreamWAV::6554334794875669422::1769211302::1769211430::1::::<><><>0<>0<>55137d9b41dbda3e4d0cc5c916a74eb6<>res://.godot/imported/Shop_Purchase_04.wav-bc6b9d588a3f393f078afb6c65748994.sample::
 ::res://Assets/Fonts/::1768942985
-Lonely_Coffee.ttf::FontFile::257877812774722704::1768942985::1768942985::1::::<><><>0<>0<>540aeecfa365bb440a4a06f2b72655f4<>res://.godot/imported/Lonely_Coffee.ttf-7d003fe4f32fdcb5d8835b78c0c154cd.fontdata::
+Lonely_Coffee.ttf::FontFile::257877812774722704::1768942985::1769211424::1::::<><><>0<>0<>540aeecfa365bb440a4a06f2b72655f4<>res://.godot/imported/Lonely_Coffee.ttf-7d003fe4f32fdcb5d8835b78c0c154cd.fontdata::
 ::res://Assets/Sprites/::1769205840
 icon.svg::CompressedTexture2D::6528116911891285300::1767985929::1767986428::1::::<><><>0<>0<>52ac0f9c334ec027f7bd55661214961e<>res://.godot/imported/icon.svg-937281dbc6e7ba0435124e30fe85aebc.ctex::
 ::res://Assets/Sprites/Dishes being cooked/::1769205843
-Burger and steak_fries being cooked 8fps.png::CompressedTexture2D::3371921133795521152::1769205840::1769205843::1::::<><><>0<>0<>28486061d80fdc409295c4c06bd16402<>res://.godot/imported/Burger and steak_fries being cooked 8fps.png-42b0d91644d5ad26389497b01d7a9d22.ctex::
-Chicken noodle soup 8fps.PNG::CompressedTexture2D::3454904446988815461::1769205840::1769205842::1::::<><><>0<>0<>6079407e804cf62659663e20c55279bf<>res://.godot/imported/Chicken noodle soup 8fps.PNG-f196fc448c5e7aa9e713746035c3473a.ctex::
-Fries 8 fps.png::CompressedTexture2D::8308190092446501401::1769205840::1769205843::1::::<><><>0<>0<>3dbaf8a8beeacdbf8f236f0b2bec2d6e<>res://.godot/imported/Fries 8 fps.png-a3b998d6b50c2a18ae4357a2b985c9f8.ctex::
-Frying chicken 8fps.png::CompressedTexture2D::5577924014484435762::1769205840::1769205841::1::::<><><>0<>0<>b33a4ae39b260a979b9cb36e4a001232<>res://.godot/imported/Frying chicken 8fps.png-176076ecfab4fd225a3dac126c237a45.ctex::
-Frying egg 8fps.png::CompressedTexture2D::7404865766713404518::1769205840::1769205843::1::::<><><>0<>0<>27f31a5b2337cf0cf28755686ec7706b<>res://.godot/imported/Frying egg 8fps.png-ca3290667e054525174517dbf4b7d79b.ctex::
-Grilled cheese 8fps.png::CompressedTexture2D::1861341998736625892::1769205840::1769205843::1::::<><><>0<>0<>818405906ce53b93688f31d67aa1c69b<>res://.godot/imported/Grilled cheese 8fps.png-ff6cdb7e0a8c0c565f07f1f3ee0fddb1.ctex::
-Pancake 8fps.png::CompressedTexture2D::6232757020248591150::1769205840::1769205843::1::::<><><>0<>0<>6eebf111c382ac821be26f333ecd7fe6<>res://.godot/imported/Pancake 8fps.png-abdff8eab84ef116c4028d2cf7e8369e.ctex::
-Pizza 8fps.png::CompressedTexture2D::6772129167358091764::1769205840::1769205843::1::::<><><>0<>0<>713fb81c84093ffeb753fd8125d8beaf<>res://.godot/imported/Pizza 8fps.png-73ff39e4c0feb60f2e121c8cb85b6b64.ctex::
-Smoke from cooking (place behind frying pan).PNG::CompressedTexture2D::8761669761624282996::1769205840::1769205841::1::::<><><>0<>0<>1c311c504c7100bb2e5ecdec4d8b8229<>res://.godot/imported/Smoke from cooking (place behind frying pan).PNG-af3ca04e7255ba2bd640c36176a44c80.ctex::
-Tomato bisque 8fps.png::CompressedTexture2D::7082478715329381216::1769205840::1769205842::1::::<><><>0<>0<>00cea5f2d004d1e3ceb58be61a42f912<>res://.godot/imported/Tomato bisque 8fps.png-4099c05171c05513e440225b90143a75.ctex::
+Burger and steak_fries being cooked 8fps.png::CompressedTexture2D::3371921133795521152::1769205840::1769211430::1::::<><><>0<>0<>28486061d80fdc409295c4c06bd16402<>res://.godot/imported/Burger and steak_fries being cooked 8fps.png-42b0d91644d5ad26389497b01d7a9d22.ctex::
+Chicken noodle soup 8fps.PNG::CompressedTexture2D::3454904446988815461::1769205840::1769211428::1::::<><><>0<>0<>6079407e804cf62659663e20c55279bf<>res://.godot/imported/Chicken noodle soup 8fps.PNG-f196fc448c5e7aa9e713746035c3473a.ctex::
+Fries 8 fps.png::CompressedTexture2D::8308190092446501401::1769205840::1769211429::1::::<><><>0<>0<>3dbaf8a8beeacdbf8f236f0b2bec2d6e<>res://.godot/imported/Fries 8 fps.png-a3b998d6b50c2a18ae4357a2b985c9f8.ctex::
+Frying chicken 8fps.png::CompressedTexture2D::5577924014484435762::1769205840::1769211426::1::::<><><>0<>0<>b33a4ae39b260a979b9cb36e4a001232<>res://.godot/imported/Frying chicken 8fps.png-176076ecfab4fd225a3dac126c237a45.ctex::
+Frying egg 8fps.png::CompressedTexture2D::7404865766713404518::1769205840::1769211430::1::::<><><>0<>0<>27f31a5b2337cf0cf28755686ec7706b<>res://.godot/imported/Frying egg 8fps.png-ca3290667e054525174517dbf4b7d79b.ctex::
+Grilled cheese 8fps.png::CompressedTexture2D::1861341998736625892::1769205840::1769211429::1::::<><><>0<>0<>818405906ce53b93688f31d67aa1c69b<>res://.godot/imported/Grilled cheese 8fps.png-ff6cdb7e0a8c0c565f07f1f3ee0fddb1.ctex::
+Pancake 8fps.png::CompressedTexture2D::6232757020248591150::1769205840::1769211429::1::::<><><>0<>0<>6eebf111c382ac821be26f333ecd7fe6<>res://.godot/imported/Pancake 8fps.png-abdff8eab84ef116c4028d2cf7e8369e.ctex::
+Pizza 8fps.png::CompressedTexture2D::6772129167358091764::1769205840::1769211429::1::::<><><>0<>0<>713fb81c84093ffeb753fd8125d8beaf<>res://.godot/imported/Pizza 8fps.png-73ff39e4c0feb60f2e121c8cb85b6b64.ctex::
+Smoke from cooking (place behind frying pan).PNG::CompressedTexture2D::8761669761624282996::1769205840::1769211426::1::::<><><>0<>0<>1c311c504c7100bb2e5ecdec4d8b8229<>res://.godot/imported/Smoke from cooking (place behind frying pan).PNG-af3ca04e7255ba2bd640c36176a44c80.ctex::
+Tomato bisque 8fps.png::CompressedTexture2D::7082478715329381216::1769205840::1769211427::1::::<><><>0<>0<>00cea5f2d004d1e3ceb58be61a42f912<>res://.godot/imported/Tomato bisque 8fps.png-4099c05171c05513e440225b90143a75.ctex::
 ::res://Assets/Sprites/Ingredients/::1768880112
-Beef.PNG::CompressedTexture2D::7111940442331243980::1768880105::1768880107::1::::<><><>0<>0<>8e79e1e336258ff630b6f199fe37d75a<>res://.godot/imported/Beef.PNG-ae62d35b29cf4a1f94838ed0a50a4f02.ctex::
-Bread.PNG::CompressedTexture2D::2754154026617125243::1768880105::1768880107::1::::<><><>0<>0<>947dc15ef8386a57185557218e7115bd<>res://.godot/imported/Bread.PNG-aea88c8a7f0c6a80bda2c24fe1cfb853.ctex::
-Butter.PNG::CompressedTexture2D::1020216842544234161::1768880105::1768880107::1::::<><><>0<>0<>743f4ea381378611b5a6a1ce651d6be9<>res://.godot/imported/Butter.PNG-22fbcddd4576f011ded4d37a2f22cfa9.ctex::
-Carrot.PNG::CompressedTexture2D::8023986739436804714::1768880105::1768880107::1::::<><><>0<>0<>4d26ee562eaf575badca0ff8fa082162<>res://.godot/imported/Carrot.PNG-4f4e191d68992995086a5b8860a8444f.ctex::
-Cheese.PNG::CompressedTexture2D::7385560254239540470::1768880105::1768880107::1::::<><><>0<>0<>af5dfbe9da50c36df6c3442ef27f03ac<>res://.godot/imported/Cheese.PNG-02644e1cbb5c293a7fec3cad750a1feb.ctex::
-Chicken.PNG::CompressedTexture2D::5631357867102097940::1768880105::1768880107::1::::<><><>0<>0<>fb8d597256ee032601119c23419fe91c<>res://.godot/imported/Chicken.PNG-84de0a19b20f2bf86e29356c8e62b6f9.ctex::
-Egg.PNG::CompressedTexture2D::3838300845798758213::1768880105::1768880107::1::::<><><>0<>0<>a0fac8c342bfa3ec5d650c062782fe04<>res://.godot/imported/Egg.PNG-fe28373e7ca77d2355efdee759ec49ca.ctex::
-Flour.PNG::CompressedTexture2D::6789532061559654141::1768880105::1768880107::1::::<><><>0<>0<>a2562c4675151b464a5d9ab79c2bb322<>res://.godot/imported/Flour.PNG-5ab53cc492428d9a9c2516a5d9be7028.ctex::
-Garlic.PNG::CompressedTexture2D::7932151690020831458::1768880105::1768880107::1::::<><><>0<>0<>f9a699f18adec539b30ee5acfb50d258<>res://.godot/imported/Garlic.PNG-212c869f365256212d9add1068515781.ctex::
-Milk.PNG::CompressedTexture2D::7364494387434854619::1768880105::1768880107::1::::<><><>0<>0<>ddc3ed1f22f0cdf886ac6f35684fecc1<>res://.godot/imported/Milk.PNG-40b2832c985b8534c982243bed93f34e.ctex::
-Onion.PNG::CompressedTexture2D::3207659602521855471::1768880105::1768880107::1::::<><><>0<>0<>37c24d4a6969a987856337b1f8e40f85<>res://.godot/imported/Onion.PNG-8e535addaa2293061f05c951d6d51f68.ctex::
-Pasta.PNG::CompressedTexture2D::6017946854947490219::1768880105::1768880107::1::::<><><>0<>0<>6092f13341fae81cc58fe6fcf41c5456<>res://.godot/imported/Pasta.PNG-da0917f568831e681562c12d882c61e3.ctex::
-Pepper.PNG::CompressedTexture2D::4791179374278372956::1768880105::1768880107::1::::<><><>0<>0<>7ecd82ddc8122e954fa703f676f5bfba<>res://.godot/imported/Pepper.PNG-dae3ad3588379e60334bfb0f2f4445d3.ctex::
-Potato.PNG::CompressedTexture2D::253683735787776148::1768880105::1768880107::1::::<><><>0<>0<>21ea174efda0ed2c559ac864f5e8327e<>res://.godot/imported/Potato.PNG-d22b392ff83dde099128bd560769239b.ctex::
-Salt.PNG::CompressedTexture2D::1574513168781280990::1768880105::1768880107::1::::<><><>0<>0<>605d067be1ad13c39acc76cf7bc32ba9<>res://.godot/imported/Salt.PNG-597b05d34ad145c940b0997033665df7.ctex::
-Tomato.PNG::CompressedTexture2D::3768828022051001334::1768880105::1768880107::1::::<><><>0<>0<>1a7dccd950940463d833c04a1d75912a<>res://.godot/imported/Tomato.PNG-33aced0c559eb1c219dc3357fa33c5eb.ctex::
+Beef.PNG::CompressedTexture2D::7111940442331243980::1768880105::1769211426::1::::<><><>0<>0<>8e79e1e336258ff630b6f199fe37d75a<>res://.godot/imported/Beef.PNG-ae62d35b29cf4a1f94838ed0a50a4f02.ctex::
+Bread.PNG::CompressedTexture2D::2754154026617125243::1768880105::1769211426::1::::<><><>0<>0<>947dc15ef8386a57185557218e7115bd<>res://.godot/imported/Bread.PNG-aea88c8a7f0c6a80bda2c24fe1cfb853.ctex::
+Butter.PNG::CompressedTexture2D::1020216842544234161::1768880105::1769211426::1::::<><><>0<>0<>743f4ea381378611b5a6a1ce651d6be9<>res://.godot/imported/Butter.PNG-22fbcddd4576f011ded4d37a2f22cfa9.ctex::
+Carrot.PNG::CompressedTexture2D::8023986739436804714::1768880105::1769211426::1::::<><><>0<>0<>4d26ee562eaf575badca0ff8fa082162<>res://.godot/imported/Carrot.PNG-4f4e191d68992995086a5b8860a8444f.ctex::
+Cheese.PNG::CompressedTexture2D::7385560254239540470::1768880105::1769211425::1::::<><><>0<>0<>af5dfbe9da50c36df6c3442ef27f03ac<>res://.godot/imported/Cheese.PNG-02644e1cbb5c293a7fec3cad750a1feb.ctex::
+Chicken.PNG::CompressedTexture2D::5631357867102097940::1768880105::1769211425::1::::<><><>0<>0<>fb8d597256ee032601119c23419fe91c<>res://.godot/imported/Chicken.PNG-84de0a19b20f2bf86e29356c8e62b6f9.ctex::
+Egg.PNG::CompressedTexture2D::3838300845798758213::1768880105::1769211425::1::::<><><>0<>0<>a0fac8c342bfa3ec5d650c062782fe04<>res://.godot/imported/Egg.PNG-fe28373e7ca77d2355efdee759ec49ca.ctex::
+Flour.PNG::CompressedTexture2D::6789532061559654141::1768880105::1769211425::1::::<><><>0<>0<>a2562c4675151b464a5d9ab79c2bb322<>res://.godot/imported/Flour.PNG-5ab53cc492428d9a9c2516a5d9be7028.ctex::
+Garlic.PNG::CompressedTexture2D::7932151690020831458::1768880105::1769211425::1::::<><><>0<>0<>f9a699f18adec539b30ee5acfb50d258<>res://.godot/imported/Garlic.PNG-212c869f365256212d9add1068515781.ctex::
+Milk.PNG::CompressedTexture2D::7364494387434854619::1768880105::1769211425::1::::<><><>0<>0<>ddc3ed1f22f0cdf886ac6f35684fecc1<>res://.godot/imported/Milk.PNG-40b2832c985b8534c982243bed93f34e.ctex::
+Onion.PNG::CompressedTexture2D::3207659602521855471::1768880105::1769211425::1::::<><><>0<>0<>37c24d4a6969a987856337b1f8e40f85<>res://.godot/imported/Onion.PNG-8e535addaa2293061f05c951d6d51f68.ctex::
+Pasta.PNG::CompressedTexture2D::6017946854947490219::1768880105::1769211425::1::::<><><>0<>0<>6092f13341fae81cc58fe6fcf41c5456<>res://.godot/imported/Pasta.PNG-da0917f568831e681562c12d882c61e3.ctex::
+Pepper.PNG::CompressedTexture2D::4791179374278372956::1768880105::1769211425::1::::<><><>0<>0<>7ecd82ddc8122e954fa703f676f5bfba<>res://.godot/imported/Pepper.PNG-dae3ad3588379e60334bfb0f2f4445d3.ctex::
+Potato.PNG::CompressedTexture2D::253683735787776148::1768880105::1769211425::1::::<><><>0<>0<>21ea174efda0ed2c559ac864f5e8327e<>res://.godot/imported/Potato.PNG-d22b392ff83dde099128bd560769239b.ctex::
+Salt.PNG::CompressedTexture2D::1574513168781280990::1768880105::1769211425::1::::<><><>0<>0<>605d067be1ad13c39acc76cf7bc32ba9<>res://.godot/imported/Salt.PNG-597b05d34ad145c940b0997033665df7.ctex::
+Tomato.PNG::CompressedTexture2D::3768828022051001334::1768880105::1769211425::1::::<><><>0<>0<>1a7dccd950940463d833c04a1d75912a<>res://.godot/imported/Tomato.PNG-33aced0c559eb1c219dc3357fa33c5eb.ctex::
 ::res://Assets/Sprites/Kitchen/::1768502524
 IMG_6094.PNG::CompressedTexture2D::734565269578915279::1768502523::1768502524::1::::<><><>0<>0<>85897c4202c73e27aee655476067f045<>res://.godot/imported/IMG_6094.PNG-ac9483e2c131ceb006b86f51516a3e03.ctex::
 Layout.PNG::CompressedTexture2D::7378948276489312181::1768502523::1768502524::1::::<><><>0<>0<>e2d8d8e266bfcf05914a9a2cb16beb3a<>res://.godot/imported/Layout.PNG-ecfbd5800812d6ad4626ed109bdf6ad5.ctex::
@@ -134,60 +134,56 @@ IMG_6050.png::CompressedTexture2D::2614854176883333566::1768165581::1768165581::
 IMG_6052.PNG::CompressedTexture2D::2867417394848409838::1768165581::1768165581::1::::<><><>0<>0<>52fd5b65f7543b6354cfdbda3004f1f3<>res://.godot/imported/IMG_6052.PNG-fb8e84bd54b2cad5f03e61ffcb4f9d2c.ctex::
 Layout.PNG::CompressedTexture2D::5969913966756521702::1768165581::1768165581::1::::<><><>0<>0<>1bbb9c3b48accd7cd5d52e1b9432cea2<>res://.godot/imported/Layout.PNG-40f03ac7779d7ccaf80dd0d4e23976c1.ctex::
 ::res://Assets/Sprites/Main character/::1769144161
-Eating(4fps).PNG::CompressedTexture2D::6782621024473820831::1768931147::1768931215::1::::<><><>0<>0<>cca1a7c0f9f7a00f9becf70c99216fc1<>res://.godot/imported/Eating(4fps).PNG-0d075a4ced9c7a3b23ac02b71db16af9.ctex::
+Eating(4fps).PNG::CompressedTexture2D::6782621024473820831::1768931147::1769211424::1::::<><><>0<>0<>cca1a7c0f9f7a00f9becf70c99216fc1<>res://.godot/imported/Eating(4fps).PNG-0d075a4ced9c7a3b23ac02b71db16af9.ctex::
 Idle(4fps).PNG::CompressedTexture2D::5843927560945480579::1768165581::1768165581::1::::<><><>0<>0<>288691de3325c7a314306e0989788b16<>res://.godot/imported/Idle(4fps).PNG-35721444ca9bef720f253fbbfccbcabb.ctex::
 Talking(4fps).PNG::CompressedTexture2D::8631788348301911358::1768502513::1768502514::1::::<><><>0<>0<>3bfa7b4de3527bf652aae8e3019c08a6<>res://.godot/imported/Talking(4fps).PNG-bc9b5eb966bc6c6ed74743c01dbc3759.ctex::
 Walk(4fps).PNG::CompressedTexture2D::3826277153882599540::1768165581::1768165581::1::::<><><>0<>0<>ebf53a4f6b8a9c1ee6c646ef1a372524<>res://.godot/imported/Walk(4fps).PNG-6cec1fe36f52e0571211b5a12047c926.ctex::
 ::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/::1769144161
-Standard.PNG::CompressedTexture2D::4220285975053150886::1769144161::1769144161::1::::<><><>0<>0<>463fb459b7ae08447b60f4917ba466e5<>res://.godot/imported/Standard.PNG-227e9f3044e9b102eb0feed143423645.ctex::
-StandD.PNG::CompressedTexture2D::8151582305177963219::1769144161::1769144161::1::::<><><>0<>0<>6ed1e3bc8becbb4112801f4a841e1c7e<>res://.godot/imported/StandD.PNG-d26e88deeb969c987e8f742acf0320aa.ctex::
-StandU.PNG::CompressedTexture2D::2110752106238783239::1769144161::1769144161::1::::<><><>0<>0<>fab1f8b2ad45e8db082a656fcda41616<>res://.godot/imported/StandU.PNG-9aa6b037fb2a526696b8260f447c9375.ctex::
-WalkD.PNG::CompressedTexture2D::2989257315044361152::1769144161::1769144161::1::::<><><>0<>0<>f534361994b857bf63e77cd96d8107fe<>res://.godot/imported/WalkD.PNG-ca63c6196ee73931e8917feebb1c55ad.ctex::
-WalkR(5fps).PNG::CompressedTexture2D::6205153491892369882::1769144161::1769144161::1::::<><><>0<>0<>daf64b8cf1ecf76e74b4abc433827fe7<>res://.godot/imported/WalkR(5fps).PNG-9ffb97985fd46ad615be7656d1fb3ab4.ctex::
-WalkU.PNG::CompressedTexture2D::2229709841758064967::1769144161::1769144161::1::::<><><>0<>0<>6f8db5c648decbcc33c7cdef46899348<>res://.godot/imported/WalkU.PNG-e2661df693ca8991184974d7ef90545e.ctex::
+Standard.PNG::CompressedTexture2D::4220285975053150886::1769144161::1769211424::1::::<><><>0<>0<>463fb459b7ae08447b60f4917ba466e5<>res://.godot/imported/Standard.PNG-227e9f3044e9b102eb0feed143423645.ctex::
+StandD.PNG::CompressedTexture2D::8151582305177963219::1769144161::1769211428::1::::<><><>0<>0<>6ed1e3bc8becbb4112801f4a841e1c7e<>res://.godot/imported/StandD.PNG-d26e88deeb969c987e8f742acf0320aa.ctex::
+StandU.PNG::CompressedTexture2D::2110752106238783239::1769144161::1769211428::1::::<><><>0<>0<>fab1f8b2ad45e8db082a656fcda41616<>res://.godot/imported/StandU.PNG-9aa6b037fb2a526696b8260f447c9375.ctex::
+WalkD.PNG::CompressedTexture2D::2989257315044361152::1769144161::1769211428::1::::<><><>0<>0<>f534361994b857bf63e77cd96d8107fe<>res://.godot/imported/WalkD.PNG-ca63c6196ee73931e8917feebb1c55ad.ctex::
+WalkR(5fps).PNG::CompressedTexture2D::6205153491892369882::1769144161::1769211428::1::::<><><>0<>0<>daf64b8cf1ecf76e74b4abc433827fe7<>res://.godot/imported/WalkR(5fps).PNG-9ffb97985fd46ad615be7656d1fb3ab4.ctex::
+WalkU.PNG::CompressedTexture2D::2229709841758064967::1769144161::1769211428::1::::<><><>0<>0<>6f8db5c648decbcc33c7cdef46899348<>res://.godot/imported/WalkU.PNG-e2661df693ca8991184974d7ef90545e.ctex::
 ::res://Assets/Sprites/Main menu/::1769139484
-Background for main menu.PNG::CompressedTexture2D::5060036315894862032::1769031496::1769031497::1::::<><><>0<>0<>657f554caffa27619b59be842becec06<>res://.godot/imported/Background for main menu.PNG-b322b531ff8ea641b8d7cc1203c17007.ctex::
-Title.PNG::CompressedTexture2D::2493509837813852167::1769031496::1769031497::1::::<><><>0<>0<>e24d0d1429fc3cd4623d6b53ac05ac5f<>res://.godot/imported/Title.PNG-0c90cceecc68025a0d801eabe99f547e.ctex::
-Ui for main menu.PNG::CompressedTexture2D::5490715033096906172::1769031496::1769031497::1::::<><><>0<>0<>a8650a12513c45b0a78a42f2d149a1ae<>res://.godot/imported/Ui for main menu.PNG-7c68ef711f225708dc32f0e9982d84e7.ctex::
+Background for main menu.PNG::CompressedTexture2D::5060036315894862032::1769031496::1769211428::1::::<><><>0<>0<>657f554caffa27619b59be842becec06<>res://.godot/imported/Background for main menu.PNG-b322b531ff8ea641b8d7cc1203c17007.ctex::
+Title.PNG::CompressedTexture2D::2493509837813852167::1769031496::1769211428::1::::<><><>0<>0<>e24d0d1429fc3cd4623d6b53ac05ac5f<>res://.godot/imported/Title.PNG-0c90cceecc68025a0d801eabe99f547e.ctex::
+Ui for main menu.PNG::CompressedTexture2D::5490715033096906172::1769031496::1769211428::1::::<><><>0<>0<>a8650a12513c45b0a78a42f2d149a1ae<>res://.godot/imported/Ui for main menu.PNG-7c68ef711f225708dc32f0e9982d84e7.ctex::
 ::res://Assets/Sprites/Placeholder/::1769009417
 Playing Card Placeholder.png::CompressedTexture2D::2360319318828055445::1768853803::1768853803::1::::<><><>0<>0<>b8eac34db5c20469248152d32ac687aa<>res://.godot/imported/Playing Card Placeholder.png-6262ea4e703d663b4bbe7188fb4b07f1.ctex::
 ::res://Assets/Sprites/Recipe dish art/::1769031440
-Chicken noodle soup.PNG::CompressedTexture2D::7300888959982851962::1768939649::1768939649::1::::<><><>0<>0<>1f8a93fbbe07c19f27604cdf41d7410e<>res://.godot/imported/Chicken noodle soup.PNG-9f67c727a8b5008e1077becf661c263a.ctex::
-French Fries.PNG::CompressedTexture2D::6376332009084564272::1768939649::1768939649::1::::<><><>0<>0<>41c75f0d037c233e4855965a86edf0b9<>res://.godot/imported/French Fries.PNG-09003ba6fed9711327a23d0217ef7943.ctex::
-Fried chicken.PNG::CompressedTexture2D::4002536128213450615::1768939649::1768939649::1::::<><><>0<>0<>d0734ed376629cdf6fe8ad5f7fa63646<>res://.godot/imported/Fried chicken.PNG-be3dbab9a0a26456a92d49aeb83aabe0.ctex::
-Fried Egg.PNG::CompressedTexture2D::3706822778274719365::1768939649::1768939649::1::::<><><>0<>0<>1153e9eabfbf223409a680865e7a5928<>res://.godot/imported/Fried Egg.PNG-7a2cdea94d393c4f08d331a4f97a37d7.ctex::
-Grilled cheese.PNG::CompressedTexture2D::8463760276008759445::1768939649::1768939649::1::::<><><>0<>0<>2abd71b1e5b542dfdf5b9db68d979647<>res://.godot/imported/Grilled cheese.PNG-8f0ca8293c83d13a391fb5fc474c1794.ctex::
-Mistake.PNG::CompressedTexture2D::1843379759262749984::1769031440::1769031440::1::::<><><>0<>0<>cbebad52d634114213e7d885739ea780<>res://.godot/imported/Mistake.PNG-35dc8aab8dbf862ba94c384703a3db7d.ctex::
-Pancake.PNG::CompressedTexture2D::7304389668165705358::1768939649::1768939649::1::::<><><>0<>0<>e7e9ee2d3af676a0e6cf0161ad7fb5a1<>res://.godot/imported/Pancake.PNG-f3bc8bdce0ab5f8e98d0a336ef71b6a5.ctex::
-Pizza.PNG::CompressedTexture2D::1380037717579406734::1768939649::1768939649::1::::<><><>0<>0<>0fb6aaa970456152ddc003c199de70e1<>res://.godot/imported/Pizza.PNG-33aeabd828700e3e52281fd978eb4764.ctex::
-Steak frite.PNG::CompressedTexture2D::7613528252312451191::1768939649::1768939649::1::::<><><>0<>0<>ade2a78243d93db45bcd4e8e603655b8<>res://.godot/imported/Steak frite.PNG-1e21b7bbf3224b79c4e9e2caa430896e.ctex::
-Tomato bisque .PNG::CompressedTexture2D::1585728457229676941::1768939649::1768939649::1::::<><><>0<>0<>d7fbb9c1c4ee9cab7adc78313e46f6c4<>res://.godot/imported/Tomato bisque .PNG-761e5a7d0f529c635d3f2413c7dfd2d3.ctex::
-Unknown recipe.png::CompressedTexture2D::9037927707337525261::1769009414::1769009417::1::::<><><>0<>0<>6039ced1198f5d3def6cd2da893cfb99<>res://.godot/imported/Unknown recipe.png-41bcf4ab61b4ca026979c8a52aea79fa.ctex::
+Chicken noodle soup.PNG::CompressedTexture2D::7300888959982851962::1768939649::1769211428::1::::<><><>0<>0<>1f8a93fbbe07c19f27604cdf41d7410e<>res://.godot/imported/Chicken noodle soup.PNG-9f67c727a8b5008e1077becf661c263a.ctex::
+French Fries.PNG::CompressedTexture2D::6376332009084564272::1768939649::1769211427::1::::<><><>0<>0<>41c75f0d037c233e4855965a86edf0b9<>res://.godot/imported/French Fries.PNG-09003ba6fed9711327a23d0217ef7943.ctex::
+Fried chicken.PNG::CompressedTexture2D::4002536128213450615::1768939649::1769211427::1::::<><><>0<>0<>d0734ed376629cdf6fe8ad5f7fa63646<>res://.godot/imported/Fried chicken.PNG-be3dbab9a0a26456a92d49aeb83aabe0.ctex::
+Fried Egg.PNG::CompressedTexture2D::3706822778274719365::1768939649::1769211427::1::::<><><>0<>0<>1153e9eabfbf223409a680865e7a5928<>res://.godot/imported/Fried Egg.PNG-7a2cdea94d393c4f08d331a4f97a37d7.ctex::
+Grilled cheese.PNG::CompressedTexture2D::8463760276008759445::1768939649::1769211427::1::::<><><>0<>0<>2abd71b1e5b542dfdf5b9db68d979647<>res://.godot/imported/Grilled cheese.PNG-8f0ca8293c83d13a391fb5fc474c1794.ctex::
+Mistake.PNG::CompressedTexture2D::1843379759262749984::1769031440::1769211427::1::::<><><>0<>0<>cbebad52d634114213e7d885739ea780<>res://.godot/imported/Mistake.PNG-35dc8aab8dbf862ba94c384703a3db7d.ctex::
+Pancake.PNG::CompressedTexture2D::7304389668165705358::1768939649::1769211427::1::::<><><>0<>0<>e7e9ee2d3af676a0e6cf0161ad7fb5a1<>res://.godot/imported/Pancake.PNG-f3bc8bdce0ab5f8e98d0a336ef71b6a5.ctex::
+Pizza.PNG::CompressedTexture2D::1380037717579406734::1768939649::1769211427::1::::<><><>0<>0<>0fb6aaa970456152ddc003c199de70e1<>res://.godot/imported/Pizza.PNG-33aeabd828700e3e52281fd978eb4764.ctex::
+Steak frite.PNG::CompressedTexture2D::7613528252312451191::1768939649::1769211427::1::::<><><>0<>0<>ade2a78243d93db45bcd4e8e603655b8<>res://.godot/imported/Steak frite.PNG-1e21b7bbf3224b79c4e9e2caa430896e.ctex::
+Tomato bisque .PNG::CompressedTexture2D::1585728457229676941::1768939649::1769211427::1::::<><><>0<>0<>d7fbb9c1c4ee9cab7adc78313e46f6c4<>res://.godot/imported/Tomato bisque .PNG-761e5a7d0f529c635d3f2413c7dfd2d3.ctex::
+Unknown recipe.png::CompressedTexture2D::9037927707337525261::1769009414::1769211427::1::::<><><>0<>0<>6039ced1198f5d3def6cd2da893cfb99<>res://.godot/imported/Unknown recipe.png-41bcf4ab61b4ca026979c8a52aea79fa.ctex::
 ::res://Assets/Sprites/Transition/::1769178847
-Transition3.PNG::CompressedTexture2D::1551713130307421836::1769178846::1769178847::1::::<><><>0<>0<>79edb60f339624fc979a3f53cb31d8ae<>res://.godot/imported/Transition3.PNG-f7db331f250910ce8509b13dfa18d27f.ctex::
-Transition 1.PNG::CompressedTexture2D::406874546016081864::1769139396::1769139410::1::::<><><>0<>0<>f8f339a60542fd6cb671401ac5a0c276<>res://.godot/imported/Transition 1.PNG-9af3fcf716a6ca4856d3a3a55d0cf254.ctex::
-Transition 2.PNG::CompressedTexture2D::5134173318768420118::1769139396::1769139410::1::::<><><>0<>0<>6b886d48e80f4b7eb109db542f013ab5<>res://.godot/imported/Transition 2.PNG-0da034a142b84110a7090ae4e38832e1.ctex::
+Transition3.PNG::CompressedTexture2D::1551713130307421836::1769178846::1769211427::1::::<><><>0<>0<>79edb60f339624fc979a3f53cb31d8ae<>res://.godot/imported/Transition3.PNG-f7db331f250910ce8509b13dfa18d27f.ctex::
+Transition 1.PNG::CompressedTexture2D::406874546016081864::1769139396::1769211427::1::::<><><>0<>0<>f8f339a60542fd6cb671401ac5a0c276<>res://.godot/imported/Transition 1.PNG-9af3fcf716a6ca4856d3a3a55d0cf254.ctex::
+Transition 2.PNG::CompressedTexture2D::5134173318768420118::1769139396::1769211427::1::::<><><>0<>0<>6b886d48e80f4b7eb109db542f013ab5<>res://.godot/imported/Transition 2.PNG-0da034a142b84110a7090ae4e38832e1.ctex::
 ::res://Assets/Sprites/Ui/::1769143472
-Back_exit.png::CompressedTexture2D::4651045665675684757::1769007748::1769007748::1::::<><><>0<>0<>33b5b545f3b4b002f7e6c623fc29110d<>res://.godot/imported/Back_exit.png-1fbda2d6daf26d245e34baf5114de3e4.ctex::
+Back_exit.png::CompressedTexture2D::4651045665675684757::1769007748::1769211426::1::::<><><>0<>0<>33b5b545f3b4b002f7e6c623fc29110d<>res://.godot/imported/Back_exit.png-1fbda2d6daf26d245e34baf5114de3e4.ctex::
 Book Button_Closed.png::CompressedTexture2D::7655369410964965262::1768573736::1768573736::1::::<><><>0<>0<>976893aff30a8b7adf93a0200634b024<>res://.godot/imported/Book Button_Closed.png-6edbd9a5f55aa63ce0bd969fb8ea381d.ctex::
 Book Button_Open.png::CompressedTexture2D::3025293393810059055::1768573736::1768573736::1::::<><><>0<>0<>c52acf9ae3d39df3d3cb6168728f9149<>res://.godot/imported/Book Button_Open.png-241f8a57d55d6689b247184709017293.ctex::
 Currency Bar.png::CompressedTexture2D::6567475593408860363::1768573736::1768573736::1::::<><><>0<>0<>1c80a70d6c0f484e8bd5da1478a5e722<>res://.godot/imported/Currency Bar.png-7db1ebffb973871aafbaf096faf50b62.ctex::
 Day Block.png::CompressedTexture2D::1169096890286278490::1768573736::1768573736::1::::<><><>0<>0<>806d646cee3492383cdccb96f1d5dadf<>res://.godot/imported/Day Block.png-435bee75bd89c95caa4e0af2b027aad8.ctex::
-Dish cooked box.PNG::CompressedTexture2D::883973329642783747::1768960474::1768960475::1::::<><><>0<>0<>13b41ee8b1afc96fb8e93ea0a303dc4a<>res://.godot/imported/Dish cooked box.PNG-7044a68f45680cae423ea614789ea2d7.ctex::
+Dish cooked box.PNG::CompressedTexture2D::883973329642783747::1768960474::1769211426::1::::<><><>0<>0<>13b41ee8b1afc96fb8e93ea0a303dc4a<>res://.godot/imported/Dish cooked box.PNG-7044a68f45680cae423ea614789ea2d7.ctex::
 Kitchen Button1.png::CompressedTexture2D::7526597077641317044::1768573736::1768573736::1::::<><><>0<>0<>2d8cb0720d6587b1e3f5a66defce604e<>res://.godot/imported/Kitchen Button1.png-024a83174d9fe02e2f42e6fc7f977910.ctex::
 Kitchen Button2.png::CompressedTexture2D::6952129269053485030::1768573736::1768573736::1::::<><><>0<>0<>eea7af8a9143fdbce24caee95fece71e<>res://.godot/imported/Kitchen Button2.png-9a44f9d17c8a3539b99451c5052e51cb.ctex::
-Loading icon (8fps).PNG::CompressedTexture2D::9142501973136536095::1769143472::1769143472::1::::<><><>0<>0<>9078bf678c6e6f05b7e1b2d637a7277a<>res://.godot/imported/Loading icon (8fps).PNG-14cc854038adae241cc2b57dbe752840.ctex::
-Locked Dish.png::CompressedTexture2D::8878357737030412346::1769007748::1769007748::1::::<><><>0<>0<>999f134fa230ce64ecb15081c583e622<>res://.godot/imported/Locked Dish.png-f7901a477ce0873a12f4e6e26b28747d.ctex::
-Next pagebutton .png::CompressedTexture2D::6449217155481901864::1769007748::1769007748::1::::<><><>0<>0<>52ba69ce2856bc535796036983200942<>res://.godot/imported/Next pagebutton .png-175d0c999f7d89f54962db8d35534dfa.ctex::
-Recipe Book.PNG::CompressedTexture2D::704138039053253068::1768960474::1768960475::1::::<><><>0<>0<>fd2a2b24f9d002c9e7d143d3ec553c65<>res://.godot/imported/Recipe Book.PNG-23abbec2aefb6153b6973708824dd700.ctex::
-Speech bubble(4fps).PNG::CompressedTexture2D::7497287887383163466::1768960474::1768960475::1::::<><><>0<>0<>0a01b726aec3fb28c634a04d7d6be4d5<>res://.godot/imported/Speech bubble(4fps).PNG-a5b6bb4e6db8d4e706579ed5f95f0ab6.ctex::
+Loading icon (8fps).PNG::CompressedTexture2D::9142501973136536095::1769143472::1769211427::1::::<><><>0<>0<>9078bf678c6e6f05b7e1b2d637a7277a<>res://.godot/imported/Loading icon (8fps).PNG-14cc854038adae241cc2b57dbe752840.ctex::
+Locked Dish.png::CompressedTexture2D::8878357737030412346::1769007748::1769211426::1::::<><><>0<>0<>999f134fa230ce64ecb15081c583e622<>res://.godot/imported/Locked Dish.png-f7901a477ce0873a12f4e6e26b28747d.ctex::
+Next pagebutton .png::CompressedTexture2D::6449217155481901864::1769007748::1769211426::1::::<><><>0<>0<>52ba69ce2856bc535796036983200942<>res://.godot/imported/Next pagebutton .png-175d0c999f7d89f54962db8d35534dfa.ctex::
+Recipe Book.PNG::CompressedTexture2D::704138039053253068::1768960474::1769211426::1::::<><><>0<>0<>fd2a2b24f9d002c9e7d143d3ec553c65<>res://.godot/imported/Recipe Book.PNG-23abbec2aefb6153b6973708824dd700.ctex::
+Speech bubble(4fps).PNG::CompressedTexture2D::7497287887383163466::1768960474::1769211426::1::::<><><>0<>0<>0a01b726aec3fb28c634a04d7d6be4d5<>res://.godot/imported/Speech bubble(4fps).PNG-a5b6bb4e6db8d4e706579ed5f95f0ab6.ctex::
 Store Button1.png::CompressedTexture2D::1775028333868187699::1768573736::1768573736::1::::<><><>0<>0<>6d16f80246639c337f54171cd9a20487<>res://.godot/imported/Store Button1.png-8614e4f5bfba80386eee22457d69b5e9.ctex::
 Store Button2.png::CompressedTexture2D::2923896443911152696::1768573736::1768573736::1::::<><><>0<>0<>2efd3b39ee5f29a5c0ffa09625806c62<>res://.godot/imported/Store Button2.png-2d14d50f798e0861016481c349b707e9.ctex::
-Unknown Ingredient Card.PNG::CompressedTexture2D::7727061167012669203::1769007748::1769007749::1::::<><><>0<>0<>6c0cf8aa30758bdadf72788dc1b3decf<>res://.godot/imported/Unknown Ingredient Card.PNG-7c2608a4fe6ccfee8306a3f138626d3c.ctex::
-::res://Export/::1768844326
-::res://Export/data_comfy-jam-winter-2025_windows_x86_64/::1768844279
-comfy-jam-winter-2025.deps.json::JSON::-1::1768844278::0::1::::<><><>0<>0<><>::
-comfy-jam-winter-2025.runtimeconfig.json::JSON::-1::1768844278::0::1::::<><><>0<>0<><>::
+Unknown Ingredient Card.PNG::CompressedTexture2D::7727061167012669203::1769007748::1769211427::1::::<><><>0<>0<>6c0cf8aa30758bdadf72788dc1b3decf<>res://.godot/imported/Unknown Ingredient Card.PNG-7c2608a4fe6ccfee8306a3f138626d3c.ctex::
 ::res://Scenes/::1769210534
 Cookbook.tscn::PackedScene::472804324503993128::1769032880::0::1::::<><><>0<>0<><>::uid://bsv1d8afi34cf::::res://Scripts/Scenes/CookbookView.cs<>uid://kbdbyr4fhcgq::::res://Assets/Sprites/Ui/Recipe Book.PNG<>uid://dcautseb7ggpu::::res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://b7jabph4cxpe0::::res://Assets/Sprites/Ui/Back_exit.png<>uid://cx5bwt68gm85i::::res://Assets/Sprites/Ui/Next pagebutton .png<>uid://byw115ebpmag3::::res://Assets/Sprites/Living room/IMG_6035.PNG<>uid://kp3ghfuw6emp::::res://Assets/Sprites/Kitchen/IMG_6094.PNG<>uid://diiyfg1biksd7::::res://Assets/Sprites/Kitchen/Stove.PNG<>uid://dgyts6eol2mu5::::res://Assets/Sprites/Living room/IMG_6044.png<>uid://twcpo25p53v::::res://Assets/Sprites/Living room/IMG_6046.png<>uid://bk8pglkbbmkie::::res://Assets/Sprites/Kitchen/Sink.PNG<>uid://ddeog2ihh6csb::::res://Assets/Sprites/Kitchen/Layout.PNG<>uid://c531mqlm5jtya::::res://Assets/Sprites/Living room/IMG_6047.png<>uid://dfylkspxjj1y5::::res://Assets/Sprites/Living room/IMG_6045.png<>uid://cdiu3j0pl58p::::res://Assets/Sprites/Living room/IMG_6048.png<>uid://bdiwjb2asnojm::::res://Assets/Sprites/Living room/IMG_6050.png<>uid://1ymxx4pf5ek3::::res://Scenes/Game Object/Furnace.tscn<>uid://dskkha1yi4sis::::res://Assets/Sprites/Living room/IMG_6049.png
 Inventory.tscn::PackedScene::8150598121750593147::1768238517::0::1::::<><><>0<>0<><>::uid://dh7cnych10h64::::res://Scripts/Scenes/InventoryView.cs

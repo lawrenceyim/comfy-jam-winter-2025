@@ -700,7 +700,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton", "_homeButton", "_playerResponseButton", "_playerResponseButtonLabel", "_playerResponseButtonUi", "_cardDisplay", "_cookedBox", "_cookedRecipeSprite", "_cookingUI", "_fryingPan")]
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton", "_homeButton", "_playerResponseButton", "_playerResponseButtonLabel", "_playerResponseButtonUi", "_cardDisplay", "_cookedBox", "_cookedRecipeSprite", "_cookingUI", "_fryingPan", "_cookingSfx")]
 script = ExtResource("1_2v58e")
 _cookBookButton = NodePath("Book Button")
 _homeButton = NodePath("BackExit/Home Button")
@@ -712,6 +712,7 @@ _cookedBox = NodePath("Dish Cooked Box")
 _cookedRecipeSprite = NodePath("Dish Cooked Box/Dish Sprite")
 _cookingUI = NodePath("Cooking Animations")
 _fryingPan = NodePath("Cooking Animations/Food")
+_cookingSfx = NodePath("Cooking Animations/AudioStreamPlayer")
 
 [node name="Background" type="Sprite2D" parent="."]
 texture = ExtResource("2_uxyhd")
@@ -795,3 +796,6 @@ centered = false
 [node name="Smoke" type="AnimatedSprite2D" parent="Cooking Animations"]
 sprite_frames = SubResource("SpriteFrames_ksrj7")
 centered = false
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Cooking Animations"]
+volume_db = -20.0

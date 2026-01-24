@@ -34,12 +34,16 @@ public partial class KitchenView : Node2D {
     [Export]
     private AnimatedSprite2D _fryingPan;
 
+    [Export]
+    private AudioStreamPlayer _cookingSfx;
+
     private readonly TickTimer _cookingAnimationTimer = new();
 
     private TextureRepository _textureRepository;
     private PlayerDataService _playerDataService;
     private KitchenService _kitchenService;
     private SceneManager _sceneManager;
+    private SoundEffectRepository _soundEffectRepository;
 
     public override void _Ready() {
         ServiceLocator serviceLocator = GetNode<ServiceLocator>(ServiceLocator.AutoloadPath);
@@ -52,6 +56,7 @@ public partial class KitchenView : Node2D {
 
         RepositoryLocator repositoryLocator = serviceLocator.GetService<RepositoryLocator>();
         _textureRepository = repositoryLocator.GetRepository<TextureRepository>(RepositoryName.Texture);
+        _soundEffectRepository = repositoryLocator.GetRepository<SoundEffectRepository>(RepositoryName.SoundEffect);
 
         _cookBookButton.Pressed += () => _sceneManager.ChangeScene(SceneId.CookBoox);
         _cardDisplay.RecipeMadeVsIntended += _HandleRecipeMade;
@@ -66,18 +71,7 @@ public partial class KitchenView : Node2D {
             _sceneManager.ChangeScene(TransitionUtil.GetRandomTransitionSceneId());
         };
 
-        _playerResponseButton.Pressed += () => {
-            if (_playerDataService.GetRecipeMade() == RecipeName.Mistake) {
-                _DisplayRecipeSprites(false);
-                _kitchenService.RandomizeProvidedIngredients();
-                _InitIngredients();
-                _DisplayButtons(false);
-            } else {
-                _kitchenService.ClearSelectedRecipe();
-                _sceneManager.SetNextSceneId(SceneId.LivingRoom);
-                _sceneManager.ChangeScene(TransitionUtil.GetRandomTransitionSceneId());
-            }
-        };
+        _playerResponseButton.Pressed += _HandlePlayerResponseButtonPressed;
 
         _DisplayButtons(false);
         _InitIngredients();
@@ -92,15 +86,44 @@ public partial class KitchenView : Node2D {
         _cookedBox.Visible = display;
     }
 
+    private void _HandlePlayerResponseButtonPressed() {
+        if (_playerDataService.GetRecipeMade() == RecipeName.Mistake) {
+            _DisplayRecipeSprites(false);
+            _kitchenService.RandomizeProvidedIngredients();
+            _InitIngredients();
+            _DisplayButtons(false);
+        } else {
+            _kitchenService.ClearSelectedRecipe();
+            _sceneManager.SetNextSceneId(SceneId.LivingRoom);
+            _sceneManager.ChangeScene(TransitionUtil.GetRandomTransitionSceneId());
+        }
+    }
+
     private void _HandleRecipeMade(RecipeName made, RecipeName intended) {
         _playerDataService.SetRecipeMade(made);
         _cookedRecipeSprite.Texture = _textureRepository.GetTexture(RecipeUtil.GetTextureId(made));
         _DisplayCookingUi(true);
         _SetCookingAnimation(intended);
+        _cookingSfx.Stream = _soundEffectRepository.GetSoundEffect(
+            intended switch {
+                RecipeName.ChickenNoodleSoup => SoundEffectId.ChickenNoodleSoup,
+                RecipeName.FrenchFries => SoundEffectId.FrenchFries,
+                RecipeName.FriedChicken => SoundEffectId.FriedChicken,
+                RecipeName.FriedEgg => SoundEffectId.FriedEgg,
+                RecipeName.GrilledCheese => SoundEffectId.GrilledCheese,
+                RecipeName.Pancakes => SoundEffectId.Pancakes,
+                RecipeName.Pizza => SoundEffectId.Pizza,
+                RecipeName.SteakFrite => SoundEffectId.SteakFrite,
+                RecipeName.TomatoBisque => SoundEffectId.TomatoBisque,
+            }
+        );
+        _cookingSfx.Play();
+
         _cookingAnimationTimer.StartFixedTimer(false, 3 * Engine.PhysicsTicksPerSecond);
     }
 
     private void _FinishCookingAnimation() {
+        _cookingSfx.Stop();
         _DisplayButtons(true);
         _DisplayRecipeSprites(true);
         _DisplayCookingUi(false);

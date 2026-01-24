@@ -1,6 +1,24 @@
-[gd_scene load_steps=2 format=3 uid="uid://bkw6yu4yre2c3"]
+[gd_scene load_steps=9 format=3 uid="uid://bkw6yu4yre2c3"]
 
 [ext_resource type="Script" uid="uid://ddrcg5kngu0d8" path="res://Scripts/Repository/Impl/SoundEffectRepository.cs" id="1_ykbvb"]
+[ext_resource type="AudioStream" uid="uid://4etkytci5wp3" path="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Boil.wav" id="2_u28oj"]
+[ext_resource type="AudioStream" uid="uid://csvoig505jd30" path="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Fries.wav" id="3_nbrug"]
+[ext_resource type="AudioStream" uid="uid://bour6lhs1xxq2" path="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Egg.wav" id="4_6jyjk"]
+[ext_resource type="AudioStream" uid="uid://mntjo4buldbu" path="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_GrilledCheese.wav" id="5_ohrr5"]
+[ext_resource type="AudioStream" uid="uid://cvturc3iiimko" path="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Pancake.wav" id="6_q8f06"]
+[ext_resource type="AudioStream" uid="uid://dgxp1bqfgp5ne" path="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Pizza.wav" id="7_ak52x"]
+[ext_resource type="AudioStream" uid="uid://jyevwniood6k" path="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Steak_Fries.wav" id="8_3dcv8"]
 
 [node name="SoundEffectRepository" type="Node"]
 script = ExtResource("1_ykbvb")
+_soundEffects = Dictionary[int, AudioStream]({
+1001: ExtResource("2_u28oj"),
+1002: ExtResource("3_nbrug"),
+1003: ExtResource("3_nbrug"),
+1004: ExtResource("4_6jyjk"),
+1005: ExtResource("5_ohrr5"),
+1006: ExtResource("6_q8f06"),
+1007: ExtResource("7_ak52x"),
+1008: ExtResource("8_3dcv8"),
+1009: ExtResource("2_u28oj")
+})

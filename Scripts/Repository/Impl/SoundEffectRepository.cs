@@ -13,4 +13,14 @@ public partial class SoundEffectRepository : Node, IAutoload, IRepository {
     }
 }
 
-public enum SoundEffectId { }
+public enum SoundEffectId {
+    ChickenNoodleSoup = 1_001,
+    FrenchFries = 1_002,
+    FriedChicken = 1_003,
+    FriedEgg = 1_004,
+    GrilledCheese = 1_005,
+    Pancakes = 1_006,
+    Pizza = 1_007,
+    SteakFrite = 1_008,
+    TomatoBisque = 1_009,
+}
