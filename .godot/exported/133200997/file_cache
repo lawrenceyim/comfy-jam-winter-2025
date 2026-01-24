@@ -8,14 +8,14 @@ res://Scenes/Game Object/Furnace.tscn::cbda96b822afe9d79cf77e7060a42b88::1768166
 res://Scenes/Test/TestScene.tscn::8fcca0b703292ce540377bfb8df55fc6::1768578198::res://.godot/exported/133200997/export-e55f94cb7a65843bad4db0006c49af8e-TestScene.scn
 res://Scenes/Cookbook.tscn::e4f797b37b5d52de6a25778e423d0285::1769032880::res://.godot/exported/133200997/export-4273a946e046d5cf86d643d9600c8ee6-Cookbook.scn
 res://Scenes/Inventory.tscn::da14d3f77e8cd448f1a43d90e05f3426::1768238517::res://.godot/exported/133200997/export-8526ff927035c62c927ee221d5c09efa-Inventory.scn
-res://Scenes/Kitchen.tscn::eb69c4c5cbf4187c26a243c49e4cfa6a::1769223270::res://.godot/exported/133200997/export-136c42c39d4f743f9cb4f3a979e4883e-Kitchen.scn
+res://Scenes/Kitchen.tscn::cde211e667327f8438b3259841be6c2a::1769230061::res://.godot/exported/133200997/export-136c42c39d4f743f9cb4f3a979e4883e-Kitchen.scn
 res://Scenes/Living Room.tscn::768346cebdedc0e2d8150242230ffade::1769215970::res://.godot/exported/133200997/export-e78ded27516c74295c810d8a9278a97f-Living Room.scn
 res://Scenes/Store.tscn::d7b14587b85f96b6208f9a02a3bbd2f9::1768077263::res://.godot/exported/133200997/export-dc136de4af02d2774790535663c5ba38-Store.scn
 res://Scenes/Game Object/AnimalPlayable.tscn::e80c847e6864dbd7d49c892b01f57f5e::1769179642::res://.godot/exported/133200997/export-0232e5491a925f8c13ef6193d93d8da7-AnimalPlayable.scn
 res://Scenes/Game Object/Card Display.tscn::afc485a795f9adad2c03043ffd47941a::1769217614::res://.godot/exported/133200997/export-947d17693a7c734a313b6cc9018ada6c-Card Display.scn
 res://Scenes/Game Object/Card.tscn::a337d70969ab5ce0f33ca854ecaa3015::1769020264::res://.godot/exported/133200997/export-c21c3af4411cf849331c00da593e5d85-Card.scn
 res://Scenes/MainMenu.tscn::8bb07e39a9c044e5d8844d8710e4451f::1769222798::res://.godot/exported/133200997/export-5d46f2c25b5b7595677274e5845c73b8-MainMenu.scn
-res://Scenes/EndScene.tscn::ac2627f2a43ead8198046f3285223214::1769222802::res://.godot/exported/133200997/export-6e291de317ef05bdf195f3824196abdd-EndScene.scn
+res://Scenes/EndScene.tscn::f1aa79f53509c870c606934fb0acbdff::1769229868::res://.godot/exported/133200997/export-6e291de317ef05bdf195f3824196abdd-EndScene.scn
 res://Scenes/Transition Scene Three.tscn::b0f67525b1216babece7704d99d6de95::1769184688::res://.godot/exported/133200997/export-25728ad2ac4e354bec1b27ecf27f30e1-Transition Scene Three.scn
 res://Scenes/Transition Scene Two.tscn::8b3289d4f304ed99df0130b3d3282076::1769182395::res://.godot/exported/133200997/export-49e65ad9609070fc8613a92f62abac60-Transition Scene Two.scn
 res://Scenes/Transition Scene One.tscn::392ac9925f104b0592e259fae056907c::1769180668::res://.godot/exported/133200997/export-8fb2c19a6f74e8fa1e6125e8bec7c837-Transition Scene One.scn

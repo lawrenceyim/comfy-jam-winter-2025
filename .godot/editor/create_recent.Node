@@ -1,6 +1,6 @@
+AudioStreamPlayer
 Label
 AnimatedSprite2D
-AudioStreamPlayer
 Node2D
 Button
 CollisionPolygon2D

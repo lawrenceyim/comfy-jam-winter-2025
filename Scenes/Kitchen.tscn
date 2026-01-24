@@ -1,4 +1,4 @@
-[gd_scene load_steps=115 format=3 uid="uid://ctqlhjclmb4pq"]
+[gd_scene load_steps=116 format=3 uid="uid://ctqlhjclmb4pq"]
 
 [ext_resource type="Script" uid="uid://cj1sbne2v8qnl" path="res://Scripts/Scenes/KitchenView.cs" id="1_2v58e"]
 [ext_resource type="Texture2D" uid="uid://kp3ghfuw6emp" path="res://Assets/Sprites/Kitchen/IMG_6094.PNG" id="2_uxyhd"]
@@ -22,6 +22,7 @@
 [ext_resource type="Texture2D" uid="uid://c3qp8ir8c4i4s" path="res://Assets/Sprites/Dishes being cooked/Pizza 8fps.png" id="20_kjilo"]
 [ext_resource type="Texture2D" uid="uid://c752nip6ivio3" path="res://Assets/Sprites/Dishes being cooked/Tomato bisque 8fps.png" id="21_n8gw7"]
 [ext_resource type="Texture2D" uid="uid://dw3hoksgnpd4g" path="res://Assets/Sprites/Dishes being cooked/Smoke from cooking (place behind frying pan).PNG" id="22_n8gw7"]
+[ext_resource type="AudioStream" uid="uid://8w4gqinyt6yp" path="res://Assets/Audio/Music/Music_Cooking.wav" id="23_wpu4e"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_n8gw7"]
 font = ExtResource("12_mxqhq")
@@ -815,4 +816,9 @@ autoplay = "default"
 centered = false
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Cooking Animations"]
-volume_db = -15.0
+volume_db = -5.0
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23_wpu4e")
+volume_db = -10.0
+autoplay = true

@@ -67,7 +67,7 @@ public partial class AnimalView : AnimatedSprite2D {
 
     private void _PlayDialogueAudio(bool play) {
         if (play) {
-            _sfxPlayer.VolumeDb = -15;
+            _sfxPlayer.VolumeDb = -10;
             _sfxPlayer.Stream = _soundEffectRepository.GetSoundEffect(SoundEffectId.FoxTalk);
             _sfxPlayer.Play();
         } else {

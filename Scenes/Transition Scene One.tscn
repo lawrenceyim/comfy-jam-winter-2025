@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://bkh65a55ynk5r"]
+[gd_scene load_steps=9 format=3 uid="uid://bkh65a55ynk5r"]
 
 [ext_resource type="Texture2D" uid="uid://f2dft70d5mn5" path="res://Assets/Sprites/Transition/Transition 1.PNG" id="1_ooyq5"]
 [ext_resource type="Script" uid="uid://dty6m6vv8d5qb" path="res://Scripts/Scenes/TransitionZoneMaze.cs" id="2_ar7d1"]
 [ext_resource type="PackedScene" uid="uid://mmey0nvu4doa" path="res://Scenes/Game Object/AnimalPlayable.tscn" id="2_rr4u4"]
+[ext_resource type="AudioStream" uid="uid://13k5dqj56idr" path="res://Assets/Audio/Music/Music_Maze.wav" id="4_t01y2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rr4u4"]
 size = Vector2(182, 95)
@@ -73,3 +74,8 @@ polygon = PackedVector2Array(0, -1, 1279, 0, 1281, 302, 1380, 302, 1380, -84, -1
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Exit"]
 position = Vector2(834.75, 711)
 shape = SubResource("RectangleShape2D_3jbd8")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_t01y2")
+volume_db = -10.0
+autoplay = true
