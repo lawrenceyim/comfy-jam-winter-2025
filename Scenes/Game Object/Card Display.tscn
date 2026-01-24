@@ -10,11 +10,12 @@ font = ExtResource("4_ehf6g")
 font_size = 48
 font_color = Color(0.7529412, 0.30980393, 0.11764706, 1)
 
-[node name="Card Display" type="Node2D" node_paths=PackedStringArray("_cookButton", "_cookButtonSprite")]
+[node name="Card Display" type="Node2D" node_paths=PackedStringArray("_cookButton", "_cookButtonSprite", "_ingredientSfx")]
 script = ExtResource("1_ep3s6")
 _cardPrefab = ExtResource("2_16byh")
 _cookButton = NodePath("Cook Button/Button")
 _cookButtonSprite = NodePath("Cook Button")
+_ingredientSfx = NodePath("AudioStreamPlayer")
 
 [node name="Cook Button" type="Sprite2D" parent="."]
 visible = false
@@ -37,3 +38,6 @@ text = "Cook"
 label_settings = SubResource("LabelSettings_ao36q")
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+volume_db = -15.0

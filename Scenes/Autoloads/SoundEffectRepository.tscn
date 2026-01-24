@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bkw6yu4yre2c3"]
+[gd_scene load_steps=27 format=3 uid="uid://bkw6yu4yre2c3"]
 
 [ext_resource type="Script" uid="uid://ddrcg5kngu0d8" path="res://Scripts/Repository/Impl/SoundEffectRepository.cs" id="1_ykbvb"]
 [ext_resource type="AudioStream" uid="uid://4etkytci5wp3" path="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Boil.wav" id="2_u28oj"]
@@ -10,6 +10,22 @@
 [ext_resource type="AudioStream" uid="uid://jyevwniood6k" path="res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Steak_Fries.wav" id="8_3dcv8"]
 [ext_resource type="AudioStream" uid="uid://c2yd3sjruxevr" path="res://Assets/Audio/Kitchen/Cooking Results/Create_Recipe.wav" id="9_6jyjk"]
 [ext_resource type="AudioStream" uid="uid://dadqq74x6f4fp" path="res://Assets/Audio/Kitchen/Cooking Results/Create_Mistake.wav" id="10_ohrr5"]
+[ext_resource type="AudioStream" uid="uid://dogkv4p55rda" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Beef.wav" id="11_126sr"]
+[ext_resource type="AudioStream" uid="uid://dppni6mytwfgb" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Bread.wav" id="12_3xloe"]
+[ext_resource type="AudioStream" uid="uid://d4nulpybxbikh" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Butter.wav" id="13_pcr0y"]
+[ext_resource type="AudioStream" uid="uid://cmhwlypqyfgan" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Carrot.wav" id="14_wjl12"]
+[ext_resource type="AudioStream" uid="uid://blvanlfdiskhk" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Cheese.wav" id="15_h4ol6"]
+[ext_resource type="AudioStream" uid="uid://wvi7a047ad85" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Chicken.wav" id="16_mnarv"]
+[ext_resource type="AudioStream" uid="uid://dl8mww4wdo2j6" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Egg.wav" id="17_25vnp"]
+[ext_resource type="AudioStream" uid="uid://symto8a1sask" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Flour.wav" id="18_1gf26"]
+[ext_resource type="AudioStream" uid="uid://ct2axr0fluv84" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Garlic.wav" id="19_6yop8"]
+[ext_resource type="AudioStream" uid="uid://dwdfr1c01w457" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Milk.wav" id="20_tsv76"]
+[ext_resource type="AudioStream" uid="uid://c24arrblfi7d5" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Onionwav.wav" id="21_pty7u"]
+[ext_resource type="AudioStream" uid="uid://wvu4xsoxgihf" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Pasta.wav" id="22_rvw7e"]
+[ext_resource type="AudioStream" uid="uid://deeeefvi4n6" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Pepper.wav" id="23_n6ml6"]
+[ext_resource type="AudioStream" uid="uid://bd86p7ux3rutb" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Potato.wav" id="24_y0sd7"]
+[ext_resource type="AudioStream" uid="uid://b3euqouf1iaat" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Salt.wav" id="25_7wo4i"]
+[ext_resource type="AudioStream" uid="uid://chra7nmhmdlxi" path="res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Tomato.wav" id="26_sf1fi"]
 
 [node name="SoundEffectRepository" type="Node"]
 script = ExtResource("1_ykbvb")
@@ -24,5 +40,21 @@ _soundEffects = Dictionary[int, AudioStream]({
 1008: ExtResource("8_3dcv8"),
 1009: ExtResource("2_u28oj"),
 2001: ExtResource("9_6jyjk"),
-2002: ExtResource("10_ohrr5")
+2002: ExtResource("10_ohrr5"),
+3001: ExtResource("11_126sr"),
+3002: ExtResource("12_3xloe"),
+3003: ExtResource("13_pcr0y"),
+3004: ExtResource("14_wjl12"),
+3005: ExtResource("15_h4ol6"),
+3006: ExtResource("16_mnarv"),
+3007: ExtResource("17_25vnp"),
+3008: ExtResource("18_1gf26"),
+3009: ExtResource("19_6yop8"),
+3010: ExtResource("20_tsv76"),
+3011: ExtResource("21_pty7u"),
+3012: ExtResource("22_rvw7e"),
+3013: ExtResource("23_n6ml6"),
+3014: ExtResource("24_y0sd7"),
+3015: ExtResource("25_7wo4i"),
+3016: ExtResource("26_sf1fi")
 })
