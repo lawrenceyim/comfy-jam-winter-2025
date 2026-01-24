@@ -37,6 +37,9 @@ public partial class KitchenView : Node2D {
     [Export]
     private AudioStreamPlayer _cookingSfx;
 
+    [Export]
+    private Label _recipeLabel;
+
     private readonly TickTimer _cookingAnimationTimer = new();
 
     private TextureRepository _textureRepository;
@@ -84,6 +87,7 @@ public partial class KitchenView : Node2D {
     private void _DisplayRecipeSprites(bool display) {
         _cookedRecipeSprite.Visible = display;
         _cookedBox.Visible = display;
+        _recipeLabel.Visible = display;
     }
 
     private void _HandlePlayerResponseButtonPressed() {
@@ -103,6 +107,7 @@ public partial class KitchenView : Node2D {
     private void _HandleRecipeMade(RecipeName made, RecipeName intended) {
         _playerDataService.SetRecipeMade(made);
         _cookedRecipeSprite.Texture = _textureRepository.GetTexture(RecipeUtil.GetTextureId(made));
+        _recipeLabel.Text = StringUtils.SplitPascalCase(made.ToString());
         _DisplayCookingUi(true);
         _SetCookingAnimation(intended);
         _cookingSfx.Stream = _soundEffectRepository.GetSoundEffect(

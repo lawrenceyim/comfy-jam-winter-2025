@@ -1,4 +1,4 @@
-[gd_scene load_steps=114 format=3 uid="uid://ctqlhjclmb4pq"]
+[gd_scene load_steps=115 format=3 uid="uid://ctqlhjclmb4pq"]
 
 [ext_resource type="Script" uid="uid://cj1sbne2v8qnl" path="res://Scripts/Scenes/KitchenView.cs" id="1_2v58e"]
 [ext_resource type="Texture2D" uid="uid://kp3ghfuw6emp" path="res://Assets/Sprites/Kitchen/IMG_6094.PNG" id="2_uxyhd"]
@@ -22,6 +22,11 @@
 [ext_resource type="Texture2D" uid="uid://c3qp8ir8c4i4s" path="res://Assets/Sprites/Dishes being cooked/Pizza 8fps.png" id="20_kjilo"]
 [ext_resource type="Texture2D" uid="uid://c752nip6ivio3" path="res://Assets/Sprites/Dishes being cooked/Tomato bisque 8fps.png" id="21_n8gw7"]
 [ext_resource type="Texture2D" uid="uid://dw3hoksgnpd4g" path="res://Assets/Sprites/Dishes being cooked/Smoke from cooking (place behind frying pan).PNG" id="22_n8gw7"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_n8gw7"]
+font = ExtResource("12_mxqhq")
+font_size = 32
+font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_6rl12"]
 font = ExtResource("12_mxqhq")
@@ -700,7 +705,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton", "_homeButton", "_playerResponseButton", "_playerResponseButtonLabel", "_playerResponseButtonUi", "_cardDisplay", "_cookedBox", "_cookedRecipeSprite", "_cookingUI", "_fryingPan", "_cookingSfx")]
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("_cookBookButton", "_homeButton", "_playerResponseButton", "_playerResponseButtonLabel", "_playerResponseButtonUi", "_cardDisplay", "_cookedBox", "_cookedRecipeSprite", "_cookingUI", "_fryingPan", "_cookingSfx", "_recipeLabel")]
 script = ExtResource("1_2v58e")
 _cookBookButton = NodePath("Book Button")
 _homeButton = NodePath("BackExit/Home Button")
@@ -713,6 +718,7 @@ _cookedRecipeSprite = NodePath("Dish Cooked Box/Dish Sprite")
 _cookingUI = NodePath("Cooking Animations")
 _fryingPan = NodePath("Cooking Animations/Food")
 _cookingSfx = NodePath("Cooking Animations/AudioStreamPlayer")
+_recipeLabel = NodePath("Dish Cooked Box/Recipe Label")
 
 [node name="Background" type="Sprite2D" parent="."]
 texture = ExtResource("2_uxyhd")
@@ -758,9 +764,18 @@ position = Vector2(640, 250)
 texture = ExtResource("8_b6yew")
 
 [node name="Dish Sprite" type="Sprite2D" parent="Dish Cooked Box"]
-position = Vector2(5, 0)
+position = Vector2(5, -40)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("9_yp2dn")
+
+[node name="Recipe Label" type="Label" parent="Dish Cooked Box"]
+offset_left = -168.0
+offset_top = 86.0
+offset_right = 175.0
+offset_bottom = 165.0
+text = "Recipe Name"
+label_settings = SubResource("LabelSettings_n8gw7")
+horizontal_alignment = 1
 
 [node name="Button" type="Sprite2D" parent="."]
 visible = false
