@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://5ubgiu0yqf32"
+path="res://.godot/imported/Cooking_Pancake.wav-a9fd78ab195cc8c0f514bed8f4e40002.sample"
+
+[deps]
+
+source_file="res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/Cook Sequence (Animation)/Cooking_Pancake.wav"
+dest_files=["res://.godot/imported/Cooking_Pancake.wav-a9fd78ab195cc8c0f514bed8f4e40002.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

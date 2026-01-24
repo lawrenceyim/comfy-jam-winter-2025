@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b0ierxc7pc4st"
+path="res://.godot/imported/Ingredient_Garlic.wav-97c94d5c3a5307a3add338e084f300eb.sample"
+
+[deps]
+
+source_file="res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Garlic.wav"
+dest_files=["res://.godot/imported/Ingredient_Garlic.wav-97c94d5c3a5307a3add338e084f300eb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

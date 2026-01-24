@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bvms7vjtllnk0"
+path="res://.godot/imported/Ingredient_Trash_03.wav-3e8c61df03bc627aaac5979fa76a74bc.sample"
+
+[deps]
+
+source_file="res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/Kitchen UI/Ingredient Card Remove/Ingredient_Trash_03.wav"
+dest_files=["res://.godot/imported/Ingredient_Trash_03.wav-3e8c61df03bc627aaac5979fa76a74bc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

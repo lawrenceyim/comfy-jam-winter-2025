@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ca5hhhh2el6jh"
+path="res://.godot/imported/Book_PageFlip_03.wav-cef2563bce0dc32a7da99c5d1362f802.sample"
+
+[deps]
+
+source_file="res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Menu UI/Book/Flip Pages/Book_PageFlip_03.wav"
+dest_files=["res://.godot/imported/Book_PageFlip_03.wav-cef2563bce0dc32a7da99c5d1362f802.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

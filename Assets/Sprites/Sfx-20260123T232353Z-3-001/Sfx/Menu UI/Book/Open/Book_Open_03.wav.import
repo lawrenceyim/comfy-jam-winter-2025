@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://tfxkvrpco83b"
+path="res://.godot/imported/Book_Open_03.wav-ebe1a3e225ec64e92aaec816a52284ab.sample"
+
+[deps]
+
+source_file="res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Menu UI/Book/Open/Book_Open_03.wav"
+dest_files=["res://.godot/imported/Book_Open_03.wav-ebe1a3e225ec64e92aaec816a52284ab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

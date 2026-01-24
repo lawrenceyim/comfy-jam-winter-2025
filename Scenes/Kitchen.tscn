@@ -785,6 +785,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Cooking Animations" type="Node2D" parent="."]
+visible = false
 
 [node name="Food" type="AnimatedSprite2D" parent="Cooking Animations"]
 sprite_frames = SubResource("SpriteFrames_2rn5v")
@@ -795,6 +796,7 @@ centered = false
 
 [node name="Smoke" type="AnimatedSprite2D" parent="Cooking Animations"]
 sprite_frames = SubResource("SpriteFrames_ksrj7")
+autoplay = "default"
 centered = false
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Cooking Animations"]

@@ -1,19 +1,19 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1769211408
-export_presets.cfg::TextFile::-1::1768844279::0::1::::<><><>0<>0<><>::
+::res://::1769225268
+export_presets.cfg::TextFile::-1::1769225268::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1769005228
-::res://Assets/Audio/::1769211302
+::res://Assets/Audio/::1769211424
 Dialogue Demo.mp3::AudioStreamMP3::6899475514968933978::1769005231::1769211424::1::::<><><>0<>0<>9636f8c716d5f9c160dcb036a2cd412f<>res://.godot/imported/Dialogue Demo.mp3-e307740b03defdc9be7f56be336df2a3.mp3str::
 ::res://Assets/Audio/Fox/::1769211302
-::res://Assets/Audio/Fox/Eating/::1769211303
+::res://Assets/Audio/Fox/Eating/::1769211430
 Fox_Eating_01.wav::AudioStreamWAV::2758486996340379392::1769211302::1769211430::1::::<><><>0<>0<>7f6a1b599e7631c047d4cd8bfd663029<>res://.godot/imported/Fox_Eating_01.wav-939ec0b643d292ac572c9697c0997a18.sample::
 Fox_Eating_02.wav::AudioStreamWAV::4512055107735462184::1769211302::1769211430::1::::<><><>0<>0<>f69b82b3487822f5efdb00204132f0bb<>res://.godot/imported/Fox_Eating_02.wav-a554a45b9333eed2538dd3b5cf23a049.sample::
 Fox_Eating_03.wav::AudioStreamWAV::2612994797217236102::1769211302::1769211430::1::::<><><>0<>0<>c4b50867f9c9e8701619906e5306616a<>res://.godot/imported/Fox_Eating_03.wav-5200338ad41ecef9bccb6cf06dc3a605.sample::
 ::res://Assets/Audio/Fox/Speech/::1769211302
-::res://Assets/Audio/Fox/Speech/Loops/::1769211303
+::res://Assets/Audio/Fox/Speech/Loops/::1769211430
 Fox_Speech_01.wav::AudioStreamWAV::2959023133350352337::1769211302::1769211430::1::::<><><>0<>0<>9297db1987b4a754ae1d04395421a98d<>res://.godot/imported/Fox_Speech_01.wav-ce52decc686d5b82c54deaecb1703851.sample::
 Fox_Speech_02.wav::AudioStreamWAV::3163031986946195072::1769211302::1769211430::1::::<><><>0<>0<>66a61e24e56b4dd2bd0d2c6af8b88b79<>res://.godot/imported/Fox_Speech_02.wav-5c38c24826b5e66a3118379a18fc9e5c.sample::
-::res://Assets/Audio/Fox/Speech/Vowels/::1769211303
+::res://Assets/Audio/Fox/Speech/Vowels/::1769211430
 Fox_Vowel_01.wav::AudioStreamWAV::947744499002490517::1769211302::1769211430::1::::<><><>0<>0<>532f414ff97c8f0c77650a50a17bb67b<>res://.godot/imported/Fox_Vowel_01.wav-61bf3df467c59c48fbb060e9b08dfea7.sample::
 Fox_Vowel_02.wav::AudioStreamWAV::8007429278045873975::1769211302::1769211430::1::::<><><>0<>0<>976150c73660593676c4450f3c1ee216<>res://.godot/imported/Fox_Vowel_02.wav-f235d4d734d6d4447f099aff05532e85.sample::
 Fox_Vowel_03.wav::AudioStreamWAV::6995779360481923482::1769211302::1769211430::1::::<><><>0<>0<>d4024df039b59b26227c821be718029a<>res://.godot/imported/Fox_Vowel_03.wav-756bf3a97fbcfd41142d1433cac2aa10.sample::
@@ -22,9 +22,9 @@ Fox_Vowel_05.wav::AudioStreamWAV::1830414994821482951::1769211302::1769211430::1
 Fox_Vowel_06.wav::AudioStreamWAV::4002205928905552165::1769211302::1769211430::1::::<><><>0<>0<>1fc8991d91654a1f7ff0e466b18611a8<>res://.godot/imported/Fox_Vowel_06.wav-0d119eb0109216d486b7294c5b87cf9e.sample::
 Fox_Vowel_07.wav::AudioStreamWAV::2086140811004101335::1769211302::1769211430::1::::<><><>0<>0<>a07ebbf556f1e8509dcf1a4aabadd844<>res://.godot/imported/Fox_Vowel_07.wav-86eff4b944d9419f511314fe3ab29ad2.sample::
 Fox_Vowel_08.wav::AudioStreamWAV::9000740890054623977::1769211302::1769211430::1::::<><><>0<>0<>c2a22a68e027953ebf4cb34dc9f3b33c<>res://.godot/imported/Fox_Vowel_08.wav-308403dedfb844eb44b5aeada956877d.sample::
-::res://Assets/Audio/Kitchen/::1769211303
+::res://Assets/Audio/Kitchen/::1769211430
 Unlock_Recipe.wav::AudioStreamWAV::1259333612387283407::1769211302::1769211430::1::::<><><>0<>0<>1d094a7648fcb9f9b4c0c056af7ebf48<>res://.godot/imported/Unlock_Recipe.wav-e5c9dd0caae72bb04862cde45ee2f718.sample::
-::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/::1769211303
+::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/::1769211430
 Cooking_Boil.wav::AudioStreamWAV::2044906747335244002::1769211302::1769211430::1::::<><><>0<>0<>8a73b6dfb61462de0100cfcef510ceba<>res://.godot/imported/Cooking_Boil.wav-680ff2ef675c56be1f1c20e758ee79a2.sample::
 Cooking_Egg.wav::AudioStreamWAV::3411440187618827631::1769211302::1769211430::1::::<><><>0<>0<>58c9cf289c1372f46f2ef0ed6584f2b5<>res://.godot/imported/Cooking_Egg.wav-ed0f2fadbb916d8b754297ebbb76a7b1.sample::
 Cooking_Fries.wav::AudioStreamWAV::6080457172616577189::1769211302::1769211430::1::::<><><>0<>0<>569ce64372e410403f5948c24b971a97<>res://.godot/imported/Cooking_Fries.wav-c9dbb595cbaeeb4a30d3de91c174aa72.sample::
@@ -32,17 +32,17 @@ Cooking_GrilledCheese.wav::AudioStreamWAV::870273509665700666::1769211302::17692
 Cooking_Pancake.wav::AudioStreamWAV::6287275108139457106::1769211302::1769211430::1::::<><><>0<>0<>ed792c1ee6fcc3dc1befde974dad6f53<>res://.godot/imported/Cooking_Pancake.wav-c2469631a0868c504d41048fb73d6755.sample::
 Cooking_Pizza.wav::AudioStreamWAV::7628833064259937198::1769211302::1769211430::1::::<><><>0<>0<>3f980df1963519419582628a8992a67e<>res://.godot/imported/Cooking_Pizza.wav-33fb37275b6459ef9ee002f65f72aec5.sample::
 Cooking_Steak_Fries.wav::AudioStreamWAV::681526204461702212::1769211302::1769211430::1::::<><><>0<>0<>bc5298a5a81ce67f8a6f243e6b4ba622<>res://.godot/imported/Cooking_Steak_Fries.wav-77a75635b3a8d4c04314af268e3ab70a.sample::
-::res://Assets/Audio/Kitchen/Cooking Results/::1769211303
+::res://Assets/Audio/Kitchen/Cooking Results/::1769211430
 Create_Mistake.wav::AudioStreamWAV::7166456955561428325::1769211302::1769211430::1::::<><><>0<>0<>7275b458b7a04acd930087d7894a2279<>res://.godot/imported/Create_Mistake.wav-3b409f7b6d4209e6de4b324a8ae86518.sample::
 Create_Recipe.wav::AudioStreamWAV::6717718325041728195::1769211302::1769211430::1::::<><><>0<>0<>d6445deb70c76a38cd0f231b4025a753<>res://.godot/imported/Create_Recipe.wav-ac3acecdafdd28e1d36fd90c7f95dcf2.sample::
-::res://Assets/Audio/Kitchen/Kitchen UI/::1769211408
+::res://Assets/Audio/Kitchen/Kitchen UI/::1769211430
 UI_MouseHover_Ingredient.wav::AudioStreamWAV::2465366118102482720::1769211302::1769211430::1::::<><><>0<>0<>09c787681c9b49b1dbdc7bf25b9dc259<>res://.godot/imported/UI_MouseHover_Ingredient.wav-1ca0afc8e4d713c01952a88ea9d829f8.sample::
-::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Remove/::1769211303
+::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Remove/::1769211430
 Ingredient_Trash_01.wav::AudioStreamWAV::7713553560777806803::1769211302::1769211430::1::::<><><>0<>0<>d3b2b5e3f61cd4dd78373bb917bf0bbc<>res://.godot/imported/Ingredient_Trash_01.wav-e3725d1f2706986c8da4eb2290e00ddb.sample::
 Ingredient_Trash_02.wav::AudioStreamWAV::5635403712017546505::1769211302::1769211430::1::::<><><>0<>0<>f87f948cb75e7c13e3f011dd7c933e8c<>res://.godot/imported/Ingredient_Trash_02.wav-8915af8bcf343ae22ac187ff4d332cf9.sample::
 Ingredient_Trash_03.wav::AudioStreamWAV::2014629874189064300::1769211302::1769211430::1::::<><><>0<>0<>55aaf75adb81a9c6a06a9b5266048ef9<>res://.godot/imported/Ingredient_Trash_03.wav-e74069f53a3f8ddf6291c3d5ca36044e.sample::
 Ingredient_Trash_04.wav::AudioStreamWAV::3903313319121110957::1769211302::1769211430::1::::<><><>0<>0<>e52b706a2933f49b139e5da5d779c438<>res://.godot/imported/Ingredient_Trash_04.wav-12143d316086fac67f80956c88da2d27.sample::
-::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/::1769211303
+::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/::1769211430
 Ingredient_Beef.wav::AudioStreamWAV::239851127879083162::1769211302::1769211430::1::::<><><>0<>0<>3608bb9770d30ed78e264bfda8c85028<>res://.godot/imported/Ingredient_Beef.wav-1780ac128416a2ce5e2fef7b2698bda2.sample::
 Ingredient_Bread.wav::AudioStreamWAV::8243865627096107457::1769211302::1769211430::1::::<><><>0<>0<>76c5b95b8ce7719c5f660b046e554467<>res://.godot/imported/Ingredient_Bread.wav-a987bf7f5eb3b496713dc1b57e7c11cb.sample::
 Ingredient_Butter.wav::AudioStreamWAV::9222810235975080723::1769211302::1769211430::1::::<><><>0<>0<>b9647e79f9dea91c48f4e279ba245e6b<>res://.godot/imported/Ingredient_Butter.wav-f90c07fb6deb927055c1cfb20279abe6.sample::
@@ -59,37 +59,38 @@ Ingredient_Pepper.wav::AudioStreamWAV::6443360937071613::1769211302::1769211430:
 Ingredient_Potato.wav::AudioStreamWAV::2667022406901921663::1769211302::1769211430::1::::<><><>0<>0<>c6096ece3c55e46bee24eb1c50416698<>res://.godot/imported/Ingredient_Potato.wav-52bd0facaca73b392f30f375a9dfc3fd.sample::
 Ingredient_Salt.wav::AudioStreamWAV::4361209495617281171::1769211302::1769211430::1::::<><><>0<>0<>c6045949e7fd6ed0567523343983771b<>res://.godot/imported/Ingredient_Salt.wav-c1455837ae7e3b6204da55c32164f2e2.sample::
 Ingredient_Tomato.wav::AudioStreamWAV::5299315541751821946::1769211302::1769211430::1::::<><><>0<>0<>dac956a15e11d5ddf4089179896e7cfb<>res://.godot/imported/Ingredient_Tomato.wav-256188a917aaa7365a5ebe4569fdabde.sample::
-::res://Assets/Audio/Living Room/::1769211303
+::res://Assets/Audio/Living Room/::1769211430
 Campfire.wav::AudioStreamWAV::4731128674508676206::1769211302::1769211430::1::::<><><>0<>0<>a378858deb606868258cfd86bc4fd376<>res://.godot/imported/Campfire.wav-acc40a59f319067a82270127a9c9929c.sample::
-::res://Assets/Audio/Menu UI/::1769211408
+::res://Assets/Audio/Menu UI/::1769211430
 Mouse_Back_Button.wav::AudioStreamWAV::1482293116592673021::1769211302::1769211430::1::::<><><>0<>0<>537794530cd864cb53ba585a882b83a3<>res://.godot/imported/Mouse_Back_Button.wav-02cb12f3cd209adb30dc551236da1957.sample::
 Mouse_Hover.wav::AudioStreamWAV::2498552959055891444::1769211302::1769211430::1::::<><><>0<>0<>ac6ce6593fdaefc41c7815d476ff7a01<>res://.godot/imported/Mouse_Hover.wav-d4471cc20627855d4ba467e780f2762e.sample::
 Mouse_Select_Button.wav::AudioStreamWAV::6492500569534295128::1769211302::1769211430::1::::<><><>0<>0<>4a55ce559806497724f8ad79f0d80645<>res://.godot/imported/Mouse_Select_Button.wav-9712069a05dbb4053af3f2feea47bc2e.sample::
 ::res://Assets/Audio/Menu UI/Book/::1769211408
-::res://Assets/Audio/Menu UI/Book/Close/::1769211303
+::res://Assets/Audio/Menu UI/Book/Close/::1769211430
 Book_Close.wav::AudioStreamWAV::1503996928806924545::1769211302::1769211430::1::::<><><>0<>0<>944d7d90fcbe231d4f3900817c97edf9<>res://.godot/imported/Book_Close.wav-8d2df4315e57f8097a9168f5e17a56c5.sample::
-::res://Assets/Audio/Menu UI/Book/Flip Pages/::1769211303
+::res://Assets/Audio/Menu UI/Book/Flip Pages/::1769211430
 Book_PageFlip_01.wav::AudioStreamWAV::8041832831273863276::1769211302::1769211430::1::::<><><>0<>0<>f94e1356fb8a22fb571ed558b2f4c814<>res://.godot/imported/Book_PageFlip_01.wav-58bf93909214ad8b9034ce4a560e57eb.sample::
 Book_PageFlip_02.wav::AudioStreamWAV::2320175043003012166::1769211302::1769211430::1::::<><><>0<>0<>4cf2b2167a43d4d0d7eeb7ad222dffee<>res://.godot/imported/Book_PageFlip_02.wav-f583a7b9123e6fbf428d6a29a1ee93ec.sample::
 Book_PageFlip_03.wav::AudioStreamWAV::6693566387334099556::1769211302::1769211430::1::::<><><>0<>0<>bc0ea6490c1e2aa3900661c6d98cdd4f<>res://.godot/imported/Book_PageFlip_03.wav-ac11f7c008e70aa0287812ac28b11a85.sample::
 Book_PageFlip_04.wav::AudioStreamWAV::6360239072491316198::1769211302::1769211430::1::::<><><>0<>0<>450ddd3cea7f5405ba4950500fa80f4e<>res://.godot/imported/Book_PageFlip_04.wav-e3c091931a49b6556db43bef02297ac7.sample::
 Book_PageFlip_05.wav::AudioStreamWAV::5540992160786973107::1769211302::1769211430::1::::<><><>0<>0<>de5ad4e56dcfd47fad77299ba3bd6a66<>res://.godot/imported/Book_PageFlip_05.wav-ee778ef29d83ebffda81ab3d6e40fefd.sample::
 Book_PageFlip_06.wav::AudioStreamWAV::4692830946414194663::1769211302::1769211430::1::::<><><>0<>0<>c376956eb4a4d9319d3d27832fe47cd5<>res://.godot/imported/Book_PageFlip_06.wav-92fc918331b8fa9ae2fab1bb17639e8a.sample::
-::res://Assets/Audio/Menu UI/Book/Open/::1769211303
+::res://Assets/Audio/Menu UI/Book/Open/::1769211430
 Book_Open_01.wav::AudioStreamWAV::4189232137791959056::1769211302::1769211430::1::::<><><>0<>0<>11abdb2e485b7c5b9f197f04033ac755<>res://.godot/imported/Book_Open_01.wav-8a9c08f2f9663e7fc42a9f20f054a7e0.sample::
 Book_Open_02.wav::AudioStreamWAV::6314701380829703070::1769211302::1769211430::1::::<><><>0<>0<>3263a425e4dbf584819a487b59df9b1a<>res://.godot/imported/Book_Open_02.wav-2b7a3363e2ae92b49e455ece44b6734b.sample::
 Book_Open_03.wav::AudioStreamWAV::3440169726925574644::1769211302::1769211430::1::::<><><>0<>0<>f5ab3585e71da4f8dc3dce080dfb2cbc<>res://.godot/imported/Book_Open_03.wav-d24c6365e20d547e1bf5fc4453ca2f2c.sample::
 Book_Open_04.wav::AudioStreamWAV::5238473896512108726::1769211302::1769211430::1::::<><><>0<>0<>f07c3fb8d38e0bb22c5692fa849114cb<>res://.godot/imported/Book_Open_04.wav-cc96fe139946eb79ba67760e2e0706a4.sample::
-::res://Assets/Audio/Menu UI/Coins/::1769211408
+::res://Assets/Audio/Menu UI/Coins/::1769211430
 Shop_Purchase_01.wav::AudioStreamWAV::4730538940366322850::1769211302::1769211430::1::::<><><>0<>0<>32ed59261c6d817eddfddc5036a12a77<>res://.godot/imported/Shop_Purchase_01.wav-059356a161eb4a0fc91c96bf057cbe31.sample::
 Shop_Purchase_02.wav::AudioStreamWAV::3925997647831342947::1769211302::1769211430::1::::<><><>0<>0<>3790b9e6e4020ec8e51fc6418c574458<>res://.godot/imported/Shop_Purchase_02.wav-f88c2fa109ceb9129e4bb913ab70e2e2.sample::
 Shop_Purchase_03.wav::AudioStreamWAV::2995578491958963037::1769211302::1769211430::1::::<><><>0<>0<>41625f578aa080d3d2bc0246a91e740c<>res://.godot/imported/Shop_Purchase_03.wav-1f57c9120799681c0761b2c52d7342f8.sample::
 Shop_Purchase_04.wav::AudioStreamWAV::6554334794875669422::1769211302::1769211430::1::::<><><>0<>0<>55137d9b41dbda3e4d0cc5c916a74eb6<>res://.godot/imported/Shop_Purchase_04.wav-bc6b9d588a3f393f078afb6c65748994.sample::
-::res://Assets/Fonts/::1768942985
+::res://Assets/Fonts/::1769211424
 Lonely_Coffee.ttf::FontFile::257877812774722704::1768942985::1769211424::1::::<><><>0<>0<>540aeecfa365bb440a4a06f2b72655f4<>res://.godot/imported/Lonely_Coffee.ttf-7d003fe4f32fdcb5d8835b78c0c154cd.fontdata::
-::res://Assets/Sprites/::1769205840
+::res://Assets/Sprites/::1769227853
+End screen.PNG::CompressedTexture2D::5789482365109634364::1769227853::1769227854::1::::<><><>0<>0<>f924f3278406d9a379c10f157eea9cb9<>res://.godot/imported/End screen.PNG-127b75b4c873a29af80f8a68101dcd91.ctex::
 icon.svg::CompressedTexture2D::6528116911891285300::1767985929::1767986428::1::::<><><>0<>0<>52ac0f9c334ec027f7bd55661214961e<>res://.godot/imported/icon.svg-937281dbc6e7ba0435124e30fe85aebc.ctex::
-::res://Assets/Sprites/Dishes being cooked/::1769205843
+::res://Assets/Sprites/Dishes being cooked/::1769211430
 Burger and steak_fries being cooked 8fps.png::CompressedTexture2D::3371921133795521152::1769205840::1769211430::1::::<><><>0<>0<>28486061d80fdc409295c4c06bd16402<>res://.godot/imported/Burger and steak_fries being cooked 8fps.png-42b0d91644d5ad26389497b01d7a9d22.ctex::
 Chicken noodle soup 8fps.PNG::CompressedTexture2D::3454904446988815461::1769205840::1769211428::1::::<><><>0<>0<>6079407e804cf62659663e20c55279bf<>res://.godot/imported/Chicken noodle soup 8fps.PNG-f196fc448c5e7aa9e713746035c3473a.ctex::
 Fries 8 fps.png::CompressedTexture2D::8308190092446501401::1769205840::1769211429::1::::<><><>0<>0<>3dbaf8a8beeacdbf8f236f0b2bec2d6e<>res://.godot/imported/Fries 8 fps.png-a3b998d6b50c2a18ae4357a2b985c9f8.ctex::
@@ -100,7 +101,7 @@ Pancake 8fps.png::CompressedTexture2D::6232757020248591150::1769205840::17692114
 Pizza 8fps.png::CompressedTexture2D::6772129167358091764::1769205840::1769211429::1::::<><><>0<>0<>713fb81c84093ffeb753fd8125d8beaf<>res://.godot/imported/Pizza 8fps.png-73ff39e4c0feb60f2e121c8cb85b6b64.ctex::
 Smoke from cooking (place behind frying pan).PNG::CompressedTexture2D::8761669761624282996::1769205840::1769211426::1::::<><><>0<>0<>1c311c504c7100bb2e5ecdec4d8b8229<>res://.godot/imported/Smoke from cooking (place behind frying pan).PNG-af3ca04e7255ba2bd640c36176a44c80.ctex::
 Tomato bisque 8fps.png::CompressedTexture2D::7082478715329381216::1769205840::1769211427::1::::<><><>0<>0<>00cea5f2d004d1e3ceb58be61a42f912<>res://.godot/imported/Tomato bisque 8fps.png-4099c05171c05513e440225b90143a75.ctex::
-::res://Assets/Sprites/Ingredients/::1768880112
+::res://Assets/Sprites/Ingredients/::1769211426
 Beef.PNG::CompressedTexture2D::7111940442331243980::1768880105::1769211426::1::::<><><>0<>0<>8e79e1e336258ff630b6f199fe37d75a<>res://.godot/imported/Beef.PNG-ae62d35b29cf4a1f94838ed0a50a4f02.ctex::
 Bread.PNG::CompressedTexture2D::2754154026617125243::1768880105::1769211426::1::::<><><>0<>0<>947dc15ef8386a57185557218e7115bd<>res://.godot/imported/Bread.PNG-aea88c8a7f0c6a80bda2c24fe1cfb853.ctex::
 Butter.PNG::CompressedTexture2D::1020216842544234161::1768880105::1769211426::1::::<><><>0<>0<>743f4ea381378611b5a6a1ce651d6be9<>res://.godot/imported/Butter.PNG-22fbcddd4576f011ded4d37a2f22cfa9.ctex::
@@ -133,25 +134,25 @@ IMG_6049.png::CompressedTexture2D::8443924725856699346::1768165581::1768165581::
 IMG_6050.png::CompressedTexture2D::2614854176883333566::1768165581::1768165581::1::::<><><>0<>0<>5f107f3d35b475b31c0d9d27dbcad905<>res://.godot/imported/IMG_6050.png-76779654bb48076eb8d72984304a264f.ctex::
 IMG_6052.PNG::CompressedTexture2D::2867417394848409838::1768165581::1768165581::1::::<><><>0<>0<>52fd5b65f7543b6354cfdbda3004f1f3<>res://.godot/imported/IMG_6052.PNG-fb8e84bd54b2cad5f03e61ffcb4f9d2c.ctex::
 Layout.PNG::CompressedTexture2D::5969913966756521702::1768165581::1768165581::1::::<><><>0<>0<>1bbb9c3b48accd7cd5d52e1b9432cea2<>res://.godot/imported/Layout.PNG-40f03ac7779d7ccaf80dd0d4e23976c1.ctex::
-::res://Assets/Sprites/Main character/::1769144161
+::res://Assets/Sprites/Main character/::1769211424
 Eating(4fps).PNG::CompressedTexture2D::6782621024473820831::1768931147::1769211424::1::::<><><>0<>0<>cca1a7c0f9f7a00f9becf70c99216fc1<>res://.godot/imported/Eating(4fps).PNG-0d075a4ced9c7a3b23ac02b71db16af9.ctex::
 Idle(4fps).PNG::CompressedTexture2D::5843927560945480579::1768165581::1768165581::1::::<><><>0<>0<>288691de3325c7a314306e0989788b16<>res://.godot/imported/Idle(4fps).PNG-35721444ca9bef720f253fbbfccbcabb.ctex::
 Talking(4fps).PNG::CompressedTexture2D::8631788348301911358::1768502513::1768502514::1::::<><><>0<>0<>3bfa7b4de3527bf652aae8e3019c08a6<>res://.godot/imported/Talking(4fps).PNG-bc9b5eb966bc6c6ed74743c01dbc3759.ctex::
 Walk(4fps).PNG::CompressedTexture2D::3826277153882599540::1768165581::1768165581::1::::<><><>0<>0<>ebf53a4f6b8a9c1ee6c646ef1a372524<>res://.godot/imported/Walk(4fps).PNG-6cec1fe36f52e0571211b5a12047c926.ctex::
-::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/::1769144161
+::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/::1769211428
 Standard.PNG::CompressedTexture2D::4220285975053150886::1769144161::1769211424::1::::<><><>0<>0<>463fb459b7ae08447b60f4917ba466e5<>res://.godot/imported/Standard.PNG-227e9f3044e9b102eb0feed143423645.ctex::
 StandD.PNG::CompressedTexture2D::8151582305177963219::1769144161::1769211428::1::::<><><>0<>0<>6ed1e3bc8becbb4112801f4a841e1c7e<>res://.godot/imported/StandD.PNG-d26e88deeb969c987e8f742acf0320aa.ctex::
 StandU.PNG::CompressedTexture2D::2110752106238783239::1769144161::1769211428::1::::<><><>0<>0<>fab1f8b2ad45e8db082a656fcda41616<>res://.godot/imported/StandU.PNG-9aa6b037fb2a526696b8260f447c9375.ctex::
 WalkD.PNG::CompressedTexture2D::2989257315044361152::1769144161::1769211428::1::::<><><>0<>0<>f534361994b857bf63e77cd96d8107fe<>res://.godot/imported/WalkD.PNG-ca63c6196ee73931e8917feebb1c55ad.ctex::
 WalkR(5fps).PNG::CompressedTexture2D::6205153491892369882::1769144161::1769211428::1::::<><><>0<>0<>daf64b8cf1ecf76e74b4abc433827fe7<>res://.godot/imported/WalkR(5fps).PNG-9ffb97985fd46ad615be7656d1fb3ab4.ctex::
 WalkU.PNG::CompressedTexture2D::2229709841758064967::1769144161::1769211428::1::::<><><>0<>0<>6f8db5c648decbcc33c7cdef46899348<>res://.godot/imported/WalkU.PNG-e2661df693ca8991184974d7ef90545e.ctex::
-::res://Assets/Sprites/Main menu/::1769139484
+::res://Assets/Sprites/Main menu/::1769211428
 Background for main menu.PNG::CompressedTexture2D::5060036315894862032::1769031496::1769211428::1::::<><><>0<>0<>657f554caffa27619b59be842becec06<>res://.godot/imported/Background for main menu.PNG-b322b531ff8ea641b8d7cc1203c17007.ctex::
 Title.PNG::CompressedTexture2D::2493509837813852167::1769031496::1769211428::1::::<><><>0<>0<>e24d0d1429fc3cd4623d6b53ac05ac5f<>res://.godot/imported/Title.PNG-0c90cceecc68025a0d801eabe99f547e.ctex::
 Ui for main menu.PNG::CompressedTexture2D::5490715033096906172::1769031496::1769211428::1::::<><><>0<>0<>a8650a12513c45b0a78a42f2d149a1ae<>res://.godot/imported/Ui for main menu.PNG-7c68ef711f225708dc32f0e9982d84e7.ctex::
 ::res://Assets/Sprites/Placeholder/::1769009417
 Playing Card Placeholder.png::CompressedTexture2D::2360319318828055445::1768853803::1768853803::1::::<><><>0<>0<>b8eac34db5c20469248152d32ac687aa<>res://.godot/imported/Playing Card Placeholder.png-6262ea4e703d663b4bbe7188fb4b07f1.ctex::
-::res://Assets/Sprites/Recipe dish art/::1769031440
+::res://Assets/Sprites/Recipe dish art/::1769211428
 Chicken noodle soup.PNG::CompressedTexture2D::7300888959982851962::1768939649::1769211428::1::::<><><>0<>0<>1f8a93fbbe07c19f27604cdf41d7410e<>res://.godot/imported/Chicken noodle soup.PNG-9f67c727a8b5008e1077becf661c263a.ctex::
 French Fries.PNG::CompressedTexture2D::6376332009084564272::1768939649::1769211427::1::::<><><>0<>0<>41c75f0d037c233e4855965a86edf0b9<>res://.godot/imported/French Fries.PNG-09003ba6fed9711327a23d0217ef7943.ctex::
 Fried chicken.PNG::CompressedTexture2D::4002536128213450615::1768939649::1769211427::1::::<><><>0<>0<>d0734ed376629cdf6fe8ad5f7fa63646<>res://.godot/imported/Fried chicken.PNG-be3dbab9a0a26456a92d49aeb83aabe0.ctex::
@@ -163,11 +164,94 @@ Pizza.PNG::CompressedTexture2D::1380037717579406734::1768939649::1769211427::1::
 Steak frite.PNG::CompressedTexture2D::7613528252312451191::1768939649::1769211427::1::::<><><>0<>0<>ade2a78243d93db45bcd4e8e603655b8<>res://.godot/imported/Steak frite.PNG-1e21b7bbf3224b79c4e9e2caa430896e.ctex::
 Tomato bisque .PNG::CompressedTexture2D::1585728457229676941::1768939649::1769211427::1::::<><><>0<>0<>d7fbb9c1c4ee9cab7adc78313e46f6c4<>res://.godot/imported/Tomato bisque .PNG-761e5a7d0f529c635d3f2413c7dfd2d3.ctex::
 Unknown recipe.png::CompressedTexture2D::9037927707337525261::1769009414::1769211427::1::::<><><>0<>0<>6039ced1198f5d3def6cd2da893cfb99<>res://.godot/imported/Unknown recipe.png-41bcf4ab61b4ca026979c8a52aea79fa.ctex::
-::res://Assets/Sprites/Transition/::1769178847
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/::1769227853
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/::1769227853
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Fox/::1769227853
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Fox/Eating/::1769227853
+Fox_Eating_01.wav::AudioStreamWAV::2059355694838029322::1769227853::1769227854::1::::<><><>0<>0<>4e21f6f5e64425993b99f9730042a241<>res://.godot/imported/Fox_Eating_01.wav-bc1014d08406bb58a1e68c7e7434a3dc.sample::
+Fox_Eating_02.wav::AudioStreamWAV::285871067316453566::1769227853::1769227854::1::::<><><>0<>0<>9f5e33fd40725ea9282f8a10d6d6a6f6<>res://.godot/imported/Fox_Eating_02.wav-60b072c3427960e5170921eb3f9fc825.sample::
+Fox_Eating_03.wav::AudioStreamWAV::3952187375484471634::1769227853::1769227854::1::::<><><>0<>0<>226bef5c0bdf124bcccf38f0f7a2a6a4<>res://.godot/imported/Fox_Eating_03.wav-2bde5ad70d32f515dc7b18a902230003.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Fox/Speech/::1769227853
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Fox/Speech/Loops/::1769227853
+Fox_Speech_01.wav::AudioStreamWAV::5904231259125067100::1769227853::1769227854::1::::<><><>0<>0<>d16193635f718081fcc7f34fcf9e3883<>res://.godot/imported/Fox_Speech_01.wav-10f7e652eabf7e3127c2d72d507766b5.sample::
+Fox_Speech_02.wav::AudioStreamWAV::8565624739477438742::1769227853::1769227854::1::::<><><>0<>0<>2d231ca35a8bf5a330301e4f4f378730<>res://.godot/imported/Fox_Speech_02.wav-155f2a8f5b61c31711229d3e24787e8d.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Fox/Speech/Vowels/::1769227853
+Fox_Vowel_01.wav::AudioStreamWAV::3465135591859286248::1769227853::1769227854::1::::<><><>0<>0<>ee4e899566412fde4945f26d2a922816<>res://.godot/imported/Fox_Vowel_01.wav-cc9a7a9e386481dfde724b0c26265c32.sample::
+Fox_Vowel_02.wav::AudioStreamWAV::3183619164076227589::1769227853::1769227854::1::::<><><>0<>0<>ff0d2539c82ececae70e27d6175f5c20<>res://.godot/imported/Fox_Vowel_02.wav-77c272b73f3da18eb5583b56a3197674.sample::
+Fox_Vowel_03.wav::AudioStreamWAV::1579902350637144335::1769227853::1769227854::1::::<><><>0<>0<>cfe51c7121273a13923fc567110900da<>res://.godot/imported/Fox_Vowel_03.wav-a6c796ffd4e7d1dad9791b4f4c86fcac.sample::
+Fox_Vowel_04.wav::AudioStreamWAV::4191937398121908001::1769227853::1769227854::1::::<><><>0<>0<>7b049a9822c638ea704ba254b008d187<>res://.godot/imported/Fox_Vowel_04.wav-59f86917bbfe8e81e4c15504ec6a2b3c.sample::
+Fox_Vowel_05.wav::AudioStreamWAV::537289009454827396::1769227853::1769227854::1::::<><><>0<>0<>7d59f6bbac517f76e8247835194445d8<>res://.godot/imported/Fox_Vowel_05.wav-07a2d6f0601ac6d426ce6497f82b6f02.sample::
+Fox_Vowel_06.wav::AudioStreamWAV::5484868586697048849::1769227853::1769227854::1::::<><><>0<>0<>08e05cd15f55a42f05dea95002366775<>res://.godot/imported/Fox_Vowel_06.wav-e67bcafb365b46278b2e62b0091e66a6.sample::
+Fox_Vowel_07.wav::AudioStreamWAV::6778954171598398759::1769227853::1769227854::1::::<><><>0<>0<>ab2a0a7561394d5591781ca4d0002fd1<>res://.godot/imported/Fox_Vowel_07.wav-77c1faafdaf03d9bd8bf90532b9c150e.sample::
+Fox_Vowel_08.wav::AudioStreamWAV::8874509684452660547::1769227853::1769227854::1::::<><><>0<>0<>049eccc8a52ad3569d9caa965d2b16a9<>res://.godot/imported/Fox_Vowel_08.wav-2e9d0aad95c502600d2939e20b61b772.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/::1769227853
+Unlock_Recipe.wav::AudioStreamWAV::6225465680448480517::1769227853::1769227854::1::::<><><>0<>0<>8020da90e9374678f3ba672d11edb8a2<>res://.godot/imported/Unlock_Recipe.wav-e26d47fa4d390e2a53b7ba78a5fe2658.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/Cook Sequence (Animation)/::1769227853
+Cooking_Boil.wav::AudioStreamWAV::1194665417905097533::1769227853::1769227854::1::::<><><>0<>0<>2c254848641da20a4c7c943168c515a8<>res://.godot/imported/Cooking_Boil.wav-4a2adb8f65f86fc4cba4cbdbeea5269c.sample::
+Cooking_Egg.wav::AudioStreamWAV::4652090151940803191::1769227853::1769227854::1::::<><><>0<>0<>0f50d66889c875b00b23cc1ba1f26bb8<>res://.godot/imported/Cooking_Egg.wav-62d90514b2865120de5120ecd3336323.sample::
+Cooking_Fries.wav::AudioStreamWAV::465021102846834718::1769227853::1769227854::1::::<><><>0<>0<>ad220760d9d11f5a2ab16e6f067bc668<>res://.godot/imported/Cooking_Fries.wav-4b9921335dbda5694f59e10abad5ca10.sample::
+Cooking_GrilledCheese.wav::AudioStreamWAV::4670246495637590588::1769227853::1769227854::1::::<><><>0<>0<>c8903b828f82124be0d351e5cfa78164<>res://.godot/imported/Cooking_GrilledCheese.wav-463068a0da6bd334750ebcc0731f43d0.sample::
+Cooking_Pancake.wav::AudioStreamWAV::2147024748229845639::1769227853::1769227854::1::::<><><>0<>0<>d20040fe1296ae90301d2ec1feb8da87<>res://.godot/imported/Cooking_Pancake.wav-a9fd78ab195cc8c0f514bed8f4e40002.sample::
+Cooking_Pizza.wav::AudioStreamWAV::7580943581504121269::1769227853::1769227854::1::::<><><>0<>0<>3beff40de8089411b79a10659b2e5f33<>res://.godot/imported/Cooking_Pizza.wav-00f0b5c71a2d6eb72dea08ae86eb29a0.sample::
+Cooking_Steak_Fries.wav::AudioStreamWAV::1794301167598502358::1769227853::1769227854::1::::<><><>0<>0<>36834c8427ebca6d1d70c819f6746b21<>res://.godot/imported/Cooking_Steak_Fries.wav-1e57e5114ef565a29cd43db7434f0965.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/Cooking Results/::1769227853
+Create_Mistake.wav::AudioStreamWAV::4740011728187194954::1769227853::1769227854::1::::<><><>0<>0<>54c00e42a9f0523f9897e1db719299a3<>res://.godot/imported/Create_Mistake.wav-0c57367c53c50c09d1389983d5ca18ed.sample::
+Create_Recipe.wav::AudioStreamWAV::800769402380718157::1769227853::1769227854::1::::<><><>0<>0<>3d0d8be1a5c720cf1c6838eb5c7e8b54<>res://.godot/imported/Create_Recipe.wav-ff089fb90bb25511e1f18aa654434e28.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/Kitchen UI/::1769227853
+UI_MouseHover_Ingredient.wav::AudioStreamWAV::8046539924883839060::1769227853::1769227854::1::::<><><>0<>0<>1e63e5f086ba884c36ec1179c6544ce7<>res://.godot/imported/UI_MouseHover_Ingredient.wav-31c6f68a743ec1d05604119b60e08a86.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/Kitchen UI/Ingredient Card Remove/::1769227853
+Ingredient_Trash_01.wav::AudioStreamWAV::6940207565285019723::1769227853::1769227854::1::::<><><>0<>0<>9fd951d15a9a2ea0bb313fa337ca9564<>res://.godot/imported/Ingredient_Trash_01.wav-c48f3bee763fd6b4c07e88738669bc57.sample::
+Ingredient_Trash_02.wav::AudioStreamWAV::9132872318907049812::1769227853::1769227854::1::::<><><>0<>0<>f1208b3002794a264ecf24ce15e67481<>res://.godot/imported/Ingredient_Trash_02.wav-209745e07b2647bd8fffe2e43de6b8c4.sample::
+Ingredient_Trash_03.wav::AudioStreamWAV::3886310102187264713::1769227853::1769227854::1::::<><><>0<>0<>116a586166fb51490099b15673cb8606<>res://.godot/imported/Ingredient_Trash_03.wav-3e8c61df03bc627aaac5979fa76a74bc.sample::
+Ingredient_Trash_04.wav::AudioStreamWAV::800215338695482191::1769227853::1769227854::1::::<><><>0<>0<>81035020fe967a52c2b62413e16968d3<>res://.godot/imported/Ingredient_Trash_04.wav-b817349d4620de2ade8f6978e8fcbfa0.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/Kitchen UI/Ingredient Card Select/::1769227853
+Ingredient_Beef.wav::AudioStreamWAV::8487132106659833779::1769227853::1769227854::1::::<><><>0<>0<>5baa8a39c989fa28336f36df1b09abbc<>res://.godot/imported/Ingredient_Beef.wav-4d4793cbad26fe16001fc5e524644ffa.sample::
+Ingredient_Bread.wav::AudioStreamWAV::1021026484704690095::1769227853::1769227854::1::::<><><>0<>0<>14d86a5998a3bc0f899ffe23900a4ff8<>res://.godot/imported/Ingredient_Bread.wav-a471ce17ee056978c2acb4dc4b6400fc.sample::
+Ingredient_Butter.wav::AudioStreamWAV::5367276074726764471::1769227853::1769227854::1::::<><><>0<>0<>7f5addebb4a77f18972c8e19d7450fc9<>res://.godot/imported/Ingredient_Butter.wav-743e0140d41ccd46286f5413ac519079.sample::
+Ingredient_Carrot.wav::AudioStreamWAV::711062680152258363::1769227853::1769227854::1::::<><><>0<>0<>4ee243812fb9ead7059c039c5c55ed06<>res://.godot/imported/Ingredient_Carrot.wav-80b7aba741bc9132804a10ac31f8d74b.sample::
+Ingredient_Cheese.wav::AudioStreamWAV::6767247421697410541::1769227853::1769227854::1::::<><><>0<>0<>d5c2177c60c309b0a7d4f92ff687ae79<>res://.godot/imported/Ingredient_Cheese.wav-f4e59086df51d9e1184ee4365ee5c1c6.sample::
+Ingredient_Chicken.wav::AudioStreamWAV::2624626553932741419::1769227853::1769227854::1::::<><><>0<>0<>58152f1c264ab959b286f14cceb7a8a4<>res://.godot/imported/Ingredient_Chicken.wav-9deab6b3a87558153203562d41db91ac.sample::
+Ingredient_Egg.wav::AudioStreamWAV::3289249529501532800::1769227853::1769227854::1::::<><><>0<>0<>3f5f3c4f90b81e4b82df3b6b6ac21505<>res://.godot/imported/Ingredient_Egg.wav-adb287a00d633e0dff3605e1cfd31033.sample::
+Ingredient_Flour.wav::AudioStreamWAV::1275669396972581379::1769227853::1769227854::1::::<><><>0<>0<>ed6a094599f25532f2fedd451b8bd8eb<>res://.godot/imported/Ingredient_Flour.wav-aed74933c687ae3c12716c650578b69b.sample::
+Ingredient_Garlic.wav::AudioStreamWAV::4157931235744591467::1769227853::1769227854::1::::<><><>0<>0<>72cd284c5886a44187cbdc36c154964c<>res://.godot/imported/Ingredient_Garlic.wav-97c94d5c3a5307a3add338e084f300eb.sample::
+Ingredient_Milk.wav::AudioStreamWAV::2160108260367224031::1769227853::1769227854::1::::<><><>0<>0<>5cef77dea55f2b605cb3fd9b49c63bbe<>res://.godot/imported/Ingredient_Milk.wav-40269bcea2c46d3163babd9bfbaad31e.sample::
+Ingredient_Onionwav.wav::AudioStreamWAV::5088691149919200330::1769227853::1769227854::1::::<><><>0<>0<>568d33b8a107fe5ffbf8f2880dcae840<>res://.godot/imported/Ingredient_Onionwav.wav-be9021e45e190725dce8c8596ec477e5.sample::
+Ingredient_Pasta.wav::AudioStreamWAV::1443142470346117126::1769227853::1769227854::1::::<><><>0<>0<>12879d48db750ff79755eafd47c6e6b7<>res://.godot/imported/Ingredient_Pasta.wav-a563b4e67d65d94023a17a987e76e13a.sample::
+Ingredient_Pepper.wav::AudioStreamWAV::5275034515757173776::1769227853::1769227854::1::::<><><>0<>0<>eceb9ffbd10fa62a9598494f0ea9033c<>res://.godot/imported/Ingredient_Pepper.wav-3ee05f2ebd7a606f67dd7f4bd6a38bc3.sample::
+Ingredient_Potato.wav::AudioStreamWAV::8985180005332174030::1769227853::1769227854::1::::<><><>0<>0<>d1c827f48a4f640c72dc6c4fe31ce877<>res://.godot/imported/Ingredient_Potato.wav-bc17796dc212dbe0b1fff0da813a3015.sample::
+Ingredient_Salt.wav::AudioStreamWAV::5121506222939286214::1769227853::1769227854::1::::<><><>0<>0<>a174bf230791b381c5a0d55de9f40af5<>res://.godot/imported/Ingredient_Salt.wav-135d1da6681d9a218d67bf1511869c77.sample::
+Ingredient_Tomato.wav::AudioStreamWAV::8600906588601202122::1769227853::1769227854::1::::<><><>0<>0<>d6f46a5b849a4696b72b74a5782e13d5<>res://.godot/imported/Ingredient_Tomato.wav-7e336fcafebc36385d857a325145f633.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Living Room/::1769227853
+Campfire.wav::AudioStreamWAV::5497789749671252844::1769227853::1769227854::1::::<><><>0<>0<>96ccae984bd110bfef75e36ddd639bde<>res://.godot/imported/Campfire.wav-cb480e7ac8865425add929785ed8b206.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Menu UI/::1769227853
+Mouse_Back_Button.wav::AudioStreamWAV::6828318261628053959::1769227853::1769227854::1::::<><><>0<>0<>0ecd9cdd5dbe32a9cb90781a8b283e85<>res://.godot/imported/Mouse_Back_Button.wav-286ae0d863c65f5384fbee1c6d6e8613.sample::
+Mouse_Hover.wav::AudioStreamWAV::588284195589562652::1769227853::1769227854::1::::<><><>0<>0<>d96f0e896aa942e653fb8efa7b307227<>res://.godot/imported/Mouse_Hover.wav-c93cc659975fa1369904241c22f5de09.sample::
+Mouse_Select_Button.wav::AudioStreamWAV::1017841949723002418::1769227853::1769227854::1::::<><><>0<>0<>8bdfd15485c25a566b59518e4fcb55dc<>res://.godot/imported/Mouse_Select_Button.wav-2a0270def3d2cd872e866339b0990e16.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Menu UI/Book/::1769227853
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Menu UI/Book/Close/::1769227853
+Book_Close.wav::AudioStreamWAV::4561319192220407706::1769227853::1769227854::1::::<><><>0<>0<>c7fb6649cab23a8f31c0c17d4191c70f<>res://.godot/imported/Book_Close.wav-f542f38cbd2a4c0ae3ed090d1ec70bd6.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Menu UI/Book/Flip Pages/::1769227853
+Book_PageFlip_01.wav::AudioStreamWAV::158939727803051261::1769227853::1769227854::1::::<><><>0<>0<>c74a3eb4be22df6f59ccf3070f4ce197<>res://.godot/imported/Book_PageFlip_01.wav-c1c812c5e13e03545adb638e384725be.sample::
+Book_PageFlip_02.wav::AudioStreamWAV::6355774454328280366::1769227853::1769227854::1::::<><><>0<>0<>92a912376c74688eadbafd6eae3ec7de<>res://.godot/imported/Book_PageFlip_02.wav-bcc6931292c908095d5dce8e23859b58.sample::
+Book_PageFlip_03.wav::AudioStreamWAV::4835210599224347117::1769227853::1769227854::1::::<><><>0<>0<>acf081ebbd2fe266260a8f961ce2107c<>res://.godot/imported/Book_PageFlip_03.wav-cef2563bce0dc32a7da99c5d1362f802.sample::
+Book_PageFlip_04.wav::AudioStreamWAV::5981469737154462908::1769227853::1769227854::1::::<><><>0<>0<>fb7eb9a1998ff08dda7d9e45b403db55<>res://.godot/imported/Book_PageFlip_04.wav-7b63f2e29a366be7d5a6fd7c2a2be048.sample::
+Book_PageFlip_05.wav::AudioStreamWAV::130355676947813328::1769227853::1769227854::1::::<><><>0<>0<>24eb3e0fef06e32b508aaa4bcc46f5df<>res://.godot/imported/Book_PageFlip_05.wav-fd13b179d0d5be5e83c85437bcf407ad.sample::
+Book_PageFlip_06.wav::AudioStreamWAV::5887257661606631312::1769227853::1769227854::1::::<><><>0<>0<>dfbc5ac3733d340378ca85bf73ee743f<>res://.godot/imported/Book_PageFlip_06.wav-a9c10618c1a6db2028b3c49def566d36.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Menu UI/Book/Open/::1769227853
+Book_Open_01.wav::AudioStreamWAV::6785625267313040795::1769227853::1769227854::1::::<><><>0<>0<>95657846cc5985c3cccd6613b73b5d81<>res://.godot/imported/Book_Open_01.wav-7d785fcc704e05ec32fce68c93fe427c.sample::
+Book_Open_02.wav::AudioStreamWAV::4566612365517087322::1769227853::1769227854::1::::<><><>0<>0<>195056ea9a24633fa6a65c0cf5c485ed<>res://.godot/imported/Book_Open_02.wav-fe83f19c46add48ba195451da7c10b8e.sample::
+Book_Open_03.wav::AudioStreamWAV::1345325396602413293::1769227853::1769227854::1::::<><><>0<>0<>436643ec8db9ffc2cefc82930610defa<>res://.godot/imported/Book_Open_03.wav-ebe1a3e225ec64e92aaec816a52284ab.sample::
+Book_Open_04.wav::AudioStreamWAV::7906680206071469026::1769227853::1769227854::1::::<><><>0<>0<>ca8cb0f93730d08b076f3945154f8108<>res://.godot/imported/Book_Open_04.wav-20df2939276bdda0d134bd510afe8880.sample::
+::res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Menu UI/Coins/::1769227853
+Shop_Purchase_01.wav::AudioStreamWAV::2704607670130710017::1769227853::1769227854::1::::<><><>0<>0<>ea8a3ed5363d7ee811a1b41ec0143a76<>res://.godot/imported/Shop_Purchase_01.wav-d370e576f62d965cb0b300e2ab448bf8.sample::
+Shop_Purchase_02.wav::AudioStreamWAV::6964771659224600487::1769227853::1769227854::1::::<><><>0<>0<>f8f0de5a4bc532832c84ab1171fded7d<>res://.godot/imported/Shop_Purchase_02.wav-3599f7e6d1a813a4d2183d46e50531bc.sample::
+Shop_Purchase_03.wav::AudioStreamWAV::6168314481657200366::1769227853::1769227854::1::::<><><>0<>0<>74eba5867009a306ef5434af2d47b242<>res://.godot/imported/Shop_Purchase_03.wav-4b23817a86e7146df1c035313bad89a0.sample::
+Shop_Purchase_04.wav::AudioStreamWAV::6080551811623064652::1769227853::1769227854::1::::<><><>0<>0<>3e47d6f106b0cc314f3c332455eb5779<>res://.godot/imported/Shop_Purchase_04.wav-66bbd6f7e8f173ffac489f8a5f014d5f.sample::
+::res://Assets/Sprites/Transition/::1769211427
 Transition3.PNG::CompressedTexture2D::1551713130307421836::1769178846::1769211427::1::::<><><>0<>0<>79edb60f339624fc979a3f53cb31d8ae<>res://.godot/imported/Transition3.PNG-f7db331f250910ce8509b13dfa18d27f.ctex::
 Transition 1.PNG::CompressedTexture2D::406874546016081864::1769139396::1769211427::1::::<><><>0<>0<>f8f339a60542fd6cb671401ac5a0c276<>res://.godot/imported/Transition 1.PNG-9af3fcf716a6ca4856d3a3a55d0cf254.ctex::
 Transition 2.PNG::CompressedTexture2D::5134173318768420118::1769139396::1769211427::1::::<><><>0<>0<>6b886d48e80f4b7eb109db542f013ab5<>res://.godot/imported/Transition 2.PNG-0da034a142b84110a7090ae4e38832e1.ctex::
-::res://Assets/Sprites/Ui/::1769143472
+::res://Assets/Sprites/Ui/::1769211427
 Back_exit.png::CompressedTexture2D::4651045665675684757::1769007748::1769211426::1::::<><><>0<>0<>33b5b545f3b4b002f7e6c623fc29110d<>res://.godot/imported/Back_exit.png-1fbda2d6daf26d245e34baf5114de3e4.ctex::
 Book Button_Closed.png::CompressedTexture2D::7655369410964965262::1768573736::1768573736::1::::<><><>0<>0<>976893aff30a8b7adf93a0200634b024<>res://.godot/imported/Book Button_Closed.png-6edbd9a5f55aa63ce0bd969fb8ea381d.ctex::
 Book Button_Open.png::CompressedTexture2D::3025293393810059055::1768573736::1768573736::1::::<><><>0<>0<>c52acf9ae3d39df3d3cb6168728f9149<>res://.godot/imported/Book Button_Open.png-241f8a57d55d6689b247184709017293.ctex::
@@ -184,26 +268,28 @@ Speech bubble(4fps).PNG::CompressedTexture2D::7497287887383163466::1768960474::1
 Store Button1.png::CompressedTexture2D::1775028333868187699::1768573736::1768573736::1::::<><><>0<>0<>6d16f80246639c337f54171cd9a20487<>res://.godot/imported/Store Button1.png-8614e4f5bfba80386eee22457d69b5e9.ctex::
 Store Button2.png::CompressedTexture2D::2923896443911152696::1768573736::1768573736::1::::<><><>0<>0<>2efd3b39ee5f29a5c0ffa09625806c62<>res://.godot/imported/Store Button2.png-2d14d50f798e0861016481c349b707e9.ctex::
 Unknown Ingredient Card.PNG::CompressedTexture2D::7727061167012669203::1769007748::1769211427::1::::<><><>0<>0<>6c0cf8aa30758bdadf72788dc1b3decf<>res://.godot/imported/Unknown Ingredient Card.PNG-7c2608a4fe6ccfee8306a3f138626d3c.ctex::
-::res://Scenes/::1769210534
+::res://Export/::1769226417
+::res://Scenes/::1769226282
 Cookbook.tscn::PackedScene::472804324503993128::1769032880::0::1::::<><><>0<>0<><>::uid://bsv1d8afi34cf::::res://Scripts/Scenes/CookbookView.cs<>uid://kbdbyr4fhcgq::::res://Assets/Sprites/Ui/Recipe Book.PNG<>uid://dcautseb7ggpu::::res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://b7jabph4cxpe0::::res://Assets/Sprites/Ui/Back_exit.png<>uid://cx5bwt68gm85i::::res://Assets/Sprites/Ui/Next pagebutton .png<>uid://byw115ebpmag3::::res://Assets/Sprites/Living room/IMG_6035.PNG<>uid://kp3ghfuw6emp::::res://Assets/Sprites/Kitchen/IMG_6094.PNG<>uid://diiyfg1biksd7::::res://Assets/Sprites/Kitchen/Stove.PNG<>uid://dgyts6eol2mu5::::res://Assets/Sprites/Living room/IMG_6044.png<>uid://twcpo25p53v::::res://Assets/Sprites/Living room/IMG_6046.png<>uid://bk8pglkbbmkie::::res://Assets/Sprites/Kitchen/Sink.PNG<>uid://ddeog2ihh6csb::::res://Assets/Sprites/Kitchen/Layout.PNG<>uid://c531mqlm5jtya::::res://Assets/Sprites/Living room/IMG_6047.png<>uid://dfylkspxjj1y5::::res://Assets/Sprites/Living room/IMG_6045.png<>uid://cdiu3j0pl58p::::res://Assets/Sprites/Living room/IMG_6048.png<>uid://bdiwjb2asnojm::::res://Assets/Sprites/Living room/IMG_6050.png<>uid://1ymxx4pf5ek3::::res://Scenes/Game Object/Furnace.tscn<>uid://dskkha1yi4sis::::res://Assets/Sprites/Living room/IMG_6049.png
 Inventory.tscn::PackedScene::8150598121750593147::1768238517::0::1::::<><><>0<>0<><>::uid://dh7cnych10h64::::res://Scripts/Scenes/InventoryView.cs
-Kitchen.tscn::PackedScene::6140140304367198378::1769210534::0::1::::<><><>0<>0<><>::uid://cj1sbne2v8qnl::::res://Scripts/Scenes/KitchenView.cs<>uid://kp3ghfuw6emp::::res://Assets/Sprites/Kitchen/IMG_6094.PNG<>uid://diiyfg1biksd7::::res://Assets/Sprites/Kitchen/Stove.PNG<>uid://bk8pglkbbmkie::::res://Assets/Sprites/Kitchen/Sink.PNG<>uid://dhck2y8whis2a::::res://Assets/Sprites/Ui/Book Button_Closed.png<>uid://bjdqe1ch3k3y6::::res://Assets/Sprites/Ui/Book Button_Open.png<>uid://dap5k58w0mp3h::::res://Scenes/Game Object/Card Display.tscn<>uid://mug582dleor0::::res://Assets/Sprites/Ui/Dish cooked box.PNG<>uid://dcautseb7ggpu::::res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG<>uid://b7jabph4cxpe0::::res://Assets/Sprites/Ui/Back_exit.png<>uid://ckh0jlgxmxuem::::res://Assets/Sprites/Main menu/Ui for main menu.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://bobnbv8qpdiii::::res://Assets/Sprites/Dishes being cooked/Burger and steak_fries being cooked 8fps.png<>uid://bpht1h3asrudh::::res://Assets/Sprites/Dishes being cooked/Chicken noodle soup 8fps.PNG<>uid://clp8ugf2375kg::::res://Assets/Sprites/Dishes being cooked/Frying chicken 8fps.png<>uid://dqmsxaub4b7a8::::res://Assets/Sprites/Dishes being cooked/Fries 8 fps.png<>uid://ddq8b7iv48m67::::res://Assets/Sprites/Dishes being cooked/Frying egg 8fps.png<>uid://1rwbbtsbe5uu::::res://Assets/Sprites/Dishes being cooked/Grilled cheese 8fps.png<>uid://cu2gukynf7uha::::res://Assets/Sprites/Dishes being cooked/Pancake 8fps.png<>uid://c3qp8ir8c4i4s::::res://Assets/Sprites/Dishes being cooked/Pizza 8fps.png<>uid://c752nip6ivio3::::res://Assets/Sprites/Dishes being cooked/Tomato bisque 8fps.png<>uid://dw3hoksgnpd4g::::res://Assets/Sprites/Dishes being cooked/Smoke from cooking (place behind frying pan).PNG
-Living Room.tscn::PackedScene::4005783738556910862::1769197229::0::1::::<><><>0<>0<><>::uid://bwrskd2jewpan::::res://Scripts/Scenes/LivingRoomView.cs<>uid://byw115ebpmag3::::res://Assets/Sprites/Living room/IMG_6035.PNG<>uid://dgyts6eol2mu5::::res://Assets/Sprites/Living room/IMG_6044.png<>uid://twcpo25p53v::::res://Assets/Sprites/Living room/IMG_6046.png<>uid://c531mqlm5jtya::::res://Assets/Sprites/Living room/IMG_6047.png<>uid://cdiu3j0pl58p::::res://Assets/Sprites/Living room/IMG_6048.png<>uid://dskkha1yi4sis::::res://Assets/Sprites/Living room/IMG_6049.png<>uid://bdiwjb2asnojm::::res://Assets/Sprites/Living room/IMG_6050.png<>uid://1ymxx4pf5ek3::::res://Scenes/Game Object/Furnace.tscn<>uid://h4kimr8vtood::::res://Scenes/Game Object/Animal.tscn<>uid://dfh67pcvoacqm::::res://Assets/Sprites/Ui/Kitchen Button1.png<>uid://c6bws2wtrxt8q::::res://Assets/Sprites/Ui/Kitchen Button2.png<>uid://0j3pswwongat::::res://Assets/Sprites/Ui/Store Button1.png<>uid://bhwmfahki3j6w::::res://Assets/Sprites/Ui/Store Button2.png<>uid://qwk4cl77756e::::res://Assets/Sprites/Ui/Day Block.png<>uid://dhck2y8whis2a::::res://Assets/Sprites/Ui/Book Button_Closed.png<>uid://c0tlmmheql5jj::::res://Assets/Sprites/Ui/Currency Bar.png<>uid://bjdqe1ch3k3y6::::res://Assets/Sprites/Ui/Book Button_Open.png<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://twrawvw2e3rm::::res://Assets/Sprites/Recipe dish art/Pizza.PNG<>uid://dfylkspxjj1y5::::res://Assets/Sprites/Living room/IMG_6045.png
-MainMenu.tscn::PackedScene::3722197373380586802::1769031893::0::1::::<><><>0<>0<><>::uid://cedecaay8xtfs::::res://Assets/Sprites/Main menu/Background for main menu.PNG<>uid://bbr40it70k3hj::::res://Assets/Sprites/Main menu/Title.PNG<>uid://dt1b63s3wyd4t::::res://Scripts/Scenes/MainMenu.cs<>uid://ckh0jlgxmxuem::::res://Assets/Sprites/Main menu/Ui for main menu.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf
+Kitchen.tscn::PackedScene::6140140304367198378::1769226282::0::1::::<><><>0<>0<><>::uid://cj1sbne2v8qnl::::res://Scripts/Scenes/KitchenView.cs<>uid://kp3ghfuw6emp::::res://Assets/Sprites/Kitchen/IMG_6094.PNG<>uid://diiyfg1biksd7::::res://Assets/Sprites/Kitchen/Stove.PNG<>uid://bk8pglkbbmkie::::res://Assets/Sprites/Kitchen/Sink.PNG<>uid://dhck2y8whis2a::::res://Assets/Sprites/Ui/Book Button_Closed.png<>uid://bjdqe1ch3k3y6::::res://Assets/Sprites/Ui/Book Button_Open.png<>uid://dap5k58w0mp3h::::res://Scenes/Game Object/Card Display.tscn<>uid://mug582dleor0::::res://Assets/Sprites/Ui/Dish cooked box.PNG<>uid://dcautseb7ggpu::::res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG<>uid://b7jabph4cxpe0::::res://Assets/Sprites/Ui/Back_exit.png<>uid://ckh0jlgxmxuem::::res://Assets/Sprites/Main menu/Ui for main menu.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://bobnbv8qpdiii::::res://Assets/Sprites/Dishes being cooked/Burger and steak_fries being cooked 8fps.png<>uid://bpht1h3asrudh::::res://Assets/Sprites/Dishes being cooked/Chicken noodle soup 8fps.PNG<>uid://clp8ugf2375kg::::res://Assets/Sprites/Dishes being cooked/Frying chicken 8fps.png<>uid://dqmsxaub4b7a8::::res://Assets/Sprites/Dishes being cooked/Fries 8 fps.png<>uid://ddq8b7iv48m67::::res://Assets/Sprites/Dishes being cooked/Frying egg 8fps.png<>uid://1rwbbtsbe5uu::::res://Assets/Sprites/Dishes being cooked/Grilled cheese 8fps.png<>uid://cu2gukynf7uha::::res://Assets/Sprites/Dishes being cooked/Pancake 8fps.png<>uid://c3qp8ir8c4i4s::::res://Assets/Sprites/Dishes being cooked/Pizza 8fps.png<>uid://c752nip6ivio3::::res://Assets/Sprites/Dishes being cooked/Tomato bisque 8fps.png<>uid://dw3hoksgnpd4g::::res://Assets/Sprites/Dishes being cooked/Smoke from cooking (place behind frying pan).PNG
+Living Room.tscn::PackedScene::4005783738556910862::1769215970::0::1::::<><><>0<>0<><>::uid://bwrskd2jewpan::::res://Scripts/Scenes/LivingRoomView.cs<>uid://byw115ebpmag3::::res://Assets/Sprites/Living room/IMG_6035.PNG<>uid://dgyts6eol2mu5::::res://Assets/Sprites/Living room/IMG_6044.png<>uid://twcpo25p53v::::res://Assets/Sprites/Living room/IMG_6046.png<>uid://c531mqlm5jtya::::res://Assets/Sprites/Living room/IMG_6047.png<>uid://cdiu3j0pl58p::::res://Assets/Sprites/Living room/IMG_6048.png<>uid://dskkha1yi4sis::::res://Assets/Sprites/Living room/IMG_6049.png<>uid://bdiwjb2asnojm::::res://Assets/Sprites/Living room/IMG_6050.png<>uid://1ymxx4pf5ek3::::res://Scenes/Game Object/Furnace.tscn<>uid://h4kimr8vtood::::res://Scenes/Game Object/Animal.tscn<>uid://dfh67pcvoacqm::::res://Assets/Sprites/Ui/Kitchen Button1.png<>uid://c6bws2wtrxt8q::::res://Assets/Sprites/Ui/Kitchen Button2.png<>uid://0j3pswwongat::::res://Assets/Sprites/Ui/Store Button1.png<>uid://bhwmfahki3j6w::::res://Assets/Sprites/Ui/Store Button2.png<>uid://qwk4cl77756e::::res://Assets/Sprites/Ui/Day Block.png<>uid://dhck2y8whis2a::::res://Assets/Sprites/Ui/Book Button_Closed.png<>uid://c0tlmmheql5jj::::res://Assets/Sprites/Ui/Currency Bar.png<>uid://bjdqe1ch3k3y6::::res://Assets/Sprites/Ui/Book Button_Open.png<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://twrawvw2e3rm::::res://Assets/Sprites/Recipe dish art/Pizza.PNG<>uid://dfylkspxjj1y5::::res://Assets/Sprites/Living room/IMG_6045.png<>uid://b8n1860cjb7vm::::res://Assets/Audio/Living Room/Campfire.wav
+MainMenu.tscn::PackedScene::3722197373380586802::1769222798::0::1::::<><><>0<>0<><>::uid://cedecaay8xtfs::::res://Assets/Sprites/Main menu/Background for main menu.PNG<>uid://bbr40it70k3hj::::res://Assets/Sprites/Main menu/Title.PNG<>uid://dt1b63s3wyd4t::::res://Scripts/Scenes/MainMenu.cs<>uid://ckh0jlgxmxuem::::res://Assets/Sprites/Main menu/Ui for main menu.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf
+EndScene.tscn::PackedScene::7123006784649302892::1769222802::0::1::::<><><>0<>0<><>::uid://cedecaay8xtfs::::res://Assets/Sprites/Main menu/Background for main menu.PNG<>uid://bbr40it70k3hj::::res://Assets/Sprites/Main menu/Title.PNG<>uid://ckh0jlgxmxuem::::res://Assets/Sprites/Main menu/Ui for main menu.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf
 Transition Scene Three.tscn::PackedScene::1747770448303952291::1769184688::0::1::::<><><>0<>0<><>::uid://wdwqu05lh8qa::::res://Assets/Sprites/Transition/Transition3.PNG<>uid://dty6m6vv8d5qb::::res://Scripts/Scenes/TransitionZoneMaze.cs<>uid://mmey0nvu4doa::::res://Scenes/Game Object/AnimalPlayable.tscn
 Transition Scene Two.tscn::PackedScene::281605836974569312::1769182395::0::1::::<><><>0<>0<><>::uid://cffbc4ve58er3::::res://Assets/Sprites/Transition/Transition 2.PNG<>uid://dty6m6vv8d5qb::::res://Scripts/Scenes/TransitionZoneMaze.cs<>uid://mmey0nvu4doa::::res://Scenes/Game Object/AnimalPlayable.tscn
 Transition Scene One.tscn::PackedScene::3104695612684541405::1769180668::0::1::::<><><>0<>0<><>::uid://f2dft70d5mn5::::res://Assets/Sprites/Transition/Transition 1.PNG<>uid://dty6m6vv8d5qb::::res://Scripts/Scenes/TransitionZoneMaze.cs<>uid://mmey0nvu4doa::::res://Scenes/Game Object/AnimalPlayable.tscn
 Store.tscn::PackedScene::7950216410637541379::1768077263::0::1::::<><><>0<>0<><>::uid://1jwf436se5pf::::res://Scripts/Scenes/StoreView.cs
-::res://Scenes/Autoloads/::1769184685
+::res://Scenes/Autoloads/::1769222839
 PackedSceneRepository.tscn::PackedScene::9054297785662520297::1767986561::0::1::::<><><>0<>0<><>::uid://bsccopvw6t2a7::::res://Scripts/Repository/Impl/PackedSceneRepository.cs
-SceneRepository.tscn::PackedScene::3758698776789931092::1769184685::0::1::::<><><>0<>0<><>::uid://eon0s6ns6pxw::::res://Scripts/Repository/Impl/SceneRepository.cs<>uid://bxcow45rq6qbu::::res://Scenes/Living Room.tscn<>uid://ctqlhjclmb4pq::::res://Scenes/Kitchen.tscn<>uid://dlje5xtmxvg16::::res://Scenes/Store.tscn<>uid://g0bau8iq3u3a::::res://Scenes/Cookbook.tscn<>uid://btbcbuiesdsfi::::res://Scenes/MainMenu.tscn<>uid://bkh65a55ynk5r::::res://Scenes/Transition Scene One.tscn<>uid://eaoaic2pmwvo::::res://Scenes/Transition Scene Two.tscn<>uid://y5vr2wuabdpr::::res://Scenes/Transition Scene Three.tscn
+SceneRepository.tscn::PackedScene::3758698776789931092::1769222839::0::1::::<><><>0<>0<><>::uid://eon0s6ns6pxw::::res://Scripts/Repository/Impl/SceneRepository.cs<>uid://bxcow45rq6qbu::::res://Scenes/Living Room.tscn<>uid://ctqlhjclmb4pq::::res://Scenes/Kitchen.tscn<>uid://dlje5xtmxvg16::::res://Scenes/Store.tscn<>uid://g0bau8iq3u3a::::res://Scenes/Cookbook.tscn<>uid://btbcbuiesdsfi::::res://Scenes/MainMenu.tscn<>uid://bkh65a55ynk5r::::res://Scenes/Transition Scene One.tscn<>uid://eaoaic2pmwvo::::res://Scenes/Transition Scene Two.tscn<>uid://y5vr2wuabdpr::::res://Scenes/Transition Scene Three.tscn<>uid://c8qo47rew2smu::::res://Scenes/EndScene.tscn
 ServiceLocator.tscn::PackedScene::1571873230289678648::1767986612::0::1::::<><><>0<>0<><>::uid://bfkqbhn41rnxn::::res://Scripts/Service Locator/ServiceLocator.cs
-SoundEffectRepository.tscn::PackedScene::3135651612871905212::1767986631::0::1::::<><><>0<>0<><>::uid://ddrcg5kngu0d8::::res://Scripts/Repository/Impl/SoundEffectRepository.cs
+SoundEffectRepository.tscn::PackedScene::3135651612871905212::1769218958::0::1::::<><><>0<>0<><>::uid://ddrcg5kngu0d8::::res://Scripts/Repository/Impl/SoundEffectRepository.cs<>uid://4etkytci5wp3::::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Boil.wav<>uid://csvoig505jd30::::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Fries.wav<>uid://bour6lhs1xxq2::::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Egg.wav<>uid://mntjo4buldbu::::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_GrilledCheese.wav<>uid://cvturc3iiimko::::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Pancake.wav<>uid://dgxp1bqfgp5ne::::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Pizza.wav<>uid://jyevwniood6k::::res://Assets/Audio/Kitchen/Cook Sequence (Animation)/Cooking_Steak_Fries.wav<>uid://c2yd3sjruxevr::::res://Assets/Audio/Kitchen/Cooking Results/Create_Recipe.wav<>uid://dadqq74x6f4fp::::res://Assets/Audio/Kitchen/Cooking Results/Create_Mistake.wav<>uid://dogkv4p55rda::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Beef.wav<>uid://dppni6mytwfgb::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Bread.wav<>uid://d4nulpybxbikh::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Butter.wav<>uid://cmhwlypqyfgan::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Carrot.wav<>uid://blvanlfdiskhk::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Cheese.wav<>uid://wvi7a047ad85::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Chicken.wav<>uid://dl8mww4wdo2j6::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Egg.wav<>uid://symto8a1sask::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Flour.wav<>uid://ct2axr0fluv84::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Garlic.wav<>uid://dwdfr1c01w457::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Milk.wav<>uid://c24arrblfi7d5::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Onionwav.wav<>uid://wvu4xsoxgihf::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Pasta.wav<>uid://deeeefvi4n6::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Pepper.wav<>uid://bd86p7ux3rutb::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Potato.wav<>uid://b3euqouf1iaat::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Salt.wav<>uid://chra7nmhmdlxi::::res://Assets/Audio/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Tomato.wav<>uid://bfkh430o0msf5::::res://Assets/Audio/Fox/Eating/Fox_Eating_01.wav<>uid://bifmxctewogub::::res://Assets/Audio/Fox/Speech/Loops/Fox_Speech_01.wav
 TextureRepository.tscn::PackedScene::8537667015479563359::1769031468::0::1::::<><><>0<>0<><>::uid://jn85514ajguy::::res://Scripts/Repository/Impl/TextureRepository.cs<>uid://c8lcvc0f71gpg::::res://Assets/Sprites/Ingredients/Beef.PNG<>uid://bfierqxhi22ax::::res://Assets/Sprites/Ingredients/Bread.PNG<>uid://osg27vkdfoqb::::res://Assets/Sprites/Ingredients/Butter.PNG<>uid://dmk45iaicew31::::res://Assets/Sprites/Ingredients/Carrot.PNG<>uid://ddhvdlxj6fof3::::res://Assets/Sprites/Ingredients/Cheese.PNG<>uid://cmh4v2mok747a::::res://Assets/Sprites/Ingredients/Chicken.PNG<>uid://buxkiv2aq7q3n::::res://Assets/Sprites/Ingredients/Egg.PNG<>uid://c3y5uo4jlelir::::res://Assets/Sprites/Ingredients/Flour.PNG<>uid://dlanm5vhxej11::::res://Assets/Sprites/Ingredients/Garlic.PNG<>uid://dc6oe8p1d85x4::::res://Assets/Sprites/Ingredients/Milk.PNG<>uid://blx2xj4twjjhv::::res://Assets/Sprites/Ingredients/Onion.PNG<>uid://cr0ex8ryhin1t::::res://Assets/Sprites/Ingredients/Pasta.PNG<>uid://cai5a3c4lynp1::::res://Assets/Sprites/Ingredients/Pepper.PNG<>uid://du5es8jtsekq::::res://Assets/Sprites/Ingredients/Potato.PNG<>uid://woyacey8weao::::res://Assets/Sprites/Ingredients/Salt.PNG<>uid://btxwbug8qolji::::res://Assets/Sprites/Ingredients/Tomato.PNG<>uid://dcautseb7ggpu::::res://Assets/Sprites/Recipe dish art/Chicken noodle soup.PNG<>uid://cw30iyvijts5e::::res://Assets/Sprites/Recipe dish art/French Fries.PNG<>uid://bs2u3g88084p2::::res://Assets/Sprites/Recipe dish art/Fried Egg.PNG<>uid://dst55o27uia0d::::res://Assets/Sprites/Recipe dish art/Grilled cheese.PNG<>uid://dcckh3vp5w6gw::::res://Assets/Sprites/Recipe dish art/Pancake.PNG<>uid://dgqbxy33ahu4v::::res://Assets/Sprites/Recipe dish art/Steak frite.PNG<>uid://wueylyfuxrqr::::res://Assets/Sprites/Recipe dish art/Tomato bisque .PNG<>uid://bxa4gkfhmiwpb::::res://Assets/Sprites/Recipe dish art/Fried chicken.PNG<>uid://twrawvw2e3rm::::res://Assets/Sprites/Recipe dish art/Pizza.PNG<>uid://d11bl4kpxqj2d::::res://Assets/Sprites/Recipe dish art/Unknown recipe.png<>uid://didbtlfwheddr::::res://Assets/Sprites/Ui/Unknown Ingredient Card.PNG<>uid://1i7gv1vabtqm::::res://Assets/Sprites/Recipe dish art/Mistake.PNG
-::res://Scenes/Game Object/::1769197195
-Animal.tscn::PackedScene::551810974682936287::1769197195::0::1::::<><><>0<>0<><>::uid://cpi3vr5fn57e2::::res://Assets/Sprites/Main character/Idle(4fps).PNG<>uid://c3vs1ot1mpaol::::res://Assets/Sprites/Main character/Eating(4fps).PNG<>uid://burqhw533ufd1::::res://Assets/Sprites/Main character/Walk(4fps).PNG<>uid://du8kj7xfahr8a::::res://Assets/Sprites/Main character/Talking(4fps).PNG<>uid://ukimgoc602xn::::res://Scripts/Game Objects/AnimalView.cs<>uid://de20ia8fl757c::::res://Assets/Sprites/Ui/Speech bubble(4fps).PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://c5kfma5bpv3yc::::res://Assets/Audio/Dialogue Demo.mp3
+::res://Scenes/Game Object/::1769221398
+Animal.tscn::PackedScene::551810974682936287::1769221398::0::1::::<><><>0<>0<><>::uid://cpi3vr5fn57e2::::res://Assets/Sprites/Main character/Idle(4fps).PNG<>uid://c3vs1ot1mpaol::::res://Assets/Sprites/Main character/Eating(4fps).PNG<>uid://burqhw533ufd1::::res://Assets/Sprites/Main character/Walk(4fps).PNG<>uid://du8kj7xfahr8a::::res://Assets/Sprites/Main character/Talking(4fps).PNG<>uid://ukimgoc602xn::::res://Scripts/Game Objects/AnimalView.cs<>uid://de20ia8fl757c::::res://Assets/Sprites/Ui/Speech bubble(4fps).PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf<>uid://bdh0v31wqty3w::::res://Assets/Audio/Fox/Eating/Fox_Eating_03.wav
 AnimalPlayable.tscn::PackedScene::867325717878114672::1769179642::0::1::::<><><>0<>0<><>::uid://doexmti70bjl8::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/StandD.PNG<>uid://b1elq1nj0el4q::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/Standard.PNG<>uid://5cp1qkff4t0r::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/StandU.PNG<>uid://biuavpymrhxa3::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/WalkD.PNG<>uid://cun28a78esutu::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/WalkR(5fps).PNG<>uid://61c83uoclqrn::::res://Assets/Sprites/Main character/Aura the fox cycle (5fps)/WalkU.PNG<>uid://doegcw2eamif7::::res://Scripts/Game Objects/AnimalPlayable.cs
-Card Display.tscn::PackedScene::7192068712824770411::1769186268::0::1::::<><><>0<>0<><>::uid://c3hbiwdvehxi8::::res://Scripts/Game Objects/CardDisplay.cs<>uid://cog2hdaimqh72::::res://Scenes/Game Object/Card.tscn<>uid://ckh0jlgxmxuem::::res://Assets/Sprites/Main menu/Ui for main menu.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf
+Card Display.tscn::PackedScene::7192068712824770411::1769217614::0::1::::<><><>0<>0<><>::uid://c3hbiwdvehxi8::::res://Scripts/Game Objects/CardDisplay.cs<>uid://cog2hdaimqh72::::res://Scenes/Game Object/Card.tscn<>uid://ckh0jlgxmxuem::::res://Assets/Sprites/Main menu/Ui for main menu.PNG<>uid://dw6hev55tt3u::::res://Assets/Fonts/Lonely_Coffee.ttf
 Card.tscn::PackedScene::5769523462155250871::1769020264::0::1::::<><><>0<>0<><>::uid://c8lcvc0f71gpg::::res://Assets/Sprites/Ingredients/Beef.PNG<>uid://bvj3ogj4bpnra::::res://Scripts/Game Objects/Card.cs
 Furnace.tscn::PackedScene::1875225931385065312::1768166685::0::1::::<><><>0<>0<><>::uid://bg387fchrbwxq::::res://Assets/Sprites/Living room/IMG_6052.PNG
 ::res://Scenes/Test/::1768578198
@@ -219,10 +305,10 @@ DialogueTreeNode.cs::CSharpScript::3238649905613503308::1767986410::0::1::::<><>
 IDialogueState.cs::CSharpScript::5356028565373106462::1767735688::0::1::::<><><>0<>0<><>::
 ::res://Scripts/Dto/::1768238415
 IngredientDto.cs::CSharpScript::8555570357271638113::1768237985::0::1::::<><><>0<>0<><>::
-::res://Scripts/Game Objects/::1769210384
-AnimalView.cs::CSharpScript::1424928152670910463::1769005442::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+::res://Scripts/Game Objects/::1769221543
+AnimalView.cs::CSharpScript::1424928152670910463::1769221543::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
 Card.cs::CSharpScript::3880691207153358046::1769059169::0::1::::<>Node2D<><>0<>0<><>::
-CardDisplay.cs::CSharpScript::6752655797981440613::1769210384::0::1::::<>Node<><>0<>0<><>::
+CardDisplay.cs::CSharpScript::6752655797981440613::1769218958::0::1::::<>Node<><>0<>0<><>::
 AnimalPlayable.cs::CSharpScript::8150532443978049418::1769181257::0::1::::<>CharacterBody2D<><>0<>0<><>::
 ::res://Scripts/Interfaces/::1768607476
 IAutoload.cs::CSharpScript::8928908786929938893::1768607476::0::1::::<><><>0<>0<><>::
@@ -235,17 +321,17 @@ RecipeInfo.cs::CSharpScript::8822080116690285519::1769058994::0::1::::<><><>0<>0
 IRepository.cs::CSharpScript::6865337637760215223::1763061492::0::1::::<><><>0<>0<><>::
 RepositoryLocator.cs::CSharpScript::4666454896891785758::1767986696::0::1::::<>Node<><>0<>0<><>::
 RepositoryName.cs::CSharpScript::5601873497477330991::1767653618::0::1::::<><><>0<>0<><>::
-::res://Scripts/Repository/Impl/::1769181034
+::res://Scripts/Repository/Impl/::1769222820
 PackedSceneRepository.cs::CSharpScript::3654095881118933652::1768607403::0::1::::<>Node<><>0<>0<><>::
 PlayerDataRepository.cs::CSharpScript::4486739934544787426::1769057642::0::1::::<><><>0<>0<><>::
-SceneRepository.cs::CSharpScript::310491622787743448::1769181034::0::1::::<>Node<><>0<>0<><>::
-SoundEffectRepository.cs::CSharpScript::7405056744309420939::1768607485::0::1::::<>Node<><>0<>0<><>::
+SceneRepository.cs::CSharpScript::310491622787743448::1769222820::0::1::::<>Node<><>0<>0<><>::
+SoundEffectRepository.cs::CSharpScript::7405056744309420939::1769218932::0::1::::<>Node<><>0<>0<><>::
 TextureRepository.cs::CSharpScript::660595355306916544::1769009698::0::1::::<>Node<><>0<>0<><>::
-::res://Scripts/Scenes/::1769210379
+::res://Scripts/Scenes/::1769224178
 CookbookView.cs::CSharpScript::3694757534716138685::1769113563::0::1::::<>Node2D<><>0<>0<><>::
 InventoryView.cs::CSharpScript::7716789957985536031::1768238434::0::1::::<>Node2D<><>0<>0<><>::
-KitchenView.cs::CSharpScript::5459310163636654013::1769210379::0::1::::<>Node2D<><>0<>0<><>::
-LivingRoomView.cs::CSharpScript::3966780629052590873::1769210229::0::1::::<>Node2D<><>0<>0<><>::
+KitchenView.cs::CSharpScript::5459310163636654013::1769222858::0::1::::<>Node2D<><>0<>0<><>::
+LivingRoomView.cs::CSharpScript::3966780629052590873::1769224178::0::1::::<>Node2D<><>0<>0<><>::
 MainMenu.cs::CSharpScript::8546641478174113433::1769031820::0::1::::<>Node2D<><>0<>0<><>::
 TransitionZoneMaze.cs::CSharpScript::8544300464265115553::1769181158::0::1::::<>Node2D<><>0<>0<><>::
 StoreView.cs::CSharpScript::1844835605050189083::1768077148::0::1::::<>Node2D<><>0<>0<><>::
@@ -253,11 +339,11 @@ StoreView.cs::CSharpScript::1844835605050189083::1768077148::0::1::::<>Node2D<><
 IService.cs::CSharpScript::1983700098112907179::1763061492::0::1::::<><><>0<>0<><>::
 ServiceLocator.cs::CSharpScript::2758982326200993495::1769057022::0::1::::<>Node<><>0<>0<><>::
 ServiceName.cs::CSharpScript::4403396248058119688::1768575226::0::1::::<><><>0<>0<><>::
-::res://Scripts/Service Locator/ServiceImpl/::1769210358
+::res://Scripts/Service Locator/ServiceImpl/::1769223242
 GameClock.cs::CSharpScript::5958744172996560957::1767986555::0::1::::<>Node<><>0<>0<><>::
 InventoryService.cs::CSharpScript::1403321629926908085::1768238511::0::1::::<><><>0<>0<><>::
 KitchenService.cs::CSharpScript::4512890083462845726::1769210358::0::1::::<><><>0<>0<><>::
-PlayerDataService.cs::CSharpScript::1767454732185490043::1769195905::0::1::::<><><>0<>0<><>::
+PlayerDataService.cs::CSharpScript::1767454732185490043::1769223242::0::1::::<><><>0<>0<><>::
 SceneManager.cs::CSharpScript::6348632144876614060::1769180658::0::1::::<><><>0<>0<><>::
 StoreService.cs::CSharpScript::9168626102703084503::1768574751::0::1::::<><><>0<>0<><>::
 ::res://Scripts/Service Locator/ServiceImpl/Input System/::1767986008

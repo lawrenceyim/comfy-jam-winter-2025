@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://osuflr43symh"
+path="res://.godot/imported/Ingredient_Bread.wav-a471ce17ee056978c2acb4dc4b6400fc.sample"
+
+[deps]
+
+source_file="res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/Kitchen UI/Ingredient Card Select/Ingredient_Bread.wav"
+dest_files=["res://.godot/imported/Ingredient_Bread.wav-a471ce17ee056978c2acb4dc4b6400fc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ln5s4whebqkr"
+path="res://.godot/imported/Create_Recipe.wav-ff089fb90bb25511e1f18aa654434e28.sample"
+
+[deps]
+
+source_file="res://Assets/Sprites/Sfx-20260123T232353Z-3-001/Sfx/Kitchen/Cooking Results/Create_Recipe.wav"
+dest_files=["res://.godot/imported/Create_Recipe.wav-ff089fb90bb25511e1f18aa654434e28.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
